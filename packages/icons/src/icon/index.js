@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { cloneElement } from '@wordpress/element';
+import { cloneElement } from '@aarondewes/wp-element';
 
-/** @typedef {{icon: JSX.Element, size?: number} & import('@wordpress/primitives').SVGProps} IconProps */
+/** @typedef {{icon: JSX.Element, size?: number} & import('@aarondewes/wp-primitives').SVGProps} IconProps */
 
 /**
  * Return an SVG icon.

@@ -1,23 +1,23 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
 import {
 	getTextContent,
 	applyFormat,
 	removeFormat,
 	slice,
 	isCollapsed,
-} from '@wordpress/rich-text';
-import { isURL, isEmail } from '@wordpress/url';
+} from '@aarondewes/wp-rich-text';
+import { isURL, isEmail } from '@aarondewes/wp-url';
 import {
 	RichTextToolbarButton,
 	RichTextShortcut,
-} from '@wordpress/block-editor';
-import { decodeEntities } from '@wordpress/html-entities';
-import { link as linkIcon, linkOff } from '@wordpress/icons';
-import { speak } from '@wordpress/a11y';
+} from '@aarondewes/wp-block-editor';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { link as linkIcon, linkOff } from '@aarondewes/wp-icons';
+import { speak } from '@aarondewes/wp-a11y';
 
 /**
  * Internal dependencies

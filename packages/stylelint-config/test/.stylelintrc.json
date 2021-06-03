@@ -1,5 +1,5 @@
 {
-	"extends": "@wordpress/stylelint-config/scss",
+	"extends": "@aarondewes/wp-stylelint-config/scss",
 	"ignoreFiles": [
 		"*-invalid.scss"
 	]

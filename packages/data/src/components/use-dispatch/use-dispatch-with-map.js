@@ -6,8 +6,8 @@ import { mapValues } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useMemo, useRef } from '@wordpress/element';
-import { useIsomorphicLayoutEffect } from '@wordpress/compose';
+import { useMemo, useRef } from '@aarondewes/wp-element';
+import { useIsomorphicLayoutEffect } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

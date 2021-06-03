@@ -6,14 +6,14 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { getBlobByURL, isBlobURL, revokeBlobURL } from '@wordpress/blob';
+import { getBlobByURL, isBlobURL, revokeBlobURL } from '@aarondewes/wp-blob';
 import {
 	__unstableGetAnimateClassName as getAnimateClassName,
 	withNotices,
 	ResizableBox,
 	ToolbarButton,
-} from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	BlockControls,
 	BlockIcon,
@@ -22,13 +22,13 @@ import {
 	RichText,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useEffect, useState } from '@wordpress/element';
-import { useCopyToClipboard } from '@wordpress/compose';
-import { __, _x } from '@wordpress/i18n';
-import { file as icon } from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as noticesStore } from '@wordpress/notices';
+} from '@aarondewes/wp-block-editor';
+import { useEffect, useState } from '@aarondewes/wp-element';
+import { useCopyToClipboard } from '@aarondewes/wp-compose';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { file as icon } from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

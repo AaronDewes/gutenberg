@@ -6,14 +6,14 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useContext } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
+import { useContext } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 import {
 	__unstableGetBlockProps as getBlockProps,
 	getBlockType,
-} from '@wordpress/blocks';
-import { useMergeRefs } from '@wordpress/compose';
-import { useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-blocks';
+import { useMergeRefs } from '@aarondewes/wp-compose';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

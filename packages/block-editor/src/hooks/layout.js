@@ -7,19 +7,19 @@ import { has } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createHigherOrderComponent, useInstanceId } from '@wordpress/compose';
-import { addFilter } from '@wordpress/hooks';
-import { hasBlockSupport } from '@wordpress/blocks';
-import { useSelect } from '@wordpress/data';
+import { createHigherOrderComponent, useInstanceId } from '@aarondewes/wp-compose';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { hasBlockSupport } from '@aarondewes/wp-blocks';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	Button,
 	ToggleControl,
 	PanelBody,
 	__experimentalUseCustomUnits as useCustomUnits,
 	__experimentalUnitControl as UnitControl,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { Icon, positionCenter, stretchWide } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { Icon, positionCenter, stretchWide } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

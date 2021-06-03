@@ -7,11 +7,11 @@ import { isObject, setWith, clone } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { getBlockSupport } from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
-import { useRef, useEffect, Platform } from '@wordpress/element';
-import { createHigherOrderComponent } from '@wordpress/compose';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { getBlockSupport } from '@aarondewes/wp-blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { useRef, useEffect, Platform } from '@aarondewes/wp-element';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useRefEffect } from '@wordpress/compose';
-import { computeCaretRect, getScrollContainer } from '@wordpress/dom';
-import { useSelect } from '@wordpress/data';
-import { UP, DOWN, LEFT, RIGHT } from '@wordpress/keycodes';
+import { useRefEffect } from '@aarondewes/wp-compose';
+import { computeCaretRect, getScrollContainer } from '@aarondewes/wp-dom';
+import { useSelect } from '@aarondewes/wp-data';
+import { UP, DOWN, LEFT, RIGHT } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

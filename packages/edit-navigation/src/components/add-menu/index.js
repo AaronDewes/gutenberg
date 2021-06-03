@@ -6,13 +6,13 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { useDispatch } from '@wordpress/data';
-import { TextControl, Button } from '@wordpress/components';
-import { useFocusOnMount } from '@wordpress/compose';
-import { __, sprintf } from '@wordpress/i18n';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as coreStore } from '@wordpress/core-data';
+import { useState } from '@aarondewes/wp-element';
+import { useDispatch } from '@aarondewes/wp-data';
+import { TextControl, Button } from '@aarondewes/wp-components';
+import { useFocusOnMount } from '@aarondewes/wp-compose';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 const menuNameMatches = ( menuName ) => ( menu ) =>
 	menu.name.toLowerCase() === menuName.toLowerCase();

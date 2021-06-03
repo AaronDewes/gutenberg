@@ -50,7 +50,7 @@
 
 -   Add support for handling static assets with the `assetsPath` field in the external template configuration ([#28038](https://github.com/WordPress/gutenberg/pull/28038)).
 -   Allow using locally installed packages with templates ([#28105](https://github.com/WordPress/gutenberg/pull/28105)).
--   Add new CLI option `--wp-env` that lets users override the setting that template defines for integration with `@wordpress/env` package ([#28234](https://github.com/WordPress/gutenberg/pull/28234)).
+-   Add new CLI option `--wp-env` that lets users override the setting that template defines for integration with `@aarondewes/wp-env` package ([#28234](https://github.com/WordPress/gutenberg/pull/28234)).
 
 ### Internal
 
@@ -111,7 +111,7 @@
 
 ### New Feature
 
--   Add new CLI options: `--no-wp-scripts` and `--wp-scripts` to let users override the settings that template defines for supports for `@wordpress/scripts` package integration ([#23195](https://github.com/WordPress/gutenberg/pull/23195)).
+-   Add new CLI options: `--no-wp-scripts` and `--wp-scripts` to let users override the settings that template defines for supports for `@aarondewes/wp-scripts` package integration ([#23195](https://github.com/WordPress/gutenberg/pull/23195)).
 
 ## 0.14.2 (2020-06-16)
 
@@ -129,7 +129,7 @@
 
 ### Enhancements
 
--   Update `esnext` (default) template to leverage CSS import in JavaScript support added to `@wordpress/scripts` ([#22727](https://github.com/WordPress/gutenberg/pull/22727/files)).
+-   Update `esnext` (default) template to leverage CSS import in JavaScript support added to `@aarondewes/wp-scripts` ([#22727](https://github.com/WordPress/gutenberg/pull/22727/files)).
 
 ## 0.13.0 (2020-05-28)
 
@@ -170,7 +170,7 @@
 ### Bug Fixes
 
 -   Added error message when minimum system requirements not met ([#20398](https://github.com/WordPress/gutenberg/pull/20398/)).
--   Corrected the minimum `npm` version required to align with `@wordpress/scripts` package used internally ([#20398](https://github.com/WordPress/gutenberg/pull/20398/)).
+-   Corrected the minimum `npm` version required to align with `@aarondewes/wp-scripts` package used internally ([#20398](https://github.com/WordPress/gutenberg/pull/20398/)).
 
 ## 0.8.0 (2020-02-21)
 
@@ -191,7 +191,7 @@
 
 ### Internal
 
--   Relocated npm packge from `create-wordpress-block` to `@wordpress/create-block` ([#19773](https://github.com/WordPress/gutenberg/pull/19773)).
+-   Relocated npm packge from `create-wordpress-block` to `@aarondewes/wp-create-block` ([#19773](https://github.com/WordPress/gutenberg/pull/19773)).
 
 ## 0.5.0 (2020-01-08)
 

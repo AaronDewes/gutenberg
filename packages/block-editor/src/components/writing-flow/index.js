@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { useMergeRefs } from '@wordpress/compose';
+import { useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useMergeRefs } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

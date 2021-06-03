@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useEntityProp } from '@wordpress/core-data';
-import { useBlockProps } from '@wordpress/block-editor';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 // TODO: JSDOC types
 export default function Edit( { attributes, context } ) {

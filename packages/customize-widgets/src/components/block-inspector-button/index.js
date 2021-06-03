@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { MenuItem } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { useMemo } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { MenuItem } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 function BlockInspectorButton( { inspector, closeMenu, ...props } ) {
 	const selectedBlockClientId = useSelect(

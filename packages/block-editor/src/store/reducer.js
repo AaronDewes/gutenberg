@@ -21,8 +21,8 @@ import {
 /**
  * WordPress dependencies
  */
-import { combineReducers, select } from '@wordpress/data';
-import { store as blocksStore } from '@wordpress/blocks';
+import { combineReducers, select } from '@aarondewes/wp-data';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
 /**
  * Internal dependencies
  */

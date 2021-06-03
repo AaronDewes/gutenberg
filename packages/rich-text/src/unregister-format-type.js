@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { select, dispatch } from '@wordpress/data';
+import { select, dispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

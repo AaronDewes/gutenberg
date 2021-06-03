@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { ToolbarButton, Modal } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { listView } from '@wordpress/icons';
+import { useState } from '@aarondewes/wp-element';
+import { ToolbarButton, Modal } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { listView } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

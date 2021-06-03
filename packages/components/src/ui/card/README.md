@@ -18,7 +18,7 @@ import {
 	CardFooter,
 	Text,
 	Heading,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function Example() {
 	return (

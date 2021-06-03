@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { useState, useEffect } from '@wordpress/element';
+import { useState, useEffect } from '@aarondewes/wp-element';
 import {
 	withRegistry,
 	createRegistry,
 	RegistryProvider,
-} from '@wordpress/data';
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { storeConfig as blockEditorStoreConfig } from '@wordpress/block-editor';
+} from '@aarondewes/wp-data';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { storeConfig as blockEditorStoreConfig } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

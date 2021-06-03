@@ -7,7 +7,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Icon, check, chevronDown } from '@wordpress/icons';
+import { Icon, check, chevronDown } from '@aarondewes/wp-icons';
 /**
  * Internal dependencies
  */

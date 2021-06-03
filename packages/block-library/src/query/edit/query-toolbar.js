@@ -7,10 +7,10 @@ import {
 	ToolbarButton,
 	BaseControl,
 	__experimentalNumberControl as NumberControl,
-} from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
-import { settings, list, grid } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { settings, list, grid } from '@aarondewes/wp-icons';
 
 export default function QueryToolbar( {
 	attributes: { query, displayLayout },

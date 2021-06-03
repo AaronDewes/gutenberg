@@ -7,8 +7,8 @@ import Hr from 'react-native-hr';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

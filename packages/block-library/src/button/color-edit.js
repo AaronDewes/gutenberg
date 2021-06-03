@@ -6,14 +6,14 @@ import { pickBy, isEqual, isObject, identity, mapValues } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	useState,
 	useEffect,
 	useRef,
 	useMemo,
 	Platform,
-} from '@wordpress/element';
+} from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -27,7 +27,7 @@ import {
 	ContrastChecker,
 	InspectorControls,
 	useSetting,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 const EMPTY_ARRAY = [];
 

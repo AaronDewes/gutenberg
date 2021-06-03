@@ -6,12 +6,12 @@ import { flow } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { MenuItem } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { check } from '@wordpress/icons';
-import { speak } from '@wordpress/a11y';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { MenuItem } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { check } from '@aarondewes/wp-icons';
+import { speak } from '@aarondewes/wp-a11y';
 
 /**
  * Internal dependencies

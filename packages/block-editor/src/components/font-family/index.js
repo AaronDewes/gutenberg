@@ -6,8 +6,8 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { SelectControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { SelectControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

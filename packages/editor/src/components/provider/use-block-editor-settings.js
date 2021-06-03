@@ -6,13 +6,13 @@ import { pick, defaultTo } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Platform, useMemo } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
+import { Platform, useMemo } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 import {
 	store as coreStore,
 	__experimentalFetchLinkSuggestions as fetchLinkSuggestions,
 	__experimentalFetchRemoteUrlData as fetchRemoteUrlData,
-} from '@wordpress/core-data';
+} from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

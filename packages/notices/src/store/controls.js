@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { speak } from '@wordpress/a11y';
+import { speak } from '@aarondewes/wp-a11y';
 
 export default {
 	SPEAK( action ) {

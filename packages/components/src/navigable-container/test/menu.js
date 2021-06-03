@@ -7,7 +7,7 @@ import { each } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { UP, DOWN, LEFT, RIGHT, SPACE } from '@wordpress/keycodes';
+import { UP, DOWN, LEFT, RIGHT, SPACE } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

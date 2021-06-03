@@ -31,7 +31,7 @@ export interface HeadingProps extends Omit< TextProps, 'size' > {
 	 *
 	 * @example
 	 * ```jsx
-	 * import { __experimentalHeading as Heading } from `@wordpress/components`
+	 * import { __experimentalHeading as Heading } from `@aarondewes/wp-components`
 	 *
 	 * function Example() {
 	 *   return (

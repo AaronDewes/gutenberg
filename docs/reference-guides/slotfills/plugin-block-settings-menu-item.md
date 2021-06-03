@@ -6,8 +6,8 @@ This will either appear in the controls for each block or at the Top Toolbar dep
 ## Example
 
 ```js
-import { registerPlugin } from '@wordpress/plugins';
-import { PluginBlockSettingsMenuItem } from '@wordpress/edit-post';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { PluginBlockSettingsMenuItem } from '@aarondewes/wp-edit-post';
 
 const PluginBlockSettingsMenuGroupTest = () => (
 	<PluginBlockSettingsMenuItem

@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalGetSettings } from '@wordpress/date';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { DateTimePicker } from '@wordpress/components';
-import { useRef, useState, useMemo } from '@wordpress/element';
-import { store as coreStore } from '@wordpress/core-data';
+import { __experimentalGetSettings } from '@aarondewes/wp-date';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { DateTimePicker } from '@aarondewes/wp-components';
+import { useRef, useState, useMemo } from '@aarondewes/wp-element';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

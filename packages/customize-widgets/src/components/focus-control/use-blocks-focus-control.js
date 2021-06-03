@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useEffect } from '@wordpress/element';
-import { useDispatch } from '@wordpress/data';
-import { store as blockEditorStore } from '@wordpress/block-editor';
-import { getWidgetIdFromBlock } from '@wordpress/widgets';
+import { useRef, useEffect } from '@aarondewes/wp-element';
+import { useDispatch } from '@aarondewes/wp-data';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { getWidgetIdFromBlock } from '@aarondewes/wp-widgets';
 
 /**
  * Internal dependencies

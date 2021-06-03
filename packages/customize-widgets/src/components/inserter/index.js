@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { __experimentalLibrary as Library } from '@wordpress/block-editor';
-import { Button } from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { closeSmall } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { __experimentalLibrary as Library } from '@aarondewes/wp-block-editor';
+import { Button } from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { closeSmall } from '@aarondewes/wp-icons';
 
 function Inserter( { setIsOpened } ) {
 	const inserterTitleId = useInstanceId(

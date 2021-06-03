@@ -5,7 +5,7 @@ import { View, StyleSheet } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { useState, useCallback } from '@wordpress/element';
+import { useState, useCallback } from '@aarondewes/wp-element';
 
 /**
  * Hook which allows to listen the resize event of any target element when it changes sizes.

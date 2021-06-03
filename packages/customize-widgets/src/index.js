@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { render } from '@wordpress/element';
+import { render } from '@aarondewes/wp-element';
 import {
 	registerCoreBlocks,
 	__experimentalGetCoreBlocks,
 	__experimentalRegisterExperimentalCoreBlocks,
-} from '@wordpress/block-library';
-import { registerLegacyWidgetVariations } from '@wordpress/widgets';
+} from '@aarondewes/wp-block-library';
+import { registerLegacyWidgetVariations } from '@aarondewes/wp-widgets';
 
 /**
  * Internal dependencies

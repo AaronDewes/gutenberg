@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { speak } from '@wordpress/a11y';
-import { MenuItem } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { store as interfaceStore } from '@wordpress/interface';
-import { store as keyboardShortcutsStore } from '@wordpress/keyboard-shortcuts';
+import { __ } from '@aarondewes/wp-i18n';
+import { speak } from '@aarondewes/wp-a11y';
+import { MenuItem } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { store as interfaceStore } from '@aarondewes/wp-interface';
+import { store as keyboardShortcutsStore } from '@aarondewes/wp-keyboard-shortcuts';
 
 /**
  * Internal dependencies

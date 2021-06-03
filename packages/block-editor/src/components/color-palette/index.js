@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { ColorPalette } from '@wordpress/components';
+import { ColorPalette } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

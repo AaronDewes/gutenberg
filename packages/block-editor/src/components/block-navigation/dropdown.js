@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { Button, Dropdown } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
-import { forwardRef } from '@wordpress/element';
-import { listView } from '@wordpress/icons';
+import { Button, Dropdown } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
+import { forwardRef } from '@aarondewes/wp-element';
+import { listView } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

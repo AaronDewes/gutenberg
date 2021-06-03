@@ -6,7 +6,7 @@ import {
 	createNewPost,
 	insertBlock,
 	transformBlockTo,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Code block', () => {
 	beforeEach( async () => {

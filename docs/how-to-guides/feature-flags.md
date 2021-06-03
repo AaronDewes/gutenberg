@@ -26,7 +26,7 @@ In phase 1 environments the `phaseTwoFeature` export will be `undefined`.
 If you're attempting to import and call a phase 2 feature, be sure to wrap the call to the function in an if statement to avoid an error:
 
 ```js
-import { phaseTwoFeature } from '@wordpress/foo';
+import { phaseTwoFeature } from '@aarondewes/wp-foo';
 
 if ( process.env.GUTENBERG_PHASE === 2 ) {
 	phaseTwoFeature();

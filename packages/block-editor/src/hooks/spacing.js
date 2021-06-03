@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { PanelBody } from '@wordpress/components';
-import { Platform } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { getBlockSupport } from '@wordpress/blocks';
+import { PanelBody } from '@aarondewes/wp-components';
+import { Platform } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { getBlockSupport } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

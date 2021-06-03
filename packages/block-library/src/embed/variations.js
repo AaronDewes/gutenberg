@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies
@@ -26,7 +26,7 @@ import {
 	embedDailymotionIcon,
 } from './icons';
 
-/** @typedef {import('@wordpress/blocks').WPBlockVariation} WPBlockVariation */
+/** @typedef {import('@aarondewes/wp-blocks').WPBlockVariation} WPBlockVariation */
 
 /**
  * Template option choices for predefined columns layouts.

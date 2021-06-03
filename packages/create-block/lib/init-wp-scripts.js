@@ -14,9 +14,9 @@ module.exports = async ( { slug } ) => {
 
 	info( '' );
 	info(
-		'Installing `@wordpress/scripts` package. It might take a couple of minutes...'
+		'Installing `@aarondewes/wp-scripts` package. It might take a couple of minutes...'
 	);
-	await command( 'npm install @wordpress/scripts --save-dev', {
+	await command( 'npm install @aarondewes/wp-scripts --save-dev', {
 		cwd,
 	} );
 

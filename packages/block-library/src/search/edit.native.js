@@ -12,17 +12,17 @@ import {
 	PlainText,
 	useBlockProps,
 	InspectorControls,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	PanelBody,
 	SelectControl,
 	ToggleControl,
 	Icon,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { search } from '@wordpress/icons';
-import { useRef, useEffect, useState } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { search } from '@aarondewes/wp-icons';
+import { useRef, useEffect, useState } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

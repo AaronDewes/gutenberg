@@ -6,13 +6,13 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { Button, Icon } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { addQueryArgs } from '@wordpress/url';
-import { wordpress } from '@wordpress/icons';
-import { store as editorStore } from '@wordpress/editor';
-import { store as coreStore } from '@wordpress/core-data';
+import { useSelect } from '@aarondewes/wp-data';
+import { Button, Icon } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { wordpress } from '@aarondewes/wp-icons';
+import { store as editorStore } from '@aarondewes/wp-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

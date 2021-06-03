@@ -6,11 +6,11 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Button, Spinner, Notice } from '@wordpress/components';
-import { keyboardReturn } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
-import { useRef, useState, useEffect } from '@wordpress/element';
-import { focus } from '@wordpress/dom';
+import { Button, Spinner, Notice } from '@aarondewes/wp-components';
+import { keyboardReturn } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { useRef, useState, useEffect } from '@aarondewes/wp-element';
+import { focus } from '@aarondewes/wp-dom';
 
 /**
  * Internal dependencies

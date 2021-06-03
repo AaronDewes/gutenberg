@@ -7,8 +7,8 @@ import { TouchableOpacity, Text, Linking } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { external, Icon } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { external, Icon } from '@aarondewes/wp-icons';
 
 export function ExternalLink( { href, children } ) {
 	return (

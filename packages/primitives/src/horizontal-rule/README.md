@@ -5,7 +5,7 @@ A drop-in replacement for the HTML [hr](https://developer.mozilla.org/en-US/docs
 ## Usage
 
 ```jsx
-import { HorizontalRule } from '@wordpress/components';
+import { HorizontalRule } from '@aarondewes/wp-components';
 
 const MyHorizontalRule = () => <HorizontalRule />;
 ```

@@ -11,7 +11,7 @@ import {
 	openPublishPanel,
 	publishPost,
 	setBrowserViewport,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Using Plugins API', () => {
 	beforeAll( async () => {

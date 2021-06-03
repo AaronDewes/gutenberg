@@ -10,7 +10,7 @@ import {
 	registerBlockType,
 	unregisterBlockType,
 	getBlockTypes,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

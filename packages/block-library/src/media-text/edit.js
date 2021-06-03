@@ -7,9 +7,9 @@ import { map, filter } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, _x } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
-import { useState, useRef } from '@wordpress/element';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
+import { useState, useRef } from '@aarondewes/wp-element';
 import {
 	BlockControls,
 	BlockVerticalAlignmentControl,
@@ -19,7 +19,7 @@ import {
 	__experimentalImageURLInputUI as ImageURLInputUI,
 	__experimentalImageSizeControl as ImageSizeControl,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	PanelBody,
 	RangeControl,
@@ -28,9 +28,9 @@ import {
 	ToolbarButton,
 	ExternalLink,
 	FocalPointPicker,
-} from '@wordpress/components';
-import { pullLeft, pullRight } from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { pullLeft, pullRight } from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

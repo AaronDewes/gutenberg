@@ -6,9 +6,9 @@ import { without } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { hasBlockSupport } from '@wordpress/blocks';
-import { WIDE_ALIGNMENTS } from '@wordpress/components';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { hasBlockSupport } from '@aarondewes/wp-blocks';
+import { WIDE_ALIGNMENTS } from '@aarondewes/wp-components';
 
 const ALIGNMENTS = [ 'left', 'center', 'right' ];
 

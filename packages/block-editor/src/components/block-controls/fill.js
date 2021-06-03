@@ -10,7 +10,7 @@ import {
 	__experimentalStyleProvider as StyleProvider,
 	__experimentalToolbarContext as ToolbarContext,
 	ToolbarGroup,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

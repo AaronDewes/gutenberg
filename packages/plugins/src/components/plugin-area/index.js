@@ -7,8 +7,8 @@ import memoize from 'memize';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { addAction, removeAction } from '@wordpress/hooks';
+import { Component } from '@aarondewes/wp-element';
+import { addAction, removeAction } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies
@@ -38,7 +38,7 @@ import { getPlugins } from '../../api';
  * @example
  * ```js
  * // Using ESNext syntax
- * import { PluginArea } from '@wordpress/plugins';
+ * import { PluginArea } from '@aarondewes/wp-plugins';
  *
  * const Layout = () => (
  * 	<div>

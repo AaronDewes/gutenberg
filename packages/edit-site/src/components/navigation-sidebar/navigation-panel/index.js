@@ -6,11 +6,11 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { usePrevious } from '@wordpress/compose';
-import { store as coreDataStore } from '@wordpress/core-data';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useState, useEffect, useRef } from '@wordpress/element';
-import { ESCAPE } from '@wordpress/keycodes';
+import { usePrevious } from '@aarondewes/wp-compose';
+import { store as coreDataStore } from '@aarondewes/wp-core-data';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useState, useEffect, useRef } from '@aarondewes/wp-element';
+import { ESCAPE } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

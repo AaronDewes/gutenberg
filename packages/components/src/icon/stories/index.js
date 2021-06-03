@@ -6,7 +6,7 @@ import { number, text } from '@storybook/addon-knobs';
 /**
  * WordPress dependencies
  */
-import { SVG, Path } from '@wordpress/primitives';
+import { SVG, Path } from '@aarondewes/wp-primitives';
 
 /**
  * Internal dependencies

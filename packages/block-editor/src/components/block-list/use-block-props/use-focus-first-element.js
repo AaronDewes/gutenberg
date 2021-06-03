@@ -6,9 +6,9 @@ import { first, last } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef } from '@wordpress/element';
-import { focus, isTextField, placeCaretAtHorizontalEdge } from '@wordpress/dom';
-import { useSelect } from '@wordpress/data';
+import { useEffect, useRef } from '@aarondewes/wp-element';
+import { focus, isTextField, placeCaretAtHorizontalEdge } from '@aarondewes/wp-dom';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
@@ -16,7 +16,7 @@ import { useSelect } from '@wordpress/data';
 import { isInsideRootBlock } from '../../../utils/dom';
 import { store as blockEditorStore } from '../../../store';
 
-/** @typedef {import('@wordpress/element').RefObject} RefObject */
+/** @typedef {import('@aarondewes/wp-element').RefObject} RefObject */
 
 /**
  * Returns the initial position if the block needs to be focussed, `undefined`

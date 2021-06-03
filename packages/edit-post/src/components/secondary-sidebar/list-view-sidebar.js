@@ -4,18 +4,18 @@
 import {
 	__experimentalBlockNavigationTree as BlockNavigationTree,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { Button } from '@wordpress/components';
+} from '@aarondewes/wp-block-editor';
+import { Button } from '@aarondewes/wp-components';
 import {
 	useFocusOnMount,
 	useFocusReturn,
 	useInstanceId,
 	useMergeRefs,
-} from '@wordpress/compose';
-import { useDispatch } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { closeSmall } from '@wordpress/icons';
-import { ESCAPE } from '@wordpress/keycodes';
+} from '@aarondewes/wp-compose';
+import { useDispatch } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { closeSmall } from '@aarondewes/wp-icons';
+import { ESCAPE } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

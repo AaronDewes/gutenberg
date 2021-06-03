@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useContext, useState, useEffect } from '@wordpress/element';
+import { useContext, useState, useEffect } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

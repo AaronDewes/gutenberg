@@ -6,7 +6,7 @@ import { capitalize } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { modifiers, SHIFT, ALT, CTRL } from '@wordpress/keycodes';
+import { modifiers, SHIFT, ALT, CTRL } from '@aarondewes/wp-keycodes';
 
 /**
  * Emulates a Ctrl+A SelectAll key combination by dispatching custom keyboard

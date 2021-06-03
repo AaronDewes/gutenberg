@@ -7,7 +7,7 @@ and uses render props to render the button and the content.
 ## Usage
 
 ```jsx
-import { Button, Dropdown } from '@wordpress/components';
+import { Button, Dropdown } from '@aarondewes/wp-components';
 
 const MyDropdown = () => (
 	<Dropdown

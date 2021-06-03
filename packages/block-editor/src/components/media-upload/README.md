@@ -7,7 +7,7 @@ MediaUpload is a React component used to render a button that opens the WordPres
 This is a placeholder component necessary to make it possible to provide an integration with the core blocks that handle media files. By default it renders nothing but it provides a way to have it overridden with the `components.MediaUpload` filter.
 
 ```jsx
-import { addFilter } from '@wordpress/hooks';
+import { addFilter } from '@aarondewes/wp-hooks';
 import MediaUpload from './media-upload';
 
 const replaceMediaUpload = () => MediaUpload;
@@ -26,8 +26,8 @@ You can check how this component is implemented for the edit post page using `wp
 To make sure the current user has Upload permissions, you need to wrap the MediaUpload component into the MediaUploadCheck one.
 
 ```jsx
-import { Button } from '@wordpress/components';
-import { MediaUpload, MediaUploadCheck } from '@wordpress/block-editor';
+import { Button } from '@aarondewes/wp-components';
+import { MediaUpload, MediaUploadCheck } from '@aarondewes/wp-block-editor';
 
 const ALLOWED_MEDIA_TYPES = [ 'audio' ];
 

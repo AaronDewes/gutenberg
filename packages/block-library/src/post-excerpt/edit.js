@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useEntityProp } from '@wordpress/core-data';
-import { useMemo } from '@wordpress/element';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { useMemo } from '@aarondewes/wp-element';
 import {
 	AlignmentToolbar,
 	BlockControls,
@@ -15,9 +15,9 @@ import {
 	RichText,
 	Warning,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { PanelBody, RangeControl, ToggleControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { PanelBody, RangeControl, ToggleControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 function usePostContentExcerpt( wordCount, postId, postType ) {
 	// Don't destrcuture items from content here, it can be undefined.

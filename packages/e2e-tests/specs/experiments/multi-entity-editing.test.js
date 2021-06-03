@@ -10,7 +10,7 @@ import {
 	canvas,
 	openDocumentSettingsSidebar,
 	pressKeyWithModifier,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 /**
  * Internal dependencies

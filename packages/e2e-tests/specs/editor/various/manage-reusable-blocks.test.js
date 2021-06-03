@@ -6,7 +6,7 @@ import path from 'path';
 /**
  * WordPress dependencies
  */
-import { visitAdminPage } from '@wordpress/e2e-test-utils';
+import { visitAdminPage } from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Managing reusable blocks', () => {
 	/**

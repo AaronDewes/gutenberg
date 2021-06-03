@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { PanelRow } from '@wordpress/components';
+import { PanelRow } from '@aarondewes/wp-components';
 import {
 	PostPendingStatus as PostPendingStatusForm,
 	PostPendingStatusCheck,
-} from '@wordpress/editor';
+} from '@aarondewes/wp-editor';
 
 export function PostPendingStatus() {
 	return (

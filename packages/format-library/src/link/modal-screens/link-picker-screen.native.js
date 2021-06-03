@@ -7,9 +7,9 @@ import { delay } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 
-import { LinkPicker } from '@wordpress/components';
+import { LinkPicker } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

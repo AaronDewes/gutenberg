@@ -7,8 +7,8 @@ import { TextInput } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { BlockEdit } from '@wordpress/block-editor';
-import { registerBlockType, unregisterBlockType } from '@wordpress/blocks';
+import { BlockEdit } from '@aarondewes/wp-block-editor';
+import { registerBlockType, unregisterBlockType } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

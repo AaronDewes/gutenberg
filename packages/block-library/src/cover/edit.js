@@ -8,7 +8,7 @@ import tinycolor from 'tinycolor2';
 /**
  * WordPress dependencies
  */
-import { Fragment, useEffect, useRef, useState } from '@wordpress/element';
+import { Fragment, useEffect, useRef, useState } from '@aarondewes/wp-element';
 import {
 	BaseControl,
 	Button,
@@ -22,8 +22,8 @@ import {
 	withNotices,
 	__experimentalUseCustomUnits as useCustomUnits,
 	__experimentalBoxControl as BoxControl,
-} from '@wordpress/components';
-import { compose, withInstanceId, useInstanceId } from '@wordpress/compose';
+} from '@aarondewes/wp-components';
+import { compose, withInstanceId, useInstanceId } from '@aarondewes/wp-compose';
 import {
 	BlockControls,
 	BlockIcon,
@@ -41,11 +41,11 @@ import {
 	__experimentalBlockAlignmentMatrixControl as BlockAlignmentMatrixControl,
 	__experimentalBlockFullHeightAligmentControl as FullHeightAlignmentControl,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
-import { withDispatch, useSelect } from '@wordpress/data';
-import { cover as icon } from '@wordpress/icons';
-import { isBlobURL } from '@wordpress/blob';
+} from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { withDispatch, useSelect } from '@aarondewes/wp-data';
+import { cover as icon } from '@aarondewes/wp-icons';
+import { isBlobURL } from '@aarondewes/wp-blob';
 
 /**
  * Internal dependencies

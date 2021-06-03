@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useContext } from '@wordpress/element';
-import { Disabled } from '@wordpress/components';
-import deprecated from '@wordpress/deprecated';
+import { useContext } from '@aarondewes/wp-element';
+import { Disabled } from '@aarondewes/wp-components';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Internal dependencies

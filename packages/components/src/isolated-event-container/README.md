@@ -18,7 +18,7 @@ The current isolated events are:
 Creates a custom component that won't propagate `mousedown` events outside of the component.
 
 ```jsx
-import { IsolatedEventContainer } from '@wordpress/components';
+import { IsolatedEventContainer } from '@aarondewes/wp-components';
 
 const MyModal = () => {
 	return (

@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { DropdownMenu, MenuGroup } from '@wordpress/components';
-import { moreVertical } from '@wordpress/icons';
-import { ActionItem, PinnedItems } from '@wordpress/interface';
-import { useViewportMatch } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { DropdownMenu, MenuGroup } from '@aarondewes/wp-components';
+import { moreVertical } from '@aarondewes/wp-icons';
+import { ActionItem, PinnedItems } from '@aarondewes/wp-interface';
+import { useViewportMatch } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

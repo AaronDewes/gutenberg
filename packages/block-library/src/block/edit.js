@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	useEntityBlockEditor,
 	useEntityProp,
 	store as coreStore,
-} from '@wordpress/core-data';
+} from '@aarondewes/wp-core-data';
 import {
 	Placeholder,
 	Spinner,
@@ -14,8 +14,8 @@ import {
 	ToolbarButton,
 	TextControl,
 	PanelBody,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
 	__experimentalUseNoRecursiveRenders as useNoRecursiveRenders,
@@ -24,9 +24,9 @@ import {
 	InspectorControls,
 	useBlockProps,
 	Warning,
-} from '@wordpress/block-editor';
-import { store as reusableBlocksStore } from '@wordpress/reusable-blocks';
-import { ungroup } from '@wordpress/icons';
+} from '@aarondewes/wp-block-editor';
+import { store as reusableBlocksStore } from '@aarondewes/wp-reusable-blocks';
+import { ungroup } from '@aarondewes/wp-icons';
 
 export default function ReusableBlockEdit( { attributes: { ref }, clientId } ) {
 	const [ hasAlreadyRendered, RecursionProvider ] = useNoRecursiveRenders(

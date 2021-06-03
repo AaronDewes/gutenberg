@@ -9,7 +9,7 @@ import {
 	pressKeyWithModifier,
 	searchForBlock,
 	openDocumentSettingsSidebar,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const INSERTER_BUTTON_SELECTOR =
 	'.block-editor-inserter__main-area .block-editor-block-types-list__item';

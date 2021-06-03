@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/react-native-aztec",
+	"name": "@aarondewes/wp-react-native-aztec",
 	"version": "1.54.0",
 	"description": "Aztec view for react-native.",
 	"private": true,
@@ -19,8 +19,8 @@
 		"url": "https://github.com/WordPress/gutenberg/issues"
 	},
 	"dependencies": {
-		"@wordpress/element": "file:../element",
-		"@wordpress/keycodes": "file:../keycodes"
+		"@aarondewes/wp-element": "file:../element",
+		"@aarondewes/wp-keycodes": "file:../keycodes"
 	},
 	"peerDependencies": {
 		"react": "*",

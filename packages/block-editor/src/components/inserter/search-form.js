@@ -6,11 +6,11 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
-import { VisuallyHidden, Button } from '@wordpress/components';
-import { Icon, search, closeSmall } from '@wordpress/icons';
-import { useRef } from '@wordpress/element';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { VisuallyHidden, Button } from '@aarondewes/wp-components';
+import { Icon, search, closeSmall } from '@aarondewes/wp-icons';
+import { useRef } from '@aarondewes/wp-element';
 
 function InserterSearchForm( {
 	className,

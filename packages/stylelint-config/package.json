@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/stylelint-config",
+	"name": "@aarondewes/wp-stylelint-config",
 	"version": "19.0.5",
 	"description": "stylelint config for WordPress development.",
 	"author": "The WordPress Contributors",
@@ -39,7 +39,7 @@
 		"stylelint": "^13.7.0"
 	},
 	"npmpackagejsonlint": {
-		"extends": "@wordpress/npm-package-json-lint-config",
+		"extends": "@aarondewes/wp-npm-package-json-lint-config",
 		"rules": {
 			"valid-values-license": [
 				"error",

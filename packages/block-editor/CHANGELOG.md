@@ -19,7 +19,7 @@
 
 ### New Feature
 
--   Added a store definition `store` for the block editor namespace to use with `@wordpress/data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
+-   Added a store definition `store` for the block editor namespace to use with `@aarondewes/wp-data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
 
 ## 5.0.0 (2020-10-06)
 
@@ -38,7 +38,7 @@
 
 ### New Features
 
--   Add new `__experimentalEditorSkeleton` component. This has been moved over from the `@wordpress/edit-post` package, where it was an internal component called `EditorRegions`. Its class names have thus been renamed from `edit-post-editor-regions` to `block-editor-editor-skeleton`.
+-   Add new `__experimentalEditorSkeleton` component. This has been moved over from the `@aarondewes/wp-edit-post` package, where it was an internal component called `EditorRegions`. Its class names have thus been renamed from `edit-post-editor-regions` to `block-editor-editor-skeleton`.
 
 ## 3.3.0 (2019-11-14)
 
@@ -58,13 +58,13 @@
 
 ### Breaking Changes
 
--   `BlockEditorProvider` no longer renders a wrapping `SlotFillProvider` or `DropZoneProvider` (from `@wordpress/components`). For custom block editors, you should render your own as wrapping the `BlockEditorProvider`. A future release will include a new `BlockEditor` component for simple, standard usage. `BlockEditorProvider` will serve the simple purpose of establishing its own context for block editors.
+-   `BlockEditorProvider` no longer renders a wrapping `SlotFillProvider` or `DropZoneProvider` (from `@aarondewes/wp-components`). For custom block editors, you should render your own as wrapping the `BlockEditorProvider`. A future release will include a new `BlockEditor` component for simple, standard usage. `BlockEditorProvider` will serve the simple purpose of establishing its own context for block editors.
 
 ## 2.2.0 (2019-06-12)
 
 ### Internal
 
--   Refactored `BlockSettingsMenu` to use `DropdownMenu` from `@wordpress/components`.
+-   Refactored `BlockSettingsMenu` to use `DropdownMenu` from `@aarondewes/wp-components`.
 
 ## 2.0.0 (2019-04-16)
 

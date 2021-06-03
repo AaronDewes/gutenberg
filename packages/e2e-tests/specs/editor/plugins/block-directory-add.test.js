@@ -8,7 +8,7 @@ import {
 	setUpResponseMocking,
 	getEditedPostContent,
 	createJSONResponse,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 // Urls to mock
 const SEARCH_URLS = [

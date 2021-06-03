@@ -10,7 +10,7 @@ import {
 	getAllBlocks,
 	saveDraft,
 	publishPost,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const getSelection = async () => {
 	return await page.evaluate( () => {

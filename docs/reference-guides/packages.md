@@ -29,11 +29,11 @@ All the packages are also available on [npm](https://www.npmjs.com/org/wordpress
 Using the same `PlainText` example, you would install the block editor module with npm:
 
 ```bash
-npm install @wordpress/block-editor --save
+npm install @aarondewes/wp-block-editor --save
 ```
 
 Once installed, you can access the component in your code using:
 
 ```js
-import { PlainText } from '@wordpress/block-editor';
+import { PlainText } from '@aarondewes/wp-block-editor';
 ```

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useRefEffect } from '@wordpress/compose';
-import { isKeyboardEvent } from '@wordpress/keycodes';
+import { useRefEffect } from '@aarondewes/wp-compose';
+import { isKeyboardEvent } from '@aarondewes/wp-keycodes';
 
 /**
  * Hook to prevent default behaviors for key combinations otherwise handled

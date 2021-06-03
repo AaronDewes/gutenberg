@@ -5,7 +5,7 @@ import {
 	createNewPost,
 	insertBlock,
 	publishPost,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Compatibility with classic editor', () => {
 	beforeEach( async () => {

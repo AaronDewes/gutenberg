@@ -6,20 +6,20 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useEffect, Platform } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
+import { useEffect, Platform } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 import {
 	ComplementaryArea,
 	store as interfaceStore,
-} from '@wordpress/interface';
+} from '@aarondewes/wp-interface';
 import {
 	BlockInspector,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
-import { cog } from '@wordpress/icons';
-import { Button } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { cog } from '@aarondewes/wp-icons';
+import { Button } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 
 const SIDEBAR_ACTIVE_BY_DEFAULT = Platform.select( {
 	web: true,

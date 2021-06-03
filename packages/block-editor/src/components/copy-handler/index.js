@@ -1,20 +1,20 @@
 /**
  * WordPress dependencies
  */
-import { useCallback } from '@wordpress/element';
+import { useCallback } from '@aarondewes/wp-element';
 import {
 	serialize,
 	pasteHandler,
 	store as blocksStore,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 import {
 	documentHasSelection,
 	documentHasUncollapsedSelection,
-} from '@wordpress/dom';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __, _n, sprintf } from '@wordpress/i18n';
-import { store as noticesStore } from '@wordpress/notices';
-import { useRefEffect } from '@wordpress/compose';
+} from '@aarondewes/wp-dom';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { useRefEffect } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

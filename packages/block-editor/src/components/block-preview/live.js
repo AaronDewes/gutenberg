@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Disabled } from '@wordpress/components';
+import { Disabled } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

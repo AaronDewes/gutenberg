@@ -3,7 +3,7 @@
 ## Usage
 
 ```jsx
-import { ResponsiveWrapper } from '@wordpress/components';
+import { ResponsiveWrapper } from '@aarondewes/wp-components';
 
 const MyResponsiveWrapper = () => (
 	<ResponsiveWrapper naturalWidth={ 2000 } naturalHeight={ 680 }>

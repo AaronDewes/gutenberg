@@ -6,10 +6,10 @@ import { View, TouchableHighlight, Text } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { Icon } from '@wordpress/components';
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
+import { Component } from '@aarondewes/wp-element';
+import { Icon } from '@aarondewes/wp-components';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

@@ -7,11 +7,11 @@ import memoize from 'memize';
 /**
  * WordPress dependencies
  */
-import { Disabled } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import ServerSideRender from '@wordpress/server-side-render';
-import { useBlockProps } from '@wordpress/block-editor';
-import { store as editorStore } from '@wordpress/editor';
+import { Disabled } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import ServerSideRender from '@aarondewes/wp-server-side-render';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 const getYearMonth = memoize( ( date ) => {
 	if ( ! date ) {

@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { useEntityBlockEditor } from '@wordpress/core-data';
+import { useEntityBlockEditor } from '@aarondewes/wp-core-data';
 import {
 	InnerBlocks,
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
 	useSetting,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useSelect } from '@wordpress/data';
-import { useMemo } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { useSelect } from '@aarondewes/wp-data';
+import { useMemo } from '@aarondewes/wp-element';
 
 export default function TemplatePartInnerBlocks( {
 	postId: id,

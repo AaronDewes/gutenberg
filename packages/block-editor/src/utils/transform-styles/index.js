@@ -6,7 +6,7 @@ import { map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { compose } from '@wordpress/compose';
+import { compose } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

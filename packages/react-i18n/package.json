@@ -1,7 +1,7 @@
 {
-	"name": "@wordpress/react-i18n",
+	"name": "@aarondewes/wp-react-i18n",
 	"version": "2.1.1",
-	"description": "React bindings for @wordpress/i18n.",
+	"description": "React bindings for @aarondewes/wp-i18n.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
@@ -28,8 +28,8 @@
 	"sideEffects": false,
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/element": "file:../element",
-		"@wordpress/i18n": "file:../i18n",
+		"@aarondewes/wp-element": "file:../element",
+		"@aarondewes/wp-i18n": "file:../i18n",
 		"utility-types": "^3.10.0"
 	},
 	"publishConfig": {

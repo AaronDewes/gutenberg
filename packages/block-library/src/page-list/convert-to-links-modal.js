@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { Button, Modal } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as coreDataStore } from '@wordpress/core-data';
-import { createBlock as create } from '@wordpress/blocks';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { Button, Modal } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as coreDataStore } from '@aarondewes/wp-core-data';
+import { createBlock as create } from '@aarondewes/wp-blocks';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 const PAGE_FIELDS = [ 'id', 'title', 'link', 'type', 'parent' ];
 const MAX_PAGE_COUNT = 100;

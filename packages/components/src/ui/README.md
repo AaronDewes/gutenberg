@@ -10,7 +10,7 @@ https://github.com/WordPress/gutenberg/issues/27484
 (This is still very much a work in progress)
 
 ```jsx
-import { Text, View } from '@wordpress/components/ui';
+import { Text, View } from '@aarondewes/wp-components/ui';
 
 function Example() {
 	return (

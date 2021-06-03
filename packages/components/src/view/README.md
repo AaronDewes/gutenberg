@@ -14,7 +14,7 @@ This feature is still experimental. “Experimental” means this is an early im
 import {
 	__experimentalText as Text,
 	__experimentalView as View,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function Example() {
 	return (

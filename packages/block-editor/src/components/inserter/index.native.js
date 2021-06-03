@@ -7,19 +7,19 @@ import { delay } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Dropdown, ToolbarButton, Picker } from '@wordpress/components';
-import { Component } from '@wordpress/element';
-import { withSelect } from '@wordpress/data';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { isUnmodifiedDefaultBlock } from '@wordpress/blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { Dropdown, ToolbarButton, Picker } from '@aarondewes/wp-components';
+import { Component } from '@aarondewes/wp-element';
+import { withSelect } from '@aarondewes/wp-data';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { isUnmodifiedDefaultBlock } from '@aarondewes/wp-blocks';
 import {
 	Icon,
 	plusCircle,
 	plusCircleFilled,
 	insertAfter,
 	insertBefore,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

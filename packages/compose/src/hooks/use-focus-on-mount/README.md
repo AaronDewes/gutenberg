@@ -13,7 +13,7 @@ A React ref that must be passed to the DOM element where the behavior should be 
 ## Usage
 
 ```jsx
-import { useFocusOnMount } from '@wordpress/compose';
+import { useFocusOnMount } from '@aarondewes/wp-compose';
 
 const WithFocusOnMount = () => {
 	const ref = useFocusOnMount();

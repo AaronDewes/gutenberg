@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Popover, MenuGroup, DuotonePicker } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { Popover, MenuGroup, DuotonePicker } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 function DuotonePickerPopover( {
 	value,

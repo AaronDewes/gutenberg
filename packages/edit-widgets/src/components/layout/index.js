@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Popover } from '@wordpress/components';
-import { PluginArea } from '@wordpress/plugins';
+import { Popover } from '@aarondewes/wp-components';
+import { PluginArea } from '@aarondewes/wp-plugins';
 
 /**
  * Internal dependencies

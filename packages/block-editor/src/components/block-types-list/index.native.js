@@ -12,8 +12,8 @@ import {
 /**
  * WordPress dependencies
  */
-import { useState, useEffect } from '@wordpress/element';
-import { BottomSheet, InserterButton } from '@wordpress/components';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import { BottomSheet, InserterButton } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

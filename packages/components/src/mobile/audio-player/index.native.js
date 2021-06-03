@@ -13,17 +13,17 @@ import { default as VideoPlayer } from 'react-native-video';
 /**
  * WordPress dependencies
  */
-import { View } from '@wordpress/primitives';
-import { Icon } from '@wordpress/components';
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
-import { audio, warning } from '@wordpress/icons';
+import { View } from '@aarondewes/wp-primitives';
+import { Icon } from '@aarondewes/wp-components';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { audio, warning } from '@aarondewes/wp-icons';
 import {
 	requestImageFailedRetryDialog,
 	requestImageUploadCancelDialog,
-} from '@wordpress/react-native-bridge';
-import { getProtocol } from '@wordpress/url';
-import { useState } from '@wordpress/element';
+} from '@aarondewes/wp-react-native-bridge';
+import { getProtocol } from '@aarondewes/wp-url';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

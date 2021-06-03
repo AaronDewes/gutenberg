@@ -3,7 +3,7 @@
 ## Usage
 
 ```jsx
-import { withFallbackStyles, Button } from '@wordpress/components';
+import { withFallbackStyles, Button } from '@aarondewes/wp-components';
 
 const { getComputedStyle } = window;
 

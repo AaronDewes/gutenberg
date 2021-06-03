@@ -11,10 +11,10 @@ import {
 	useState,
 	useLayoutEffect,
 	forwardRef,
-} from '@wordpress/element';
-import { getRectangleFromRange } from '@wordpress/dom';
-import { ESCAPE } from '@wordpress/keycodes';
-import deprecated from '@wordpress/deprecated';
+} from '@aarondewes/wp-element';
+import { getRectangleFromRange } from '@aarondewes/wp-dom';
+import { ESCAPE } from '@aarondewes/wp-keycodes';
+import deprecated from '@aarondewes/wp-deprecated';
 import {
 	useViewportMatch,
 	useResizeObserver,
@@ -24,8 +24,8 @@ import {
 	useFocusReturn,
 	useMergeRefs,
 	useRefEffect,
-} from '@wordpress/compose';
-import { close } from '@wordpress/icons';
+} from '@aarondewes/wp-compose';
+import { close } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

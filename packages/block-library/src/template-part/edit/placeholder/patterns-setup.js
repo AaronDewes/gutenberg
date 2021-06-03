@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalBlockPatternSetup as BlockPatternSetup } from '@wordpress/block-editor';
-import { useEffect } from '@wordpress/element';
+import { __experimentalBlockPatternSetup as BlockPatternSetup } from '@aarondewes/wp-block-editor';
+import { useEffect } from '@aarondewes/wp-element';
 
 export default function PatternsSetup( { area, clientId, onCreate } ) {
 	const blockNameWithArea = area

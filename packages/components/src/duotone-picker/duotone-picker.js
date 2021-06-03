@@ -6,8 +6,8 @@ import { isEqual } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
+import { useMemo } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

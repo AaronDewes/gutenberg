@@ -15,14 +15,14 @@ import {
 	useSetting,
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	__experimentalUseCustomUnits as useCustomUnits,
 	PanelBody,
 	__experimentalUnitControl as UnitControl,
-} from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { sprintf, __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { sprintf, __ } from '@aarondewes/wp-i18n';
 
 function ColumnEdit( {
 	attributes: { verticalAlignment, width, templateLock = false },

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { hasBlockSupport, getBlockType } from '@wordpress/blocks';
+import { useSelect } from '@aarondewes/wp-data';
+import { hasBlockSupport, getBlockType } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

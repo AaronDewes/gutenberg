@@ -18,12 +18,12 @@ import {
 	BottomSheet,
 	ToggleControl,
 	__experimentalUseCustomUnits as useCustomUnits,
-} from '@wordpress/components';
-import { plus } from '@wordpress/icons';
-import { useState, useCallback, useRef } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
-import { useSetting, MediaUpload } from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { plus } from '@aarondewes/wp-icons';
+import { useState, useCallback, useRef } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
+import { useSetting, MediaUpload } from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

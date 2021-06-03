@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useDispatch } from '@wordpress/data';
-import { Guide } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { useDispatch } from '@aarondewes/wp-data';
+import { Guide } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

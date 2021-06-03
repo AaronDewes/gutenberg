@@ -7,10 +7,10 @@ import { Clipboard } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
-import { withSpokenMessages } from '@wordpress/components';
-import { RichTextToolbarButton } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
+import { withSpokenMessages } from '@aarondewes/wp-components';
+import { RichTextToolbarButton } from '@aarondewes/wp-block-editor';
 import {
 	applyFormat,
 	getActiveFormat,
@@ -18,9 +18,9 @@ import {
 	isCollapsed,
 	removeFormat,
 	slice,
-} from '@wordpress/rich-text';
-import { isURL } from '@wordpress/url';
-import { link as linkIcon } from '@wordpress/icons';
+} from '@aarondewes/wp-rich-text';
+import { isURL } from '@aarondewes/wp-url';
+import { link as linkIcon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

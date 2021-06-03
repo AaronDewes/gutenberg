@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/media-utils",
+	"name": "@aarondewes/wp-media-utils",
 	"version": "2.1.1",
 	"description": "WordPress Media Upload Utils.",
 	"author": "The WordPress Contributors",
@@ -26,10 +26,10 @@
 	"module": "build-module/index.js",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/api-fetch": "file:../api-fetch",
-		"@wordpress/blob": "file:../blob",
-		"@wordpress/element": "file:../element",
-		"@wordpress/i18n": "file:../i18n",
+		"@aarondewes/wp-api-fetch": "file:../api-fetch",
+		"@aarondewes/wp-blob": "file:../blob",
+		"@aarondewes/wp-element": "file:../element",
+		"@aarondewes/wp-i18n": "file:../i18n",
 		"lodash": "^4.17.21"
 	},
 	"publishConfig": {

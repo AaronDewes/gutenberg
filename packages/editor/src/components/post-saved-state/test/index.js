@@ -6,8 +6,8 @@ import { mount, shallow } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { useViewportMatch } from '@wordpress/compose';
-import { useSelect } from '@wordpress/data';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
@@ -16,19 +16,19 @@ import PostSavedState from '../';
 
 const mockSavePost = jest.fn();
 
-jest.mock( '@wordpress/data/src/components/use-dispatch', () => {
+jest.mock( '@aarondewes/wp-data/src/components/use-dispatch', () => {
 	return {
 		useDispatch: () => ( { savePost: mockSavePost } ),
 	};
 } );
 
-jest.mock( '@wordpress/data/src/components/use-select', () => {
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => {
 	// This allows us to tweak the returned value on each test
 	const mock = jest.fn();
 	return mock;
 } );
 
-jest.mock( '@wordpress/compose/src/hooks/use-viewport-match', () => {
+jest.mock( '@aarondewes/wp-compose/src/hooks/use-viewport-match', () => {
 	// This allows us to tweak the returned value on each test
 	const mock = jest.fn();
 	return mock;

@@ -195,19 +195,19 @@ registerBlockType( 'my-plugin/inspector-controls-example', {
 {% ESNext %}
 
 ```js
-import { registerBlockType } from '@wordpress/blocks';
+import { registerBlockType } from '@aarondewes/wp-blocks';
 import {
 	CheckboxControl,
 	RadioControl,
 	TextControl,
 	ToggleControl,
 	SelectControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	RichText,
 	InspectorControls,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'my-plugin/inspector-controls-example', {
 	apiVersion: 2,

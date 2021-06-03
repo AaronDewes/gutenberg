@@ -6,8 +6,8 @@ import { find } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useCallback } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useCallback } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createBlock } from '@wordpress/blocks';
-import { create, join, split, toHTMLString } from '@wordpress/rich-text';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { create, join, split, toHTMLString } from '@aarondewes/wp-rich-text';
 
 const transforms = {
 	from: [

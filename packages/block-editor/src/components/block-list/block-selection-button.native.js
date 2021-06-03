@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/components';
-import { withSelect } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { getBlockType } from '@wordpress/blocks';
+import { Icon } from '@aarondewes/wp-components';
+import { withSelect } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { getBlockType } from '@aarondewes/wp-blocks';
 
 /**
  * External dependencies

@@ -11,7 +11,7 @@ import {
 	openDocumentSettingsSidebar,
 	togglePreferencesOption,
 	toggleMoreMenu,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Block variations', () => {
 	beforeAll( async () => {

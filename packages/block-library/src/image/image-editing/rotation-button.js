@@ -2,9 +2,9 @@
  * WordPress dependencies
  */
 
-import { ToolbarButton } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { rotateRight as rotateRightIcon } from '@wordpress/icons';
+import { ToolbarButton } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { rotateRight as rotateRightIcon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

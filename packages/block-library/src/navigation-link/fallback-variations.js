@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	category as categoryIcon,
 	page as pageIcon,
 	postTitle as postIcon,
 	tag as tagIcon,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 // FALLBACK: this is only used when the server does not understand the variations property in the
 // register_block_type_from_metadata call. see navigation-link/index.php.

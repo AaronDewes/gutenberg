@@ -7,18 +7,18 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { ResizableBox, withNotices } from '@wordpress/components';
+import { ResizableBox, withNotices } from '@aarondewes/wp-components';
 import {
 	BlockControls,
 	BlockIcon,
 	MediaPlaceholder,
 	MediaReplaceFlow,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
-import { useViewportMatch } from '@wordpress/compose';
-import { useDispatch } from '@wordpress/data';
-import { forwardRef } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { useDispatch } from '@aarondewes/wp-data';
+import { forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

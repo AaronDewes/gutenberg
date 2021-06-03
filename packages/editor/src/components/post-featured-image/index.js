@@ -6,8 +6,8 @@ import { has, get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { applyFilters } from '@wordpress/hooks';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { applyFilters } from '@aarondewes/wp-hooks';
 import {
 	DropZone,
 	Button,
@@ -15,15 +15,15 @@ import {
 	ResponsiveWrapper,
 	withNotices,
 	withFilters,
-} from '@wordpress/components';
-import { compose } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
 import {
 	MediaUpload,
 	MediaUploadCheck,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

@@ -5,7 +5,7 @@ import { find } from 'lodash';
 /**
  * WordPress dependencies
  */
-import TokenList from '@wordpress/token-list';
+import TokenList from '@aarondewes/wp-token-list';
 
 /**
  * Returns the active style from the given className.

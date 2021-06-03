@@ -16,7 +16,7 @@ import {
 	deactivatePlugin,
 	insertBlock,
 	openDocumentSettingsSidebar,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'changing image size', () => {
 	beforeEach( async () => {

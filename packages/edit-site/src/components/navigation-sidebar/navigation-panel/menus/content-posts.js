@@ -4,11 +4,11 @@
 import {
 	__experimentalNavigationMenu as NavigationMenu,
 	__experimentalNavigationItem as NavigationItem,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useCallback } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useCallback } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

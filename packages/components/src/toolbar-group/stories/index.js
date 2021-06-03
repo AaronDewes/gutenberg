@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { formatBold, formatItalic, link } from '@wordpress/icons';
+import { formatBold, formatItalic, link } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

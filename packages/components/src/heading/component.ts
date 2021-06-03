@@ -9,7 +9,7 @@ import { useHeading } from './hook';
  *
  * @example
  * ```jsx
- * import { Heading } from `@wordpress/components/ui`
+ * import { Heading } from `@aarondewes/wp-components/ui`
  *
  * function Example() {
  *   return <Heading>Code is Poetry</Heading>;

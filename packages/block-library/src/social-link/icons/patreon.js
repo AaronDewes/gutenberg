@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Circle, Rect, SVG } from '@wordpress/primitives';
+import { Circle, Rect, SVG } from '@aarondewes/wp-primitives';
 
 export const PatreonIcon = () => (
 	<SVG width="24" height="24" viewBox="0 0 569 546" version="1.1">

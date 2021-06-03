@@ -7,8 +7,8 @@ import {
 	pressKeyWithModifier,
 	setUpResponseMocking,
 	visitAdminPage,
-} from '@wordpress/e2e-test-utils';
-import { addQueryArgs } from '@wordpress/url';
+} from '@aarondewes/wp-e2e-test-utils';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

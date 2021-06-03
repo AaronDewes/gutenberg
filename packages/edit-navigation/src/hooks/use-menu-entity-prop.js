@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useEntityProp } from '@wordpress/core-data';
+import { useEntityProp } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

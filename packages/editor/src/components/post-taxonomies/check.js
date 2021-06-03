@@ -6,9 +6,9 @@ import { some, includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { compose } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

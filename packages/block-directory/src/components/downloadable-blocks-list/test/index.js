@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
@@ -14,13 +14,13 @@ import { useSelect } from '@wordpress/data';
 import DownloadableBlocksList from '../';
 import { items } from '../../test/fixtures';
 
-jest.mock( '@wordpress/data/src/components/use-select', () => {
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => {
 	// This allows us to tweak the returned value on each test
 	const mock = jest.fn();
 	return mock;
 } );
 
-jest.mock( '@wordpress/data/src/components/use-dispatch', () => ( {
+jest.mock( '@aarondewes/wp-data/src/components/use-dispatch', () => ( {
 	useDispatch: () => ( { installBlockType: jest.fn() } ),
 } ) );
 

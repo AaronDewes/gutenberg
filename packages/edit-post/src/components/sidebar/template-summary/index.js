@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { Icon, layout } from '@wordpress/icons';
-import { useSelect } from '@wordpress/data';
-import { Flex, FlexItem, FlexBlock, PanelBody } from '@wordpress/components';
+import { Icon, layout } from '@aarondewes/wp-icons';
+import { useSelect } from '@aarondewes/wp-data';
+import { Flex, FlexItem, FlexBlock, PanelBody } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

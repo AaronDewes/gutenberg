@@ -6,9 +6,9 @@ import {
 	useContext,
 	useCallback,
 	useEffect,
-} from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { parse, __unstableSerializeAndClean } from '@wordpress/blocks';
+} from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { parse, __unstableSerializeAndClean } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

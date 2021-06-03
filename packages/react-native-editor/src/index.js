@@ -17,8 +17,8 @@ import setupApiFetch from './api-fetch-setup';
 import {
 	validateThemeColors,
 	validateThemeGradients,
-} from '@wordpress/block-editor';
-import { unregisterBlockType } from '@wordpress/blocks';
+} from '@aarondewes/wp-block-editor';
+import { unregisterBlockType } from '@aarondewes/wp-blocks';
 
 const reactNativeSetup = () => {
 	// Disable warnings as they disrupt the user experience in dev mode
@@ -29,7 +29,7 @@ const reactNativeSetup = () => {
 };
 
 const gutenbergSetup = () => {
-	const wpData = require( '@wordpress/data' );
+	const wpData = require( '@aarondewes/wp-data' );
 
 	// wp-data
 	const userId = 1;
@@ -44,12 +44,12 @@ const gutenbergSetup = () => {
 
 	setupInitHooks();
 
-	const initializeEditor = require( '@wordpress/edit-post' ).initializeEditor;
+	const initializeEditor = require( '@aarondewes/wp-edit-post' ).initializeEditor;
 	initializeEditor( 'gutenberg', 'post', 1 );
 };
 
 const setupInitHooks = () => {
-	const wpHooks = require( '@wordpress/hooks' );
+	const wpHooks = require( '@aarondewes/wp-hooks' );
 
 	wpHooks.addAction(
 		'native.pre-render',
@@ -111,7 +111,7 @@ const setupInitHooks = () => {
 let blocksRegistered = false;
 
 const setupLocale = ( locale, extraTranslations ) => {
-	const setLocaleData = require( '@wordpress/i18n' ).setLocaleData;
+	const setLocaleData = require( '@aarondewes/wp-i18n' ).setLocaleData;
 
 	I18nManager.forceRTL( false ); // Change to `true` to debug RTL layout easily.
 
@@ -137,7 +137,7 @@ const setupLocale = ( locale, extraTranslations ) => {
 		return;
 	}
 
-	const registerCoreBlocks = require( '@wordpress/block-library' )
+	const registerCoreBlocks = require( '@aarondewes/wp-block-library' )
 		.registerCoreBlocks;
 	registerCoreBlocks();
 	blocksRegistered = true;

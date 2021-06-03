@@ -1,16 +1,16 @@
 /**
  * WordPress dependencies
  */
-import { useEffect, useLayoutEffect, useMemo } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { EntityProvider, useEntityBlockEditor } from '@wordpress/core-data';
+import { useEffect, useLayoutEffect, useMemo } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { EntityProvider, useEntityBlockEditor } from '@aarondewes/wp-core-data';
 import {
 	BlockEditorProvider,
 	BlockContextProvider,
-} from '@wordpress/block-editor';
-import { ReusableBlocksMenuItems } from '@wordpress/reusable-blocks';
-import { store as noticesStore } from '@wordpress/notices';
+} from '@aarondewes/wp-block-editor';
+import { ReusableBlocksMenuItems } from '@aarondewes/wp-reusable-blocks';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

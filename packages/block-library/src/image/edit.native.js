@@ -7,7 +7,7 @@ import { isEmpty, get, find, map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 import {
 	requestMediaImport,
 	mediaUploadSync,
@@ -15,7 +15,7 @@ import {
 	requestImageUploadCancelDialog,
 	requestImageFullscreenPreview,
 	setFeaturedImage,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 import {
 	CycleSelectControl,
 	Icon,
@@ -29,7 +29,7 @@ import {
 	BottomSheetTextControl,
 	FooterMessageLink,
 	Badge,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	BlockCaption,
 	MediaPlaceholder,
@@ -41,20 +41,20 @@ import {
 	BlockAlignmentToolbar,
 	BlockStyles,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { __, sprintf } from '@wordpress/i18n';
-import { getProtocol, hasQueryArg } from '@wordpress/url';
-import { doAction, hasAction } from '@wordpress/hooks';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
+} from '@aarondewes/wp-block-editor';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { getProtocol, hasQueryArg } from '@aarondewes/wp-url';
+import { doAction, hasAction } from '@aarondewes/wp-hooks';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
 import {
 	image as placeholderIcon,
 	replace,
 	fullscreen,
 	textColor,
-} from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as editPostStore } from '@wordpress/edit-post';
+} from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as editPostStore } from '@aarondewes/wp-edit-post';
 
 /**
  * Internal dependencies

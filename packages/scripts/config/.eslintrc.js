@@ -1,6 +1,6 @@
 const eslintConfig = {
 	root: true,
-	extends: [ 'plugin:@wordpress/eslint-plugin/recommended' ],
+	extends: [ 'plugin:@aarondewes/wp-eslint-plugin/recommended' ],
 };
 
 module.exports = eslintConfig;

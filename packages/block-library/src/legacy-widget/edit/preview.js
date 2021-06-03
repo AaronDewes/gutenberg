@@ -6,11 +6,11 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useRefEffect } from '@wordpress/compose';
-import { addQueryArgs } from '@wordpress/url';
-import { useState } from '@wordpress/element';
-import { Placeholder, Spinner, Disabled } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { useRefEffect } from '@aarondewes/wp-compose';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { useState } from '@aarondewes/wp-element';
+import { Placeholder, Spinner, Disabled } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function Preview( { idBase, instance, isVisible } ) {
 	const [ iframeHeight, setIframeHeight ] = useState();

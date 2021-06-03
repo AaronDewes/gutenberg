@@ -6,8 +6,8 @@ import { act, create } from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { MediaUploadProgress, BlockEdit } from '@wordpress/block-editor';
-import { registerBlockType, unregisterBlockType } from '@wordpress/blocks';
+import { MediaUploadProgress, BlockEdit } from '@aarondewes/wp-block-editor';
+import { registerBlockType, unregisterBlockType } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

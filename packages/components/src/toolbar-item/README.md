@@ -9,7 +9,7 @@ A ToolbarItem is a generic headless component that can be used to make any custo
 You can use the `as` prop with a custom component or any HTML element.
 
 ```jsx
-import { Toolbar, ToolbarItem, Button } from '@wordpress/components';
+import { Toolbar, ToolbarItem, Button } from '@aarondewes/wp-components';
 
 function MyToolbar() {
 	return (
@@ -26,8 +26,8 @@ function MyToolbar() {
 You can pass children as function to get the ToolbarItem props and pass them to another component.
 
 ```jsx
-import { Toolbar, ToolbarItem, DropdownMenu } from '@wordpress/components';
-import { table } from '@wordpress/icons';
+import { Toolbar, ToolbarItem, DropdownMenu } from '@aarondewes/wp-components';
+import { table } from '@aarondewes/wp-icons';
 
 function MyToolbar() {
 	return (
@@ -52,8 +52,8 @@ function MyToolbar() {
 If you're working on a custom block and you want to add controls to the block toolbar, you should use [BlockControls](/docs/how-to-guides/block-tutorial/block-controls-toolbar-and-sidebar.md) instead. Optionally wrapping it with [ToolbarGroup](/packages/components/src/toolbar-group/README.md).
 
 ```jsx
-import { BlockControls } from '@wordpress/block-editor';
-import { ToolbarGroup, ToolbarItem, Button } from '@wordpress/components';
+import { BlockControls } from '@aarondewes/wp-block-editor';
+import { ToolbarGroup, ToolbarItem, Button } from '@aarondewes/wp-components';
 
 function Edit() {
 	return (

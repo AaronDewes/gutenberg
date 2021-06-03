@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { fetchRequest } from '@wordpress/react-native-bridge';
-import apiFetch from '@wordpress/api-fetch';
+import { fetchRequest } from '@aarondewes/wp-react-native-bridge';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
 // Please add only wp.org API paths here!
 const SUPPORTED_ENDPOINTS = [

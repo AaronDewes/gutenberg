@@ -6,9 +6,9 @@ import { AccessibilityInfo, View, Platform } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

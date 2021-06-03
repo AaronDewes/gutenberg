@@ -6,7 +6,7 @@ import {
 	useRef,
 	useState,
 	useEffect,
-} from '@wordpress/element';
+} from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

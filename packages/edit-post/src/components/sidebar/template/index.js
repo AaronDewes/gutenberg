@@ -6,11 +6,11 @@ import { partial, isEmpty, map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { PanelBody, SelectControl } from '@wordpress/components';
-import { store as editorStore } from '@wordpress/editor';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { PanelBody, SelectControl } from '@aarondewes/wp-components';
+import { store as editorStore } from '@aarondewes/wp-editor';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

@@ -7,13 +7,13 @@ import deepFreeze from 'deep-freeze';
 /**
  * WordPress dependencies
  */
-import { controls, createRegistry } from '@wordpress/data';
+import { controls, createRegistry } from '@aarondewes/wp-data';
 import {
 	getBlockTypes,
 	unregisterBlockType,
 	registerBlockType,
 	createBlock,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

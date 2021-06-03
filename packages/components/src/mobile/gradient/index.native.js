@@ -7,10 +7,10 @@ import gradientParser from 'gradient-parser';
 /**
  * WordPress dependencies
  */
-import { colorsUtils } from '@wordpress/components';
-import { RadialGradient, Stop, SVG, Defs, Rect } from '@wordpress/primitives';
-import { useResizeObserver } from '@wordpress/compose';
-import { useMemo } from '@wordpress/element';
+import { colorsUtils } from '@aarondewes/wp-components';
+import { RadialGradient, Stop, SVG, Defs, Rect } from '@aarondewes/wp-primitives';
+import { useResizeObserver } from '@aarondewes/wp-compose';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

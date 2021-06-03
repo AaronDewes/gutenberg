@@ -7,12 +7,12 @@ import { lowerCase, startsWith } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { BottomSheet, Icon } from '@wordpress/components';
-import { getProtocol, prependHTTP } from '@wordpress/url';
-import { link, cancelCircleFilled } from '@wordpress/icons';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { useState } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { BottomSheet, Icon } from '@aarondewes/wp-components';
+import { getProtocol, prependHTTP } from '@aarondewes/wp-url';
+import { link, cancelCircleFilled } from '@aarondewes/wp-icons';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

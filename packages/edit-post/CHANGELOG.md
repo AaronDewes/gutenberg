@@ -21,7 +21,7 @@
 
 ### Internal
 
--   Move the internal `EditorRegions` component to the `@wordpress/block-editor` package, an rename to `EditorSkeleton`. Its class names have thus been renamed from `edit-post-editor-regions` to `block-editor-editor-skeleton`.
+-   Move the internal `EditorRegions` component to the `@aarondewes/wp-block-editor` package, an rename to `EditorSkeleton`. Its class names have thus been renamed from `edit-post-editor-regions` to `block-editor-editor-skeleton`.
 
 ## 3.8.2
 
@@ -78,7 +78,7 @@
 
 ### New Feature
 
--   The new `AdminNotices` component will transparently upgrade any `.notice` elements on the page to the equivalent `@wordpress/notices` module notice state.
+-   The new `AdminNotices` component will transparently upgrade any `.notice` elements on the page to the equivalent `@aarondewes/wp-notices` module notice state.
 
 ## 3.0.2 (2018-11-15)
 

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createContext } from '@wordpress/element';
+import { createContext } from '@aarondewes/wp-element';
 
 // Navigation context in BottomSheet is necessary for controlling the
 // height of navigation container.

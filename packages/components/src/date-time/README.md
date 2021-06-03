@@ -15,8 +15,8 @@ Date pickers should:
 Render a DateTimePicker.
 
 ```jsx
-import { DateTimePicker } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { DateTimePicker } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyDateTimePicker = withState( {
 	date: new Date(),

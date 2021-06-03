@@ -5,7 +5,7 @@
 /**
  * WordPress dependencies
  */
-import { createSlotFill, PanelRow } from '@wordpress/components';
+import { createSlotFill, PanelRow } from '@aarondewes/wp-components';
 
 export const { Fill, Slot } = createSlotFill( 'PluginPostStatusInfo' );
 
@@ -38,8 +38,8 @@ export const { Fill, Slot } = createSlotFill( 'PluginPostStatusInfo' );
  * @example
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@wordpress/i18n';
- * import { PluginPostStatusInfo } from '@wordpress/edit-post';
+ * import { __ } from '@aarondewes/wp-i18n';
+ * import { PluginPostStatusInfo } from '@aarondewes/wp-edit-post';
  *
  * const MyPluginPostStatusInfo = () => (
  * 	<PluginPostStatusInfo

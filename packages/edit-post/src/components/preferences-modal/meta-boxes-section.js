@@ -6,9 +6,9 @@ import { filter, map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { withSelect } from '@wordpress/data';
-import { store as editorStore } from '@wordpress/editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { withSelect } from '@aarondewes/wp-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

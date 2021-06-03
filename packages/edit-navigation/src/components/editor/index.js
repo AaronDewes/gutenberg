@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { BlockList, ObserveTyping, WritingFlow } from '@wordpress/block-editor';
-import { Spinner } from '@wordpress/components';
+import { BlockList, ObserveTyping, WritingFlow } from '@aarondewes/wp-block-editor';
+import { Spinner } from '@aarondewes/wp-components';
 
 export default function Editor( { isPending } ) {
 	return (

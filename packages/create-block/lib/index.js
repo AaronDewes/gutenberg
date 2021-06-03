@@ -44,13 +44,13 @@ program
 	.option( '--category <name>', 'category name for the block' )
 	.option(
 		'--wp-scripts',
-		'enable integration with `@wordpress/scripts` package'
+		'enable integration with `@aarondewes/wp-scripts` package'
 	)
 	.option(
 		'--no-wp-scripts',
-		'disable integration with `@wordpress/scripts` package'
+		'disable integration with `@aarondewes/wp-scripts` package'
 	)
-	.option( '--wp-env', 'enable integration with `@wordpress/env` package' )
+	.option( '--wp-env', 'enable integration with `@aarondewes/wp-env` package' )
 	.action(
 		async (
 			slug,

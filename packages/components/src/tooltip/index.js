@@ -12,8 +12,8 @@ import {
 	concatChildren,
 	useEffect,
 	useState,
-} from '@wordpress/element';
-import { useDebounce } from '@wordpress/compose';
+} from '@aarondewes/wp-element';
+import { useDebounce } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

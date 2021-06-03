@@ -6,18 +6,18 @@ import { View, Dimensions } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { withSelect } from '@wordpress/data';
+import { withSelect } from '@aarondewes/wp-data';
 import {
 	compose,
 	withPreferredColorScheme,
 	useResizeObserver,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 import {
 	InnerBlocks,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useCallback } from '@wordpress/element';
-import { alignmentHelpers } from '@wordpress/components';
+} from '@aarondewes/wp-block-editor';
+import { useCallback } from '@aarondewes/wp-element';
+import { alignmentHelpers } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

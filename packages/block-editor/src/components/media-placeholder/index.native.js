@@ -7,16 +7,16 @@ import { uniqWith } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 import {
 	MediaUpload,
 	MEDIA_TYPE_IMAGE,
 	MEDIA_TYPE_VIDEO,
 	MEDIA_TYPE_AUDIO,
-} from '@wordpress/block-editor';
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { useRef } from '@wordpress/element';
-import { Icon, plusCircleFilled } from '@wordpress/icons';
+} from '@aarondewes/wp-block-editor';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { useRef } from '@aarondewes/wp-element';
+import { Icon, plusCircleFilled } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

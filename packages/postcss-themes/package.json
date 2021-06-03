@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/postcss-themes",
+	"name": "@aarondewes/wp-postcss-themes",
 	"version": "4.0.2",
 	"description": "PostCSS plugin to generate theme colors.",
 	"author": "The WordPress Contributors",

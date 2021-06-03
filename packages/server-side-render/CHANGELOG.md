@@ -35,4 +35,4 @@
 
 ### Initial Release
 
--   Extracted the package from `@wordpress/components` and `@wordpress/editor`;
+-   Extracted the package from `@aarondewes/wp-components` and `@aarondewes/wp-editor`;

@@ -6,10 +6,10 @@ import { isEmpty, reduce, isObject, castArray, startsWith } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component, cloneElement, renderToString } from '@wordpress/element';
-import { hasFilter, applyFilters } from '@wordpress/hooks';
-import isShallowEqual from '@wordpress/is-shallow-equal';
-import { removep } from '@wordpress/autop';
+import { Component, cloneElement, renderToString } from '@aarondewes/wp-element';
+import { hasFilter, applyFilters } from '@aarondewes/wp-hooks';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
+import { removep } from '@aarondewes/wp-autop';
 
 /**
  * Internal dependencies

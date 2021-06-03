@@ -50,7 +50,7 @@ export default withPluginContext(
 Install the module
 
 ```bash
-npm install @wordpress/compose --save
+npm install @aarondewes/wp-compose --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -139,7 +139,7 @@ the wrapper element. This hook adds the behavior to the returned ref.
 _Usage_
 
 ```js
-import { useConstrainedTabbing } from '@wordpress/compose';
+import { useConstrainedTabbing } from '@aarondewes/wp-compose';
 
 const ConstrainedTabbingExample = () => {
     const constrainedTabbingRef = useConstrainedTabbing()
@@ -213,7 +213,7 @@ Hook used to focus the first tabbable element on mount.
 _Usage_
 
 ```js
-import { useFocusOnMount } from '@wordpress/compose';
+import { useFocusOnMount } from '@aarondewes/wp-compose';
 
 const WithFocusOnMount = () => {
     const ref = useFocusOnMount()
@@ -244,7 +244,7 @@ The current hook implements the returning behavior.
 _Usage_
 
 ```js
-import { useFocusReturn } from '@wordpress/compose';
+import { useFocusReturn } from '@aarondewes/wp-compose';
 
 const WithFocusReturn = () => {
     const ref = useFocusReturn()

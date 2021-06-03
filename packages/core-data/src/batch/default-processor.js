@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import apiFetch from '@wordpress/api-fetch';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
 /**
  * Default batch processor. Sends its input requests to /v1/batch.

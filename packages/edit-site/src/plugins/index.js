@@ -6,11 +6,11 @@ import downloadjs from 'downloadjs';
 /**
  * WordPress dependencies
  */
-import { MenuItem } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { registerPlugin } from '@wordpress/plugins';
-import apiFetch from '@wordpress/api-fetch';
-import { download } from '@wordpress/icons';
+import { MenuItem } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { download } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

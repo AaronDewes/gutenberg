@@ -15,9 +15,9 @@ import { map, uniq } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useRef, useEffect } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { useRef, useEffect } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 /**
  * Internal dependencies
  */

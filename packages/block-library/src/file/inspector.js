@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	PanelBody,
 	RangeControl,
 	SelectControl,
 	ToggleControl,
-} from '@wordpress/components';
-import { InspectorControls } from '@wordpress/block-editor';
+} from '@aarondewes/wp-components';
+import { InspectorControls } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

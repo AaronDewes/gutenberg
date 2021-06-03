@@ -6,22 +6,22 @@ import { groupBy, deburr, flatten } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
-import { parse } from '@wordpress/blocks';
-import { useMemo, useCallback } from '@wordpress/element';
-import { ENTER, SPACE } from '@wordpress/keycodes';
-import { __, sprintf } from '@wordpress/i18n';
-import { BlockPreview } from '@wordpress/block-editor';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { parse } from '@aarondewes/wp-blocks';
+import { useMemo, useCallback } from '@aarondewes/wp-element';
+import { ENTER, SPACE } from '@aarondewes/wp-keycodes';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { BlockPreview } from '@aarondewes/wp-block-editor';
 import {
 	__unstableComposite as Composite,
 	__unstableCompositeItem as CompositeItem,
 	Icon,
 	__unstableUseCompositeState as useCompositeState,
-} from '@wordpress/components';
-import { useAsyncList } from '@wordpress/compose';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as editorStore } from '@wordpress/editor';
+} from '@aarondewes/wp-components';
+import { useAsyncList } from '@aarondewes/wp-compose';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 /**
  * Internal dependencies
  */

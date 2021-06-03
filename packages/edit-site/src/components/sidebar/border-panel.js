@@ -4,9 +4,9 @@
 import {
 	__experimentalBorderStyleControl as BorderStyleControl,
 	__experimentalColorGradientControl as ColorGradientControl,
-} from '@wordpress/block-editor';
-import { PanelBody, RangeControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { PanelBody, RangeControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

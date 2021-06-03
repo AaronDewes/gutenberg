@@ -8,9 +8,9 @@ import { orderBy } from 'lodash';
  * WordPress dependencies
  */
 
-import { __ } from '@wordpress/i18n';
-import { ToolbarItem, DropdownMenu, Slot } from '@wordpress/components';
-import { chevronDown } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { ToolbarItem, DropdownMenu, Slot } from '@aarondewes/wp-components';
+import { chevronDown } from '@aarondewes/wp-icons';
 
 const POPOVER_PROPS = {
 	position: 'bottom right',

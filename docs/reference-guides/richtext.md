@@ -29,8 +29,8 @@ There are a number of core blocks using the RichText component. The JavaScript e
 {% ESNext %}
 
 ```js
-import { registerBlockType } from '@wordpress/blocks';
-import { useBlockProps, RichText } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { useBlockProps, RichText } from '@aarondewes/wp-block-editor';
 
 registerBlockType( /* ... */, {
 	// ...

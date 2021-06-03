@@ -6,10 +6,10 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { Spinner } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { subscribeMediaUpload } from '@wordpress/react-native-bridge';
+import { Component } from '@aarondewes/wp-element';
+import { Spinner } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { subscribeMediaUpload } from '@aarondewes/wp-react-native-bridge';
 
 /**
  * Internal dependencies
@@ -120,7 +120,7 @@ export class MediaUploadProgress extends Component {
 		const { isUploadInProgress, isUploadFailed } = this.state;
 		const showSpinner = this.state.isUploadInProgress;
 		const progress = this.state.progress * 100;
-		// eslint-disable-next-line @wordpress/i18n-no-collapsible-whitespace
+		// eslint-disable-next-line @aarondewes/wp-i18n-no-collapsible-whitespace
 		const retryMessage = __(
 			'Failed to insert media.\nPlease tap for options.'
 		);

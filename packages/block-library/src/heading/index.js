@@ -6,8 +6,8 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { heading as icon } from '@wordpress/icons';
-import { __, sprintf } from '@wordpress/i18n';
+import { heading as icon } from '@aarondewes/wp-icons';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

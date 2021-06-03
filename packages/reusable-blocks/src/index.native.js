@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import '@wordpress/core-data';
+import '@aarondewes/wp-core-data';
 
 export { store } from './store';
 export * from './components';

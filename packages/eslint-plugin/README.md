@@ -7,7 +7,7 @@
 Install the module
 
 ```bash
-npm install @wordpress/eslint-plugin --save-dev
+npm install @aarondewes/wp-eslint-plugin --save-dev
 ```
 
 **Note**: This package requires `node` 12.0.0 or later, and `npm` 6.9.0 or later. It is not compatible with older versions.
@@ -18,7 +18,7 @@ To opt-in to the default configuration, extend your own project's `.eslintrc` fi
 
 ```json
 {
-	"extends": [ "plugin:@wordpress/eslint-plugin/recommended" ]
+	"extends": [ "plugin:@aarondewes/wp-eslint-plugin/recommended" ]
 }
 ```
 
@@ -46,7 +46,7 @@ For example, if your project does not use React, you could consider extending in
 
 ```json
 {
-	"extends": [ "plugin:@wordpress/eslint-plugin/esnext" ]
+	"extends": [ "plugin:@aarondewes/wp-eslint-plugin/esnext" ]
 }
 ```
 
@@ -79,8 +79,12 @@ If you are using WordPress' `.jshintrc` JSHint configuration and you would like 
 
 ```json
 {
-	"extends": [ "plugin:@wordpress/eslint-plugin/jshint" ]
+	"extends": [ "plugin:@aarondewes/wp-eslint-plugin/jshint" ]
 }
 ```
 
 <br/><br/><p align="center"><img src="https://s.w.org/style/images/codeispoetry.png?1" alt="Code is Poetry." /></p>
+
+---
+
+This fork contains a few cleanups and one style change by not requiring and remooving spaces around parentheses.

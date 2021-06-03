@@ -12,21 +12,21 @@ import {
 /**
  * WordPress dependencies
  */
-import { withSelect, useDispatch } from '@wordpress/data';
-import { compose, usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { withSelect, useDispatch } from '@aarondewes/wp-data';
+import { compose, usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 import {
 	createBlocksFromInnerBlocksTemplate,
 	store as blocksStore,
-} from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-blocks';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	PanelBody,
 	BottomSheet,
 	FooterMessageControl,
 	InserterButton,
-} from '@wordpress/components';
-import { Icon, close } from '@wordpress/icons';
-import { useMemo } from '@wordpress/element';
+} from '@aarondewes/wp-components';
+import { Icon, close } from '@aarondewes/wp-icons';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

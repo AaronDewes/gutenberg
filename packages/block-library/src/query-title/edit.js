@@ -6,14 +6,14 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-// import { useSelect, useDispatch } from '@wordpress/data';
+// import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	AlignmentControl,
 	BlockControls,
 	useBlockProps,
 	Warning,
-} from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

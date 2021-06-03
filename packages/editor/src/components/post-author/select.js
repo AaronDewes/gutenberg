@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { decodeEntities } from '@wordpress/html-entities';
-import { SelectControl } from '@wordpress/components';
-import { store as coreStore } from '@wordpress/core-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { SelectControl } from '@aarondewes/wp-components';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

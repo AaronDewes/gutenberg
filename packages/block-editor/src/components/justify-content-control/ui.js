@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { ToolbarDropdownMenu, ToolbarGroup } from '@wordpress/components';
+import { ToolbarDropdownMenu, ToolbarGroup } from '@aarondewes/wp-components';
 import {
 	justifyLeft,
 	justifyCenter,
 	justifyRight,
 	justifySpaceBetween,
-} from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
 
 const icons = {
 	left: justifyLeft,

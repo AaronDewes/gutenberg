@@ -6,12 +6,12 @@ import { some } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
-import { compose, ifCondition } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
-import { PanelBody } from '@wordpress/components';
-import { store as coreStore } from '@wordpress/core-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
+import { compose, ifCondition } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
+import { PanelBody } from '@aarondewes/wp-components';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

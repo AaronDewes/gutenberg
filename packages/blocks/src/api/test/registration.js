@@ -8,9 +8,9 @@ import { noop, get, omit, pick } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { addFilter, removeAllFilters, removeFilter } from '@wordpress/hooks';
-import { select } from '@wordpress/data';
-import { blockDefault as blockIcon } from '@wordpress/icons';
+import { addFilter, removeAllFilters, removeFilter } from '@aarondewes/wp-hooks';
+import { select } from '@aarondewes/wp-data';
+import { blockDefault as blockIcon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { MenuItem, VisuallyHidden } from '@wordpress/components';
-import { external } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
-import { registerPlugin } from '@wordpress/plugins';
-import { addQueryArgs } from '@wordpress/url';
+import { MenuItem, VisuallyHidden } from '@aarondewes/wp-components';
+import { external } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

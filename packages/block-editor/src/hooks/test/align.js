@@ -7,12 +7,12 @@ import renderer, { act } from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { applyFilters } from '@wordpress/hooks';
+import { applyFilters } from '@aarondewes/wp-hooks';
 import {
 	getBlockTypes,
 	registerBlockType,
 	unregisterBlockType,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

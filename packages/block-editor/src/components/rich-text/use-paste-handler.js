@@ -1,18 +1,18 @@
 /**
  * WordPress dependencies
  */
-import { useRef } from '@wordpress/element';
-import { useRefEffect } from '@wordpress/compose';
-import { getFilesFromDataTransfer } from '@wordpress/dom';
-import { pasteHandler } from '@wordpress/blocks';
+import { useRef } from '@aarondewes/wp-element';
+import { useRefEffect } from '@aarondewes/wp-compose';
+import { getFilesFromDataTransfer } from '@aarondewes/wp-dom';
+import { pasteHandler } from '@aarondewes/wp-blocks';
 import {
 	isEmpty,
 	insert,
 	create,
 	replace,
 	__UNSTABLE_LINE_SEPARATOR as LINE_SEPARATOR,
-} from '@wordpress/rich-text';
-import { isURL } from '@wordpress/url';
+} from '@aarondewes/wp-rich-text';
+import { isURL } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

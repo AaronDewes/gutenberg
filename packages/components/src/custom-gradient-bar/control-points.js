@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { useEffect, useRef, useState } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
-import { plus } from '@wordpress/icons';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useEffect, useRef, useState } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { plus } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

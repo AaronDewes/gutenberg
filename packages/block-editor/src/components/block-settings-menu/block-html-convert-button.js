@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { rawHandler, getBlockContent } from '@wordpress/blocks';
-import { compose } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
+import { rawHandler, getBlockContent } from '@aarondewes/wp-blocks';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

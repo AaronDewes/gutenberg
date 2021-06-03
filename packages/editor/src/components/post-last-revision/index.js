@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { sprintf, _n } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
-import { withSelect } from '@wordpress/data';
-import { backup } from '@wordpress/icons';
+import { sprintf, _n } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
+import { withSelect } from '@aarondewes/wp-data';
+import { backup } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

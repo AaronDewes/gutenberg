@@ -6,9 +6,9 @@ import { defaultTo } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { store as coreStore } from '@wordpress/core-data';
-import { useSelect } from '@wordpress/data';
-import { useMemo, createPortal } from '@wordpress/element';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { useSelect } from '@aarondewes/wp-data';
+import { useMemo, createPortal } from '@aarondewes/wp-element';
 import {
 	BlockList,
 	BlockTools,
@@ -18,8 +18,8 @@ import {
 	WritingFlow,
 	BlockEditorKeyboardShortcuts,
 	__unstableBlockSettingsMenuFirstItem,
-} from '@wordpress/block-editor';
-import { uploadMedia } from '@wordpress/media-utils';
+} from '@aarondewes/wp-block-editor';
+import { uploadMedia } from '@aarondewes/wp-media-utils';
 
 /**
  * Internal dependencies

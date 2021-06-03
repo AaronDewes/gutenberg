@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { postDate as icon } from '@wordpress/icons';
+import { postDate as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

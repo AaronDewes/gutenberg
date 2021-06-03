@@ -5,38 +5,38 @@
 ## Installation
 
 ```bash
-$ npm install @wordpress/stylelint-config --save-dev
+$ npm install @aarondewes/wp-stylelint-config --save-dev
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It is not compatible with older versions.
 
 ## Usage
 
-If you've installed `@wordpress/stylelint-config` locally within your project, just set your `stylelint` config to:
+If you've installed `@aarondewes/wp-stylelint-config` locally within your project, just set your `stylelint` config to:
 
 ```json
 {
-	"extends": "@wordpress/stylelint-config"
+	"extends": "@aarondewes/wp-stylelint-config"
 }
 ```
 
-If you've globally installed `@wordpress/stylelint-config` using the `-g` flag, then you'll need to use the absolute path to `@wordpress/stylelint-config` in your config:
+If you've globally installed `@aarondewes/wp-stylelint-config` using the `-g` flag, then you'll need to use the absolute path to `@aarondewes/wp-stylelint-config` in your config:
 
 ```json
 {
-	"extends": "/absolute/path/to/@wordpress/stylelint-config"
+	"extends": "/absolute/path/to/@aarondewes/wp-stylelint-config"
 }
 ```
 
 ## Presets
 
-In addition to the default preset, there is also a SCSS preset. This preset extends both `@wordpress/stylelint-config` and [`stylelint-config-recommended-scss`](https://github.com/kristerkari/stylelint-config-recommended-scss).
+In addition to the default preset, there is also a SCSS preset. This preset extends both `@aarondewes/wp-stylelint-config` and [`stylelint-config-recommended-scss`](https://github.com/kristerkari/stylelint-config-recommended-scss).
 
 ### SCSS
 
 ```json
 {
-	"extends": [ "@wordpress/stylelint-config/scss" ]
+	"extends": [ "@aarondewes/wp-stylelint-config/scss" ]
 }
 ```
 
@@ -48,7 +48,7 @@ For example, to change the `indentation` to four spaces and turn off the `number
 
 ```json
 {
-	"extends": "@wordpress/stylelint-config",
+	"extends": "@aarondewes/wp-stylelint-config",
 	"rules": {
 		"indentation": 4,
 		"number-leading-zero": null

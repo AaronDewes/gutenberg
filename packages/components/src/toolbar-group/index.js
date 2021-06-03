@@ -7,7 +7,7 @@ import { flatMap } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useContext } from '@wordpress/element';
+import { useContext } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

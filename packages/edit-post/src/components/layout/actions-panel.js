@@ -5,11 +5,11 @@ import {
 	EntitiesSavedStates,
 	PostPublishPanel,
 	store as editorStore,
-} from '@wordpress/editor';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { Button, createSlotFill } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useCallback } from '@wordpress/element';
+} from '@aarondewes/wp-editor';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { Button, createSlotFill } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useCallback } from '@aarondewes/wp-element';
 /**
  * Internal dependencies
  */

@@ -11,9 +11,9 @@ import {
 	MenuItemsChoice,
 	MenuItem,
 	Modal,
-} from '@wordpress/components';
-import { useState } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

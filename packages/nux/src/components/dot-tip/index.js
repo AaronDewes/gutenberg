@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { compose } from '@wordpress/compose';
-import { Popover, Button } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { useCallback, useRef } from '@wordpress/element';
-import { close } from '@wordpress/icons';
+import { compose } from '@aarondewes/wp-compose';
+import { Popover, Button } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { useCallback, useRef } from '@aarondewes/wp-element';
+import { close } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

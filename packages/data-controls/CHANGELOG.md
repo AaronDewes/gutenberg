@@ -22,7 +22,7 @@
 ### Deprecations
 
 -   Deprecated the `syncSelect`, `select` and `dispatch` controls that are now part of
-    `@wordpress/data` and built in by default in every data store.
+    `@aarondewes/wp-data` and built in by default in every data store.
 
 ## 1.4.0 (2019-11-14)
 
@@ -32,4 +32,4 @@
 
 ## 1.0.0 (2019-06-12)
 
-Initial release of the @wordpress/data-controls package.
+Initial release of the @aarondewes/wp-data-controls package.

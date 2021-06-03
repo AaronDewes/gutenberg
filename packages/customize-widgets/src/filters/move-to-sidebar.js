@@ -9,11 +9,11 @@ import { without } from 'lodash';
 import {
 	BlockControls,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { useSelect } from '@wordpress/data';
-import { addFilter } from '@wordpress/hooks';
-import { MoveToWidgetArea, getWidgetIdFromBlock } from '@wordpress/widgets';
+} from '@aarondewes/wp-block-editor';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { useSelect } from '@aarondewes/wp-data';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { MoveToWidgetArea, getWidgetIdFromBlock } from '@aarondewes/wp-widgets';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { forwardRef } from '@wordpress/element';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

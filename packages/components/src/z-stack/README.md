@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 `ZStack` allows you to stack things along the Z-axis.
 
 ```jsx
-import { __experimentalZStack as ZStack } from '@wordpress/components';
+import { __experimentalZStack as ZStack } from '@aarondewes/wp-components';
 
 function Example() {
 	return (

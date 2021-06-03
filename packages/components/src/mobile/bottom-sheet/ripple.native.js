@@ -11,7 +11,7 @@ import {
 /**
  * WordPress dependencies
  */
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

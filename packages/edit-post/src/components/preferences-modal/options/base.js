@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { ToggleControl } from '@wordpress/components';
+import { ToggleControl } from '@aarondewes/wp-components';
 
 function BaseOption( { help, label, isChecked, onChange, children } ) {
 	return (

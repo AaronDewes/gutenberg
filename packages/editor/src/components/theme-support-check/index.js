@@ -6,8 +6,8 @@ import { castArray, includes, isArray, get, some } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { withSelect } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+import { withSelect } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

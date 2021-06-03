@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { SVG, Path } from '@wordpress/components';
-import { paragraph } from '@wordpress/icons';
+import { SVG, Path } from '@aarondewes/wp-components';
+import { paragraph } from '@aarondewes/wp-icons';
 
 export default function LevelIcon( { level, isPressed = false } ) {
 	if ( level === 0 ) return paragraph;

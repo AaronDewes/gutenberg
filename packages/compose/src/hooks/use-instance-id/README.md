@@ -8,7 +8,7 @@ Some components need to generate a unique id for each instance. This could serve
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
+import { useInstanceId } from '@aarondewes/wp-compose';
 
 function MyCustomElement() {
 	const instanceId = useInstanceId( MyCustomElement );

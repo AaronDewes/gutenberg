@@ -14,7 +14,7 @@ import { useVStack } from './hook';
  * import {
  * 	__experimentalText as Text,
  * 	__experimentalVStack as VStack,
- * } from `@wordpress/components`;
+ * } from `@aarondewes/wp-components`;
  *
  * function Example() {
  * 	return (

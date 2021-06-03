@@ -13,8 +13,8 @@ import { take, values, map, reduce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState, useEffect } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

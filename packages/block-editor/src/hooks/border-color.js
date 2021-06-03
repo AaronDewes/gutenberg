@@ -6,9 +6,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { __ } from '@wordpress/i18n';
-import { createHigherOrderComponent } from '@wordpress/compose';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { __ } from '@aarondewes/wp-i18n';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

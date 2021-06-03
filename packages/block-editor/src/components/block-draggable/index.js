@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { getBlockType } from '@wordpress/blocks';
-import { Draggable } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useEffect, useRef } from '@wordpress/element';
+import { getBlockType } from '@aarondewes/wp-blocks';
+import { Draggable } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useEffect, useRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -6,7 +6,7 @@ import {
 	getEditedPostContent,
 	createNewPost,
 	dragAndResize,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Spacer', () => {
 	beforeEach( async () => {

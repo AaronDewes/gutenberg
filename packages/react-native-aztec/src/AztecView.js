@@ -12,8 +12,8 @@ import TextInputState from 'react-native/Libraries/Components/TextInput/TextInpu
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { ENTER, BACKSPACE } from '@wordpress/keycodes';
+import { Component } from '@aarondewes/wp-element';
+import { ENTER, BACKSPACE } from '@aarondewes/wp-keycodes';
 
 const AztecManager = UIManager.getViewManagerConfig( 'RCTAztecView' );
 

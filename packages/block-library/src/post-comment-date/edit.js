@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { useEntityProp } from '@wordpress/core-data';
-import { __experimentalGetSettings, dateI18n } from '@wordpress/date';
-import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
-import { PanelBody, CustomSelectControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { __experimentalGetSettings, dateI18n } from '@aarondewes/wp-date';
+import { InspectorControls, useBlockProps } from '@aarondewes/wp-block-editor';
+import { PanelBody, CustomSelectControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function Edit( { attributes, context, setAttributes } ) {
 	const { className, format } = attributes;

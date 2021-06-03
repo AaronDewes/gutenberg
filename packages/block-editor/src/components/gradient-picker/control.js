@@ -7,8 +7,8 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { BaseControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { BaseControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

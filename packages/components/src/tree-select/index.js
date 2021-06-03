@@ -6,7 +6,7 @@ import { unescape as unescapeString, repeat, flatMap, compact } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 /**
  * Internal dependencies
  */

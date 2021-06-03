@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { PostSavedState, PostPreviewButton } from '@wordpress/editor';
-import { useSelect } from '@wordpress/data';
-import { PinnedItems } from '@wordpress/interface';
-import { useViewportMatch } from '@wordpress/compose';
+import { PostSavedState, PostPreviewButton } from '@aarondewes/wp-editor';
+import { useSelect } from '@aarondewes/wp-data';
+import { PinnedItems } from '@aarondewes/wp-interface';
+import { useViewportMatch } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

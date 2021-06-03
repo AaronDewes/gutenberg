@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createRegistryControl } from '@wordpress/data';
+import { createRegistryControl } from '@aarondewes/wp-data';
 
 export function regularFetch( url ) {
 	return {

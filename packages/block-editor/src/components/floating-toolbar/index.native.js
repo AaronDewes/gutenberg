@@ -6,11 +6,11 @@ import { Animated, Easing, View, Platform } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { ToolbarButton, Toolbar } from '@wordpress/components';
-import { useEffect, useState, useRef } from '@wordpress/element';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
+import { ToolbarButton, Toolbar } from '@aarondewes/wp-components';
+import { useEffect, useState, useRef } from '@aarondewes/wp-element';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

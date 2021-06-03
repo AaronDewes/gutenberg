@@ -7,7 +7,7 @@ Allows you to render a raw icon without any initial styling or wrappers.
 #### With a Dashicon
 
 ```jsx
-import { Icon } from '@wordpress/components';
+import { Icon } from '@aarondewes/wp-components';
 
 const MyIcon = () => <Icon icon="screenoptions" />;
 ```
@@ -15,7 +15,7 @@ const MyIcon = () => <Icon icon="screenoptions" />;
 #### With a function
 
 ```jsx
-import { Icon } from '@wordpress/components';
+import { Icon } from '@aarondewes/wp-components';
 
 const MyIcon = () => (
 	<Icon
@@ -32,7 +32,7 @@ const MyIcon = () => (
 
 ```jsx
 import { MyIconComponent } from '../my-icon-component';
-import { Icon } from '@wordpress/components';
+import { Icon } from '@aarondewes/wp-components';
 
 const MyIcon = () => <Icon icon={ MyIconComponent } />;
 ```
@@ -40,7 +40,7 @@ const MyIcon = () => <Icon icon={ MyIconComponent } />;
 #### With an SVG
 
 ```jsx
-import { Icon } from '@wordpress/components';
+import { Icon } from '@aarondewes/wp-components';
 
 const MyIcon = () => (
 	<Icon
@@ -56,7 +56,7 @@ const MyIcon = () => (
 #### Specifying a className
 
 ```jsx
-import { Icon } from '@wordpress/components';
+import { Icon } from '@aarondewes/wp-components';
 
 const MyIcon = () => <Icon icon="screenoptions" className="example-class" />;
 ```

@@ -7,11 +7,11 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
-import { Component, createRef } from '@wordpress/element';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
+import { Button } from '@aarondewes/wp-components';
+import { Component, createRef } from '@aarondewes/wp-element';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

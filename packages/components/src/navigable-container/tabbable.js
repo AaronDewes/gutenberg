@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { forwardRef } from '@wordpress/element';
-import { TAB } from '@wordpress/keycodes';
+import { forwardRef } from '@aarondewes/wp-element';
+import { TAB } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

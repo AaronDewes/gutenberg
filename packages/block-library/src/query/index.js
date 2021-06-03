@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { loop as icon } from '@wordpress/icons';
-import { addFilter } from '@wordpress/hooks';
+import { loop as icon } from '@aarondewes/wp-icons';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

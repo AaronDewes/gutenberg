@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { useDispatch, useSelect } from '@wordpress/data';
-import { Button } from '@wordpress/components';
-import { __experimentalLibrary as Library } from '@wordpress/block-editor';
-import { close } from '@wordpress/icons';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { Button } from '@aarondewes/wp-components';
+import { __experimentalLibrary as Library } from '@aarondewes/wp-block-editor';
+import { close } from '@aarondewes/wp-icons';
 import {
 	useViewportMatch,
 	__experimentalUseDialog as useDialog,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

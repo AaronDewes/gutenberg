@@ -6,7 +6,7 @@ import { escapeRegExp } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createInterpolateElement } from '@wordpress/element';
+import { createInterpolateElement } from '@aarondewes/wp-element';
 
 const TextHighlight = ( { text = '', highlight = '' } ) => {
 	const trimmedHighlightText = highlight.trim();

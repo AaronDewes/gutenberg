@@ -63,8 +63,8 @@ The `value` property is handled in a manner similar to controlled form component
 ## Usage
 
 ```jsx
-import { FormTokenField } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { FormTokenField } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyFormTokenField = withState( {
 	tokens: [],

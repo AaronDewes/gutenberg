@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/warning",
+	"name": "@aarondewes/wp-warning",
 	"version": "2.1.1",
 	"description": "Warning utility for WordPress.",
 	"author": "The WordPress Contributors",

@@ -6,20 +6,20 @@ import { pickBy, mapValues, isEmpty, mapKeys } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { select as globalSelect, useSelect } from '@wordpress/data';
-import { useEntityProp } from '@wordpress/core-data';
-import { useMemo } from '@wordpress/element';
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { addFilter } from '@wordpress/hooks';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { select as globalSelect, useSelect } from '@aarondewes/wp-data';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { useMemo } from '@aarondewes/wp-element';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies
  */
 import { store as editorStore } from '../store';
 
-/** @typedef {import('@wordpress/compose').WPHigherOrderComponent} WPHigherOrderComponent */
-/** @typedef {import('@wordpress/blocks').WPBlockSettings} WPBlockSettings */
+/** @typedef {import('@aarondewes/wp-compose').WPHigherOrderComponent} WPHigherOrderComponent */
+/** @typedef {import('@aarondewes/wp-blocks').WPBlockSettings} WPBlockSettings */
 
 /**
  * Object whose keys are the names of block attributes, where each value

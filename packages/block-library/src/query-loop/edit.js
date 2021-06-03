@@ -6,18 +6,18 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useState, useMemo } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
+import { useState, useMemo } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	BlockContextProvider,
 	BlockPreview,
 	useBlockProps,
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { Spinner } from '@wordpress/components';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { Spinner } from '@aarondewes/wp-components';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 const TEMPLATE = [
 	[ 'core/post-title' ],

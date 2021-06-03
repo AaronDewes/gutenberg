@@ -1,18 +1,18 @@
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
-import { __, _x } from '@wordpress/i18n';
-import { Button, ToolbarItem, VisuallyHidden } from '@wordpress/components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { Button, ToolbarItem, VisuallyHidden } from '@aarondewes/wp-components';
 import {
 	BlockNavigationDropdown,
 	NavigableToolbar,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { PinnedItems } from '@wordpress/interface';
-import { plus } from '@wordpress/icons';
-import { useRef } from '@wordpress/element';
-import { useViewportMatch } from '@wordpress/compose';
+} from '@aarondewes/wp-block-editor';
+import { PinnedItems } from '@aarondewes/wp-interface';
+import { plus } from '@aarondewes/wp-icons';
+import { useRef } from '@aarondewes/wp-element';
+import { useViewportMatch } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

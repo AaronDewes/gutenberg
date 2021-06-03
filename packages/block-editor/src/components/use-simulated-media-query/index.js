@@ -7,8 +7,8 @@ import { match } from 'css-mediaquery';
 /**
  * WordPress dependencies
  */
-import { useEffect } from '@wordpress/element';
-import { getProtocol, getAuthority } from '@wordpress/url';
+import { useEffect } from '@aarondewes/wp-element';
+import { getProtocol, getAuthority } from '@aarondewes/wp-url';
 
 const ENABLED_MEDIA_QUERY = '(min-width:0px)';
 const DISABLED_MEDIA_QUERY = '(min-width:999999px)';

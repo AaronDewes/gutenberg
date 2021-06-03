@@ -15,12 +15,12 @@ import {
 	RangeControl,
 	ToggleControl,
 	Notice,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { InspectorControls } from '@wordpress/block-editor';
-import { useSelect } from '@wordpress/data';
-import { useEffect, useState, useCallback } from '@wordpress/element';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { InspectorControls } from '@aarondewes/wp-block-editor';
+import { useSelect } from '@aarondewes/wp-data';
+import { useEffect, useState, useCallback } from '@aarondewes/wp-element';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

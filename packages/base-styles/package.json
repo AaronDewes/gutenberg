@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/base-styles",
+	"name": "@aarondewes/wp-base-styles",
 	"version": "3.5.1",
 	"description": "Base SCSS utilities and variables for WordPress.",
 	"author": "The WordPress Contributors",

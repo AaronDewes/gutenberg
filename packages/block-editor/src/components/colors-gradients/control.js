@@ -7,7 +7,7 @@ import { every, isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
+import { useState } from '@aarondewes/wp-element';
 import {
 	BaseControl,
 	Button,
@@ -15,8 +15,8 @@ import {
 	ColorIndicator,
 	ColorPalette,
 	__experimentalGradientPicker as GradientPicker,
-} from '@wordpress/components';
-import { sprintf, __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { sprintf, __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

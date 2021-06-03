@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { Icon } from '@wordpress/components';
-import { store as editorStore } from '@wordpress/editor';
-import { store as coreStore } from '@wordpress/core-data';
+import { useSelect } from '@aarondewes/wp-data';
+import { Icon } from '@aarondewes/wp-components';
+import { store as editorStore } from '@aarondewes/wp-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

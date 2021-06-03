@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { __, _x } from '@wordpress/i18n';
-import { Button, Modal } from '@wordpress/components';
-import { useState, useCallback, useMemo } from '@wordpress/element';
-import { getBlockType, createBlock, rawHandler } from '@wordpress/blocks';
-import { compose } from '@wordpress/compose';
-import { withDispatch, withSelect } from '@wordpress/data';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { Button, Modal } from '@aarondewes/wp-components';
+import { useState, useCallback, useMemo } from '@aarondewes/wp-element';
+import { getBlockType, createBlock, rawHandler } from '@aarondewes/wp-blocks';
+import { compose } from '@aarondewes/wp-compose';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

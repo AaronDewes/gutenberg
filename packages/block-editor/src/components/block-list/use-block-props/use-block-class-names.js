@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { isReusableBlock, getBlockType } from '@wordpress/blocks';
+import { useSelect } from '@aarondewes/wp-data';
+import { isReusableBlock, getBlockType } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

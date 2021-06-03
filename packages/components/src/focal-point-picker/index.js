@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Component, createRef } from '@wordpress/element';
-import { withInstanceId } from '@wordpress/compose';
-import { UP, DOWN, LEFT, RIGHT } from '@wordpress/keycodes';
+import { __ } from '@aarondewes/wp-i18n';
+import { Component, createRef } from '@aarondewes/wp-element';
+import { withInstanceId } from '@aarondewes/wp-compose';
+import { UP, DOWN, LEFT, RIGHT } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

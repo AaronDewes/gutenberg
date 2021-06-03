@@ -7,8 +7,8 @@ import classNames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { useState, forwardRef } from '@wordpress/element';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useState, forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

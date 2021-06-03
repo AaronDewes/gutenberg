@@ -6,17 +6,17 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	InspectorControls,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { PanelBody, ResizableBox, RangeControl } from '@wordpress/components';
-import { compose, withInstanceId } from '@wordpress/compose';
-import { withDispatch } from '@wordpress/data';
-import { useState, useEffect } from '@wordpress/element';
-import { View } from '@wordpress/primitives';
+} from '@aarondewes/wp-block-editor';
+import { PanelBody, ResizableBox, RangeControl } from '@aarondewes/wp-components';
+import { compose, withInstanceId } from '@aarondewes/wp-compose';
+import { withDispatch } from '@aarondewes/wp-data';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import { View } from '@aarondewes/wp-primitives';
 
 const MIN_SPACER_HEIGHT = 1;
 const MAX_SPACER_HEIGHT = 500;

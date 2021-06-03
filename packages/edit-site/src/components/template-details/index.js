@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	Button,
 	MenuItem,
 	__experimentalText as Text,
-} from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as editorStore } from '@wordpress/editor';
+} from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

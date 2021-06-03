@@ -9,7 +9,7 @@ NumberControl is an enhanced HTML [`input[type="number]`](https://developer.mozi
 ## Usage
 
 ```jsx
-import { __experimentalNumberControl as NumberControl } from '@wordpress/components';
+import { __experimentalNumberControl as NumberControl } from '@aarondewes/wp-components';
 
 const Example = () => {
 	const [ value, setValue ] = useState( 10 );

@@ -5,8 +5,8 @@
 ## Usage
 
 ```jsx
-import { DropZone } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { DropZone } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyDropZone = withState( {
 	hasDropped: false,

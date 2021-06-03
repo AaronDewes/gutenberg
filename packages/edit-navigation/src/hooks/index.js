@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { createContext } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { createContext } from '@aarondewes/wp-element';
 
 export const untitledMenu = __( '(untitled menu)' );
 export const IsMenuNameControlFocusedContext = createContext();

@@ -7,7 +7,7 @@ const globals = require( 'globals' );
  * The temporary list of types defined in Gutenberg which are allowed to avoid
  * ESLint warnings. It should be removed once importing is going to be implemented
  * in the tool which generates public APIs from JSDoc comments. Related issue to
- * fix the root cause `@wordpress/docgen`:
+ * fix the root cause `@aarondewes/wp-docgen`:
  * https://github.com/WordPress/gutenberg/issues/18045.
  */
 const temporaryWordPressInternalTypes = [

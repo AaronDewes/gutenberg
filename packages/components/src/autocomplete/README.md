@@ -102,7 +102,7 @@ Whether to apply debouncing for the autocompleter. Set to true to enable debounc
 The following is a contrived completer for fresh fruit.
 
 ```jsx
-import { Autocomplete } from '@wordpress/components';
+import { Autocomplete } from '@aarondewes/wp-components';
 
 const MyAutocomplete = () => {
 	const autocompleters = [

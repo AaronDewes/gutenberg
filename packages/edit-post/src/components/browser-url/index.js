@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { withSelect } from '@wordpress/data';
-import { addQueryArgs } from '@wordpress/url';
-import { store as editorStore } from '@wordpress/editor';
+import { Component } from '@aarondewes/wp-element';
+import { withSelect } from '@aarondewes/wp-data';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Returns the Post's Edit URL.

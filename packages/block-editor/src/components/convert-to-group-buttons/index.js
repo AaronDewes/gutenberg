@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { MenuItem } from '@wordpress/components';
-import { _x } from '@wordpress/i18n';
-import { switchToBlockType } from '@wordpress/blocks';
-import { useDispatch } from '@wordpress/data';
+import { MenuItem } from '@aarondewes/wp-components';
+import { _x } from '@aarondewes/wp-i18n';
+import { switchToBlockType } from '@aarondewes/wp-blocks';
+import { useDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

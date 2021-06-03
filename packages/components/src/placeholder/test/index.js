@@ -6,8 +6,8 @@ import { shallow } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { more } from '@wordpress/icons';
-import { useResizeObserver } from '@wordpress/compose';
+import { more } from '@aarondewes/wp-icons';
+import { useResizeObserver } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

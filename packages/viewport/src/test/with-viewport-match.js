@@ -6,8 +6,8 @@ import renderer from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { useViewportMatch as useViewportMatchMock } from '@wordpress/compose';
+import { Component } from '@aarondewes/wp-element';
+import { useViewportMatch as useViewportMatchMock } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

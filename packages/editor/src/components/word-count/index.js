@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { _x } from '@wordpress/i18n';
-import { count as wordCount } from '@wordpress/wordcount';
+import { useSelect } from '@aarondewes/wp-data';
+import { _x } from '@aarondewes/wp-i18n';
+import { count as wordCount } from '@aarondewes/wp-wordcount';
 
 /**
  * Internal dependencies

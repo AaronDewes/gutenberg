@@ -6,7 +6,7 @@ import { debounce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState, useCallback, useEffect } from '@wordpress/element';
+import { useState, useCallback, useEffect } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

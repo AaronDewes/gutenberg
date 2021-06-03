@@ -8,8 +8,8 @@ Sometimes you need to get the value something had on the previous render. `usePr
 /**
  * WordPress dependencies
  */
-import { usePrevious } from '@wordpress/compose';
-import { useEffect, useState } from '@wordpress/element';
+import { usePrevious } from '@aarondewes/wp-compose';
+import { useEffect, useState } from '@aarondewes/wp-element';
 
 function MyCustomElement() {
 	const [ myNumber, setMyNumber ] = useState( 5 );

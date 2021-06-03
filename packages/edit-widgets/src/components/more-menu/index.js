@@ -6,12 +6,12 @@ import {
 	MenuGroup,
 	MenuItem,
 	VisuallyHidden,
-} from '@wordpress/components';
-import { useState } from '@wordpress/element';
-import { __, _x } from '@wordpress/i18n';
-import { external, moreVertical } from '@wordpress/icons';
-import { displayShortcut } from '@wordpress/keycodes';
-import { useShortcut } from '@wordpress/keyboard-shortcuts';
+} from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { external, moreVertical } from '@aarondewes/wp-icons';
+import { displayShortcut } from '@aarondewes/wp-keycodes';
+import { useShortcut } from '@aarondewes/wp-keyboard-shortcuts';
 
 /**
  * Internal dependencies

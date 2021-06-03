@@ -11,7 +11,7 @@ import {
 	useBlockProps,
 	__experimentalGetBorderClassesAndStyles as getBorderClassesAndStyles,
 	__experimentalGetColorClassesAndStyles as getColorClassesAndStyles,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 export default function save( { attributes } ) {
 	const { hasFixedLayout, head, body, foot, caption } = attributes;

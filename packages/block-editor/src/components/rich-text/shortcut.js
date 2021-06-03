@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useKeyboardShortcut } from '@wordpress/compose';
-import { rawShortcut } from '@wordpress/keycodes';
+import { useKeyboardShortcut } from '@aarondewes/wp-compose';
+import { rawShortcut } from '@aarondewes/wp-keycodes';
 
 export function RichTextShortcut( { character, type, onUse } ) {
 	const callback = () => {

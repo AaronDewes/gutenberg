@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { regexp } from '@wordpress/shortcode';
-import deprecated from '@wordpress/deprecated';
+import { regexp } from '@aarondewes/wp-shortcode';
+import deprecated from '@aarondewes/wp-deprecated';
 
 export function addActiveFormats( value, activeFormats ) {
 	if ( activeFormats.length ) {

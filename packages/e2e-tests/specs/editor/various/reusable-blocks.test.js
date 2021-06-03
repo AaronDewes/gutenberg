@@ -14,7 +14,7 @@ import {
 	toggleGlobalBlockInserter,
 	openDocumentSettingsSidebar,
 	saveDraft,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const reusableBlockNameInputSelector =
 	'.reusable-blocks-menu-items__convert-modal .components-text-control__input';

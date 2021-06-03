@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
+import { InspectorControls, useBlockProps } from '@aarondewes/wp-block-editor';
 import {
 	Disabled,
 	PanelBody,
 	RangeControl,
 	ToggleControl,
-} from '@wordpress/components';
-import ServerSideRender from '@wordpress/server-side-render';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import ServerSideRender from '@aarondewes/wp-server-side-render';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Minimum number of comments a user can show using this block.

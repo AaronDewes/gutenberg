@@ -6,7 +6,7 @@ import { cx } from 'emotion';
 /**
  * WordPress dependencies
  */
-import warn from '@wordpress/warning';
+import warn from '@aarondewes/wp-warning';
 
 /**
  * Internal dependencies

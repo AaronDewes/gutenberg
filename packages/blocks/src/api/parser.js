@@ -7,9 +7,9 @@ import { flow, get, castArray, mapValues, omit, stubFalse } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { autop } from '@wordpress/autop';
-import { applyFilters } from '@wordpress/hooks';
-import { parse as defaultParse } from '@wordpress/block-serialization-default-parser';
+import { autop } from '@aarondewes/wp-autop';
+import { applyFilters } from '@aarondewes/wp-hooks';
+import { parse as defaultParse } from '@aarondewes/wp-block-serialization-default-parser';
 /**
  * Internal dependencies
  */
@@ -612,15 +612,15 @@ export function createBlockWithFallback( blockNode ) {
  * CAVEAT: This function is intended for reserializing blocks as parsed by
  * valid parsers and skips any validation steps. This is NOT a generic
  * serialization function for in-memory blocks. For most purposes, see the
- * following functions available in the `@wordpress/blocks` package:
+ * following functions available in the `@aarondewes/wp-blocks` package:
  *
  * @see serializeBlock
  * @see serialize
  *
  * For more on the format of block nodes as returned by valid parsers:
  *
- * @see `@wordpress/block-serialization-default-parser` package
- * @see `@wordpress/block-serialization-spec-parser` package
+ * @see `@aarondewes/wp-block-serialization-default-parser` package
+ * @see `@aarondewes/wp-block-serialization-spec-parser` package
  *
  * @param {Object}   blockNode                  A block node as returned by a valid parser.
  * @param {?Object}  options                    Serialization options.

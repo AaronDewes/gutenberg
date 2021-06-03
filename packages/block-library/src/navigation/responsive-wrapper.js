@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { close, Icon } from '@wordpress/icons';
-import { Button } from '@wordpress/components';
-import { SVG, Rect } from '@wordpress/primitives';
-import { __ } from '@wordpress/i18n';
+import { close, Icon } from '@aarondewes/wp-icons';
+import { Button } from '@aarondewes/wp-components';
+import { SVG, Rect } from '@aarondewes/wp-primitives';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function ResponsiveWrapper( {
 	children,

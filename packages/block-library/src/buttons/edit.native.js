@@ -12,12 +12,12 @@ import {
 	InnerBlocks,
 	JustifyContentControl,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { createBlock } from '@wordpress/blocks';
-import { useResizeObserver } from '@wordpress/compose';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useState, useEffect, useRef, useCallback } from '@wordpress/element';
-import { alignmentHelpers } from '@wordpress/components';
+} from '@aarondewes/wp-block-editor';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { useResizeObserver } from '@aarondewes/wp-compose';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useState, useEffect, useRef, useCallback } from '@aarondewes/wp-element';
+import { alignmentHelpers } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

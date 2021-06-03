@@ -6,9 +6,9 @@ import { pick } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { withFilters } from '@wordpress/components';
-import { getBlockType } from '@wordpress/blocks';
-import { useContext, useMemo } from '@wordpress/element';
+import { withFilters } from '@aarondewes/wp-components';
+import { getBlockType } from '@aarondewes/wp-blocks';
+import { useContext, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -7,8 +7,8 @@ import { partial, noop, find } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState, useEffect } from '@wordpress/element';
-import { useInstanceId } from '@wordpress/compose';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import { useInstanceId } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

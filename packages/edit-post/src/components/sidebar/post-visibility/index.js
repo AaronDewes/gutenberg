@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelRow, Dropdown, Button } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelRow, Dropdown, Button } from '@aarondewes/wp-components';
 import {
 	PostVisibility as PostVisibilityForm,
 	PostVisibilityLabel,
 	PostVisibilityCheck,
-} from '@wordpress/editor';
+} from '@aarondewes/wp-editor';
 
 export function PostVisibility() {
 	return (

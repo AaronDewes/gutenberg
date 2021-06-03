@@ -6,14 +6,14 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useEntityProp } from '@wordpress/core-data';
+import { useEntityProp } from '@aarondewes/wp-core-data';
 import {
 	AlignmentControl,
 	useBlockProps,
 	BlockControls,
 	RichText,
-} from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function SiteTaglineEdit( { attributes, setAttributes } ) {
 	const { textAlign } = attributes;

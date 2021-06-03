@@ -6,7 +6,7 @@ import { shallow } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { sendMediaUpload, sendMediaSave } from '@wordpress/react-native-bridge';
+import { sendMediaUpload, sendMediaSave } from '@aarondewes/wp-react-native-bridge';
 
 /**
  * Internal dependencies
@@ -25,7 +25,7 @@ import {
 	MEDIA_SAVE_MEDIAID_CHANGED,
 } from '../';
 
-jest.mock( '@wordpress/react-native-bridge', () => {
+jest.mock( '@aarondewes/wp-react-native-bridge', () => {
 	const callUploadCallback = ( payload ) => {
 		this.uploadCallBack( payload );
 	};

@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { Scrollable, View } from '@wordpress/components/ui';
+import { Scrollable, View } from '@aarondewes/wp-components/ui';
 
 function Example() {
 	return (

@@ -5,8 +5,8 @@ This slots allows for the insertion of items in the Status & visibility panel of
 ## Example
 
 ```js
-import { registerPlugin } from '@wordpress/plugins';
-import { PluginPostStatusInfo } from '@wordpress/edit-post';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { PluginPostStatusInfo } from '@aarondewes/wp-edit-post';
 
 const PluginPostStatusInfoTest = () => (
 	<PluginPostStatusInfo>

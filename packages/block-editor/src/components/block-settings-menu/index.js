@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { ToolbarGroup, ToolbarItem } from '@wordpress/components';
+import { ToolbarGroup, ToolbarItem } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

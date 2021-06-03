@@ -18,7 +18,7 @@ This component is currently used by the "Columns" block to display and choose th
 Renders the variations of a block.
 
 ```jsx
-import { BlockVariationPicker } from '@wordpress/block-editor';
+import { BlockVariationPicker } from '@aarondewes/wp-block-editor';
 
 const MyBlockVariationPicker = () => (
 	<BlockVariationPicker variations={ variations } />

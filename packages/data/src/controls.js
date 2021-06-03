@@ -19,7 +19,7 @@ const DISPATCH = '@@data/DISPATCH';
  *
  * @example
  * ```js
- * import { controls } from '@wordpress/data';
+ * import { controls } from '@aarondewes/wp-data';
  *
  * // Action generator using `select`.
  * export function* myAction() {
@@ -47,7 +47,7 @@ function select( storeKey, selectorName, ...args ) {
  *
  * @example
  * ```js
- * import { controls } from '@wordpress/data';
+ * import { controls } from '@aarondewes/wp-data';
  *
  * // Action generator using resolveSelect
  * export function* myAction() {
@@ -71,7 +71,7 @@ function resolveSelect( storeKey, selectorName, ...args ) {
  *
  * @example
  * ```js
- * import { controls } from '@wordpress/data-controls';
+ * import { controls } from '@aarondewes/wp-data-controls';
  *
  * // Action generator using dispatch
  * export function* myAction() {

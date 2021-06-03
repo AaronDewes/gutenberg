@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { check, aspectRatio as aspectRatioIcon } from '@wordpress/icons';
-import { DropdownMenu, MenuGroup, MenuItem } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { check, aspectRatio as aspectRatioIcon } from '@aarondewes/wp-icons';
+import { DropdownMenu, MenuGroup, MenuItem } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

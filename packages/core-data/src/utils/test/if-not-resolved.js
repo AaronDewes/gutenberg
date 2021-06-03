@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { controls } from '@wordpress/data';
+import { controls } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
  */
 import ifNotResolved from '../if-not-resolved';
 
-jest.mock( '@wordpress/data', () => ( {
+jest.mock( '@aarondewes/wp-data', () => ( {
 	controls: {
 		select: jest.fn(),
 	},

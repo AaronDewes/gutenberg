@@ -7,10 +7,10 @@ import tinycolor from 'tinycolor2';
 /**
  * WordPress dependencies
  */
-import { getBlockSupport, hasBlockSupport } from '@wordpress/blocks';
-import { SVG } from '@wordpress/components';
-import { createHigherOrderComponent, useInstanceId } from '@wordpress/compose';
-import { addFilter } from '@wordpress/hooks';
+import { getBlockSupport, hasBlockSupport } from '@aarondewes/wp-blocks';
+import { SVG } from '@aarondewes/wp-components';
+import { createHigherOrderComponent, useInstanceId } from '@aarondewes/wp-compose';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

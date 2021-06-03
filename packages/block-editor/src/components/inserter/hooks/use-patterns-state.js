@@ -6,11 +6,11 @@ import { map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useCallback } from '@wordpress/element';
-import { cloneBlock } from '@wordpress/blocks';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __, sprintf } from '@wordpress/i18n';
-import { store as noticesStore } from '@wordpress/notices';
+import { useCallback } from '@aarondewes/wp-element';
+import { cloneBlock } from '@aarondewes/wp-blocks';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

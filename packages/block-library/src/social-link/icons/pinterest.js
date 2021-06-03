@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Path, SVG } from '@wordpress/primitives';
+import { Path, SVG } from '@aarondewes/wp-primitives';
 
 export const PinterestIcon = () => (
 	<SVG width="24" height="24" viewBox="0 0 24 24" version="1.1">

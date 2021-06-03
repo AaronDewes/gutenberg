@@ -1,7 +1,7 @@
-jest.mock( '@wordpress/compose', () => {
+jest.mock( '@aarondewes/wp-compose', () => {
 	const App = () => null;
 	return {
-		...jest.requireActual( '@wordpress/compose' ),
+		...jest.requireActual( '@aarondewes/wp-compose' ),
 		useViewportMatch: jest.fn(),
 		useResizeObserver: jest.fn( () => [
 			<App key={ 'mock-key' } />,

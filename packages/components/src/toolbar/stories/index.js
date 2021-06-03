@@ -12,7 +12,7 @@ import {
 	link,
 	more,
 	paragraph,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

@@ -6,10 +6,10 @@ import { find, get, includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Button, PanelBody } from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __, sprintf } from '@wordpress/i18n';
-import { store as coreStore } from '@wordpress/core-data';
+import { Button, PanelBody } from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

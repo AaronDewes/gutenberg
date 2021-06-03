@@ -63,7 +63,7 @@ function Spinner( props, forwardedRef ) {
  *
  * @example
  * ```jsx
- * import { Spinner } from `@wordpress/components/ui`;
+ * import { Spinner } from `@aarondewes/wp-components/ui`;
  *
  * function Example() {
  * 	return (

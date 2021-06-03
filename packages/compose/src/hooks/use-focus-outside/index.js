@@ -6,7 +6,7 @@ import { includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useCallback, useEffect, useRef } from '@wordpress/element';
+import { useCallback, useEffect, useRef } from '@aarondewes/wp-element';
 
 /**
  * Input types which are classified as button types, for use in considering

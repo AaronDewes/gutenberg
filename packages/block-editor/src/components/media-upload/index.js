@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { withFilters } from '@wordpress/components';
+import { withFilters } from '@aarondewes/wp-components';
 
 /**
  * This is a placeholder for the media upload component necessary to make it possible to provide

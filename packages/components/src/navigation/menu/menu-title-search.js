@@ -6,10 +6,10 @@ import { filter } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef } from '@wordpress/element';
-import { Icon, closeSmall, search as searchIcon } from '@wordpress/icons';
-import { __, _n, sprintf } from '@wordpress/i18n';
-import { ESCAPE } from '@wordpress/keycodes';
+import { useEffect, useRef } from '@aarondewes/wp-element';
+import { Icon, closeSmall, search as searchIcon } from '@aarondewes/wp-icons';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
+import { ESCAPE } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useState, useEffect, useCallback } from '@wordpress/element';
+import { useState, useEffect, useCallback } from '@aarondewes/wp-element';
 
 export default function useInserter( inserter ) {
 	const [ isInserterOpened, setIsInserterOpened ] = useState(

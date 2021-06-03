@@ -6,10 +6,10 @@ import tinycolor from 'tinycolor2';
 /**
  * WordPress dependencies
  */
-import { speak } from '@wordpress/a11y';
-import { __ } from '@wordpress/i18n';
-import { Notice } from '@wordpress/components';
-import { useEffect } from '@wordpress/element';
+import { speak } from '@aarondewes/wp-a11y';
+import { __ } from '@aarondewes/wp-i18n';
+import { Notice } from '@aarondewes/wp-components';
+import { useEffect } from '@aarondewes/wp-element';
 
 function ContrastCheckerMessage( {
 	tinyBackgroundColor,

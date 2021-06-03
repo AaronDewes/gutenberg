@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useEffect } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { useEffect } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * We can't just use <BlockSelectionClearer> because the customizer has

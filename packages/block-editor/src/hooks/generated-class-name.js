@@ -6,8 +6,8 @@ import { uniq } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { hasBlockSupport, getBlockDefaultClassName } from '@wordpress/blocks';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { hasBlockSupport, getBlockDefaultClassName } from '@aarondewes/wp-blocks';
 
 /**
  * Override props assigned to save component to inject generated className if

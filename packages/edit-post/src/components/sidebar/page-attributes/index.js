@@ -6,16 +6,16 @@ import { get, partial } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelBody, PanelRow } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody, PanelRow } from '@aarondewes/wp-components';
 import {
 	store as editorStore,
 	PageAttributesCheck,
 	PageAttributesOrder,
 	PageAttributesParent,
-} from '@wordpress/editor';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-editor';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

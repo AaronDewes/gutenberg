@@ -7,7 +7,7 @@ PostCSS plugin to generate theme colors.
 Install the module
 
 ```bash
-npm install @wordpress/postcss-themes --save
+npm install @aarondewes/wp-postcss-themes --save
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It is not compatible with older versions.

@@ -2,10 +2,10 @@
  * WordPress dependencies
  */
 
-import { __experimentalTreeGrid as TreeGrid } from '@wordpress/components';
-import { useDispatch } from '@wordpress/data';
-import { useCallback, useEffect, useMemo, useRef } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+import { __experimentalTreeGrid as TreeGrid } from '@aarondewes/wp-components';
+import { useDispatch } from '@aarondewes/wp-data';
+import { useCallback, useEffect, useMemo, useRef } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

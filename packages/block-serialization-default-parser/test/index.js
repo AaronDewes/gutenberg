@@ -10,7 +10,7 @@ import path from 'path';
 import {
 	jsTester,
 	phpTester,
-} from '@wordpress/block-serialization-spec-parser/shared-tests';
+} from '@aarondewes/wp-block-serialization-spec-parser/shared-tests';
 
 /**
  * Internal dependencies

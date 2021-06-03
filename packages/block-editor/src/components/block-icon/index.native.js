@@ -6,9 +6,9 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/components';
-import { blockDefault } from '@wordpress/icons';
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { Icon } from '@aarondewes/wp-components';
+import { blockDefault } from '@aarondewes/wp-icons';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useRef } from '@wordpress/element';
-import { useRefEffect } from '@wordpress/compose';
+import { useRef } from '@aarondewes/wp-element';
+import { useRefEffect } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

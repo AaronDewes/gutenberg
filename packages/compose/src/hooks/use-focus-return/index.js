@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useEffect, useCallback } from '@wordpress/element';
+import { useRef, useEffect, useCallback } from '@aarondewes/wp-element';
 
 /**
  * When opening modals/sidebars/dialogs, the focus
@@ -14,7 +14,7 @@ import { useRef, useEffect, useCallback } from '@wordpress/element';
  *
  * @example
  * ```js
- * import { useFocusReturn } from '@wordpress/compose';
+ * import { useFocusReturn } from '@aarondewes/wp-compose';
  *
  * const WithFocusReturn = () => {
  *     const ref = useFocusReturn()

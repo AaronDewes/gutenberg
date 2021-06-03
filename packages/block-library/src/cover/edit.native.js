@@ -18,8 +18,8 @@ import {
 	requestImageUploadCancelDialog,
 	requestImageFullscreenPreview,
 	mediaUploadSync,
-} from '@wordpress/react-native-bridge';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-react-native-bridge';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	Icon,
 	Image,
@@ -31,7 +31,7 @@ import {
 	ColorPicker,
 	BottomSheetConsumer,
 	useConvertUnitToMobile,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	BlockControls,
 	InnerBlocks,
@@ -44,13 +44,13 @@ import {
 	__experimentalUseGradient,
 	useSetting,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { useEffect, useState, useRef, useCallback } from '@wordpress/element';
-import { cover as icon, replace, image, warning } from '@wordpress/icons';
-import { getProtocol } from '@wordpress/url';
-import { store as editPostStore } from '@wordpress/edit-post';
+} from '@aarondewes/wp-block-editor';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { useEffect, useState, useRef, useCallback } from '@aarondewes/wp-element';
+import { cover as icon, replace, image, warning } from '@aarondewes/wp-icons';
+import { getProtocol } from '@aarondewes/wp-url';
+import { store as editPostStore } from '@aarondewes/wp-edit-post';
 
 /**
  * Internal dependencies

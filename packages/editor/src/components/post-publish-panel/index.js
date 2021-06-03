@@ -6,19 +6,19 @@ import { get, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
 import {
 	Button,
 	Spinner,
 	CheckboxControl,
 	withFocusReturn,
 	withConstrainedTabbing,
-} from '@wordpress/components';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { closeSmall } from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { closeSmall } from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

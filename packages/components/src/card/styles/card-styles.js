@@ -6,7 +6,7 @@ import styled from '@emotion/styled';
 /**
  * WordPress dependencies
  */
-import { HorizontalRule } from '@wordpress/primitives';
+import { HorizontalRule } from '@aarondewes/wp-primitives';
 
 /**
  * Internal dependencies

@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { __, isRTL } from '@wordpress/i18n';
-import { ToolbarButton } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { undo as undoIcon, redo as redoIcon } from '@wordpress/icons';
-import { displayShortcut } from '@wordpress/keycodes';
-import { store as coreStore } from '@wordpress/core-data';
+import { __, isRTL } from '@aarondewes/wp-i18n';
+import { ToolbarButton } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { undo as undoIcon, redo as redoIcon } from '@aarondewes/wp-icons';
+import { displayShortcut } from '@aarondewes/wp-keycodes';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 export default function UndoButton() {
 	const hasUndo = useSelect( ( select ) => select( coreStore ).hasUndo() );

@@ -5,7 +5,7 @@ CardHeader renders an optional header within a [`<Card />`](../).
 ## Usage
 
 ```jsx
-import { Card, CardHeader } from '@wordpress/components';
+import { Card, CardHeader } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>
@@ -25,7 +25,7 @@ import {
 	CardHeader,
 	FlexItem,
 	FlexBlock,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>

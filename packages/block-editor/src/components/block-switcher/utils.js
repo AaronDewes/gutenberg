@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalGetBlockAttributesNamesByRole as getBlockAttributesNamesByRole } from '@wordpress/blocks';
+import { __experimentalGetBlockAttributesNamesByRole as getBlockAttributesNamesByRole } from '@aarondewes/wp-blocks';
 
 /**
  * Try to find a matching block by a block's name in a provided

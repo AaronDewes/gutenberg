@@ -6,14 +6,14 @@ import { groupBy } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	__experimentalNavigationMenu as NavigationMenu,
 	__experimentalNavigationItem as NavigationItem,
-} from '@wordpress/components';
-import { useState, useCallback } from '@wordpress/element';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { useState, useCallback } from '@aarondewes/wp-element';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

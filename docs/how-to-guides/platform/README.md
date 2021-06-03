@@ -11,20 +11,20 @@ Here is a quick example, how to use components in your project.
 Install the dependency:
 
 ```bash
-npm install --save @wordpress/components
+npm install --save @aarondewes/wp-components
 ```
 
 Usage in React:
 
 ```jsx
-import { Button } from '@wordpress/components';
+import { Button } from '@aarondewes/wp-components';
 
 function MyApp() {
 	return <Button>Hello Button</Button>;
 }
 ```
 
-Many components include CSS to add style, you will need to include for the components to appear correctly. The component stylesheet can be found in `node_modules/@wordpress/components/build-style/style.css`, you can link directly or copy and include it in your project.
+Many components include CSS to add style, you will need to include for the components to appear correctly. The component stylesheet can be found in `node_modules/@aarondewes/wp-components/build-style/style.css`, you can link directly or copy and include it in your project.
 
 ## Development Scripts
 
@@ -35,7 +35,7 @@ Here is a quick example, on how to use wp-scripts in your project.
 Install the dependency:
 
 ```bash
-npm install --save-dev @wordpress/scripts
+npm install --save-dev @aarondewes/wp-scripts
 ```
 
 You can then add a scripts section to your package.json file, for example:
@@ -49,12 +49,12 @@ You can then add a scripts section to your package.json file, for example:
 	}
 ```
 
-You can then use `npm run build` to build your project with all the default webpack settings already configured, likewise for formating and linting. The `start` command is used for development mode. See [the scripts package](https://www.npmjs.com/package/@wordpress/scripts) for full documentation.
+You can then use `npm run build` to build your project with all the default webpack settings already configured, likewise for formating and linting. The `start` command is used for development mode. See [the scripts package](https://www.npmjs.com/package/@aarondewes/wp-scripts) for full documentation.
 
 You can also play with the [Gutenberg Example #03](https://github.com/WordPress/gutenberg-examples/tree/HEAD/03-editable-esnext) for a complete setup using the wp-scripts package.
 
 ## Block Editor
 
-The [`@wordpress/block-editor` package](https://developer.wordpress.org/block-editor/packages/packages-block-editor/) allows you to create and use standalone block editors.
+The [`@aarondewes/wp-block-editor` package](https://developer.wordpress.org/block-editor/packages/packages-block-editor/) allows you to create and use standalone block editors.
 
 You can learn more by reading the [tutorial "Building a custom block editor"](/docs/reference-guides/platform/custom-block-editor/README.md).

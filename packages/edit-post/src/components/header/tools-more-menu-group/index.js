@@ -6,8 +6,8 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createSlotFill, MenuGroup } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { createSlotFill, MenuGroup } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 const { Fill: ToolsMoreMenuGroup, Slot } = createSlotFill(
 	'ToolsMoreMenuGroup'

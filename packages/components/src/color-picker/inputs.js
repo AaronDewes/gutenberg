@@ -6,12 +6,12 @@ import { omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { speak } from '@wordpress/a11y';
-import { __ } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
-import { DOWN, ENTER, UP } from '@wordpress/keycodes';
-import { pure } from '@wordpress/compose';
-import { chevronDown } from '@wordpress/icons';
+import { speak } from '@aarondewes/wp-a11y';
+import { __ } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
+import { DOWN, ENTER, UP } from '@aarondewes/wp-keycodes';
+import { pure } from '@aarondewes/wp-compose';
+import { chevronDown } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

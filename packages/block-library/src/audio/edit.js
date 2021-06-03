@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { getBlobByURL, isBlobURL } from '@wordpress/blob';
+import { getBlobByURL, isBlobURL } from '@aarondewes/wp-blob';
 import {
 	Disabled,
 	PanelBody,
 	SelectControl,
 	ToggleControl,
 	withNotices,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	BlockControls,
 	BlockIcon,
@@ -18,12 +18,12 @@ import {
 	RichText,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useEffect } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
-import { audio as icon } from '@wordpress/icons';
-import { createBlock } from '@wordpress/blocks';
+} from '@aarondewes/wp-block-editor';
+import { useEffect } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
+import { audio as icon } from '@aarondewes/wp-icons';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

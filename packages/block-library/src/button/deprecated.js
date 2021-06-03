@@ -13,8 +13,8 @@ import {
 	useBlockProps,
 	__experimentalGetGradientClass,
 	__experimentalGetColorClassesAndStyles as getColorClassesAndStyles,
-} from '@wordpress/block-editor';
-import { compose } from '@wordpress/compose';
+} from '@aarondewes/wp-block-editor';
+import { compose } from '@aarondewes/wp-compose';
 
 const migrateBorderRadius = ( attributes ) => {
 	const { borderRadius, ...newAttributes } = attributes;

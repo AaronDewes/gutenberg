@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { getProtocol, prependHTTP } from '@wordpress/url';
-import { useCallback } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
+import { getProtocol, prependHTTP } from '@aarondewes/wp-url';
+import { useCallback } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * External dependencies

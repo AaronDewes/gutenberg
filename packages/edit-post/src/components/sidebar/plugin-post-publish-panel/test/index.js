@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { SlotFillProvider } from '@wordpress/components';
-import { render } from '@wordpress/element';
+import { SlotFillProvider } from '@aarondewes/wp-components';
+import { render } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

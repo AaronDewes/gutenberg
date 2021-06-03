@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useEffect, useCallback } from '@wordpress/element';
-import { ESCAPE } from '@wordpress/keycodes';
+import { useRef, useEffect, useCallback } from '@aarondewes/wp-element';
+import { ESCAPE } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

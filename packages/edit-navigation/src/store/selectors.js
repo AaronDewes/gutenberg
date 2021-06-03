@@ -6,8 +6,8 @@ import { invert } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createRegistrySelector } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+import { createRegistrySelector } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

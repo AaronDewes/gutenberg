@@ -6,9 +6,9 @@ import { View, Dimensions } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { withSelect } from '@wordpress/data';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { useEffect, useState, useCallback } from '@wordpress/element';
+import { withSelect } from '@aarondewes/wp-data';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { useEffect, useState, useCallback } from '@aarondewes/wp-element';
 import {
 	InnerBlocks,
 	BlockControls,
@@ -16,7 +16,7 @@ import {
 	InspectorControls,
 	store as blockEditorStore,
 	useSetting,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	PanelBody,
 	FooterMessageControl,
@@ -24,8 +24,8 @@ import {
 	getValueAndUnit,
 	alignmentHelpers,
 	__experimentalUseCustomUnits as useCustomUnits,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 /**
  * Internal dependencies
  */

@@ -10,7 +10,7 @@ import {
 	openDocumentSettingsSidebar,
 	pressKeyWithModifier,
 	setBrowserViewport,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const SIDEBAR_SELECTOR = '.edit-post-sidebar';
 const ACTIVE_SIDEBAR_TAB_SELECTOR = '.edit-post-sidebar__panel-tab.is-active';

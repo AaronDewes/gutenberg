@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/project-management-automation",
+	"name": "@aarondewes/wp-project-management-automation",
 	"version": "1.12.5",
 	"description": "GitHub Action that implements various automation to assist with managing the Gutenberg GitHub repository.",
 	"author": "The WordPress Contributors",

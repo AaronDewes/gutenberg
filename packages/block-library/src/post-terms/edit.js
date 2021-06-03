@@ -12,11 +12,11 @@ import {
 	BlockControls,
 	Warning,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { Spinner } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { Spinner } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

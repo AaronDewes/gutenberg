@@ -11,11 +11,11 @@ import classnames from 'classnames/dedupe';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { Placeholder, SandBox } from '@wordpress/components';
-import { RichText, BlockIcon } from '@wordpress/block-editor';
-import { Component } from '@wordpress/element';
-import { createBlock } from '@wordpress/blocks';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Placeholder, SandBox } from '@aarondewes/wp-components';
+import { RichText, BlockIcon } from '@aarondewes/wp-block-editor';
+import { Component } from '@aarondewes/wp-element';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

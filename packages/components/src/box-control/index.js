@@ -6,9 +6,9 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { useState } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useState } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

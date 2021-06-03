@@ -6,13 +6,13 @@ import { find } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { useCallback, useState } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { Placeholder, Dropdown, Button } from '@wordpress/components';
-import { serialize } from '@wordpress/blocks';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as editorStore } from '@wordpress/editor';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useCallback, useState } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { Placeholder, Dropdown, Button } from '@aarondewes/wp-components';
+import { serialize } from '@aarondewes/wp-blocks';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

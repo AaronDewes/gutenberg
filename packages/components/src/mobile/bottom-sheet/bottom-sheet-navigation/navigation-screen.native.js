@@ -12,9 +12,9 @@ import { debounce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { BottomSheetContext } from '@wordpress/components';
+import { BottomSheetContext } from '@aarondewes/wp-components';
 
-import { useRef, useCallback, useContext, useMemo } from '@wordpress/element';
+import { useRef, useCallback, useContext, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

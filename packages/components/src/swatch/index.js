@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { swatch } from '@wordpress/icons';
+import { swatch } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

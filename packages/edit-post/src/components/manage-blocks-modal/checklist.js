@@ -6,8 +6,8 @@ import { partial } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { BlockIcon } from '@wordpress/block-editor';
-import { CheckboxControl } from '@wordpress/components';
+import { BlockIcon } from '@aarondewes/wp-block-editor';
+import { CheckboxControl } from '@aarondewes/wp-components';
 
 function BlockTypesChecklist( { blockTypes, value, onItemChange } ) {
 	return (

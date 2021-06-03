@@ -44,7 +44,7 @@ import {
 	escapeHTML,
 	escapeAttribute,
 	isValidAttributeName,
-} from '@wordpress/escape-html';
+} from '@aarondewes/wp-escape-html';
 
 /**
  * Internal dependencies

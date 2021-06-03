@@ -34,7 +34,7 @@
 ## 3.8.1 (2019-04-22)
 
 -   Added deprecation to `useApiFetch` hook.
--   Added `@wordpress/deprecation` package to add deprecation notice to `useApiFetch` hook.
+-   Added `@aarondewes/wp-deprecation` package to add deprecation notice to `useApiFetch` hook.
 
 ## 3.8.0 (2019-12-19)
 

@@ -7,7 +7,7 @@ Utility to make WordPress REST API requests. It's a wrapper around `window.fetch
 Install the module
 
 ```bash
-npm install @wordpress/api-fetch --save
+npm install @aarondewes/wp-api-fetch --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -15,7 +15,7 @@ _This package assumes that your code will run in an **ES2015+** environment. If 
 ## Usage
 
 ```js
-import apiFetch from '@wordpress/api-fetch';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
 // GET
 apiFetch( { path: '/wp/v2/posts' } ).then( ( posts ) => {
@@ -61,7 +61,7 @@ the `api-fetch` package supports middlewares. Middlewares are functions you can 
 **Example**
 
 ```js
-import apiFetch from '@wordpress/api-fetch';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
 apiFetch.use( ( options, next ) => {
 	const start = Date.now();
@@ -80,7 +80,7 @@ The `api-fetch` package provides built-in middlewares you can use to provide a `
 **Nonce middleware**
 
 ```js
-import apiFetch from '@wordpress/api-fetch';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
 const nonce = 'nonce value';
 apiFetch.use( apiFetch.createNonceMiddleware( nonce ) );
@@ -91,7 +91,7 @@ The function returned by `createNonceMiddleware` includes a `nonce` property cor
 **Root URL middleware**
 
 ```js
-import apiFetch from '@wordpress/api-fetch';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
 const rootURL = 'http://my-wordpress-site/wp-json/';
 apiFetch.use( apiFetch.createRootURLMiddleware( rootURL ) );
@@ -106,7 +106,7 @@ The `api-fetch` package uses `window.fetch` for making the requests but you can 
 The example below uses a custom fetch handler for making all the requests with [`axios`](https://github.com/axios/axios).
 
 ```js
-import apiFetch from '@wordpress/api-fetch';
+import apiFetch from '@aarondewes/wp-api-fetch';
 import axios from 'axios';
 
 apiFetch.setFetchHandler( ( options ) => {

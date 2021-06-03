@@ -6,8 +6,8 @@ import { last } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { withSelect } from '@wordpress/data';
-import { getDefaultBlockName } from '@wordpress/blocks';
+import { withSelect } from '@aarondewes/wp-data';
+import { getDefaultBlockName } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

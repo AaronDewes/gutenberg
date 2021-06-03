@@ -6,9 +6,9 @@ import { filter } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { NoticeList, SnackbarList } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { store as noticesStore } from '@wordpress/notices';
+import { NoticeList, SnackbarList } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 function Notices() {
 	const { removeNotice } = useDispatch( noticesStore );

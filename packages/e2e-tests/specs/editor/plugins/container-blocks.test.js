@@ -9,7 +9,7 @@ import {
 	insertBlock,
 	switchEditorModeTo,
 	pressKeyWithModifier,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'InnerBlocks Template Sync', () => {
 	beforeAll( async () => {

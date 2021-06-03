@@ -37,7 +37,7 @@ As an example, here's the matrix alignment tool in action.
 import {
     BlockControls,
     __experimentalBlockAlignmentMatrixControl as BlockAlignmentMatrixControl
-} from "@wordpress/block-editor";
+} from "@aarondewes/wp-block-editor";
 
 const controls = (
   <>

@@ -50,9 +50,9 @@ Update the edit.js and save.js files to the following, replacing the existing fu
 **edit.js** file:
 
 ```js
-import { __ } from '@wordpress/i18n';
-import { useBlockProps } from '@wordpress/block-editor';
-import { TextControl } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
+import { TextControl } from '@aarondewes/wp-components';
 import './editor.scss';
 
 export default function Edit( { attributes, setAttributes } ) {
@@ -71,8 +71,8 @@ export default function Edit( { attributes, setAttributes } ) {
 **save.js** file:
 
 ```jsx
-import { __ } from '@wordpress/i18n';
-import { useBlockProps } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 export default function save( { attributes } ) {
 	return <div { ...useBlockProps.save() }>{ attributes.message }</div>;

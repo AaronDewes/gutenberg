@@ -1,16 +1,16 @@
 /**
  * WordPress dependencies
  */
-import { MenuItem } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { isReusableBlock } from '@wordpress/blocks';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { MenuItem } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { isReusableBlock } from '@aarondewes/wp-blocks';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	BlockSettingsMenuControls,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { addQueryArgs } from '@wordpress/url';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

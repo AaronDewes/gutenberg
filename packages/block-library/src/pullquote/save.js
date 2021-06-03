@@ -11,7 +11,7 @@ import {
 	getColorClassName,
 	RichText,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

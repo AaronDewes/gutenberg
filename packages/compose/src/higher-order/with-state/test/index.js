@@ -11,7 +11,7 @@ import withState from '../';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 
 // this is needed because TestUtils does not accept a stateless component.
 // anything run through a HOC ends up as a stateless component.

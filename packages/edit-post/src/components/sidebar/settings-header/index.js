@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
-import { __, sprintf } from '@wordpress/i18n';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as editorStore } from '@wordpress/editor';
+import { Button } from '@aarondewes/wp-components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useViewportMatch, useMergeRefs } from '@wordpress/compose';
-import { forwardRef } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
-import { getBlockType, withBlockContentContext } from '@wordpress/blocks';
+import { useViewportMatch, useMergeRefs } from '@aarondewes/wp-compose';
+import { forwardRef } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
+import { getBlockType, withBlockContentContext } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

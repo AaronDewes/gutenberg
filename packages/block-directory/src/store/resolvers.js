@@ -6,7 +6,7 @@ import { camelCase, mapKeys } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { apiFetch } from '@wordpress/data-controls';
+import { apiFetch } from '@aarondewes/wp-data-controls';
 
 /**
  * Internal dependencies

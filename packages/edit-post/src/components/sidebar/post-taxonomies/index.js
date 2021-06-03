@@ -4,7 +4,7 @@
 import {
 	PostTaxonomies as PostTaxonomiesForm,
 	PostTaxonomiesCheck,
-} from '@wordpress/editor';
+} from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

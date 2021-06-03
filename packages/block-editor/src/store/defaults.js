@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { __, _x } from '@wordpress/i18n';
+import { __, _x } from '@aarondewes/wp-i18n';
 
 export const PREFERENCES_DEFAULTS = {
 	insertUsage: {},

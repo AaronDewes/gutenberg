@@ -10,7 +10,7 @@ import { getBlockContentSchemaFromTransforms, isPlain } from '../utils';
 import { store as mockStore } from '../../../store';
 import { STORE_NAME as mockStoreName } from '../../../store/constants';
 
-jest.mock( '@wordpress/data', () => {
+jest.mock( '@aarondewes/wp-data', () => {
 	return {
 		select: jest.fn( ( store ) => {
 			switch ( store ) {

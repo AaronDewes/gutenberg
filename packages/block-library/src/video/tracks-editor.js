@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 import {
 	NavigableMenu,
 	MenuItem,
@@ -15,15 +15,15 @@ import {
 	Button,
 	TextControl,
 	SelectControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	MediaUpload,
 	MediaUploadCheck,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { upload, media } from '@wordpress/icons';
-import { useSelect } from '@wordpress/data';
-import { useState } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { upload, media } from '@aarondewes/wp-icons';
+import { useSelect } from '@aarondewes/wp-data';
+import { useState } from '@aarondewes/wp-element';
 
 const ALLOWED_TYPES = [ 'text/vtt' ];
 

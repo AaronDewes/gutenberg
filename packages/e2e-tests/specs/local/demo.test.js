@@ -7,7 +7,7 @@ import {
 	createNewPost,
 	setUpResponseMocking,
 	visitAdminPage,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const MOCK_VIMEO_RESPONSE = {
 	url: 'https://vimeo.com/22439234',

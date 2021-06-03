@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { ToolbarButton, RangeControl, Dropdown } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { search } from '@wordpress/icons';
+import { ToolbarButton, RangeControl, Dropdown } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { search } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

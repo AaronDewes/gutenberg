@@ -4,8 +4,8 @@
 import {
 	__experimentalBlockNavigationTree,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-block-editor';
+import { useSelect } from '@aarondewes/wp-data';
 
 export default function BlockNavigationList( {
 	clientId,

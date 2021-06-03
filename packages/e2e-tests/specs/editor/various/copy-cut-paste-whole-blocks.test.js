@@ -7,7 +7,7 @@ import {
 	pressKeyWithModifier,
 	getEditedPostContent,
 	insertBlock,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Copy/cut/paste of whole blocks', () => {
 	beforeEach( async () => {

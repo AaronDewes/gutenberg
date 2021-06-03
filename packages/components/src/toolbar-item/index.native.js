@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { forwardRef } from '@wordpress/element';
-import warning from '@wordpress/warning';
+import { forwardRef } from '@aarondewes/wp-element';
+import warning from '@aarondewes/wp-warning';
 
 function ToolbarItem( { children, ...props }, ref ) {
 	if ( typeof children !== 'function' ) {

@@ -15,7 +15,7 @@ Visit the [Gutenberg handbook](https://developer.wordpress.org/block-editor/deve
 You just need to provide the `slug` which is the target location for scaffolded files and the internal block name.
 
 ```bash
-$ npx @wordpress/create-block todo-list
+$ npx @aarondewes/wp-create-block todo-list
 $ cd todo-list
 $ npm start
 ```
@@ -29,7 +29,7 @@ It creates a WordPress plugin that you need to [install manually](https://wordpr
 The following command generates PHP, JS and CSS code for registering a block.
 
 ```bash
-$ npx @wordpress/create-block [options] [slug]
+$ npx @aarondewes/wp-create-block [options] [slug]
 ```
 
 ![Demo](https://user-images.githubusercontent.com/699132/103872910-4de15f00-50cf-11eb-8c74-67ca91a8c1a4.gif)
@@ -45,9 +45,9 @@ Options:
 --title <value>              display title for the block
 --short-description <value>  short description for the block
 --category <name>            category name for the block
---wp-scripts                 enable integration with `@wordpress/scripts` package
---no-wp-scripts              disable integration with `@wordpress/scripts` package
---wp-env                     enable integration with `@wordpress/env` package
+--wp-scripts                 enable integration with `@aarondewes/wp-scripts` package
+--no-wp-scripts              disable integration with `@aarondewes/wp-scripts` package
+--wp-env                     enable integration with `@aarondewes/wp-env` package
 -h, --help                   output usage information
 ```
 
@@ -56,19 +56,19 @@ More examples:
 1. Interactive mode - without giving a project name, the script will run in interactive mode giving a chance to customize the important options before generating the files.
 
 ```bash
-$ npx @wordpress/create-block
+$ npx @aarondewes/wp-create-block
 ```
 
 2. ES5 template – it is also possible to pick ES5 template when you don't want to deal with a build step (`npm start`) which enables ESNext and JSX support.
 
 ```bash
-$ npx @wordpress/create-block --template es5
+$ npx @aarondewes/wp-create-block --template es5
 ```
 
 3. Help – you need to use `npx` to output usage information.
 
 ```bash
-$ npx @wordpress/create-block --help
+$ npx @aarondewes/wp-create-block --help
 ```
 
 When you scaffold a block, you must provide at least a `slug` name, the `namespace` which usually corresponds to either the `theme` or `plugin` name, and the `category`. In most cases, we recommended pairing blocks with plugins rather than themes, because only using plugin ensures that all blocks still work when your theme changes.

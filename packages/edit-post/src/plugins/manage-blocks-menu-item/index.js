@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { MenuItem } from '@wordpress/components';
-import { withDispatch } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
+import { MenuItem } from '@aarondewes/wp-components';
+import { withDispatch } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/date",
+	"name": "@aarondewes/wp-date",
 	"version": "4.1.1",
 	"description": "Date module for WordPress.",
 	"author": "The WordPress Contributors",

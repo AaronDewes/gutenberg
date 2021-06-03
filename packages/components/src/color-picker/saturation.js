@@ -33,10 +33,10 @@ import { clamp, noop, throttle } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Component, createRef } from '@wordpress/element';
-import { TAB } from '@wordpress/keycodes';
-import { compose, pure, withInstanceId } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { Component, createRef } from '@aarondewes/wp-element';
+import { TAB } from '@aarondewes/wp-keycodes';
+import { compose, pure, withInstanceId } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

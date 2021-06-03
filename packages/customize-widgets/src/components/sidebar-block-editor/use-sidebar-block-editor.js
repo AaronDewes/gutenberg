@@ -6,10 +6,10 @@ import { omit, isEqual } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { serialize, parse, createBlock } from '@wordpress/blocks';
-import { useState, useEffect, useCallback } from '@wordpress/element';
-import isShallowEqual from '@wordpress/is-shallow-equal';
-import { getWidgetIdFromBlock, addWidgetIdToBlock } from '@wordpress/widgets';
+import { serialize, parse, createBlock } from '@aarondewes/wp-blocks';
+import { useState, useEffect, useCallback } from '@aarondewes/wp-element';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
+import { getWidgetIdFromBlock, addWidgetIdToBlock } from '@aarondewes/wp-widgets';
 
 function blockToWidget( block, existingWidget = null ) {
 	let widget;

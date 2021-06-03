@@ -37,7 +37,7 @@ The rendered `NoticeList`.
 ## Usage
 
 ```jsx
-import { withNotices, Button } from '@wordpress/components';
+import { withNotices, Button } from '@aarondewes/wp-components';
 
 const MyComponentWithNotices = withNotices(
 	( { noticeOperations, noticeUI } ) => {

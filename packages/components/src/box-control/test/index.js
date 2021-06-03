@@ -6,8 +6,8 @@ import { render, fireEvent } from '@testing-library/react';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { ENTER } from '@wordpress/keycodes';
+import { useState } from '@aarondewes/wp-element';
+import { ENTER } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

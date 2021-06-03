@@ -7,7 +7,7 @@ Edit Site Page Module for WordPress.
 ## Installation
 
 ```bash
-npm install @wordpress/edit-site
+npm install @aarondewes/wp-edit-site
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install @wordpress/edit-site
 /**
  * WordPress dependencies
  */
-import { initialize } from '@wordpress/edit-site';
+import { initialize } from '@aarondewes/wp-edit-site';
 
 /**
  * Internal dependencies

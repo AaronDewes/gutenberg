@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useEffect } from '@wordpress/element';
+import { useEffect } from '@aarondewes/wp-element';
 
 /*
  * Setting `overflow: hidden` on html and body elements resets body scroll in iOS.

@@ -6,23 +6,23 @@ import { ScrollView, View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { useRef } from '@wordpress/element';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { withViewportMatch } from '@wordpress/viewport';
-import { __ } from '@wordpress/i18n';
+import { useRef } from '@aarondewes/wp-element';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { withViewportMatch } from '@aarondewes/wp-viewport';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	Inserter,
 	BlockToolbar,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { Toolbar, ToolbarButton } from '@wordpress/components';
+} from '@aarondewes/wp-block-editor';
+import { Toolbar, ToolbarButton } from '@aarondewes/wp-components';
 import {
 	keyboardClose,
 	undo as undoIcon,
 	redo as redoIcon,
-} from '@wordpress/icons';
-import { store as editorStore } from '@wordpress/editor';
+} from '@aarondewes/wp-icons';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

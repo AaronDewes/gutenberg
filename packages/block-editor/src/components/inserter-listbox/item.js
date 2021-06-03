@@ -4,8 +4,8 @@
 import {
 	Button,
 	__unstableCompositeItem as CompositeItem,
-} from '@wordpress/components';
-import { forwardRef, useContext } from '@wordpress/element';
+} from '@aarondewes/wp-components';
+import { forwardRef, useContext } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

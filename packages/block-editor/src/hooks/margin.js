@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Platform } from '@wordpress/element';
-import { getBlockSupport } from '@wordpress/blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { Platform } from '@aarondewes/wp-element';
+import { getBlockSupport } from '@aarondewes/wp-blocks';
 import {
 	__experimentalUseCustomUnits as useCustomUnits,
 	__experimentalBoxControl as BoxControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

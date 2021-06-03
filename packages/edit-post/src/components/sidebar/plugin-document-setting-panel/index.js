@@ -5,11 +5,11 @@
 /**
  * WordPress dependencies
  */
-import { createSlotFill, PanelBody } from '@wordpress/components';
-import { compose } from '@wordpress/compose';
-import { withPluginContext } from '@wordpress/plugins';
-import { withDispatch, withSelect } from '@wordpress/data';
-import warning from '@wordpress/warning';
+import { createSlotFill, PanelBody } from '@aarondewes/wp-components';
+import { compose } from '@aarondewes/wp-compose';
+import { withPluginContext } from '@aarondewes/wp-plugins';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import warning from '@aarondewes/wp-warning';
 
 /**
  * Internal dependencies
@@ -88,8 +88,8 @@ const PluginDocumentSettingFill = ( {
  * @example
  * ```jsx
  * // Using ESNext syntax
- * import { registerPlugin } from '@wordpress/plugins';
- * import { PluginDocumentSettingPanel } from '@wordpress/edit-post';
+ * import { registerPlugin } from '@aarondewes/wp-plugins';
+ * import { PluginDocumentSettingPanel } from '@aarondewes/wp-edit-post';
  *
  * const MyDocumentSettingTest = () => (
  * 		<PluginDocumentSettingPanel className="my-document-setting-plugin" title="My Panel">

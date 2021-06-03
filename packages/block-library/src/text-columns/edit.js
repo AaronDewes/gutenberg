@@ -6,16 +6,16 @@ import { get, times } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { PanelBody, RangeControl } from '@wordpress/components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { PanelBody, RangeControl } from '@aarondewes/wp-components';
 import {
 	BlockControls,
 	BlockAlignmentToolbar,
 	InspectorControls,
 	RichText,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import deprecated from '@wordpress/deprecated';
+} from '@aarondewes/wp-block-editor';
+import deprecated from '@aarondewes/wp-deprecated';
 
 export default function TextColumnsEdit( { attributes, setAttributes } ) {
 	const { width, content, columns } = attributes;

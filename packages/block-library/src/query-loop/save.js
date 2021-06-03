@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { InnerBlocks } from '@wordpress/block-editor';
+import { InnerBlocks } from '@aarondewes/wp-block-editor';
 
 export default function QueryLoopSave() {
 	return <InnerBlocks.Content />;

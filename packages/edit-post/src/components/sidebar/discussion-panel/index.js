@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelBody, PanelRow } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody, PanelRow } from '@aarondewes/wp-components';
 import {
 	PostComments,
 	PostPingbacks,
 	PostTypeSupportCheck,
-} from '@wordpress/editor';
-import { compose } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
+} from '@aarondewes/wp-editor';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

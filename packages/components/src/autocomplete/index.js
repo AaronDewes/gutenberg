@@ -11,7 +11,7 @@ import {
 	useEffect,
 	useState,
 	useRef,
-} from '@wordpress/element';
+} from '@aarondewes/wp-element';
 import {
 	ENTER,
 	ESCAPE,
@@ -20,22 +20,22 @@ import {
 	LEFT,
 	RIGHT,
 	BACKSPACE,
-} from '@wordpress/keycodes';
-import { __, _n, sprintf } from '@wordpress/i18n';
+} from '@aarondewes/wp-keycodes';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
 import {
 	useInstanceId,
 	useDebounce,
 	useMergeRefs,
 	useRefEffect,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 import {
 	create,
 	slice,
 	insert,
 	isCollapsed,
 	getTextContent,
-} from '@wordpress/rich-text';
-import { speak } from '@wordpress/a11y';
+} from '@aarondewes/wp-rich-text';
+import { speak } from '@aarondewes/wp-a11y';
 
 /**
  * Internal dependencies

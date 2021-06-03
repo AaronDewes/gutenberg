@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/redux-routine",
+	"name": "@aarondewes/wp-redux-routine",
 	"version": "4.1.1",
 	"description": "Redux middleware for generator coroutines.",
 	"author": "The WordPress Contributors",

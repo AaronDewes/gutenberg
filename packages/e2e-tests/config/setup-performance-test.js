@@ -7,7 +7,7 @@ import {
 	enablePageDialogAccept,
 	setBrowserViewport,
 	trashAllPosts,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 /**
  * Timeout, in seconds, that the test should be allowed to run.

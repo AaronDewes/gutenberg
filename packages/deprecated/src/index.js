@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { doAction } from '@wordpress/hooks';
+import { doAction } from '@aarondewes/wp-hooks';
 
 /**
  * Object map tracking messages which have been logged, for use in ensuring a
@@ -25,7 +25,7 @@ export const logged = Object.create( null );
  *
  * @example
  * ```js
- * import deprecated from '@wordpress/deprecated';
+ * import deprecated from '@aarondewes/wp-deprecated';
  *
  * deprecated( 'Eating meat', {
  * 	since: '2019.01.01'

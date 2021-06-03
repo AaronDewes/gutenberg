@@ -14,8 +14,8 @@ import {
 	setFreeformContentHandlerName,
 	setUnregisteredTypeHandlerName,
 	setGroupingBlockName,
-} from '@wordpress/blocks';
-import { addFilter } from '@wordpress/hooks';
+} from '@aarondewes/wp-blocks';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies
@@ -212,7 +212,7 @@ addFilter(
  *
  * @example
  * ```js
- * import { registerCoreBlocks } from '@wordpress/block-library';
+ * import { registerCoreBlocks } from '@aarondewes/wp-block-library';
  *
  * registerCoreBlocks();
  * ```

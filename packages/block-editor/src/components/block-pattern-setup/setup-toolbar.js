@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
 import {
 	chevronRight,
 	chevronLeft,
 	grid,
 	stretchFullWidth,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

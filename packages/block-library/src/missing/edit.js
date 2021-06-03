@@ -1,16 +1,16 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { RawHTML } from '@wordpress/element';
-import { Button } from '@wordpress/components';
-import { getBlockType, createBlock } from '@wordpress/blocks';
-import { withDispatch } from '@wordpress/data';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { RawHTML } from '@aarondewes/wp-element';
+import { Button } from '@aarondewes/wp-components';
+import { getBlockType, createBlock } from '@aarondewes/wp-blocks';
+import { withDispatch } from '@aarondewes/wp-data';
 import {
 	Warning,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 function MissingBlockWarning( { attributes, convertToHTML } ) {
 	const { originalName, originalUndelimitedContent } = attributes;

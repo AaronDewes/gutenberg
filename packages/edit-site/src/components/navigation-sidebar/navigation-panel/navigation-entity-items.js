@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __experimentalNavigationItem as NavigationItem } from '@wordpress/components';
-import { getPathAndQueryString } from '@wordpress/url';
-import { store as coreStore } from '@wordpress/core-data';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __experimentalNavigationItem as NavigationItem } from '@aarondewes/wp-components';
+import { getPathAndQueryString } from '@aarondewes/wp-url';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

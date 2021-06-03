@@ -49,8 +49,8 @@ Radio groups that cannot be selected can either be given a disabled state, or be
 #### Controlled
 
 ```jsx
-import { Radio, RadioGroup } from '@wordpress/components';
-import { useState } from '@wordpress/element';
+import { Radio, RadioGroup } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 const MyControlledRadioRadioGroup = () => {
 	const [ checked, setChecked ] = useState( '25' );
@@ -73,8 +73,8 @@ When using the RadioGroup component as an uncontrolled component, the default va
 import {
 	__experimentalRadio as Radio,
 	__experimentalRadioGroup as RadioGroup,
-} from '@wordpress/components';
-import { useState } from '@wordpress/element';
+} from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 const MyUncontrolledRadioRadioGroup = () => {
 	return (

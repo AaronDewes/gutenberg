@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createBlock, parse, serialize } from '@wordpress/blocks';
-import { addWidgetIdToBlock } from '@wordpress/widgets';
+import { createBlock, parse, serialize } from '@aarondewes/wp-blocks';
+import { addWidgetIdToBlock } from '@aarondewes/wp-widgets';
 
 export function transformWidgetToBlock( widget ) {
 	if ( widget.id_base === 'block' ) {

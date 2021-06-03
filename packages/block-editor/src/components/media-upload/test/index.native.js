@@ -10,7 +10,7 @@ import { TouchableWithoutFeedback } from 'react-native';
 import {
 	requestMediaPicker,
 	mediaSources,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 
 /**
  * Internal dependencies

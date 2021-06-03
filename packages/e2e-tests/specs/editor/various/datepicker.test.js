@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createNewPost, changeSiteTimezone } from '@wordpress/e2e-test-utils';
+import { createNewPost, changeSiteTimezone } from '@aarondewes/wp-e2e-test-utils';
 
 async function getInputValue( selector ) {
 	return page.$eval( selector, ( element ) => element.value );

@@ -18,7 +18,7 @@ There are different tools that can perform this transformation or build step; Wo
 
 [webpack](https://webpack.js.org/) is a pluggable tool that processes JavaScript and creates a compiled bundle that runs in a browser. [Babel](https://babeljs.io/) transforms JavaScript from one format to another. You use Babel as a plugin to webpack to transform both ESNext and JSX to JavaScript.
 
-The [@wordpress/scripts](https://www.npmjs.com/package/@wordpress/scripts) package abstracts these libraries away to standardize and simplify development, so you won't need to handle the details for configuring webpack or babel. See the [@wordpress/scripts package documentation](https://developer.wordpress.org/block-editor/packages/packages-scripts/) for configuration details.
+The [@aarondewes/wp-scripts](https://www.npmjs.com/package/@aarondewes/wp-scripts) package abstracts these libraries away to standardize and simplify development, so you won't need to handle the details for configuring webpack or babel. See the [@aarondewes/wp-scripts package documentation](https://developer.wordpress.org/block-editor/packages/packages-scripts/) for configuration details.
 
 ## Quick Start
 
@@ -85,7 +85,7 @@ Is this OK? (yes) yes
 
 The next step is to install the packages required. You can install packages using the npm command `npm install`. If you pass the `--save-dev` parameter, npm will write the package as a dev dependency in the package.json file. The `--save-exact` parameter instructs npm to save an exact version of a dependency, not a range of valid versions. See [npm install documentation](https://docs.npmjs.com/cli/install) for more details.
 
-Run `npm install --save-dev --save-exact @wordpress/scripts`
+Run `npm install --save-dev --save-exact @aarondewes/wp-scripts`
 
 After installing, a `node_modules` directory is created with the modules and their dependencies.
 
@@ -93,18 +93,18 @@ Also, if you look at package.json file it will include a new section:
 
 ```json
 "devDependencies": {
-  "@wordpress/scripts": "6.0.0"
+  "@aarondewes/wp-scripts": "6.0.0"
 }
 ```
 
 ## Setting Up wp-scripts build
 
-The `@wordpress/scripts` package handles the dependencies and default configuration for webpack and Babel. The scripts package expects the source file to compile to be found at `src/index.js`, and will save the compiled output to `build/index.js`.
+The `@aarondewes/wp-scripts` package handles the dependencies and default configuration for webpack and Babel. The scripts package expects the source file to compile to be found at `src/index.js`, and will save the compiled output to `build/index.js`.
 
 With that in mind, let's set up a basic block. Create a file at `src/index.js` with the following content:
 
 ```js
-import { registerBlockType } from '@wordpress/blocks';
+import { registerBlockType } from '@aarondewes/wp-blocks';
 
 registerBlockType( 'myguten/test-block', {
 	title: 'Basic Example',
@@ -129,7 +129,7 @@ After the build finishes, you will see the built file created at `build/index.js
 
 ## Development Mode
 
-The **build** command in `@wordpress/scripts` runs in "production" mode. This shrinks the code down so it downloads faster, but makes it difficult to read in the process. You can use the **start** command which runs in development mode that does not shrink the code, and additionally continues a running process to watch the source file for more changes and rebuilds as you develop.
+The **build** command in `@aarondewes/wp-scripts` runs in "production" mode. This shrinks the code down so it downloads faster, but makes it difficult to read in the process. You can use the **start** command which runs in development mode that does not shrink the code, and additionally continues a running process to watch the source file for more changes and rebuilds as you develop.
 
 The start command can be added to the same scripts section of `package.json`:
 

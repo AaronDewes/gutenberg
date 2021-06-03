@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Fill, ToolbarButton } from '@wordpress/components';
-import { displayShortcut } from '@wordpress/keycodes';
+import { Fill, ToolbarButton } from '@aarondewes/wp-components';
+import { displayShortcut } from '@aarondewes/wp-keycodes';
 
 export function RichTextToolbarButton( {
 	name,

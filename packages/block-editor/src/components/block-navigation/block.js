@@ -11,11 +11,11 @@ import {
 	__experimentalTreeGridItem as TreeGridItem,
 	MenuGroup,
 	MenuItem,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { moreVertical } from '@wordpress/icons';
-import { useState, useRef, useEffect } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { moreVertical } from '@aarondewes/wp-icons';
+import { useState, useRef, useEffect } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

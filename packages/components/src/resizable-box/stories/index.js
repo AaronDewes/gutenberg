@@ -11,7 +11,7 @@ import ResizableBox from '../';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
+import { useState } from '@aarondewes/wp-element';
 
 export default { title: 'Components/ResizableBox', component: ResizableBox };
 

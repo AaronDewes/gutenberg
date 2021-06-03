@@ -9,8 +9,8 @@ UnitControl allows the user to set a value as well as a unit (e.g. `px`).
 ## Usage
 
 ```jsx
-import { __experimentalUnitControl as UnitControl } from '@wordpress/components';
-import { useState } from '@wordpress/element';
+import { __experimentalUnitControl as UnitControl } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 const Example = () => {
 	const [ value, setValue ] = useState( '10px' );
@@ -108,8 +108,8 @@ Collection of available units.
 Example:
 
 ```jsx
-import { __experimentalUnitControl as UnitControl } from '@wordpress/components';
-import { useState } from '@wordpress/element';
+import { __experimentalUnitControl as UnitControl } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 const Example = () => {
 	const [ value, setValue ] = useState( '10px' );

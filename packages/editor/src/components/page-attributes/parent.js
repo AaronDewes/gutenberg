@@ -14,12 +14,12 @@ import {
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { ComboboxControl } from '@wordpress/components';
-import { useState, useMemo } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { decodeEntities } from '@wordpress/html-entities';
-import { store as coreStore } from '@wordpress/core-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { ComboboxControl } from '@aarondewes/wp-components';
+import { useState, useMemo } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

@@ -6,11 +6,11 @@ import { debounce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState, useMemo, useEffect } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { ComboboxControl } from '@wordpress/components';
-import { store as coreStore } from '@wordpress/core-data';
+import { useState, useMemo, useEffect } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { ComboboxControl } from '@aarondewes/wp-components';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

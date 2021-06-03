@@ -6,8 +6,8 @@ import { uniq } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { forwardRef, memo } from '@wordpress/element';
-import warn from '@wordpress/warning';
+import { forwardRef, memo } from '@aarondewes/wp-element';
+import warn from '@aarondewes/wp-warning';
 
 /**
  * Internal dependencies

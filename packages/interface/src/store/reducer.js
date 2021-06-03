@@ -6,7 +6,7 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { combineReducers } from '@wordpress/data';
+import { combineReducers } from '@aarondewes/wp-data';
 
 /**
  * Reducer to keep tract of the active area per scope.

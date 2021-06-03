@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { InspectorControls, PanelColorSettings } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { InspectorControls, PanelColorSettings } from '@aarondewes/wp-block-editor';
 
 const SeparatorSettings = ( { color, setColor } ) => (
 	<InspectorControls>

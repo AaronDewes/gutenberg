@@ -6,7 +6,7 @@ import renderer from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/components';
+import { Icon } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

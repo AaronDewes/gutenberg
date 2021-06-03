@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { format, __experimentalGetSettings } from '@wordpress/date';
-import { withSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { format, __experimentalGetSettings } from '@aarondewes/wp-date';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

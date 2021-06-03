@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createSlotFill } from '@wordpress/components';
+import { createSlotFill } from '@aarondewes/wp-components';
 
 const BlockControlsDefault = createSlotFill( 'BlockControls' );
 const BlockControlsBlock = createSlotFill( 'BlockControlsBlock' );

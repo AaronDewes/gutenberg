@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useState, useEffect } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

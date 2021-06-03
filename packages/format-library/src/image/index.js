@@ -1,16 +1,16 @@
 /**
  * WordPress dependencies
  */
-import { Path, SVG, TextControl, Popover, Button } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
-import { insertObject, useAnchorRef } from '@wordpress/rich-text';
+import { Path, SVG, TextControl, Popover, Button } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
+import { insertObject, useAnchorRef } from '@aarondewes/wp-rich-text';
 import {
 	MediaUpload,
 	RichTextToolbarButton,
 	MediaUploadCheck,
-} from '@wordpress/block-editor';
-import { keyboardReturn } from '@wordpress/icons';
+} from '@aarondewes/wp-block-editor';
+import { keyboardReturn } from '@aarondewes/wp-icons';
 
 const ALLOWED_MEDIA_TYPES = [ 'image' ];
 

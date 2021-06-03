@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	__experimentalBoxControl as BoxControl,
 	PanelBody,
 	__experimentalUseCustomUnits as useCustomUnits,
-} from '@wordpress/components';
-import { __experimentalUseCustomSides as useCustomSides } from '@wordpress/block-editor';
+} from '@aarondewes/wp-components';
+import { __experimentalUseCustomSides as useCustomSides } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

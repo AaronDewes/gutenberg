@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { BlockEditorProvider } from '@wordpress/block-editor';
+import { BlockEditorProvider } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

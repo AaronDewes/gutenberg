@@ -6,9 +6,9 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { PlainText } from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { PlainText } from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

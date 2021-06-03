@@ -11,7 +11,7 @@ import {
 	formatItalic,
 	link as linkIcon,
 	more,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

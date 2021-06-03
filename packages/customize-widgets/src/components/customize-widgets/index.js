@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useState, useEffect, useRef, createPortal } from '@wordpress/element';
-import { SlotFillProvider, Popover } from '@wordpress/components';
+import { useState, useEffect, useRef, createPortal } from '@aarondewes/wp-element';
+import { SlotFillProvider, Popover } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

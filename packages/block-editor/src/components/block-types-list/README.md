@@ -22,7 +22,7 @@ This component is present in the block insertion tab, the reusable blocks tab an
 Renders a list of blocks types.
 
 ```jsx
-import { BlockTypesList } from '@wordpress/block-editor';
+import { BlockTypesList } from '@aarondewes/wp-block-editor';
 
 const MyBlockTypesList = () => <BlockTypesList items={ filteredItems } />;
 ```

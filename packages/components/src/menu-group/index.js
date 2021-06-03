@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Children } from '@wordpress/element';
-import { useInstanceId } from '@wordpress/compose';
+import { Children } from '@aarondewes/wp-element';
+import { useInstanceId } from '@aarondewes/wp-compose';
 
 export function MenuGroup( {
 	children,

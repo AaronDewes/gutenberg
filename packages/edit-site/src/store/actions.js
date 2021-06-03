@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { parse, __unstableSerializeAndClean } from '@wordpress/blocks';
-import { controls, dispatch } from '@wordpress/data';
-import { apiFetch } from '@wordpress/data-controls';
-import { addQueryArgs, getPathAndQueryString } from '@wordpress/url';
-import { __ } from '@wordpress/i18n';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as coreStore } from '@wordpress/core-data';
+import { parse, __unstableSerializeAndClean } from '@aarondewes/wp-blocks';
+import { controls, dispatch } from '@aarondewes/wp-data';
+import { apiFetch } from '@aarondewes/wp-data-controls';
+import { addQueryArgs, getPathAndQueryString } from '@aarondewes/wp-url';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

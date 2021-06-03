@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { addFilter } from '@wordpress/hooks';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 const { wp } = window;
 

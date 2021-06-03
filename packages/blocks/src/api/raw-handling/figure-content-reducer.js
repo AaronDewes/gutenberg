@@ -6,7 +6,7 @@ import { has } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { isTextContent } from '@wordpress/dom';
+import { isTextContent } from '@aarondewes/wp-dom';
 
 /**
  * Whether or not the given node is figure content.

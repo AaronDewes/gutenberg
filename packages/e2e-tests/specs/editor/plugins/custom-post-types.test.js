@@ -7,7 +7,7 @@ import {
 	deactivatePlugin,
 	publishPost,
 	findSidebarPanelWithTitle,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const openPageAttributesPanel = async () => {
 	const openButton = await findSidebarPanelWithTitle( 'Page Attributes' );

@@ -12,15 +12,15 @@ const mockComponent = ( element ) => ( ...args ) => {
 	return React.createElement( element, props, props.children );
 };
 
-jest.mock( '@wordpress/element', () => {
+jest.mock( '@aarondewes/wp-element', () => {
 	return {
 		__esModule: true,
-		...jest.requireActual( '@wordpress/element' ),
+		...jest.requireActual( '@aarondewes/wp-element' ),
 		render: jest.fn(),
 	};
 } );
 
-jest.mock( '@wordpress/react-native-bridge', () => {
+jest.mock( '@aarondewes/wp-react-native-bridge', () => {
 	return {
 		addEventListener: jest.fn(),
 		mediaUploadSync: jest.fn(),
@@ -55,7 +55,7 @@ jest.mock( '@wordpress/react-native-bridge', () => {
 	};
 } );
 
-jest.mock( 'react-native-dark-mode', () => {
+jest.mock( 'react-native-dynamic', () => {
 	return {
 		initialMode: 'light',
 		eventEmitter: {

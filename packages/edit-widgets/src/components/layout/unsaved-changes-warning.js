@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useEffect } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useEffect } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

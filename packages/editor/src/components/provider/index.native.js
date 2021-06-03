@@ -16,27 +16,27 @@ import RNReactNativeGutenbergBridge, {
 	subscribeUpdateTheme,
 	subscribeUpdateCapabilities,
 	subscribeShowNotice,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { count as wordCount } from '@wordpress/wordcount';
+import { Component } from '@aarondewes/wp-element';
+import { count as wordCount } from '@aarondewes/wp-wordcount';
 import {
 	parse,
 	serialize,
 	getUnregisteredTypeHandlerName,
 	createBlock,
-} from '@wordpress/blocks';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { applyFilters } from '@wordpress/hooks';
+} from '@aarondewes/wp-blocks';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { applyFilters } from '@aarondewes/wp-hooks';
 import {
 	validateThemeColors,
 	validateThemeGradients,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 const postTypeEntities = [
 	{ name: 'post', baseURL: '/wp/v2/posts' },

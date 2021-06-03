@@ -7,7 +7,7 @@ import {
 	postTitle,
 	tag,
 	customPostType,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

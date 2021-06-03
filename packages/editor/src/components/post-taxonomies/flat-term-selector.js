@@ -14,18 +14,18 @@ import {
 /**
  * WordPress dependencies
  */
-import { __, _x, sprintf } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
+import { __, _x, sprintf } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
 import {
 	FormTokenField,
 	withFilters,
 	withSpokenMessages,
-} from '@wordpress/components';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
-import { compose } from '@wordpress/compose';
-import apiFetch from '@wordpress/api-fetch';
-import { addQueryArgs } from '@wordpress/url';
+} from '@aarondewes/wp-components';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { compose } from '@aarondewes/wp-compose';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

@@ -7,14 +7,14 @@ import { useNavigation } from '@react-navigation/native';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { Icon, chevronRight } from '@wordpress/icons';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { useState } from '@aarondewes/wp-element';
+import { Icon, chevronRight } from '@aarondewes/wp-icons';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 import {
 	BottomSheet,
 	PanelBody,
 	FooterMessageControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

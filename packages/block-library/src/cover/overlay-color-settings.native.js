@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies
@@ -13,8 +13,8 @@ import {
 	getGradientSlugByValue,
 	__experimentalPanelColorGradientSettings as PanelColorGradientSettings,
 	useSetting,
-} from '@wordpress/block-editor';
-import { useMemo } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { useMemo } from '@aarondewes/wp-element';
 
 function OverlayColorSettings( {
 	overlayColor,

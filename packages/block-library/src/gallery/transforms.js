@@ -6,8 +6,8 @@ import { filter, every, toString } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createBlock } from '@wordpress/blocks';
-import { createBlobURL } from '@wordpress/blob';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { createBlobURL } from '@aarondewes/wp-blob';
 
 /**
  * Internal dependencies

@@ -6,8 +6,8 @@ import { isString, kebabCase, reduce, upperFirst } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { compose, createHigherOrderComponent } from '@wordpress/compose';
+import { Component } from '@aarondewes/wp-element';
+import { compose, createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

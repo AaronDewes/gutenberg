@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { Component, createPortal } from '@wordpress/element';
-import { withInstanceId } from '@wordpress/compose';
-import deprecated from '@wordpress/deprecated';
+import { Component, createPortal } from '@aarondewes/wp-element';
+import { withInstanceId } from '@aarondewes/wp-compose';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Internal dependencies

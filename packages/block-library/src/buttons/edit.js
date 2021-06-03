@@ -11,7 +11,7 @@ import {
 	useBlockProps,
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
 	JustifyContentControl,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

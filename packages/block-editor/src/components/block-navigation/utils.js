@@ -6,7 +6,7 @@ import { isArray } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 export const getBlockPositionDescription = ( position, siblingCount, level ) =>
 	sprintf(

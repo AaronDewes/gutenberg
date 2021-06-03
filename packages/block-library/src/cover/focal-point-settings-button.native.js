@@ -7,10 +7,10 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Icon, BottomSheet } from '@wordpress/components';
-import { blockSettingsScreens } from '@wordpress/block-editor';
-import { chevronRight } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { Icon, BottomSheet } from '@aarondewes/wp-components';
+import { blockSettingsScreens } from '@aarondewes/wp-block-editor';
+import { chevronRight } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

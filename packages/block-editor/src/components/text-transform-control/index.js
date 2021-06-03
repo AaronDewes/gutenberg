@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { Button } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	formatCapitalize,
 	formatLowercase,
 	formatUppercase,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 const TEXT_TRANSFORMS = [
 	{

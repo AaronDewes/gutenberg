@@ -6,14 +6,14 @@ import { View, Text } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useState, useContext } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState, useContext } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 import {
 	ColorControl,
 	PanelBody,
 	BottomSheetContext,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import { useRoute, useNavigation } from '@react-navigation/native';
 /**
  * Internal dependencies

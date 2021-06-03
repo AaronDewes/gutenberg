@@ -6,10 +6,10 @@ import { includes, map, without } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useContext, useMemo } from '@wordpress/element';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose, withInstanceId } from '@wordpress/compose';
-import { CheckboxControl } from '@wordpress/components';
+import { useContext, useMemo } from '@aarondewes/wp-element';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose, withInstanceId } from '@aarondewes/wp-compose';
+import { CheckboxControl } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

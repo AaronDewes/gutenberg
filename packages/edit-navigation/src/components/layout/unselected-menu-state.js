@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Card, CardBody, NavigableMenu } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { Card, CardBody, NavigableMenu } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

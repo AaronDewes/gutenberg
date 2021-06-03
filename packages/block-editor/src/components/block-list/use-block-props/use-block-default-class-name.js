@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	hasBlockSupport,
 	getBlockType,
 	getBlockDefaultClassName,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

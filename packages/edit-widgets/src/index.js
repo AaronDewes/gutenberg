@@ -4,15 +4,15 @@
 import {
 	registerBlockType,
 	unstable__bootstrapServerSideBlockDefinitions, // eslint-disable-line camelcase
-} from '@wordpress/blocks';
-import { render } from '@wordpress/element';
+} from '@aarondewes/wp-blocks';
+import { render } from '@aarondewes/wp-element';
 import {
 	registerCoreBlocks,
 	__experimentalGetCoreBlocks,
 	__experimentalRegisterExperimentalCoreBlocks,
-} from '@wordpress/block-library';
-import { __experimentalFetchLinkSuggestions as fetchLinkSuggestions } from '@wordpress/core-data';
-import { registerLegacyWidgetVariations } from '@wordpress/widgets';
+} from '@aarondewes/wp-block-library';
+import { __experimentalFetchLinkSuggestions as fetchLinkSuggestions } from '@aarondewes/wp-core-data';
+import { registerLegacyWidgetVariations } from '@aarondewes/wp-widgets';
 
 /**
  * Internal dependencies

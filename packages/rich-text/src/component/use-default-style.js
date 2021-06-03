@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useCallback } from '@wordpress/element';
+import { useCallback } from '@aarondewes/wp-element';
 
 /**
  * In HTML, leading and trailing spaces are not visible, and multiple spaces

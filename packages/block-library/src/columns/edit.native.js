@@ -6,7 +6,7 @@ import { dropRight, times, map, compact, delay } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	PanelBody,
 	RangeControl,
@@ -16,7 +16,7 @@ import {
 	GlobalStylesContext,
 	alignmentHelpers,
 	__experimentalUseCustomUnits as useCustomUnits,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	InspectorControls,
 	InnerBlocks,
@@ -25,8 +25,8 @@ import {
 	BlockVariationPicker,
 	useSetting,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { withDispatch, useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-block-editor';
+import { withDispatch, useSelect } from '@aarondewes/wp-data';
 import {
 	useEffect,
 	useState,
@@ -34,10 +34,10 @@ import {
 	useMemo,
 	useCallback,
 	memo,
-} from '@wordpress/element';
-import { useResizeObserver } from '@wordpress/compose';
-import { createBlock } from '@wordpress/blocks';
-import { columns } from '@wordpress/icons';
+} from '@aarondewes/wp-element';
+import { useResizeObserver } from '@aarondewes/wp-compose';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { columns } from '@aarondewes/wp-icons';
 /**
  * Internal dependencies
  */

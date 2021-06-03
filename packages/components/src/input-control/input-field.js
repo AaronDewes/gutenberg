@@ -7,8 +7,8 @@ import { useDrag } from 'react-use-gesture';
 /**
  * WordPress dependencies
  */
-import { forwardRef, useRef } from '@wordpress/element';
-import { UP, DOWN, ENTER } from '@wordpress/keycodes';
+import { forwardRef, useRef } from '@aarondewes/wp-element';
+import { UP, DOWN, ENTER } from '@aarondewes/wp-keycodes';
 /**
  * Internal dependencies
  */

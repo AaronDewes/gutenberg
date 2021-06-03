@@ -6,9 +6,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { Fragment } from '@wordpress/element';
-import { ToggleControl } from '@wordpress/components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Fragment } from '@aarondewes/wp-element';
+import { ToggleControl } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

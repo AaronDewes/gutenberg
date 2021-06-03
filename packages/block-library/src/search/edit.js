@@ -12,7 +12,7 @@ import {
 	InspectorControls,
 	RichText,
 	__experimentalUnitControl as UnitControl,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	DropdownMenu,
 	MenuGroup,
@@ -25,10 +25,10 @@ import {
 	PanelBody,
 	BaseControl,
 	__experimentalUseCustomUnits as useCustomUnits,
-} from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { search } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { search } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

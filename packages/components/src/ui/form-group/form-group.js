@@ -38,7 +38,7 @@ function FormGroup( props, forwardedRef ) {
  *
  * @example
  * ```jsx
- * import { FormGroup, TextInput } from `@wordpress/components/ui`;
+ * import { FormGroup, TextInput } from `@aarondewes/wp-components/ui`;
  *
  * function Example() {
  * 	return (

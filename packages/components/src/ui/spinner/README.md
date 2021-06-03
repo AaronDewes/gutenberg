@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { Spinner } from '@wordpress/components/ui';
+import { Spinner } from '@aarondewes/wp-components/ui';
 
 function Example() {
 	return <Spinner />;

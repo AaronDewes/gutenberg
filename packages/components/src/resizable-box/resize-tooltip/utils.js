@@ -7,7 +7,7 @@ import useResizeAware from 'react-resize-aware';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef, useState } from '@wordpress/element';
+import { useEffect, useRef, useState } from '@aarondewes/wp-element';
 
 const { clearTimeout, setTimeout } =
 	typeof window !== 'undefined' ? window : {};

@@ -6,9 +6,9 @@ import {
 	__experimentalNavigationMenu as NavigationMenu,
 	__experimentalNavigationItem as NavigationItem,
 	__experimentalNavigationBackButton as NavigationBackButton,
-} from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

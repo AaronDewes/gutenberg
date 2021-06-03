@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { View, VisuallyHidden } from '@wordpress/components/ui';
+import { View, VisuallyHidden } from '@aarondewes/wp-components/ui';
 
 function Example() {
 	return (

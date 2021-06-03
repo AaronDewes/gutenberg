@@ -6,7 +6,7 @@ import styled from '@emotion/styled';
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/icons';
+import { Icon } from '@aarondewes/wp-icons';
 
 export const StyledIcon = styled( Icon )`
 	width: 1.4em;

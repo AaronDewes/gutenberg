@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useResizeObserver } from '@wordpress/compose';
+import { useResizeObserver } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

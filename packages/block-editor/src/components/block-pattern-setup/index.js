@@ -1,18 +1,18 @@
 /**
  * WordPress dependencies
  */
-import { useDispatch } from '@wordpress/data';
-import { cloneBlock } from '@wordpress/blocks';
+import { useDispatch } from '@aarondewes/wp-data';
+import { cloneBlock } from '@aarondewes/wp-blocks';
 import {
 	VisuallyHidden,
 	__unstableComposite as Composite,
 	__unstableUseCompositeState as useCompositeState,
 	__unstableCompositeItem as CompositeItem,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
-import { useState } from '@wordpress/element';
-import { useInstanceId } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
+import { useState } from '@aarondewes/wp-element';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useEffect, useState, useRef } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { useEffect, useState, useRef } from '@aarondewes/wp-element';
 
 export default function useCreatePage( handleCreatePage ) {
 	const cancelableCreateSuggestion = useRef();

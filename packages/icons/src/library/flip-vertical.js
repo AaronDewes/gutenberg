@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { SVG, Path } from '@wordpress/primitives';
+import { SVG, Path } from '@aarondewes/wp-primitives';
 
 const flipVertical = (
 	<SVG xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

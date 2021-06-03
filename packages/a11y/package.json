@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/a11y",
+	"name": "@aarondewes/wp-a11y",
 	"version": "3.1.1",
 	"description": "Accessibility (a11y) utilities for WordPress.",
 	"author": "The WordPress Contributors",
@@ -29,8 +29,8 @@
 	"types": "build-types",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/dom-ready": "file:../dom-ready",
-		"@wordpress/i18n": "file:../i18n"
+		"@aarondewes/wp-dom-ready": "file:../dom-ready",
+		"@aarondewes/wp-i18n": "file:../i18n"
 	},
 	"publishConfig": {
 		"access": "public"

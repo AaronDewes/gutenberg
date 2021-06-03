@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useDispatch } from '@wordpress/data';
-import { useCallback } from '@wordpress/element';
-import { useEntityBlockEditor } from '@wordpress/core-data';
+import { useDispatch } from '@aarondewes/wp-data';
+import { useCallback } from '@aarondewes/wp-element';
+import { useEntityBlockEditor } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

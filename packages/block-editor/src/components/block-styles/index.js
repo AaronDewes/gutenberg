@@ -7,16 +7,16 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { ENTER, SPACE } from '@wordpress/keycodes';
-import { _x } from '@wordpress/i18n';
+import { useMemo } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { ENTER, SPACE } from '@aarondewes/wp-keycodes';
+import { _x } from '@aarondewes/wp-i18n';
 import {
 	getBlockType,
 	cloneBlock,
 	getBlockFromExample,
 	store as blocksStore,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

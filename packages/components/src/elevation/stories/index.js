@@ -20,7 +20,7 @@ import {
 /**
  * WordPress dependencies
  */
-import { useCallback } from '@wordpress/element';
+import { useCallback } from '@aarondewes/wp-element';
 
 export default {
 	component: Elevation,

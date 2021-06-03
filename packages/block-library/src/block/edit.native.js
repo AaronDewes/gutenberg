@@ -12,23 +12,23 @@ import {
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
+import { useState } from '@aarondewes/wp-element';
 import {
 	useEntityBlockEditor,
 	useEntityProp,
 	store as coreStore,
-} from '@wordpress/core-data';
-import { BottomSheet, Icon, Disabled } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-core-data';
+import { BottomSheet, Icon, Disabled } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	__experimentalUseNoRecursiveRenders as useNoRecursiveRenders,
 	InnerBlocks,
 	Warning,
-} from '@wordpress/block-editor';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
-import { help } from '@wordpress/icons';
-import { store as reusableBlocksStore } from '@wordpress/reusable-blocks';
+} from '@aarondewes/wp-block-editor';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
+import { help } from '@aarondewes/wp-icons';
+import { store as reusableBlocksStore } from '@aarondewes/wp-reusable-blocks';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { preformatted as icon } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { preformatted as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies
@@ -20,12 +20,12 @@ export const settings = {
 	icon,
 	example: {
 		attributes: {
-			/* eslint-disable @wordpress/i18n-no-collapsible-whitespace */
+			/* eslint-disable @aarondewes/wp-i18n-no-collapsible-whitespace */
 			// translators: Sample content for the Preformatted block. Can be replaced with a more locale-adequate work.
 			content: __(
 				'EXT. XANADU - FAINT DAWN - 1940 (MINIATURE)\nWindow, very small in the distance, illuminated.\nAll around this is an almost totally black screen. Now, as the camera moves slowly towards the window which is almost a postage stamp in the frame, other forms appear;'
 			),
-			/* eslint-enable @wordpress/i18n-no-collapsible-whitespace */
+			/* eslint-enable @aarondewes/wp-i18n-no-collapsible-whitespace */
 		},
 	},
 	transforms,

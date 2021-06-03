@@ -3,8 +3,8 @@
 /**
  * WordPress dependencies
  */
-import { applyFilters, doAction } from '@wordpress/hooks';
-import { plugins as pluginsIcon } from '@wordpress/icons';
+import { applyFilters, doAction } from '@aarondewes/wp-hooks';
+import { plugins as pluginsIcon } from '@aarondewes/wp-icons';
 
 /**
  * External dependencies
@@ -83,9 +83,9 @@ const plugins = {};
  * @example
  * ```js
  * // Using ESNext syntax
- * import { PluginSidebar, PluginSidebarMoreMenuItem } from '@wordpress/edit-post';
- * import { registerPlugin } from '@wordpress/plugins';
- * import { more } from '@wordpress/icons';
+ * import { PluginSidebar, PluginSidebarMoreMenuItem } from '@aarondewes/wp-edit-post';
+ * import { registerPlugin } from '@aarondewes/wp-plugins';
+ * import { more } from '@aarondewes/wp-icons';
  *
  * const Component = () => (
  * 	<>
@@ -183,7 +183,7 @@ export function registerPlugin( name, settings ) {
  * @example
  * ```js
  * // Using ESNext syntax
- * import { unregisterPlugin } from '@wordpress/plugins';
+ * import { unregisterPlugin } from '@aarondewes/wp-plugins';
  *
  * unregisterPlugin( 'plugin-name' );
  * ```

@@ -9,7 +9,7 @@ Pass in the `text` and the `highlight` string to be matched against.
 In the example below, the string `Gutenberg` would be highlighted twice.
 
 ```jsx
-import { TextHighlight } from '@wordpress/components';
+import { TextHighlight } from '@aarondewes/wp-components';
 
 const MyTextHighlight = () => (
 	<TextHighlight

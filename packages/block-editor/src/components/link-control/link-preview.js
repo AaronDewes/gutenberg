@@ -6,9 +6,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Button, ExternalLink } from '@wordpress/components';
-import { filterURLForDisplay, safeDecodeURI } from '@wordpress/url';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button, ExternalLink } from '@aarondewes/wp-components';
+import { filterURLForDisplay, safeDecodeURI } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

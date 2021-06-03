@@ -12,7 +12,7 @@ import useGrid from './hook';
  * import {
  * 	__experimentalGrid as Grid,
  * 	__experimentalText as Text
- * } from `@wordpress/components`;
+ * } from `@aarondewes/wp-components`;
  *
  * function Example() {
  * 	return (

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { isEmpty, split, toHTMLString } from '@wordpress/rich-text';
+import { isEmpty, split, toHTMLString } from '@aarondewes/wp-rich-text';
 
 /*
  * Signals to the RichText owner that the block can be replaced with two blocks

@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { TextControl } from '@wordpress/components';
-import { ZERO } from '@wordpress/keycodes';
+import { __ } from '@aarondewes/wp-i18n';
+import { TextControl } from '@aarondewes/wp-components';
+import { ZERO } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

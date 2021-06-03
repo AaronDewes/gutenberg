@@ -7,7 +7,7 @@ Deprecation utility for WordPress. Logs a message to notify developers about a d
 Install the module
 
 ```bash
-npm install @wordpress/deprecated --save
+npm install @aarondewes/wp-deprecated --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -19,7 +19,7 @@ The `deprecated` action is fired with three parameters: the name of the deprecat
 _Example:_
 
 ```js
-import { addAction } from '@wordpress/hooks';
+import { addAction } from '@aarondewes/wp-hooks';
 
 function addDeprecationAlert( message, { version } ) {
 	alert( `Deprecation: ${ message }. Version: ${ version }` );
@@ -43,7 +43,7 @@ Logs a message to notify developers about a deprecated feature.
 _Usage_
 
 ```js
-import deprecated from '@wordpress/deprecated';
+import deprecated from '@aarondewes/wp-deprecated';
 
 deprecated( 'Eating meat', {
 	since: '2019.01.01'

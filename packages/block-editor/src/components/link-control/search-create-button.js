@@ -7,10 +7,10 @@ import { isFunction } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
-import { createInterpolateElement } from '@wordpress/element';
-import { Icon, plus } from '@wordpress/icons';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
+import { createInterpolateElement } from '@aarondewes/wp-element';
+import { Icon, plus } from '@aarondewes/wp-icons';
 
 export const LinkControlSearchCreate = ( {
 	searchTerm,

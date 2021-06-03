@@ -6,12 +6,12 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __, _x, isRTL } from '@wordpress/i18n';
+import { __, _x, isRTL } from '@aarondewes/wp-i18n';
 import {
 	ToolbarDropdownMenu,
 	PanelBody,
 	ToggleControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	AlignmentControl,
 	BlockControls,
@@ -19,9 +19,9 @@ import {
 	RichText,
 	useBlockProps,
 	useSetting,
-} from '@wordpress/block-editor';
-import { createBlock } from '@wordpress/blocks';
-import { formatLtr } from '@wordpress/icons';
+} from '@aarondewes/wp-block-editor';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { formatLtr } from '@aarondewes/wp-icons';
 
 const name = 'core/paragraph';
 

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { SVG, Path } from '@wordpress/components';
+import { SVG, Path } from '@aarondewes/wp-components';
 
 export default (
 	<SVG

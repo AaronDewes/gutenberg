@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { store as blocksStore } from '@wordpress/blocks';
+import { useSelect } from '@aarondewes/wp-data';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies
  */
 import { store as blockEditorStore } from '../../store';
 
-/** @typedef {import('@wordpress/blocks').WPIcon} WPIcon */
+/** @typedef {import('@aarondewes/wp-blocks').WPIcon} WPIcon */
 
 /**
  * Contains basic block's information for display reasons.

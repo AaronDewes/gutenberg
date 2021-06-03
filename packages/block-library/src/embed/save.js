@@ -6,7 +6,7 @@ import classnames from 'classnames/dedupe';
 /**
  * WordPress dependencies
  */
-import { RichText, useBlockProps } from '@wordpress/block-editor';
+import { RichText, useBlockProps } from '@aarondewes/wp-block-editor';
 
 export default function save( { attributes } ) {
 	const { url, caption, type, providerNameSlug } = attributes;

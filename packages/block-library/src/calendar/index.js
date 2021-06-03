@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { calendar as icon } from '@wordpress/icons';
+import { calendar as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

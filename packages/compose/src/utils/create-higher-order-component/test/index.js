@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

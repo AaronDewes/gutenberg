@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { addQueryArgs } from '@wordpress/url';
+import { useMemo } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

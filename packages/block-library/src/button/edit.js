@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useCallback, useState, useRef } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { useCallback, useState, useRef } from '@aarondewes/wp-element';
 import {
 	Button,
 	ButtonGroup,
@@ -16,7 +16,7 @@ import {
 	TextControl,
 	ToolbarButton,
 	Popover,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	BlockControls,
 	InspectorControls,
@@ -25,10 +25,10 @@ import {
 	useBlockProps,
 	__experimentalUseColorProps as useColorProps,
 	__experimentalLinkControl as LinkControl,
-} from '@wordpress/block-editor';
-import { rawShortcut, displayShortcut } from '@wordpress/keycodes';
-import { link, linkOff } from '@wordpress/icons';
-import { createBlock } from '@wordpress/blocks';
+} from '@aarondewes/wp-block-editor';
+import { rawShortcut, displayShortcut } from '@aarondewes/wp-keycodes';
+import { link, linkOff } from '@aarondewes/wp-icons';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 const NEW_TAB_REL = 'noreferrer noopener';
 

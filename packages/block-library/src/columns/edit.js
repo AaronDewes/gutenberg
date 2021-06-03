@@ -7,8 +7,8 @@ import { dropRight, get, times } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelBody, RangeControl, Notice } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody, RangeControl, Notice } from '@aarondewes/wp-components';
 
 import {
 	InspectorControls,
@@ -18,13 +18,13 @@ import {
 	__experimentalBlockVariationPicker,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { withDispatch, useDispatch, useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-block-editor';
+import { withDispatch, useDispatch, useSelect } from '@aarondewes/wp-data';
 import {
 	createBlock,
 	createBlocksFromInnerBlocksTemplate,
 	store as blocksStore,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

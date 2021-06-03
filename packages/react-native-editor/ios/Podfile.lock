@@ -296,7 +296,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../../../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../../../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../../../node_modules/react-native/ReactCommon`)
-  - ReactNativeDarkMode (from `../../../node_modules/react-native-dark-mode`)
+  - ReactNativeDarkMode (from `../../../node_modules/react-native-dynamic`)
   - "RNCMaskedView (from `../../../node_modules/@react-native-community/masked-view`)"
   - RNGestureHandler (from `../../../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../../../node_modules/react-native-reanimated`)
@@ -378,7 +378,7 @@ EXTERNAL SOURCES:
   ReactCommon:
     :path: "../../../node_modules/react-native/ReactCommon"
   ReactNativeDarkMode:
-    :path: "../../../node_modules/react-native-dark-mode"
+    :path: "../../../node_modules/react-native-dynamic"
   RNCMaskedView:
     :path: "../../../node_modules/@react-native-community/masked-view"
   RNGestureHandler:

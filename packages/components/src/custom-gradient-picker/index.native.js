@@ -5,9 +5,9 @@ import { get, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { PanelBody, RadioControl, RangeControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
+import { PanelBody, RadioControl, RangeControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

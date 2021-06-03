@@ -6,15 +6,15 @@ import { castArray, reduce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { apiFetch } from '@wordpress/data-controls';
-import { store as interfaceStore } from '@wordpress/interface';
-import { controls, dispatch, select, subscribe } from '@wordpress/data';
-import { speak } from '@wordpress/a11y';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as blockEditorStore } from '@wordpress/block-editor';
-import { store as editorStore } from '@wordpress/editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { apiFetch } from '@aarondewes/wp-data-controls';
+import { store as interfaceStore } from '@aarondewes/wp-interface';
+import { controls, dispatch, select, subscribe } from '@aarondewes/wp-data';
+import { speak } from '@aarondewes/wp-a11y';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

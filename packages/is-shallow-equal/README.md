@@ -4,10 +4,10 @@ A function for performing a shallow comparison between two objects or arrays. Tw
 
 ## Usage
 
-The default export of `@wordpress/is-shallow-equal` is a function which accepts two objects or arrays:
+The default export of `@aarondewes/wp-is-shallow-equal` is a function which accepts two objects or arrays:
 
 ```js
-import isShallowEqual from '@wordpress/is-shallow-equal';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
 
 isShallowEqual( { a: 1 }, { a: 1, b: 2 } );
 // ⇒ false
@@ -25,14 +25,14 @@ isShallowEqual( [ 1 ], [ 1 ] );
 You can import a specific implementation if you already know the types of values you are working with:
 
 ```js
-import { isShallowEqualArrays } from '@wordpress/is-shallow-equal';
-import { isShallowEqualObjects } from '@wordpress/is-shallow-equal';
+import { isShallowEqualArrays } from '@aarondewes/wp-is-shallow-equal';
+import { isShallowEqualObjects } from '@aarondewes/wp-is-shallow-equal';
 ```
 
 Shallow comparison differs from deep comparison by the fact that it compares members from each as being strictly equal to the other, meaning that arrays and objects will be compared by their _references_, not by their values (see also [_Object Equality in JavaScript_.](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)) In situations where nested objects must be compared by value, consider using [Lodash's `isEqual`](https://lodash.com/docs/4.17.11#isEqual) instead.
 
 ```js
-import isShallowEqual from '@wordpress/is-shallow-equal';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
 import { isEqual } from 'lodash'; // deep comparison
 
 let object = { a: 1 };
@@ -70,9 +70,9 @@ In particular, it should…
 
 The following results were produced under Node v10.15.3 (LTS) on a MacBook Pro (Late 2016) 2.9 GHz Intel Core i7.
 
-> `@wordpress/is-shallow-equal (type specific) (object, equal) x 4,519,009 ops/sec ±1.09% (90 runs sampled)` >`@wordpress/is-shallow-equal (type specific) (object, same) x 795,527,700 ops/sec ±0.24% (93 runs sampled)` >`@wordpress/is-shallow-equal (type specific) (object, unequal) x 4,841,640 ops/sec ±0.94% (93 runs sampled)` >`@wordpress/is-shallow-equal (type specific) (array, equal) x 106,393,795 ops/sec ±0.16% (94 runs sampled)` >`@wordpress/is-shallow-equal (type specific) (array, same) x 800,741,511 ops/sec ±0.22% (95 runs sampled)` >`@wordpress/is-shallow-equal (type specific) (array, unequal) x 49,178,977 ops/sec ±1.99% (82 runs sampled)`
+> `@aarondewes/wp-is-shallow-equal (type specific) (object, equal) x 4,519,009 ops/sec ±1.09% (90 runs sampled)` >`@aarondewes/wp-is-shallow-equal (type specific) (object, same) x 795,527,700 ops/sec ±0.24% (93 runs sampled)` >`@aarondewes/wp-is-shallow-equal (type specific) (object, unequal) x 4,841,640 ops/sec ±0.94% (93 runs sampled)` >`@aarondewes/wp-is-shallow-equal (type specific) (array, equal) x 106,393,795 ops/sec ±0.16% (94 runs sampled)` >`@aarondewes/wp-is-shallow-equal (type specific) (array, same) x 800,741,511 ops/sec ±0.22% (95 runs sampled)` >`@aarondewes/wp-is-shallow-equal (type specific) (array, unequal) x 49,178,977 ops/sec ±1.99% (82 runs sampled)`
 >
-> `@wordpress/is-shallow-equal (object, equal) x 4,449,367 ops/sec ±0.31% (91 runs sampled)` >`@wordpress/is-shallow-equal (object, same) x 796,677,179 ops/sec ±0.23% (94 runs sampled)` >`@wordpress/is-shallow-equal (object, unequal) x 4,989,529 ops/sec ±0.30% (91 runs sampled)` >`@wordpress/is-shallow-equal (array, equal) x 44,840,546 ops/sec ±1.18% (89 runs sampled)` >`@wordpress/is-shallow-equal (array, same) x 794,344,723 ops/sec ±0.24% (91 runs sampled)` >`@wordpress/is-shallow-equal (array, unequal) x 49,860,115 ops/sec ±1.73% (85 runs sampled)`
+> `@aarondewes/wp-is-shallow-equal (object, equal) x 4,449,367 ops/sec ±0.31% (91 runs sampled)` >`@aarondewes/wp-is-shallow-equal (object, same) x 796,677,179 ops/sec ±0.23% (94 runs sampled)` >`@aarondewes/wp-is-shallow-equal (object, unequal) x 4,989,529 ops/sec ±0.30% (91 runs sampled)` >`@aarondewes/wp-is-shallow-equal (array, equal) x 44,840,546 ops/sec ±1.18% (89 runs sampled)` >`@aarondewes/wp-is-shallow-equal (array, same) x 794,344,723 ops/sec ±0.24% (91 runs sampled)` >`@aarondewes/wp-is-shallow-equal (array, unequal) x 49,860,115 ops/sec ±1.73% (85 runs sampled)`
 >
 > `shallowequal (object, equal) x 3,702,126 ops/sec ±0.87% (92 runs sampled)` >`shallowequal (object, same) x 796,649,597 ops/sec ±0.21% (92 runs sampled)` >`shallowequal (object, unequal) x 4,027,885 ops/sec ±0.31% (96 runs sampled)` >`shallowequal (array, equal) x 1,684,977 ops/sec ±0.37% (94 runs sampled)` >`shallowequal (array, same) x 794,287,091 ops/sec ±0.26% (91 runs sampled)` >`shallowequal (array, unequal) x 1,738,554 ops/sec ±0.29% (91 runs sampled)`
 >

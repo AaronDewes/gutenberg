@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { ComplementaryArea } from '@wordpress/interface';
-import { useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { store as keyboardShortcutsStore } from '@wordpress/keyboard-shortcuts';
-import { store as editorStore } from '@wordpress/editor';
+import { ComplementaryArea } from '@aarondewes/wp-interface';
+import { useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as keyboardShortcutsStore } from '@aarondewes/wp-keyboard-shortcuts';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies
@@ -59,10 +59,10 @@ import { store as editPostStore } from '../../../store';
  * @example
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@wordpress/i18n';
- * import { PanelBody } from '@wordpress/components';
- * import { PluginSidebar } from '@wordpress/edit-post';
- * import { more } from '@wordpress/icons';
+ * import { __ } from '@aarondewes/wp-i18n';
+ * import { PanelBody } from '@aarondewes/wp-components';
+ * import { PluginSidebar } from '@aarondewes/wp-edit-post';
+ * import { more } from '@aarondewes/wp-icons';
  *
  * const MyPluginSidebar = () => (
  * 	<PluginSidebar

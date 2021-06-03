@@ -11,8 +11,8 @@ const path = require( 'path' );
 /**
  * WordPress dependencies
  */
-const DependencyExtractionWebpackPlugin = require( '@wordpress/dependency-extraction-webpack-plugin' );
-const postcssPlugins = require( '@wordpress/postcss-plugins-preset' );
+const DependencyExtractionWebpackPlugin = require( '@aarondewes/wp-dependency-extraction-webpack-plugin' );
+const postcssPlugins = require( '@aarondewes/wp-postcss-plugins-preset' );
 
 /**
  * Internal dependencies
@@ -163,7 +163,7 @@ const config = {
 								configFile: false,
 								presets: [
 									require.resolve(
-										'@wordpress/babel-preset-default'
+										'@aarondewes/wp-babel-preset-default'
 									),
 								],
 							} ),

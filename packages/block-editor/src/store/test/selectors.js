@@ -10,8 +10,8 @@ import {
 	registerBlockType,
 	unregisterBlockType,
 	setFreeformContentHandlerName,
-} from '@wordpress/blocks';
-import { RawHTML } from '@wordpress/element';
+} from '@aarondewes/wp-blocks';
+import { RawHTML } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

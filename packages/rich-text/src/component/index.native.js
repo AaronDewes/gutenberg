@@ -6,28 +6,28 @@
 /**
  * WordPress dependencies
  */
-import RCTAztecView from '@wordpress/react-native-aztec';
+import RCTAztecView from '@aarondewes/wp-react-native-aztec';
 import { View, Platform } from 'react-native';
 import {
 	showUserSuggestions,
 	showXpostSuggestions,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 import { get, pickBy, debounce, isString } from 'lodash';
 import memize from 'memize';
 
 /**
  * WordPress dependencies
  */
-import { BlockFormatControls } from '@wordpress/block-editor';
-import { Component } from '@wordpress/element';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
-import { childrenBlock } from '@wordpress/blocks';
-import { decodeEntities } from '@wordpress/html-entities';
-import { BACKSPACE, DELETE, ENTER } from '@wordpress/keycodes';
-import { isURL } from '@wordpress/url';
-import { atSymbol, plus } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
+import { BlockFormatControls } from '@aarondewes/wp-block-editor';
+import { Component } from '@aarondewes/wp-element';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
+import { childrenBlock } from '@aarondewes/wp-blocks';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { BACKSPACE, DELETE, ENTER } from '@aarondewes/wp-keycodes';
+import { isURL } from '@aarondewes/wp-url';
+import { atSymbol, plus } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

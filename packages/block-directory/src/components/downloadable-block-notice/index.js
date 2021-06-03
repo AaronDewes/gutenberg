@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

@@ -6,9 +6,9 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { createBlock } from '@wordpress/blocks';
-import { RichText } from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { RichText } from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
 
 const Caption = ( {
 	accessibilityLabelCreator,

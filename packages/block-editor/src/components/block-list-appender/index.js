@@ -7,9 +7,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { createContext } from '@wordpress/element';
-import { withSelect } from '@wordpress/data';
-import { getDefaultBlockName } from '@wordpress/blocks';
+import { createContext } from '@aarondewes/wp-element';
+import { withSelect } from '@aarondewes/wp-data';
+import { getDefaultBlockName } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

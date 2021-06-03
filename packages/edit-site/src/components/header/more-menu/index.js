@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __, _x } from '@wordpress/i18n';
-import { moreVertical } from '@wordpress/icons';
-import { DropdownMenu, MenuGroup } from '@wordpress/components';
-import { ActionItem } from '@wordpress/interface';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { moreVertical } from '@aarondewes/wp-icons';
+import { DropdownMenu, MenuGroup } from '@aarondewes/wp-components';
+import { ActionItem } from '@aarondewes/wp-interface';
 
 /**
  * Internal dependencies

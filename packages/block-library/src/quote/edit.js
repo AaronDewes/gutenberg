@@ -6,16 +6,16 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	AlignmentControl,
 	BlockControls,
 	RichText,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { BlockQuotation } from '@wordpress/components';
-import { createBlock } from '@wordpress/blocks';
-import { Platform } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { BlockQuotation } from '@aarondewes/wp-components';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { Platform } from '@aarondewes/wp-element';
 
 const isWebPlatform = Platform.OS === 'web';
 

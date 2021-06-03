@@ -6,10 +6,10 @@ import { first, last } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { isEntirelySelected } from '@wordpress/dom';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { __unstableUseShortcutEventMatch as useShortcutEventMatch } from '@wordpress/keyboard-shortcuts';
-import { useRefEffect } from '@wordpress/compose';
+import { isEntirelySelected } from '@aarondewes/wp-dom';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { __unstableUseShortcutEventMatch as useShortcutEventMatch } from '@aarondewes/wp-keyboard-shortcuts';
+import { useRefEffect } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

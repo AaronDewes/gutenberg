@@ -13,21 +13,21 @@ import {
 	EditorNotices,
 	EditorKeyboardShortcutsRegister,
 	store as editorStore,
-} from '@wordpress/editor';
-import { AsyncModeProvider, useSelect, useDispatch } from '@wordpress/data';
-import { BlockBreadcrumb } from '@wordpress/block-editor';
-import { Button, ScrollLock, Popover } from '@wordpress/components';
-import { useViewportMatch } from '@wordpress/compose';
-import { PluginArea } from '@wordpress/plugins';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-editor';
+import { AsyncModeProvider, useSelect, useDispatch } from '@aarondewes/wp-data';
+import { BlockBreadcrumb } from '@aarondewes/wp-block-editor';
+import { Button, ScrollLock, Popover } from '@aarondewes/wp-components';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { PluginArea } from '@aarondewes/wp-plugins';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	ComplementaryArea,
 	FullscreenMode,
 	InterfaceSkeleton,
 	store as interfaceStore,
-} from '@wordpress/interface';
-import { useState, useEffect, useCallback } from '@wordpress/element';
-import { store as keyboardShortcutsStore } from '@wordpress/keyboard-shortcuts';
+} from '@aarondewes/wp-interface';
+import { useState, useEffect, useCallback } from '@aarondewes/wp-element';
+import { store as keyboardShortcutsStore } from '@aarondewes/wp-keyboard-shortcuts';
 
 /**
  * Internal dependencies

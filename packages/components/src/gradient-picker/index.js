@@ -6,8 +6,8 @@ import { map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { useCallback, useMemo } from '@wordpress/element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useCallback, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

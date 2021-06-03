@@ -6,8 +6,8 @@ import { mapValues } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

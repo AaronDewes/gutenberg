@@ -11,7 +11,7 @@ import {
 	getEditedPostContent,
 	createNewPost,
 	pressKeyTimes,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Font Size Picker', () => {
 	const FONT_SIZE_LABEL_SELECTOR = "//label[contains(text(), 'Font size')]";

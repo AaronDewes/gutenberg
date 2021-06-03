@@ -6,8 +6,8 @@ import TestUtils from 'react-dom/test-utils';
 /**
  * WordPress dependencies
  */
-import { createRef } from '@wordpress/element';
-import { plusCircle } from '@wordpress/icons';
+import { createRef } from '@aarondewes/wp-element';
+import { plusCircle } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

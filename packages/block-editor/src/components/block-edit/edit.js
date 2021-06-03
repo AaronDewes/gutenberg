@@ -7,13 +7,13 @@ import { pick } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { withFilters } from '@wordpress/components';
+import { withFilters } from '@aarondewes/wp-components';
 import {
 	getBlockDefaultClassName,
 	hasBlockSupport,
 	getBlockType,
-} from '@wordpress/blocks';
-import { useContext, useMemo } from '@wordpress/element';
+} from '@aarondewes/wp-blocks';
+import { useContext, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

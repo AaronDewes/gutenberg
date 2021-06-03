@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { queryPaginationNext as icon } from '@wordpress/icons';
+import { queryPaginationNext as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

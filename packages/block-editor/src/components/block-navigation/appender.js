@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __experimentalTreeGridCell as TreeGridCell } from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { __, sprintf } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
+import { __experimentalTreeGridCell as TreeGridCell } from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

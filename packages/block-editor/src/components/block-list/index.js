@@ -6,9 +6,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { AsyncModeProvider, useSelect } from '@wordpress/data';
-import { useViewportMatch, useMergeRefs } from '@wordpress/compose';
-import { createContext, useState, useMemo } from '@wordpress/element';
+import { AsyncModeProvider, useSelect } from '@aarondewes/wp-data';
+import { useViewportMatch, useMergeRefs } from '@aarondewes/wp-compose';
+import { createContext, useState, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

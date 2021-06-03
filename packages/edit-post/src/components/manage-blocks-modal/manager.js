@@ -6,11 +6,11 @@ import { filter, includes, isArray } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { withSelect } from '@wordpress/data';
-import { TextControl } from '@wordpress/components';
-import { __, _n, sprintf } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { withSelect } from '@aarondewes/wp-data';
+import { TextControl } from '@aarondewes/wp-components';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

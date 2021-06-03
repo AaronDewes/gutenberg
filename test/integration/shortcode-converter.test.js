@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { registerCoreBlocks } from '@wordpress/block-library';
-import { createBlock, registerBlockType } from '@wordpress/blocks';
+import { registerCoreBlocks } from '@aarondewes/wp-block-library';
+import { createBlock, registerBlockType } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

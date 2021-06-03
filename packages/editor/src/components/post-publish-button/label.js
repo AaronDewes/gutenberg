@@ -6,9 +6,9 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { compose } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

@@ -13,11 +13,11 @@ import { isArray } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Children, cloneElement } from '@wordpress/element';
+import { Children, cloneElement } from '@aarondewes/wp-element';
 import {
 	usePreferredColorScheme,
 	usePreferredColorSchemeStyle,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

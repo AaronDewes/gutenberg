@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/priority-queue",
+	"name": "@aarondewes/wp-priority-queue",
 	"version": "2.1.1",
 	"description": "Generic browser priority queue.",
 	"author": "The WordPress Contributors",

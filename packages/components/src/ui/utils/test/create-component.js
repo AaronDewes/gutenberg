@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 /**
  * WordPress dependencies
  */
-import { createRef } from '@wordpress/element';
+import { createRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -26,7 +26,7 @@ Extra props to apply to the wrapper.
 ## Usage
 
 ```jsx
-import { __experimentalUseDialog as useDialog } from '@wordpress/compose';
+import { __experimentalUseDialog as useDialog } from '@aarondewes/wp-compose';
 
 const MyDialog = () => {
 	const [ ref, extraProps ] = useDialog( {

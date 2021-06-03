@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useMemo, useCallback, useState } from '@wordpress/element';
-import isShallowEqual from '@wordpress/is-shallow-equal';
+import { useMemo, useCallback, useState } from '@aarondewes/wp-element';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
 
 /**
  * Internal dependencies

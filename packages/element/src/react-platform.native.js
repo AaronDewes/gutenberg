@@ -7,7 +7,7 @@ import { omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { applyFilters, doAction } from '@wordpress/hooks';
+import { applyFilters, doAction } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

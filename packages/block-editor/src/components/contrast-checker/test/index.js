@@ -8,15 +8,15 @@ import { act } from 'react-dom/test-utils';
 /**
  * WordPress dependencies
  */
-import { Notice } from '@wordpress/components';
-import { speak } from '@wordpress/a11y';
+import { Notice } from '@aarondewes/wp-components';
+import { speak } from '@aarondewes/wp-a11y';
 
 /**
  * Internal dependencies
  */
 import ContrastChecker from '../';
 
-jest.mock( '@wordpress/a11y', () => ( { speak: jest.fn() } ) );
+jest.mock( '@aarondewes/wp-a11y', () => ( { speak: jest.fn() } ) );
 
 describe( 'ContrastChecker', () => {
 	const backgroundColor = '#ffffff';

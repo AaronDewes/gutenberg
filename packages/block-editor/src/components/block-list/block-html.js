@@ -6,15 +6,15 @@ import TextareaAutosize from 'react-autosize-textarea';
 /**
  * WordPress dependencies
  */
-import { useEffect, useState } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useEffect, useState } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	getBlockAttributes,
 	getBlockContent,
 	getBlockType,
 	isValidBlockContent,
 	getSaveContent,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useCallback, useEffect, useState } from '@wordpress/element';
+import { useCallback, useEffect, useState } from '@aarondewes/wp-element';
 
 export const DraggableWrapper = (
 	props = { role: 'presentation', style: {} }

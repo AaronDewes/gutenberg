@@ -27,9 +27,9 @@ import {
 	hasBlockSupport,
 	getPossibleBlockTransformations,
 	parse,
-} from '@wordpress/blocks';
-import { SVG, Rect, G, Path } from '@wordpress/components';
-import { Platform } from '@wordpress/element';
+} from '@aarondewes/wp-blocks';
+import { SVG, Rect, G, Path } from '@aarondewes/wp-components';
+import { Platform } from '@aarondewes/wp-element';
 
 /**
  * A block selection object.

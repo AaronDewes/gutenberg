@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { useMemo } from '@wordpress/element';
-import { blockDefault } from '@wordpress/icons';
-import { BlockIcon } from '@wordpress/block-editor';
-import { Button } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { addQueryArgs } from '@wordpress/url';
+import { useSelect } from '@aarondewes/wp-data';
+import { useMemo } from '@aarondewes/wp-element';
+import { blockDefault } from '@aarondewes/wp-icons';
+import { BlockIcon } from '@aarondewes/wp-block-editor';
+import { Button } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

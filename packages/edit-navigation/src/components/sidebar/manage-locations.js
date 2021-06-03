@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
 import {
 	Button,
 	CheckboxControl,
@@ -10,7 +10,7 @@ import {
 	PanelBody,
 	Spinner,
 	SelectControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

@@ -15,7 +15,7 @@ module.exports = {
 			'|'
 		) })$` ]: 'packages/$1/src',
 	},
-	preset: '@wordpress/jest-preset-default',
+	preset: '@aarondewes/wp-jest-preset-default',
 	setupFiles: [
 		'<rootDir>/test/unit/config/global-mocks.js',
 		'<rootDir>/test/unit/config/gutenberg-phase.js',

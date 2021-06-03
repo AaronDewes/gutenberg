@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { ExternalLink } from '@wordpress/components';
-import { safeDecodeURI, filterURLForDisplay } from '@wordpress/url';
+import { ExternalLink } from '@aarondewes/wp-components';
+import { safeDecodeURI, filterURLForDisplay } from '@aarondewes/wp-url';
 
 export default function LinkViewerURL( { url, urlLabel, className } ) {
 	const linkClassName = classnames(

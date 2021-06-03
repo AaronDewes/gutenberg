@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { ToolbarButton } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { ToolbarButton } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

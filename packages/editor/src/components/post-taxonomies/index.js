@@ -6,10 +6,10 @@ import { filter, identity, includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Fragment } from '@wordpress/element';
-import { withSelect } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { store as coreStore } from '@wordpress/core-data';
+import { Fragment } from '@aarondewes/wp-element';
+import { withSelect } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

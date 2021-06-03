@@ -11,7 +11,7 @@ import {
 	setClipboard,
 	ToolbarButton,
 	Picker,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	getBlockType,
 	getDefaultBlockName,
@@ -20,15 +20,15 @@ import {
 	createBlock,
 	isUnmodifiedDefaultBlock,
 	isReusableBlock,
-} from '@wordpress/blocks';
-import { __, sprintf } from '@wordpress/i18n';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { withInstanceId, compose } from '@wordpress/compose';
-import { moreHorizontalMobile } from '@wordpress/icons';
-import { useRef, useState } from '@wordpress/element';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as reusableBlocksStore } from '@wordpress/reusable-blocks';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-blocks';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { withInstanceId, compose } from '@aarondewes/wp-compose';
+import { moreHorizontalMobile } from '@aarondewes/wp-icons';
+import { useRef, useState } from '@aarondewes/wp-element';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as reusableBlocksStore } from '@aarondewes/wp-reusable-blocks';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

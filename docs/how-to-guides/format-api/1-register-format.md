@@ -43,7 +43,7 @@ Then add a new file named `my-custom-format.js` with the following contents:
 {% ESNext %}
 
 ```js
-import { registerFormatType } from '@wordpress/rich-text';
+import { registerFormatType } from '@aarondewes/wp-rich-text';
 
 registerFormatType( 'my-custom-format/sample-output', {
 	title: 'Sample output',

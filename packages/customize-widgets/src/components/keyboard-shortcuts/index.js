@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { useEffect } from '@wordpress/element';
+import { useEffect } from '@aarondewes/wp-element';
 import {
 	useShortcut,
 	store as keyboardShortcutsStore,
-} from '@wordpress/keyboard-shortcuts';
-import { useDispatch } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-keyboard-shortcuts';
+import { useDispatch } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
 
 function KeyboardShortcuts( { undo, redo, save } ) {
 	useShortcut(

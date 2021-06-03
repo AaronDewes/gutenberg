@@ -11,17 +11,17 @@ import {
 	BlockEditorProvider,
 	BlockTools,
 	__unstableUseBlockSelectionClearer as useBlockSelectionClearer,
-} from '@wordpress/block-editor';
-import { Popover, SlotFillProvider, Spinner } from '@wordpress/components';
-import { useViewportMatch } from '@wordpress/compose';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useEffect, useMemo, useState } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { Popover, SlotFillProvider, Spinner } from '@aarondewes/wp-components';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useEffect, useMemo, useState } from '@aarondewes/wp-element';
 import {
 	InterfaceSkeleton,
 	ComplementaryArea,
 	store as interfaceStore,
-} from '@wordpress/interface';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-interface';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

@@ -7,7 +7,7 @@ Execute callback after the DOM is loaded.
 Install the module
 
 ```bash
-npm install @wordpress/dom-ready --save
+npm install @aarondewes/wp-dom-ready --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -23,7 +23,7 @@ Specify a function to execute when the DOM is fully loaded.
 _Usage_
 
 ```js
-import domReady from '@wordpress/dom-ready';
+import domReady from '@aarondewes/wp-dom-ready';
 
 domReady( function() {
 	//do something after DOM loads.

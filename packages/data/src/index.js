@@ -45,7 +45,7 @@ export { plugins };
  *
  * @example
  * ```js
- * import { combineReducers, createReduxStore, register } from '@wordpress/data';
+ * import { combineReducers, createReduxStore, register } from '@aarondewes/wp-data';
  *
  * const prices = ( state = {}, action ) => {
  * 	return action.type === 'SET_PRICE' ?
@@ -86,7 +86,7 @@ export { combineReducers };
  *
  * @example
  * ```js
- * import { select } from '@wordpress/data';
+ * import { select } from '@aarondewes/wp-data';
  *
  * select( 'my-shop' ).getPrice( 'hammer' );
  * ```
@@ -106,7 +106,7 @@ export const select = defaultRegistry.select;
  *
  * @example
  * ```js
- * import { resolveSelect } from '@wordpress/data';
+ * import { resolveSelect } from '@aarondewes/wp-data';
  *
  * resolveSelect( 'my-shop' ).getPrice( 'hammer' ).then(console.log)
  * ```
@@ -127,7 +127,7 @@ export const resolveSelect = defaultRegistry.resolveSelect;
  *
  * @example
  * ```js
- * import { dispatch } from '@wordpress/data';
+ * import { dispatch } from '@aarondewes/wp-data';
  *
  * dispatch( 'my-shop' ).setPrice( 'hammer', 9.75 );
  * ```
@@ -144,7 +144,7 @@ export const dispatch = defaultRegistry.dispatch;
  *
  * @example
  * ```js
- * import { subscribe } from '@wordpress/data';
+ * import { subscribe } from '@aarondewes/wp-data';
  *
  * const unsubscribe = subscribe( () => {
  * 	// You could use this opportunity to test whether the derived result of a
@@ -168,7 +168,7 @@ export const subscribe = defaultRegistry.subscribe;
 export const registerGenericStore = defaultRegistry.registerGenericStore;
 
 /**
- * Registers a standard `@wordpress/data` store.
+ * Registers a standard `@aarondewes/wp-data` store.
  *
  * @deprecated Use `register` instead.
  *
@@ -189,11 +189,11 @@ export const registerStore = defaultRegistry.registerStore;
 export const use = defaultRegistry.use;
 
 /**
- * Registers a standard `@wordpress/data` store definition.
+ * Registers a standard `@aarondewes/wp-data` store definition.
  *
  * @example
  * ```js
- * import { createReduxStore, register } from '@wordpress/data';
+ * import { createReduxStore, register } from '@aarondewes/wp-data';
  *
  * const store = createReduxStore( 'demo', {
  *     reducer: ( state = 'OK' ) => state,

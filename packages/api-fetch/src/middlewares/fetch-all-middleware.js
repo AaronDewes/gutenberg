@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { addQueryArgs } from '@wordpress/url';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

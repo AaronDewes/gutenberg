@@ -15,8 +15,8 @@ import { BlurView } from '@react-native-community/blur';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef, useState } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { useEffect, useRef, useState } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

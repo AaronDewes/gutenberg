@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { __, _n, sprintf, isRTL } from '@wordpress/i18n';
+import { __, _n, sprintf, isRTL } from '@aarondewes/wp-i18n';
 
 /**
  * Return a label for the block movement controls depending on block position.

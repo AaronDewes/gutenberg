@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Icon, search } from '@wordpress/icons';
+import { Icon, search } from '@aarondewes/wp-icons';
 
 const PlaceholderPreview = () => {
 	return (

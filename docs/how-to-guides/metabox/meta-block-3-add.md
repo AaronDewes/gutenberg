@@ -12,11 +12,11 @@ Add this code to your JavaScript file (this tutorial will call the file `myguten
 {% ESNext %}
 
 ```js
-import { registerBlockType } from '@wordpress/blocks';
-import { TextControl } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import { useEntityProp } from '@wordpress/core-data';
-import { useBlockProps } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { TextControl } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'myguten/meta-block', {
 	title: 'Meta Block',

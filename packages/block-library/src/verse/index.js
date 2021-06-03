@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { verse as icon } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { verse as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies
@@ -21,12 +21,12 @@ export const settings = {
 	icon,
 	example: {
 		attributes: {
-			/* eslint-disable @wordpress/i18n-no-collapsible-whitespace */
+			/* eslint-disable @aarondewes/wp-i18n-no-collapsible-whitespace */
 			// translators: Sample content for the Verse block. Can be replaced with a more locale-adequate work.
 			content: __(
 				'WHAT was he doing, the great god Pan,\n	Down in the reeds by the river?\nSpreading ruin and scattering ban,\nSplashing and paddling with hoofs of a goat,\nAnd breaking the golden lilies afloat\n    With the dragon-fly on the river.'
 			),
-			/* eslint-enable @wordpress/i18n-no-collapsible-whitespace */
+			/* eslint-enable @aarondewes/wp-i18n-no-collapsible-whitespace */
 		},
 	},
 	transforms,

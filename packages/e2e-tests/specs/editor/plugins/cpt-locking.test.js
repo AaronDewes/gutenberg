@@ -12,7 +12,7 @@ import {
 	pressKeyTimes,
 	pressKeyWithModifier,
 	setPostContent,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'cpt locking', () => {
 	beforeAll( async () => {

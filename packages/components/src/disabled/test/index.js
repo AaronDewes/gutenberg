@@ -6,14 +6,14 @@ import TestUtils from 'react-dom/test-utils';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
  */
 import Disabled from '../';
 
-jest.mock( '@wordpress/dom', () => {
+jest.mock( '@aarondewes/wp-dom', () => {
 	const focus = jest.requireActual( '../../../../dom/src' ).focus;
 
 	return {

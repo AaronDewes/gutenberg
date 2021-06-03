@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { getBlockType, store as blocksStore } from '@wordpress/blocks';
-import { ToolbarButton } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { __, sprintf } from '@wordpress/i18n';
-import { useRef } from '@wordpress/element';
+import { getBlockType, store as blocksStore } from '@aarondewes/wp-blocks';
+import { ToolbarButton } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { apiFetch } from '@wordpress/data-controls';
-import { controls } from '@wordpress/data';
-import { store as noticesStore } from '@wordpress/notices';
+import { apiFetch } from '@aarondewes/wp-data-controls';
+import { controls } from '@aarondewes/wp-data';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

@@ -34,7 +34,7 @@ import { debounce, noop, partial } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

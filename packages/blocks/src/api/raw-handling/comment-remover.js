@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { remove } from '@wordpress/dom';
+import { remove } from '@aarondewes/wp-dom';
 
 /**
  * Looks for comments, and removes them.

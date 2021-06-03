@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createBlock, getBlockAttributes } from '@wordpress/blocks';
+import { createBlock, getBlockAttributes } from '@aarondewes/wp-blocks';
 import {
 	__UNSTABLE_LINE_SEPARATOR,
 	create,
@@ -9,7 +9,7 @@ import {
 	replace,
 	split,
 	toHTMLString,
-} from '@wordpress/rich-text';
+} from '@aarondewes/wp-rich-text';
 
 function getListContentSchema( { phrasingContentSchema } ) {
 	const listContentSchema = {

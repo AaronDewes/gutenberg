@@ -7,9 +7,9 @@ import { clamp, isFinite, noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, isRTL } from '@wordpress/i18n';
-import { useRef, useState, forwardRef } from '@wordpress/element';
-import { useInstanceId } from '@wordpress/compose';
+import { __, isRTL } from '@aarondewes/wp-i18n';
+import { useRef, useState, forwardRef } from '@aarondewes/wp-element';
+import { useInstanceId } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

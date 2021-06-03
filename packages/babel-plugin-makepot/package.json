@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/babel-plugin-makepot",
+	"name": "@aarondewes/wp-babel-plugin-makepot",
 	"version": "4.1.4",
 	"description": "WordPress Babel internationalization (i18n) plugin.",
 	"author": "The WordPress Contributors",

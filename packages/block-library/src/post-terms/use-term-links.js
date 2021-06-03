@@ -6,8 +6,8 @@ import { map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useEntityProp, store as coreStore } from '@wordpress/core-data';
-import { useSelect } from '@wordpress/data';
+import { useEntityProp, store as coreStore } from '@aarondewes/wp-core-data';
+import { useSelect } from '@aarondewes/wp-data';
 
 export default function useTermLinks( { postId, postType, term } ) {
 	const { rest_base: restBase, slug } = term;

@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { MenuGroup } from '@wordpress/components';
-import { useState } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { MenuGroup } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	cloneBlock,
 	getBlockFromExample,
 	store as blocksStore,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

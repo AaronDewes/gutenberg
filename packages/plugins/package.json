@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/plugins",
+	"name": "@aarondewes/wp-plugins",
 	"version": "3.1.1",
 	"description": "Plugins module for WordPress.",
 	"author": "The WordPress Contributors",
@@ -26,10 +26,10 @@
 	"react-native": "src/index",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/compose": "file:../compose",
-		"@wordpress/element": "file:../element",
-		"@wordpress/hooks": "file:../hooks",
-		"@wordpress/icons": "file:../icons",
+		"@aarondewes/wp-compose": "file:../compose",
+		"@aarondewes/wp-element": "file:../element",
+		"@aarondewes/wp-hooks": "file:../hooks",
+		"@aarondewes/wp-icons": "file:../icons",
 		"lodash": "^4.17.21",
 		"memize": "^1.1.0"
 	},

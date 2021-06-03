@@ -9,7 +9,7 @@ At its simplest, a block in the WordPress block editor is a JSON object with a s
 The javascript part is done in the `src/index.js` file.
 
 ```js
-import { registerBlockType } from '@wordpress/blocks';
+import { registerBlockType } from '@aarondewes/wp-blocks';
 
 import './style.scss';
 

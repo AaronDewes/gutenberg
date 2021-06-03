@@ -5,16 +5,16 @@ import { parseDropEvent, onFilesDrop, onHTMLDrop, onBlockDrop } from '..';
 /**
  * WordPress dependencies
  */
-import { findTransform, pasteHandler } from '@wordpress/blocks';
+import { findTransform, pasteHandler } from '@aarondewes/wp-blocks';
 
 const noop = () => {};
 
-jest.mock( '@wordpress/blocks/src/api/factory', () => ( {
+jest.mock( '@aarondewes/wp-blocks/src/api/factory', () => ( {
 	findTransform: jest.fn(),
 	getBlockTransforms: jest.fn(),
 } ) );
 
-jest.mock( '@wordpress/blocks/src/api/raw-handling', () => ( {
+jest.mock( '@aarondewes/wp-blocks/src/api/raw-handling', () => ( {
 	pasteHandler: jest.fn(),
 } ) );
 

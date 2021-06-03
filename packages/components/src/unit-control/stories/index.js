@@ -7,7 +7,7 @@ import styled from '@emotion/styled';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

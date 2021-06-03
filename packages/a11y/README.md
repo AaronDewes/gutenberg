@@ -7,7 +7,7 @@ Accessibility utilities for WordPress.
 Install the module
 
 ```bash
-npm install @wordpress/a11y --save
+npm install @aarondewes/wp-a11y --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -28,7 +28,7 @@ This module is inspired by the `speak` function in `wp-a11y.js`.
 _Usage_
 
 ```js
-import { speak } from '@wordpress/a11y';
+import { speak } from '@aarondewes/wp-a11y';
 
 // For polite messages that shouldn't interrupt what screen readers are currently announcing.
 speak( 'The message you want to send to the ARIA live region' );

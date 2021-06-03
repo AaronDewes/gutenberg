@@ -6,10 +6,10 @@ import { LayoutAnimation, TouchableHighlight } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { useEffect, useState, useCallback } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { createBlock } from '@wordpress/blocks';
-import { BottomSheet, BottomSheetConsumer } from '@wordpress/components';
+import { useEffect, useState, useCallback } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { BottomSheet, BottomSheetConsumer } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

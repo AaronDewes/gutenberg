@@ -6,21 +6,21 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { sprintf, __ } from '@wordpress/i18n';
+import { sprintf, __ } from '@aarondewes/wp-i18n';
 import {
 	__experimentalGetBlockLabel as getBlockLabel,
 	getBlockType,
-} from '@wordpress/blocks';
-import { useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-blocks';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	Dropdown,
 	Button,
 	VisuallyHidden,
 	__experimentalText as Text,
-} from '@wordpress/components';
-import { chevronDown } from '@wordpress/icons';
-import { useRef } from '@wordpress/element';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+} from '@aarondewes/wp-components';
+import { chevronDown } from '@aarondewes/wp-icons';
+import { useRef } from '@aarondewes/wp-element';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 function getBlockDisplayText( block ) {
 	return block

@@ -8,7 +8,7 @@ import {
 	findSidebarPanelToggleButtonWithTitle,
 	getEditedPostContent,
 	openDocumentSettingsSidebar,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'new editor filtered state', () => {
 	beforeAll( async () => {

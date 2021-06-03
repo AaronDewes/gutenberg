@@ -1,22 +1,22 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
 import {
 	BlockControls,
 	PlainText,
 	transformStyles,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	ToolbarButton,
 	Disabled,
 	SandBox,
 	ToolbarGroup,
-} from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
 
 export default function HTMLEdit( { attributes, setAttributes, isSelected } ) {
 	const [ isPreview, setIsPreview ] = useState();

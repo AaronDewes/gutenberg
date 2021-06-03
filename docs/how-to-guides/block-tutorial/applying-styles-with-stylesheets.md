@@ -8,8 +8,8 @@ The editor will automatically generate a class name for each block type to simpl
 {% ESNext %}
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
-import { useBlockProps } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'gutenberg-examples/example-02-stylesheets', {
 	apiVersion: 2,

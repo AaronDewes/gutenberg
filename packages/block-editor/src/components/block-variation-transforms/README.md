@@ -16,8 +16,8 @@ By selecting such a variation an update to the selected block's attributes happe
 Renders the block's variations which have the `transform` option set in `scope` property.
 
 ```jsx
-import { useSelect } from '@wordpress/data';
-import { __experimentalBlockVariationTransforms as BlockVariationTransforms } from '@wordpress/block-editor';
+import { useSelect } from '@aarondewes/wp-data';
+import { __experimentalBlockVariationTransforms as BlockVariationTransforms } from '@aarondewes/wp-block-editor';
 
 const MyBlockVariationTransforms = () => {
 	const { selectedBlockClientId } = useSelect( ( select ) => {

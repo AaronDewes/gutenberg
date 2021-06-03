@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { getBlockMenuDefaultClassName } from '@wordpress/blocks';
+import { getBlockMenuDefaultClassName } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

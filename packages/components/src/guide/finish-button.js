@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useLayoutEffect } from '@wordpress/element';
+import { useRef, useLayoutEffect } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

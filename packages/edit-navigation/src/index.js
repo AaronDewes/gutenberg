@@ -4,9 +4,9 @@
 import {
 	registerCoreBlocks,
 	__experimentalRegisterExperimentalCoreBlocks,
-} from '@wordpress/block-library';
-import { render } from '@wordpress/element';
-import { __experimentalFetchLinkSuggestions as fetchLinkSuggestions } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-library';
+import { render } from '@aarondewes/wp-element';
+import { __experimentalFetchLinkSuggestions as fetchLinkSuggestions } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

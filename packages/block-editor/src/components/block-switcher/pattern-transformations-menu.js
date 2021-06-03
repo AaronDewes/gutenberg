@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
-import { useInstanceId } from '@wordpress/compose';
-import { chevronRight } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { chevronRight } from '@aarondewes/wp-icons';
 
 import {
 	MenuGroup,
@@ -14,7 +14,7 @@ import {
 	__unstableComposite as Composite,
 	__unstableUseCompositeState as useCompositeState,
 	__unstableCompositeItem as CompositeItem,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

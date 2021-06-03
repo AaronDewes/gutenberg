@@ -12,19 +12,19 @@ import {
 	InspectorControls,
 	store as blockEditorStore,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { createBlock, store as blocksStore } from '@wordpress/blocks';
+} from '@aarondewes/wp-block-editor';
+import { createBlock, store as blocksStore } from '@aarondewes/wp-blocks';
 import {
 	PanelBody,
 	Placeholder,
 	ToggleControl,
 	ToolbarButton,
 	ToolbarGroup,
-} from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as editorStore } from '@wordpress/editor';
-import { renderToString, useEffect, useState } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
+import { renderToString, useEffect, useState } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

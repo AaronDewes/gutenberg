@@ -4,11 +4,11 @@
 import {
 	BlockInspector,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { cog } from '@wordpress/icons';
-import { Platform } from '@wordpress/element';
-import { store as keyboardShortcutsStore } from '@wordpress/keyboard-shortcuts';
-import { store as interfaceStore } from '@wordpress/interface';
+} from '@aarondewes/wp-block-editor';
+import { cog } from '@aarondewes/wp-icons';
+import { Platform } from '@aarondewes/wp-element';
+import { store as keyboardShortcutsStore } from '@aarondewes/wp-keyboard-shortcuts';
+import { store as interfaceStore } from '@aarondewes/wp-interface';
 
 /**
  * Internal dependencies
@@ -27,8 +27,8 @@ import PluginDocumentSettingPanel from '../plugin-document-setting-panel';
 import PluginSidebarEditPost from '../plugin-sidebar';
 import Template from '../template';
 import TemplateSummary from '../template-summary';
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
 import { store as editPostStore } from '../../../store';
 
 const SIDEBAR_ACTIVE_BY_DEFAULT = Platform.select( {

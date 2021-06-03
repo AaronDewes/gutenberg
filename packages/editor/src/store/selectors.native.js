@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createRegistrySelector } from '@wordpress/data';
+import { createRegistrySelector } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

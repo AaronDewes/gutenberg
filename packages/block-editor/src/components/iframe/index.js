@@ -8,10 +8,10 @@ import {
 	forwardRef,
 	useEffect,
 	useMemo,
-} from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { useMergeRefs } from '@wordpress/compose';
-import { __experimentalStyleProvider as StyleProvider } from '@wordpress/components';
+} from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { useMergeRefs } from '@aarondewes/wp-compose';
+import { __experimentalStyleProvider as StyleProvider } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

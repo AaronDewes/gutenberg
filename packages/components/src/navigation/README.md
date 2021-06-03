@@ -14,7 +14,7 @@ import {
 	__experimentalNavigationGroup as NavigationGroup,
 	__experimentalNavigationItem as NavigationItem,
 	__experimentalNavigationMenu as NavigationMenu,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 const MyNavigation = () => (
 	<Navigation>

@@ -7,7 +7,7 @@ import {
 	createNewPost,
 	deactivatePlugin,
 	getEditedPostContent,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Using Hooks API', () => {
 	beforeAll( async () => {

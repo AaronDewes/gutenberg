@@ -6,12 +6,12 @@ import { pickBy } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { MenuGroup, MenuItem } from '@wordpress/components';
-import { store as blockEditorStore } from '@wordpress/block-editor';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as editorStore } from '@wordpress/editor';
-import { store as coreStore } from '@wordpress/core-data';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { MenuGroup, MenuItem } from '@aarondewes/wp-components';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

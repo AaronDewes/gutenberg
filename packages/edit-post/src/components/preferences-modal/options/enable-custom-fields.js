@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
-import { withSelect } from '@wordpress/data';
-import { store as editorStore } from '@wordpress/editor';
+import { useState } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
+import { withSelect } from '@aarondewes/wp-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

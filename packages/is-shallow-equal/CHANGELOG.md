@@ -17,14 +17,14 @@
 
 ### Breaking Change
 
--   Re-write using ES Modules causing CJS default import to change from `require('@wordpress/is-shallow-equal)` to `require('@wordpress/is-shallow-equal).default`. ([#26833](https://github.com/WordPress/gutenberg/pull/26833))
+-   Re-write using ES Modules causing CJS default import to change from `require('@aarondewes/wp-is-shallow-equal)` to `require('@aarondewes/wp-is-shallow-equal).default`. ([#26833](https://github.com/WordPress/gutenberg/pull/26833))
 
 ## 2.0.0 (2020-04-15)
 
 ### Breaking Change
 
 -   Restructure package moving source files into `lib` directory. Direct imports of
-    `@wordpress/is-shallow-equal/arrays` and `@wordpress/is-shallow-equal/objects` were never
+    `@aarondewes/wp-is-shallow-equal/arrays` and `@aarondewes/wp-is-shallow-equal/objects` were never
     officially supported and have been removed. ([#18942](https://github.com/WordPress/gutenberg/pull/18942))
 
 ### New feature
@@ -45,7 +45,7 @@
 
 ### Internal
 
--   Development source code linting extends the `@wordpress/eslint-plugin/es5` ruleset.
+-   Development source code linting extends the `@aarondewes/wp-eslint-plugin/es5` ruleset.
 
 ## 1.1.0 (2018-07-12)
 
@@ -55,7 +55,7 @@
 
 ### Internal
 
--   Moved `@WordPress/packages` repository to `@WordPress/gutenberg` ([#7805](https://github.com/WordPress/gutenberg/pull/7805))
+-   Moved `@aarondewes/wp-packages` repository to `@aarondewes/wp-gutenberg` ([#7805](https://github.com/WordPress/gutenberg/pull/7805))
 
 ## 1.0.2 (2018-05-08)
 

@@ -9,7 +9,7 @@ import {
 	disablePrePublishChecks,
 	arePrePublishChecksEnabled,
 	setBrowserViewport,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Publishing', () => {
 	describe.each( [ 'post', 'page' ] )( 'a %s', ( postType ) => {

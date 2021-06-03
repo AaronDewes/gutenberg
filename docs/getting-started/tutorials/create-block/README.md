@@ -10,12 +10,12 @@ The first thing you need is a development environment and tools. This includes s
 
 ## Quick Start
 
-The `@wordpress/create-block` package exists to create the necessary block scaffolding to get you started. See [create-block package documentation](https://www.npmjs.com/package/@wordpress/create-block) for additional features. This quick start assumes you have a development environment with node installed, and a WordPress site.
+The `@aarondewes/wp-create-block` package exists to create the necessary block scaffolding to get you started. See [create-block package documentation](https://www.npmjs.com/package/@aarondewes/wp-create-block) for additional features. This quick start assumes you have a development environment with node installed, and a WordPress site.
 
 From your plugins directory, to create your block run:
 
 ```sh
-npx @wordpress/create-block gutenpride
+npx @aarondewes/wp-create-block gutenpride
 ```
 
 The above command creates a new directory called `gutenpride`, installs the necessary files, and builds the block plugin. If you want an interactive mode that prompts you for details, run the command without the `gutenpride` name.

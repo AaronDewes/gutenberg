@@ -7,15 +7,15 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useEffect, useRef, useState } from '@wordpress/element';
-import { decodeEntities } from '@wordpress/html-entities';
-import { ENTER } from '@wordpress/keycodes';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { VisuallyHidden } from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { pasteHandler } from '@wordpress/blocks';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { useEffect, useRef, useState } from '@aarondewes/wp-element';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { ENTER } from '@aarondewes/wp-keycodes';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { VisuallyHidden } from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { pasteHandler } from '@aarondewes/wp-blocks';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

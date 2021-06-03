@@ -1,9 +1,9 @@
-/* eslint-disable @wordpress/i18n-text-domain, @wordpress/i18n-translator-comments */
+/* eslint-disable @aarondewes/wp-i18n-text-domain, @aarondewes/wp-i18n-translator-comments */
 
 /**
  * WordPress dependencies
  */
-import { createHooks } from '@wordpress/hooks';
+import { createHooks } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies
@@ -438,4 +438,4 @@ describe( 'i18n filters', () => {
 	} );
 } );
 
-/* eslint-enable @wordpress/i18n-text-domain, @wordpress/i18n-translator-comments */
+/* eslint-enable @aarondewes/wp-i18n-text-domain, @aarondewes/wp-i18n-translator-comments */

@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useEffect, useState } from '@wordpress/element';
+import { useEffect, useState } from '@aarondewes/wp-element';
 import {
 	InspectorControls,
 	BlockControls,
@@ -16,8 +16,8 @@ import {
 	useBlockProps,
 	__experimentalUseColorProps as useColorProps,
 	__experimentalUseBorderProps as useBorderProps,
-} from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	Button,
 	PanelBody,
@@ -25,7 +25,7 @@ import {
 	TextControl,
 	ToggleControl,
 	ToolbarDropdownMenu,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	alignLeft,
 	alignRight,
@@ -38,8 +38,8 @@ import {
 	tableRowBefore,
 	tableRowDelete,
 	table,
-} from '@wordpress/icons';
-import { createBlock } from '@wordpress/blocks';
+} from '@aarondewes/wp-icons';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

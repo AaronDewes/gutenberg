@@ -6,13 +6,13 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	RichText,
 	BlockControls,
 	AlignmentToolbar,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 export default function VerseEdit( {
 	attributes,

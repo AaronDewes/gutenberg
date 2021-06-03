@@ -6,8 +6,8 @@ import { flow } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Dropdown, Button } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { Dropdown, Button } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

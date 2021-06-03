@@ -6,7 +6,7 @@ import {
 	createNewPost,
 	deactivatePlugin,
 	publishPost,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'WP Editor Meta Boxes', () => {
 	beforeAll( async () => {

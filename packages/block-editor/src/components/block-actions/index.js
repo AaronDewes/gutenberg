@@ -6,12 +6,12 @@ import { castArray, first, last, every } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useDispatch, useSelect } from '@wordpress/data';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 import {
 	hasBlockSupport,
 	switchToBlockType,
 	store as blocksStore,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

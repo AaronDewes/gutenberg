@@ -7,11 +7,11 @@ import tinycolor from 'tinycolor2';
 /**
  * WordPress dependencies
  */
-import { useState, useEffect, useRef } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { BottomSheet } from '@wordpress/components';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
-import { Icon, check, close } from '@wordpress/icons';
+import { useState, useEffect, useRef } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { BottomSheet } from '@aarondewes/wp-components';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
+import { Icon, check, close } from '@aarondewes/wp-icons';
 /**
  * Internal dependencies
  */

@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { useEntityProp } from '@wordpress/core-data';
-import { SelectControl, TextControl } from '@wordpress/components';
-import { sprintf, __ } from '@wordpress/i18n';
-import { InspectorAdvancedControls } from '@wordpress/block-editor';
-import { useSelect } from '@wordpress/data';
-import { store as editorStore } from '@wordpress/editor';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { SelectControl, TextControl } from '@aarondewes/wp-components';
+import { sprintf, __ } from '@aarondewes/wp-i18n';
+import { InspectorAdvancedControls } from '@aarondewes/wp-block-editor';
+import { useSelect } from '@aarondewes/wp-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 export function TemplatePartAdvancedControls( {
 	tagName,

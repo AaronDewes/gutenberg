@@ -6,7 +6,7 @@ import { mapValues, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { InnerBlocks } from '@wordpress/block-editor';
+import { InnerBlocks } from '@aarondewes/wp-block-editor';
 
 const TYPOGRAPHY_PRESET_DEPRECATION_MAP = {
 	fontStyle: 'var:preset|font-style|',

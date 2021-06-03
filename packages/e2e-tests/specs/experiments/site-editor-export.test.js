@@ -8,7 +8,7 @@ import os from 'os';
 /**
  * WordPress dependencies
  */
-import { trashAllPosts, activateTheme } from '@wordpress/e2e-test-utils';
+import { trashAllPosts, activateTheme } from '@aarondewes/wp-e2e-test-utils';
 
 /**
  * Internal dependencies

@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/escape-html",
+	"name": "@aarondewes/wp-escape-html",
 	"version": "2.1.1",
 	"description": "Escape HTML utils.",
 	"author": "The WordPress Contributors",

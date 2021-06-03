@@ -1,19 +1,19 @@
 module.exports = {
 	plugins: [ '@wordpress' ],
 	rules: {
-		'@wordpress/no-unused-vars-before-return': 'error',
-		'@wordpress/no-base-control-with-label-without-id': 'error',
-		'@wordpress/no-unguarded-get-range-at': 'error',
-		'@wordpress/no-global-active-element': 'error',
-		'@wordpress/no-global-get-selection': 'error',
-		'@wordpress/no-global-event-listener': 'warn',
-		'@wordpress/no-unsafe-wp-apis': 'error',
+		'@aarondewes/wp-no-unused-vars-before-return': 'error',
+		'@aarondewes/wp-no-base-control-with-label-without-id': 'error',
+		'@aarondewes/wp-no-unguarded-get-range-at': 'error',
+		'@aarondewes/wp-no-global-active-element': 'error',
+		'@aarondewes/wp-no-global-get-selection': 'error',
+		'@aarondewes/wp-no-global-event-listener': 'warn',
+		'@aarondewes/wp-no-unsafe-wp-apis': 'error',
 	},
 	overrides: [
 		{
 			files: [ '*.native.js' ],
 			rules: {
-				'@wordpress/no-base-control-with-label-without-id': 'off',
+				'@aarondewes/wp-no-base-control-with-label-without-id': 'off',
 			},
 		},
 		{
@@ -23,9 +23,9 @@ module.exports = {
 				'packages/e2e-test-utils/**/*.js',
 			],
 			rules: {
-				'@wordpress/no-global-active-element': 'off',
-				'@wordpress/no-global-get-selection': 'off',
-				'@wordpress/no-global-event-listener': 'off',
+				'@aarondewes/wp-no-global-active-element': 'off',
+				'@aarondewes/wp-no-global-get-selection': 'off',
+				'@aarondewes/wp-no-global-event-listener': 'off',
 			},
 		},
 	],

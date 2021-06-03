@@ -6,8 +6,8 @@ import { includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { forwardRef } from '@wordpress/element';
-import { UP, DOWN, LEFT, RIGHT } from '@wordpress/keycodes';
+import { forwardRef } from '@aarondewes/wp-element';
+import { UP, DOWN, LEFT, RIGHT } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

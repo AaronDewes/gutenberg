@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createSlotFill } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
+import { createSlotFill } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

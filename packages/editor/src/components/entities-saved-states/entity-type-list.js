@@ -6,10 +6,10 @@ import { some } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { PanelBody } from '@wordpress/components';
-import { page, layout } from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
+import { useSelect } from '@aarondewes/wp-data';
+import { PanelBody } from '@aarondewes/wp-components';
+import { page, layout } from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

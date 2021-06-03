@@ -6,7 +6,7 @@ import { find } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { hasBlockSupport } from '@wordpress/blocks';
+import { hasBlockSupport } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

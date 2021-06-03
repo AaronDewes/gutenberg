@@ -11,7 +11,7 @@ import {
 	VisualEditorGlobalKeyboardShortcuts,
 	PostTitle,
 	store as editorStore,
-} from '@wordpress/editor';
+} from '@aarondewes/wp-editor';
 import {
 	WritingFlow,
 	BlockList,
@@ -30,13 +30,13 @@ import {
 	__unstableUseMouseMoveTypingReset as useMouseMoveTypingReset,
 	__unstableIframe as Iframe,
 	__experimentalUseNoRecursiveRenders as useNoRecursiveRenders,
-} from '@wordpress/block-editor';
-import { useRef, useMemo } from '@wordpress/element';
-import { Button } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useMergeRefs } from '@wordpress/compose';
-import { arrowLeft } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { useRef, useMemo } from '@aarondewes/wp-element';
+import { Button } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useMergeRefs } from '@aarondewes/wp-compose';
+import { arrowLeft } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

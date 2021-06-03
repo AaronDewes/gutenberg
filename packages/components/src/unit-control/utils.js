@@ -6,8 +6,8 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, _x } from '@wordpress/i18n';
-import { Platform } from '@wordpress/element';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { Platform } from '@aarondewes/wp-element';
 
 const isWeb = Platform.OS === 'web';
 

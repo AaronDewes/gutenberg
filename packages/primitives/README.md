@@ -7,13 +7,13 @@ Primitives to be used cross-platform.
 Install the module
 
 ```bash
-npm install @wordpress/primitives --save
+npm install @aarondewes/wp-primitives --save
 ```
 
 ## Usage
 
 ```js
-import { SVG, Path } from '@wordpress/primitives';
+import { SVG, Path } from '@aarondewes/wp-primitives';
 
 const myElement = (
 	<SVG

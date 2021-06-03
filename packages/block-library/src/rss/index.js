@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { rss as icon } from '@wordpress/icons';
+import { rss as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

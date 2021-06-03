@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { getScrollContainer } from '@wordpress/dom';
-import { useCallback, useEffect, useRef } from '@wordpress/element';
+import { getScrollContainer } from '@aarondewes/wp-dom';
+import { useCallback, useEffect, useRef } from '@aarondewes/wp-element';
 
 const SCROLL_INACTIVE_DISTANCE_PX = 50;
 const SCROLL_INTERVAL_MS = 25;

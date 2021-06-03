@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import triggerFetch from '@wordpress/api-fetch';
-import { controls as dataControls } from '@wordpress/data';
-import deprecated from '@wordpress/deprecated';
+import triggerFetch from '@aarondewes/wp-api-fetch';
+import { controls as dataControls } from '@aarondewes/wp-data';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Dispatches a control action for triggering an api fetch call.
@@ -12,7 +12,7 @@ import deprecated from '@wordpress/deprecated';
  *
  * @example
  * ```js
- * import { apiFetch } from '@wordpress/data-controls';
+ * import { apiFetch } from '@aarondewes/wp-data-controls';
  *
  * // Action generator using apiFetch
  * export function* myAction() {
@@ -33,14 +33,14 @@ export function apiFetch( request ) {
 
 /**
  * Control for resolving a selector in a registered data store.
- * Alias for the `resolveSelect` built-in control in the `@wordpress/data` package.
+ * Alias for the `resolveSelect` built-in control in the `@aarondewes/wp-data` package.
  *
- * @param {Array} args Arguments passed without change to the `@wordpress/data` control.
+ * @param {Array} args Arguments passed without change to the `@aarondewes/wp-data` control.
  */
 export function select( ...args ) {
-	deprecated( '`select` control in `@wordpress/data-controls`', {
+	deprecated( '`select` control in `@aarondewes/wp-data-controls`', {
 		since: '5.7',
-		alternative: 'built-in `resolveSelect` control in `@wordpress/data`',
+		alternative: 'built-in `resolveSelect` control in `@aarondewes/wp-data`',
 	} );
 
 	return dataControls.resolveSelect( ...args );
@@ -48,14 +48,14 @@ export function select( ...args ) {
 
 /**
  * Control for calling a selector in a registered data store.
- * Alias for the `select` built-in control in the `@wordpress/data` package.
+ * Alias for the `select` built-in control in the `@aarondewes/wp-data` package.
  *
- * @param {Array} args Arguments passed without change to the `@wordpress/data` control.
+ * @param {Array} args Arguments passed without change to the `@aarondewes/wp-data` control.
  */
 export function syncSelect( ...args ) {
-	deprecated( '`syncSelect` control in `@wordpress/data-controls`', {
+	deprecated( '`syncSelect` control in `@aarondewes/wp-data-controls`', {
 		since: '5.7',
-		alternative: 'built-in `select` control in `@wordpress/data`',
+		alternative: 'built-in `select` control in `@aarondewes/wp-data`',
 	} );
 
 	return dataControls.select( ...args );
@@ -63,14 +63,14 @@ export function syncSelect( ...args ) {
 
 /**
  * Control for dispatching an action in a registered data store.
- * Alias for the `dispatch` control in the `@wordpress/data` package.
+ * Alias for the `dispatch` control in the `@aarondewes/wp-data` package.
  *
- * @param {Array} args Arguments passed without change to the `@wordpress/data` control.
+ * @param {Array} args Arguments passed without change to the `@aarondewes/wp-data` control.
  */
 export function dispatch( ...args ) {
-	deprecated( '`dispatch` control in `@wordpress/data-controls`', {
+	deprecated( '`dispatch` control in `@aarondewes/wp-data-controls`', {
 		since: '5.7',
-		alternative: 'built-in `dispatch` control in `@wordpress/data`',
+		alternative: 'built-in `dispatch` control in `@aarondewes/wp-data`',
 	} );
 
 	return dataControls.dispatch( ...args );
@@ -83,7 +83,7 @@ export function dispatch( ...args ) {
  *
  * @example
  * ```js
- * import { __unstableAwaitPromise } from '@wordpress/data-controls';
+ * import { __unstableAwaitPromise } from '@aarondewes/wp-data-controls';
  *
  * // Action generator using apiFetch
  * export function* myAction() {
@@ -109,8 +109,8 @@ export const __unstableAwaitPromise = function ( promise ) {
  * @example
  * ```js
  * // WordPress dependencies
- * import { controls } from '@wordpress/data-controls';
- * import { registerStore } from '@wordpress/data';
+ * import { controls } from '@aarondewes/wp-data-controls';
+ * import { registerStore } from '@aarondewes/wp-data';
  *
  * // Internal dependencies
  * import reducer from './reducer';

@@ -1,13 +1,13 @@
 # Block Serialization Default Parser
 
-This library contains the default block serialization parser implementations for WordPress documents. It provides native PHP and JavaScript parsers that implement the [specification](/docs/contributors/grammar.md) from [`@wordpress/block-serialization-spec-parser`](/packages/block-serialization-spec-parser/README.md) and which normally operates on the document stored in `post_content`.
+This library contains the default block serialization parser implementations for WordPress documents. It provides native PHP and JavaScript parsers that implement the [specification](/docs/contributors/grammar.md) from [`@aarondewes/wp-block-serialization-spec-parser`](/packages/block-serialization-spec-parser/README.md) and which normally operates on the document stored in `post_content`.
 
 ## Installation
 
 Install the module
 
 ```bash
-npm install @wordpress/block-serialization-default-parser --save
+npm install @aarondewes/wp-block-serialization-default-parser --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -47,7 +47,7 @@ Input post:
 Parsing code:
 
 ```js
-import { parse } from '@wordpress/block-serialization-default-parser';
+import { parse } from '@aarondewes/wp-block-serialization-default-parser';
 
 parse( post ) === [
     {

@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/shortcode",
+	"name": "@aarondewes/wp-shortcode",
 	"version": "3.1.1",
 	"description": "Shortcode module for WordPress.",
 	"author": "The WordPress Contributors",

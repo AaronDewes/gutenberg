@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { createSlotFill, ToolbarButton } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { withDispatch } from '@wordpress/data';
-import { cog } from '@wordpress/icons';
+import { createSlotFill, ToolbarButton } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { withDispatch } from '@aarondewes/wp-data';
+import { cog } from '@aarondewes/wp-icons';
 
 const { Fill, Slot } = createSlotFill( 'SettingsToolbarButton' );
 

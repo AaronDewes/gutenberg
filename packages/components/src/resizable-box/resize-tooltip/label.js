@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { forwardRef } from '@wordpress/element';
-import { isRTL } from '@wordpress/i18n';
+import { forwardRef } from '@aarondewes/wp-element';
+import { isRTL } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

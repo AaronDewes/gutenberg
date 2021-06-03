@@ -13,20 +13,20 @@ import {
 /**
  * WordPress dependencies
  */
-import { __, _x, _n, sprintf } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
+import { __, _x, _n, sprintf } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
 import {
 	CheckboxControl,
 	TreeSelect,
 	withSpokenMessages,
 	withFilters,
 	Button,
-} from '@wordpress/components';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { withInstanceId, compose } from '@wordpress/compose';
-import apiFetch from '@wordpress/api-fetch';
-import { addQueryArgs } from '@wordpress/url';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { withInstanceId, compose } from '@aarondewes/wp-compose';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

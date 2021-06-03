@@ -5,11 +5,11 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useState, useContext, useEffect, useMemo } from '@wordpress/element';
-import { prependHTTP } from '@wordpress/url';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState, useContext, useEffect, useMemo } from '@aarondewes/wp-element';
+import { prependHTTP } from '@aarondewes/wp-url';
 
-import { BottomSheet, BottomSheetContext } from '@wordpress/components';
+import { BottomSheet, BottomSheetContext } from '@aarondewes/wp-components';
 import {
 	create,
 	insert,
@@ -17,8 +17,8 @@ import {
 	applyFormat,
 	getTextContent,
 	slice,
-} from '@wordpress/rich-text';
-import { external, textColor } from '@wordpress/icons';
+} from '@aarondewes/wp-rich-text';
+import { external, textColor } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

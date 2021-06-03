@@ -7,7 +7,7 @@ module.exports = {
 	},
 	plugins: [ '@wordpress', 'react', 'react-hooks' ],
 	rules: {
-		'@wordpress/no-unused-vars-before-return': [
+		'@aarondewes/wp-no-unused-vars-before-return': [
 			'error',
 			{
 				excludePattern: '^use',

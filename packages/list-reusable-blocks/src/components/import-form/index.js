@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { withInstanceId } from '@wordpress/compose';
-import { __, _x } from '@wordpress/i18n';
-import { Button, Notice } from '@wordpress/components';
+import { Component } from '@aarondewes/wp-element';
+import { withInstanceId } from '@aarondewes/wp-compose';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { Button, Notice } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

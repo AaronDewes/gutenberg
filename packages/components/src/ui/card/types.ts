@@ -16,7 +16,7 @@ export type CardProps = SurfaceProps & {
 	 *
 	 * @example
 	 * ```jsx
-	 * import { Card, CardBody, Text } from `@wordpress/components/ui`
+	 * import { Card, CardBody, Text } from `@aarondewes/wp-components/ui`
 	 *
 	 * function Example() {
 	 *   return (

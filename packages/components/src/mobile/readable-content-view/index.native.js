@@ -6,8 +6,8 @@ import { View, Dimensions } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { useState, useEffect } from '@wordpress/element';
-import { ALIGNMENT_BREAKPOINTS, WIDE_ALIGNMENTS } from '@wordpress/components';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import { ALIGNMENT_BREAKPOINTS, WIDE_ALIGNMENTS } from '@aarondewes/wp-components';
 /**
  * Internal dependencies
  */

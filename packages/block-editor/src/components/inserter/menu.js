@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useState, useCallback, useMemo } from '@wordpress/element';
-import { VisuallyHidden } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
+import { useState, useCallback, useMemo } from '@aarondewes/wp-element';
+import { VisuallyHidden } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

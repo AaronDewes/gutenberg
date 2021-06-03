@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { store as keyboardShortcutsStore } from '@wordpress/keyboard-shortcuts';
+import { useSelect } from '@aarondewes/wp-data';
+import { store as keyboardShortcutsStore } from '@aarondewes/wp-keyboard-shortcuts';
 
 /**
  * Internal dependencies

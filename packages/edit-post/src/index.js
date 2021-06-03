@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import '@wordpress/core-data';
-import '@wordpress/block-editor';
-import '@wordpress/editor';
+import '@aarondewes/wp-core-data';
+import '@aarondewes/wp-block-editor';
+import '@aarondewes/wp-editor';
 import {
 	registerCoreBlocks,
 	__experimentalRegisterExperimentalCoreBlocks,
-} from '@wordpress/block-library';
-import { render, unmountComponentAtNode } from '@wordpress/element';
+} from '@aarondewes/wp-block-library';
+import { render, unmountComponentAtNode } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

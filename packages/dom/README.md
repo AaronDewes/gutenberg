@@ -7,7 +7,7 @@ DOM utilities module for WordPress.
 Install the module
 
 ```bash
-npm install @wordpress/dom --save
+npm install @aarondewes/wp-dom --save
 ```
 
 ## API

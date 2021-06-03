@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/notices",
+	"name": "@aarondewes/wp-notices",
 	"version": "3.1.1",
 	"description": "State management for notices.",
 	"author": "The WordPress Contributors",
@@ -26,8 +26,8 @@
 	"react-native": "src/index",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/a11y": "file:../a11y",
-		"@wordpress/data": "file:../data",
+		"@aarondewes/wp-a11y": "file:../a11y",
+		"@aarondewes/wp-data": "file:../data",
 		"lodash": "^4.17.21"
 	},
 	"publishConfig": {

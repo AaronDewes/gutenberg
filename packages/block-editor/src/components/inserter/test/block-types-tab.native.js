@@ -6,7 +6,7 @@ import { shallow } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
@@ -17,7 +17,7 @@ import BlockTypesList from '../../block-types-list';
 
 jest.mock( '../../block-types-list' );
 jest.mock( '../hooks/use-clipboard-block' );
-jest.mock( '@wordpress/data/src/components/use-select' );
+jest.mock( '@aarondewes/wp-data/src/components/use-select' );
 
 const selectMock = {
 	getInserterItems: jest.fn().mockReturnValue( [] ),

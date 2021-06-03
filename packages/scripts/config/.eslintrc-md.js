@@ -7,7 +7,7 @@
 module.exports = {
 	root: true,
 	plugins: [ 'markdown' ],
-	extends: [ 'plugin:@wordpress/eslint-plugin/recommended' ],
+	extends: [ 'plugin:@aarondewes/wp-eslint-plugin/recommended' ],
 	rules: {
 		'no-undef': 'off',
 		'no-unused-vars': 'off',

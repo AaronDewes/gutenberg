@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { InnerBlocks } from '@wordpress/block-editor';
+import { InnerBlocks } from '@aarondewes/wp-block-editor';
 
 const deprecated = [
 	// Version with NO wrapper `div` element.

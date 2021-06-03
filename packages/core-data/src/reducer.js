@@ -6,8 +6,8 @@ import { keyBy, map, groupBy, flowRight, isEqual, get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { combineReducers } from '@wordpress/data';
-import isShallowEqual from '@wordpress/is-shallow-equal';
+import { combineReducers } from '@aarondewes/wp-data';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
 
 /**
  * Internal dependencies

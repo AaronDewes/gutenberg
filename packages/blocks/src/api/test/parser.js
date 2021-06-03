@@ -872,7 +872,7 @@ describe( 'block parser', () => {
 		} );
 	} );
 
-	describe( 'parse() of @wordpress/block-serialization-spec-parser', () => {
+	describe( 'parse() of @aarondewes/wp-block-serialization-spec-parser', () => {
 		// run the test cases using the PegJS defined parser
 		testCases( parsePegjs );
 	} );

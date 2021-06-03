@@ -7,7 +7,7 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	BlockControls,
 	BlockVerticalAlignmentToolbar,
@@ -17,17 +17,17 @@ import {
 	MEDIA_TYPE_IMAGE,
 	MEDIA_TYPE_VIDEO,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { Component } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { Component } from '@aarondewes/wp-element';
 import {
 	Button,
 	ToolbarGroup,
 	PanelBody,
 	ToggleControl,
-} from '@wordpress/components';
-import { withSelect } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { pullLeft, pullRight, replace } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { withSelect } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { pullLeft, pullRight, replace } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

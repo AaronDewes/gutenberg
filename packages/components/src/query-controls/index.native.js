@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useCallback, memo } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { useCallback, memo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

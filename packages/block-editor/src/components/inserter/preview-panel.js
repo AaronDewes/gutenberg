@@ -6,8 +6,8 @@ import {
 	createBlock,
 	getBlockFromExample,
 	getBlockType,
-} from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-blocks';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

@@ -75,7 +75,7 @@
 
 ### Bug Fixes
 
--   Added missing `@wordpress/element` dependency which is used internally.
+-   Added missing `@aarondewes/wp-element` dependency which is used internally.
 
 ## 4.4.0 (2019-08-05)
 
@@ -88,7 +88,7 @@
 
 ### New Features
 
--   Handle `<></>` JSX Fragments with `@wordpress/element` `Fragment` ([#15120](https://github.com/WordPress/gutenberg/pull/15120)).
+-   Handle `<></>` JSX Fragments with `@aarondewes/wp-element` `Fragment` ([#15120](https://github.com/WordPress/gutenberg/pull/15120)).
 -   The bundled `@babel/core` dependency has been updated from requiring `^7.2.2` to requiring `^7.4.4`. Babel preset is now using `core-js@3` instead of `core-js@2` (see [Migration Guide](https://babeljs.io/blog/2019/03/19/7.4.0#migration-from-core-js-2)).
 
 ## 4.0.0 (2019-03-06)
@@ -96,7 +96,7 @@
 ### Breaking Changes
 
 -   Removed `babel-core` dependency acting as Babel 7 bridge ([#13922](https://github.com/WordPress/gutenberg/pull/13922). Ensure all references to `babel-core` are replaced with `@babel/core` .
--   Preset updated to include `@wordpress/babel-plugin-import-jsx-pragma` plugin integration ([#13540](https://github.com/WordPress/gutenberg/pull/13540)). It should no longer be explicitly included in your Babel config.
+-   Preset updated to include `@aarondewes/wp-babel-plugin-import-jsx-pragma` plugin integration ([#13540](https://github.com/WordPress/gutenberg/pull/13540)). It should no longer be explicitly included in your Babel config.
 
 ### Bug Fix
 
@@ -122,7 +122,7 @@
 
 ### Internal
 
--   Moved `@WordPress/packages` repository to `@WordPress/gutenberg` ([#7805](https://github.com/WordPress/gutenberg/pull/7805))
+-   Moved `@aarondewes/wp-packages` repository to `@aarondewes/wp-gutenberg` ([#7805](https://github.com/WordPress/gutenberg/pull/7805))
 
 ## 1.3.0 (2018-05-22)
 

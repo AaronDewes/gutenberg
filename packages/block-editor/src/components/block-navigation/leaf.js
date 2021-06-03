@@ -7,7 +7,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __experimentalTreeGridRow as TreeGridRow } from '@wordpress/components';
+import { __experimentalTreeGridRow as TreeGridRow } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { useViewportMatch } from '@wordpress/compose';
-import { Popover } from '@wordpress/components';
+import { useSelect } from '@aarondewes/wp-data';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { Popover } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

@@ -6,16 +6,16 @@ import { TextInput } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { parse } from '@wordpress/blocks';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { addFilter, removeFilter } from '@wordpress/hooks';
+import { Component } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { parse } from '@aarondewes/wp-blocks';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { addFilter, removeFilter } from '@aarondewes/wp-hooks';
 import {
 	withInstanceId,
 	compose,
 	withPreferredColorScheme,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

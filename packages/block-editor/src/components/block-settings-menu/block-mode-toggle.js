@@ -6,11 +6,11 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { MenuItem } from '@wordpress/components';
-import { getBlockType, hasBlockSupport } from '@wordpress/blocks';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { MenuItem } from '@aarondewes/wp-components';
+import { getBlockType, hasBlockSupport } from '@aarondewes/wp-blocks';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

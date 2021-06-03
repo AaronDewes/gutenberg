@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
-import { Button, Popover } from '@wordpress/components';
-import { chevronDown } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
+import { Button, Popover } from '@aarondewes/wp-components';
+import { chevronDown } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

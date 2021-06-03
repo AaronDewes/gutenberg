@@ -543,10 +543,10 @@ async function getReleaseChangelog( options ) {
 		token: options.token,
 		milestone:
 			options.milestone === undefined
-				? // Disable reason: valid-sprintf applies to `@wordpress/i18n` where
+				? // Disable reason: valid-sprintf applies to `@aarondewes/wp-i18n` where
 				  // strings are expected to need to be extracted, and thus variables are
 				  // not allowed. This string will not need to be extracted.
-				  // eslint-disable-next-line @wordpress/valid-sprintf
+				  // eslint-disable-next-line @aarondewes/wp-valid-sprintf
 				  sprintf( config.versionMilestoneFormat, {
 						...config,
 						...semver.parse(

@@ -17,7 +17,7 @@
 
 ### New Feature
 
--   Added a store definition `store` for the editor namespace to use with `@wordpress/data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
+-   Added a store definition `store` for the editor namespace to use with `@aarondewes/wp-data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
 
 ## 9.21.0 (2020-09-03)
 
@@ -29,7 +29,7 @@
 
 ### Deprecations
 
--   The following components are deprecated as moved to the `@wordpress/block-editor` package:
+-   The following components are deprecated as moved to the `@aarondewes/wp-block-editor` package:
     -   Autocomplete,
     -   AlignmentToolbar,
     -   BlockAlignmentToolbar,
@@ -174,15 +174,15 @@
 
 ### Deprecations
 
--   The `getAutosave`, `getAutosaveAttribute`, and `hasAutosave` selectors are deprecated. Please use the `getAutosave` selector in the `@wordpress/core-data` package.
--   The `resetAutosave` action is deprecated. An equivalent action `receiveAutosaves` has been added to the `@wordpress/core-data` package.
--   `ServerSideRender` component was deprecated. The component is now available in `@wordpress/server-side-render`.
+-   The `getAutosave`, `getAutosaveAttribute`, and `hasAutosave` selectors are deprecated. Please use the `getAutosave` selector in the `@aarondewes/wp-core-data` package.
+-   The `resetAutosave` action is deprecated. An equivalent action `receiveAutosaves` has been added to the `@aarondewes/wp-core-data` package.
+-   `ServerSideRender` component was deprecated. The component is now available in `@aarondewes/wp-server-side-render`.
 
 ### Internal
 
 -   Refactor setupEditor effects to action-generator using controls ([#14513](https://github.com/WordPress/gutenberg/pull/14513))
 -   Remove redux-multi dependency (no longer needed/used with above refactor)
--   Replace internal controls definitions with usage of new @wordpress/data-controls package (see [#15435](https://github.com/WordPress/gutenberg/pull/15435)
+-   Replace internal controls definitions with usage of new @aarondewes/wp-data-controls package (see [#15435](https://github.com/WordPress/gutenberg/pull/15435)
 
 ## 9.1.0 (2019-03-06)
 

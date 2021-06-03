@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { withSelect } from '@wordpress/data';
+import { Component } from '@aarondewes/wp-element';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

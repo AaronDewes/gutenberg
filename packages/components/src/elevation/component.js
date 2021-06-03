@@ -11,7 +11,7 @@ import { createComponent } from '../ui/utils';
  *
  * @example
  * ```jsx
- * import { Elevation, Surface, Text, View } from `@wordpress/components`;
+ * import { Elevation, Surface, Text, View } from `@aarondewes/wp-components`;
  *
  * function Example() {
  * 	return (

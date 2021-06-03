@@ -6,21 +6,21 @@ import { defaultTo } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { SlotFillProvider } from '@wordpress/components';
-import { uploadMedia } from '@wordpress/media-utils';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useMemo } from '@wordpress/element';
+import { SlotFillProvider } from '@aarondewes/wp-components';
+import { uploadMedia } from '@aarondewes/wp-media-utils';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useMemo } from '@aarondewes/wp-element';
 import {
 	BlockEditorProvider,
 	BlockEditorKeyboardShortcuts,
-} from '@wordpress/block-editor';
-import { ReusableBlocksMenuItems } from '@wordpress/reusable-blocks';
+} from '@aarondewes/wp-block-editor';
+import { ReusableBlocksMenuItems } from '@aarondewes/wp-reusable-blocks';
 
 /**
  * Internal dependencies
  */
 import KeyboardShortcuts from '../keyboard-shortcuts';
-import { useEntityBlockEditor, store as coreStore } from '@wordpress/core-data';
+import { useEntityBlockEditor, store as coreStore } from '@aarondewes/wp-core-data';
 import { buildWidgetAreasPostId, KIND, POST_TYPE } from '../../store/utils';
 import useLastSelectedWidgetArea from '../../hooks/use-last-selected-widget-area';
 import { store as editWidgetsStore } from '../../store';

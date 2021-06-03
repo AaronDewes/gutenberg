@@ -7,7 +7,7 @@ Utility for warning messages to the console based on a passed condition.
 Install the module
 
 ```bash
-npm install @wordpress/warning --save
+npm install @aarondewes/wp-warning --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -18,7 +18,7 @@ Literal strings aren't minified. Keeping them in your production bundle may incr
 
 To prevent that, you should:
 
-1.  Put `@wordpress/warning/babel-plugin` into your [babel config](https://babeljs.io/docs/en/plugins#plugin-options) or use [`@wordpress/babel-preset-default`](https://www.npmjs.com/package/@wordpress/babel-preset-default), which already includes the babel plugin.
+1.  Put `@aarondewes/wp-warning/babel-plugin` into your [babel config](https://babeljs.io/docs/en/plugins#plugin-options) or use [`@aarondewes/wp-babel-preset-default`](https://www.npmjs.com/package/@aarondewes/wp-babel-preset-default), which already includes the babel plugin.
 
     This will make sure your `warning` calls are wrapped within a condition that checks if `process.env.NODE_ENV !== 'production'`.
 
@@ -37,7 +37,7 @@ Shows a warning with `message` if environment is not `production`.
 _Usage_
 
 ```js
-import warning from '@wordpress/warning';
+import warning from '@aarondewes/wp-warning';
 
 function MyComponent( props ) {
   if ( ! props.title ) {

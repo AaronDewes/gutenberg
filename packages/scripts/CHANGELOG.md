@@ -82,8 +82,8 @@
 
 -   Increase the minimum Node.js version to 12 ([#27934](https://github.com/WordPress/gutenberg/pull/27934)).
 -   The bundled `jest` dependency has been updated to the next major version `^26.6.3` (see [Breaking Changes](https://jestjs.io/blog/2020/05/05/jest-26), [#27956](https://github.com/WordPress/gutenberg/pull/27956)).
--   The bundled `@wordpress/eslint-plugin` dependency has been updated to the next major version `^8.0.0`. There are new ESLint rules enabled in the recommended config used by `lint-js` command.
--   The bundled `stylelint-config-wordpress` dependency has been replaced with `@wordpress/stylelint-config` (#27810)[https://github.com/WordPress/gutenberg/pull/27810].
+-   The bundled `@aarondewes/wp-eslint-plugin` dependency has been updated to the next major version `^8.0.0`. There are new ESLint rules enabled in the recommended config used by `lint-js` command.
+-   The bundled `stylelint-config-wordpress` dependency has been replaced with `@aarondewes/wp-stylelint-config` (#27810)[https://github.com/WordPress/gutenberg/pull/27810].
 -   The bundled `puppeteer-core` (`3.0.0`) dependency has been upgraded to version `5.5.0`. Puppeteer uses Chromium v88 instead of Chromium v71. See the full list of breaking changes of [4.0.0](https://github.com/puppeteer/puppeteer/releases/tag/v4.0.0) and [5.0.0](https://github.com/puppeteer/puppeteer/releases/tag/v5.0.0).
 
 ### Enhancements
@@ -158,7 +158,7 @@
 
 ### Breaking Changes
 
--   The `env` family of scripts has been removed. Finally, exceeded in functionality and replaced by [`wp-env`](https://www.npmjs.com/package/@wordpress/env).
+-   The `env` family of scripts has been removed. Finally, exceeded in functionality and replaced by [`wp-env`](https://www.npmjs.com/package/@aarondewes/wp-env).
 -   The default Babel configuration has changed to only support stage-4 proposals. This affects the `build` and `start` commands that use the bundled Babel configuration; if a project provides its own, this change doesn't affect it ([#22083](https://github.com/WordPress/gutenberg/pull/22083)).
 -   The bundled `wp-prettier` dependency has been upgraded from `1.19.1` to `2.0.5`. Refer to the [Prettier 2.0 "2020" blog post](https://prettier.io/blog/2020/03/21/2.0.0.html) for full details about the major changes included in Prettier 2.0.
 -   The bundled `eslint` dependency has been updated from requiring `^6.8.0` to requiring `^7.1.0`.
@@ -193,13 +193,13 @@
 
 ### Deprecations
 
--   `env` script was marked as deprecated. We recommend using `@wordpress/env` package instead that lets you easily set up a local WordPress environment for building and testing plugins and themes.
+-   `env` script was marked as deprecated. We recommend using `@aarondewes/wp-env` package instead that lets you easily set up a local WordPress environment for building and testing plugins and themes.
 
 ## 9.0.0 (2020-04-30)
 
 ### Breaking Changes
 
--   The bundled `puppeteer` (`^2.0.0`) dependency has been replaced with `puppeteer-core` in version `3.0.0`. Puppeteer uses Chromium v81 instead of Chromium v79. See the [full list of changes](https://github.com/puppeteer/puppeteer/releases/tag/v3.0.0). It also allowed preventing Chromium installation together with `@wordpress/scripts`. It happens now on-demand when running `test-e2e` script, and it re-triggers only when a new version is required.
+-   The bundled `puppeteer` (`^2.0.0`) dependency has been replaced with `puppeteer-core` in version `3.0.0`. Puppeteer uses Chromium v81 instead of Chromium v79. See the [full list of changes](https://github.com/puppeteer/puppeteer/releases/tag/v3.0.0). It also allowed preventing Chromium installation together with `@aarondewes/wp-scripts`. It happens now on-demand when running `test-e2e` script, and it re-triggers only when a new version is required.
 
 ### New Features
 
@@ -231,7 +231,7 @@
 
 ### Internal
 
--   Package depends now on the shared Prettier config exposed in `@wordpress/prettier-config` dependency ([#20026](https://github.com/WordPress/gutenberg/pull/20026)).
+-   Package depends now on the shared Prettier config exposed in `@aarondewes/wp-prettier-config` dependency ([#20026](https://github.com/WordPress/gutenberg/pull/20026)).
 
 ## 7.1.2 (2020-02-25)
 
@@ -297,7 +297,7 @@
 
 ### Breaking Changes
 
--   The bundled `@wordpress/dependency-extraction-webpack-plugin` dependency has been updated to the next major version `^2.0.0`. `start` and `build` scripts save now the generated asset file for each entry point in the new PHP output format.
+-   The bundled `@aarondewes/wp-dependency-extraction-webpack-plugin` dependency has been updated to the next major version `^2.0.0`. `start` and `build` scripts save now the generated asset file for each entry point in the new PHP output format.
 
 ## 4.1.0 (2019-09-03)
 
@@ -320,7 +320,7 @@
 -   The bundled `puppeteer` dependency has been updated from requiring `1.6.1` to requiring `^1.19.0` ([#16875](https://github.com/WordPress/gutenberg/pull/16875)). It uses Chromium v77 instead of Chromium v69.
 -   The bundled `jest-puppeteer` dependency has been updated from requiring `^4.0.0` to requiring `^4.3.0` ([#16875](https://github.com/WordPress/gutenberg/pull/16875)).
 -   The bundled `eslint` dependency has been updated from requiring `^5.16.0` to requiring `^6.1.0`.
--   The bundled `@wordpress/eslint-plugin` dependency has been updated to the next major version `^3.0.0` due to new ESLint rules enabled for all test files.
+-   The bundled `@aarondewes/wp-eslint-plugin` dependency has been updated to the next major version `^3.0.0` due to new ESLint rules enabled for all test files.
 
 ### Bug Fix
 
@@ -349,7 +349,7 @@
 
 ### New Features
 
--   Leverage `@wordpress/dependency-extraction-webpack-plugin` plugin to extract WordPress
+-   Leverage `@aarondewes/wp-dependency-extraction-webpack-plugin` plugin to extract WordPress
     dependencies.
 -   The bundled `eslint` dependency has been updated from requiring `^5.12.1` to requiring `^5.16.0`.
 
@@ -432,7 +432,7 @@
 
 ### Internal
 
--   Moved `@WordPress/packages` repository to `@WordPress/gutenberg` ([#7805](https://github.com/WordPress/gutenberg/pull/7805))
+-   Moved `@aarondewes/wp-packages` repository to `@aarondewes/wp-gutenberg` ([#7805](https://github.com/WordPress/gutenberg/pull/7805))
 
 ## 1.2.0 (2018-05-29)
 

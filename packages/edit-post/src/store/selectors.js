@@ -7,10 +7,10 @@ import { get, includes, some, flatten, values } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createRegistrySelector } from '@wordpress/data';
-import { store as interfaceStore } from '@wordpress/interface';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as editorStore } from '@wordpress/editor';
+import { createRegistrySelector } from '@aarondewes/wp-data';
+import { store as interfaceStore } from '@aarondewes/wp-interface';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 /**
  * Returns the current editing mode.
  *

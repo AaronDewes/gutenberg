@@ -9,7 +9,7 @@ import {
 	publishPost,
 	saveDraft,
 	toggleOfflineMode,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 // Constant to override editor preference
 const AUTOSAVE_INTERVAL_SECONDS = 5;

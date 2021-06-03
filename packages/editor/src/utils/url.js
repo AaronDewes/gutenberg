@@ -6,7 +6,7 @@ import { deburr, trim } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { addQueryArgs } from '@wordpress/url';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Returns the URL of a WPAdmin Page.

@@ -7,7 +7,7 @@ End-To-End (E2E) tests for WordPress.
 Install the module
 
 ```bash
-npm install @wordpress/e2e-tests --save-dev
+npm install @aarondewes/wp-e2e-tests --save-dev
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It is not compatible with older versions.

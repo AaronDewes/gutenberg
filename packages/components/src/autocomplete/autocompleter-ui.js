@@ -7,8 +7,8 @@ import { map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useLayoutEffect } from '@wordpress/element';
-import { useAnchorRef } from '@wordpress/rich-text';
+import { useLayoutEffect } from '@aarondewes/wp-element';
+import { useAnchorRef } from '@aarondewes/wp-rich-text';
 
 /**
  * Internal dependencies

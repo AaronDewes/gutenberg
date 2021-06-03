@@ -7,11 +7,11 @@ import { includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
-import { upload, Icon } from '@wordpress/icons';
-import { getFilesFromDataTransfer } from '@wordpress/dom';
-import { __experimentalUseDropZone as useDropZone } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
+import { upload, Icon } from '@aarondewes/wp-icons';
+import { getFilesFromDataTransfer } from '@aarondewes/wp-dom';
+import { __experimentalUseDropZone as useDropZone } from '@aarondewes/wp-compose';
 
 export default function DropZoneComponent( {
 	className,

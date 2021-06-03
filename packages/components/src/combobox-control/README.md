@@ -20,8 +20,8 @@ These are the same as [the ones for `SelectControl`s](/packages/components/src/s
 /**
  * WordPress dependencies
  */
-import { ComboboxControl } from '@wordpress/components';
-import { useState } from '@wordpress/compose';
+import { ComboboxControl } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-compose';
 
 const options = [
 	{

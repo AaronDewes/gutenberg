@@ -16,7 +16,7 @@ import {
 	pressKeyWithModifier,
 	clickBlockToolbarButton,
 	saveDraft,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Classic', () => {
 	beforeEach( async () => {

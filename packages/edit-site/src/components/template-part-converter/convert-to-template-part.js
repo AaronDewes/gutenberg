@@ -6,11 +6,11 @@ import { kebabCase } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useDispatch, useSelect } from '@wordpress/data';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 import {
 	BlockSettingsMenuControls,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	MenuItem,
 	Icon,
@@ -23,15 +23,15 @@ import {
 	Modal,
 	__experimentalRadioGroup as RadioGroup,
 	__experimentalRadio as Radio,
-} from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { createBlock, serialize } from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
-import { useState } from '@wordpress/element';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as editorStore } from '@wordpress/editor';
-import { check } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { createBlock, serialize } from '@aarondewes/wp-blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState } from '@aarondewes/wp-element';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as editorStore } from '@aarondewes/wp-editor';
+import { check } from '@aarondewes/wp-icons';
 
 export default function ConvertToTemplatePart( { clientIds, blocks } ) {
 	const instanceId = useInstanceId( ConvertToTemplatePart );

@@ -1,21 +1,21 @@
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
+import { Button } from '@aarondewes/wp-components';
 import {
 	__experimentalUseDialog as useDialog,
 	useViewportMatch,
-} from '@wordpress/compose';
-import { close } from '@wordpress/icons';
-import { __experimentalLibrary as Library } from '@wordpress/block-editor';
-import { useEffect } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-compose';
+import { close } from '@aarondewes/wp-icons';
+import { __experimentalLibrary as Library } from '@aarondewes/wp-block-editor';
+import { useEffect } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 import {
 	InterfaceSkeleton,
 	ComplementaryArea,
 	store as interfaceStore,
-} from '@wordpress/interface';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-interface';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

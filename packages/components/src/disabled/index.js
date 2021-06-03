@@ -12,8 +12,8 @@ import {
 	useCallback,
 	useLayoutEffect,
 	useRef,
-} from '@wordpress/element';
-import { focus } from '@wordpress/dom';
+} from '@aarondewes/wp-element';
+import { focus } from '@aarondewes/wp-dom';
 
 /**
  * Internal dependencies

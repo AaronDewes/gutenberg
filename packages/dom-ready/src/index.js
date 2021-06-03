@@ -19,7 +19,7 @@
  *
  * @example
  * ```js
- * import domReady from '@wordpress/dom-ready';
+ * import domReady from '@aarondewes/wp-dom-ready';
  *
  * domReady( function() {
  * 	//do something after DOM loads.

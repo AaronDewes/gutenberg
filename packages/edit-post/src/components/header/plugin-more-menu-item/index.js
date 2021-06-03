@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { ActionItem } from '@wordpress/interface';
-import { compose } from '@wordpress/compose';
-import { withPluginContext } from '@wordpress/plugins';
+import { ActionItem } from '@aarondewes/wp-interface';
+import { compose } from '@aarondewes/wp-compose';
+import { withPluginContext } from '@aarondewes/wp-plugins';
 
 /**
  * Renders a menu item in `Plugins` group in `More Menu` drop down, and can be used to as a button or link depending on the props provided.
@@ -41,9 +41,9 @@ import { withPluginContext } from '@wordpress/plugins';
  * @example
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@wordpress/i18n';
- * import { PluginMoreMenuItem } from '@wordpress/edit-post';
- * import { more } from '@wordpress/icons';
+ * import { __ } from '@aarondewes/wp-i18n';
+ * import { PluginMoreMenuItem } from '@aarondewes/wp-edit-post';
+ * import { more } from '@aarondewes/wp-icons';
  *
  * function onButtonClick() {
  * 	alert( 'Button clicked.' );

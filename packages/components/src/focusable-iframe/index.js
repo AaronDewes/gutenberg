@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef } from '@wordpress/element';
-import { useMergeRefs } from '@wordpress/compose';
+import { useEffect, useRef } from '@aarondewes/wp-element';
+import { useMergeRefs } from '@aarondewes/wp-compose';
 
 export default function FocusableIframe( { iframeRef, ...props } ) {
 	const fallbackRef = useRef();

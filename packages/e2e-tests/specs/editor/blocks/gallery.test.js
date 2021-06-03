@@ -14,7 +14,7 @@ import {
 	getEditedPostContent,
 	createNewPost,
 	clickButton,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 async function upload( selector ) {
 	await page.waitForSelector( selector );

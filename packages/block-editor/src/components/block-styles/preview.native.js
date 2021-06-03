@@ -13,9 +13,9 @@ import {
 /**
  * WordPress dependencies
  */
-import { BottomSheet } from '@wordpress/components';
-import { useState, useEffect, useRef } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { BottomSheet } from '@aarondewes/wp-components';
+import { useState, useEffect, useRef } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

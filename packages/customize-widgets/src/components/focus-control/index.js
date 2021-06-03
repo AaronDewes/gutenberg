@@ -8,7 +8,7 @@ import {
 	useContext,
 	useCallback,
 	useMemo,
-} from '@wordpress/element';
+} from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

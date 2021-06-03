@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalSearchForm as SearchForm } from '@wordpress/block-editor';
-import { useState } from '@wordpress/element';
-import { LEFT, RIGHT, UP, DOWN, BACKSPACE, ENTER } from '@wordpress/keycodes';
+import { __experimentalSearchForm as SearchForm } from '@aarondewes/wp-block-editor';
+import { useState } from '@aarondewes/wp-element';
+import { LEFT, RIGHT, UP, DOWN, BACKSPACE, ENTER } from '@aarondewes/wp-keycodes';
 /**
  * Internal dependencies
  */

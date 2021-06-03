@@ -6,7 +6,7 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState, useRef, useEffect } from '@wordpress/element';
+import { useState, useRef, useEffect } from '@aarondewes/wp-element';
 
 const { clearTimeout, setTimeout } = window;
 

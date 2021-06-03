@@ -8,7 +8,7 @@ import {
 	getEditedPostContent,
 	insertBlock,
 	openDocumentSettingsSidebar,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const createButtonLabel = 'Create Table';
 

@@ -6,8 +6,8 @@ import {
 	useLayoutEffect,
 	useContext,
 	forwardRef,
-} from '@wordpress/element';
-import { useMergeRefs } from '@wordpress/compose';
+} from '@aarondewes/wp-element';
+import { useMergeRefs } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

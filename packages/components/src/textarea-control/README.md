@@ -76,8 +76,8 @@ When text input isn’t accepted, an error message can display instructions on h
 
 ### Usage
 
-    import { TextareaControl } from '@wordpress/components';
-    import { withState } from '@wordpress/compose';
+    import { TextareaControl } from '@aarondewes/wp-components';
+    import { withState } from '@aarondewes/wp-compose';
 
     const MyTextareaControl = withState( {
         text: '',

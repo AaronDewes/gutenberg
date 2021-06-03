@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
-import { Warning } from '@wordpress/block-editor';
+import { Component } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
+import { Warning } from '@aarondewes/wp-block-editor';
 
 class ErrorBoundary extends Component {
 	constructor() {

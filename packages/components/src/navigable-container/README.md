@@ -50,7 +50,7 @@ import {
 	NavigableMenu,
 	TabbableContainer,
 	Button,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function onNavigate( index, target ) {
 	console.log( `Navigates to ${ index }`, target );

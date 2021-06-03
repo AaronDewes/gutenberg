@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { safeDecodeURI, filterURLForDisplay } from '@wordpress/url';
-import { __ } from '@wordpress/i18n';
-import { Button, TextHighlight } from '@wordpress/components';
-import { Icon, globe } from '@wordpress/icons';
+import { safeDecodeURI, filterURLForDisplay } from '@aarondewes/wp-url';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button, TextHighlight } from '@aarondewes/wp-components';
+import { Icon, globe } from '@aarondewes/wp-icons';
 
 export const LinkControlSearchItem = ( {
 	itemProps,

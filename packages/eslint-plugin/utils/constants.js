@@ -1,5 +1,5 @@
 /**
- * List of translation functions exposed by the `@wordpress/i18n` package.
+ * List of translation functions exposed by the `@aarondewes/wp-i18n` package.
  *
  * @type {Set<string>} Translation functions.
  */

@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { PanelBody, ToggleControl, Disabled } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
-import ServerSideRender from '@wordpress/server-side-render';
+import { PanelBody, ToggleControl, Disabled } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { InspectorControls, useBlockProps } from '@aarondewes/wp-block-editor';
+import ServerSideRender from '@aarondewes/wp-server-side-render';
 
 export default function ArchivesEdit( { attributes, setAttributes } ) {
 	const { showPostCounts, displayAsDropdown } = attributes;

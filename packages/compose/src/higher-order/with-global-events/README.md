@@ -14,7 +14,7 @@ On behalf of the consuming developer, the higher-order component manages:
 Pass an object where keys correspond to the DOM event type, the value the name of the method on the original component's instance which handles the event.
 
 ```js
-import { withGlobalEvents } from '@wordpress/components';
+import { withGlobalEvents } from '@aarondewes/wp-components';
 
 class ResizingComponent extends Component {
 	handleResize() {

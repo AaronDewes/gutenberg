@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { BlockList } from '@wordpress/block-editor';
+import { Component } from '@aarondewes/wp-element';
+import { BlockList } from '@aarondewes/wp-block-editor';
 /**
  * External dependencies
  */

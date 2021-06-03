@@ -6,8 +6,8 @@ import { debounce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import apiFetch from '@wordpress/api-fetch';
-import { __ } from '@wordpress/i18n';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * An API for creating and loading a widget control (a <div class="widget">

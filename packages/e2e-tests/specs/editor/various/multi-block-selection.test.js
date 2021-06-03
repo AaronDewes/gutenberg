@@ -9,7 +9,7 @@ import {
 	getEditedPostContent,
 	clickBlockToolbarButton,
 	clickButton,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 async function getSelectedFlatIndices() {
 	return await page.evaluate( () => {

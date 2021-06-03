@@ -7,7 +7,7 @@
 Use as you would a standard `iframe`. You may pass `onFocus` directly as the callback to be invoked when the iframe receives focus, or on an ancestor component since the event will bubble.
 
 ```jsx
-import { FocusableIframe } from '@wordpress/components';
+import { FocusableIframe } from '@aarondewes/wp-components';
 
 const MyFocusableIframe = () => (
 	<FocusableIframe

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { controls } from '@wordpress/data';
+import { controls } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

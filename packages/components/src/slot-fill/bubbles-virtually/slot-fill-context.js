@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createContext } from '@wordpress/element';
-import warning from '@wordpress/warning';
+import { createContext } from '@aarondewes/wp-element';
+import warning from '@aarondewes/wp-warning';
 
 const SlotFillContext = createContext( {
 	slots: {},

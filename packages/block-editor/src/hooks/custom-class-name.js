@@ -7,15 +7,15 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { TextControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { TextControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	hasBlockSupport,
 	parseWithAttributeSchema,
 	getSaveContent,
-} from '@wordpress/blocks';
-import { createHigherOrderComponent } from '@wordpress/compose';
+} from '@aarondewes/wp-blocks';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

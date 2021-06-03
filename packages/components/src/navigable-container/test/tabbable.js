@@ -7,7 +7,7 @@ import { each } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { TAB, SPACE } from '@wordpress/keycodes';
+import { TAB, SPACE } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

@@ -8,7 +8,7 @@ This package is not yet published to npm. You can use it locally:
 
 ### Mostly automatic installation
 
-`$ react-native link @wordpress/react-native-bridge`
+`$ react-native link @aarondewes/wp-react-native-bridge`
 
 ### Manual installation
 
@@ -39,7 +39,7 @@ This package is not yet published to npm. You can use it locally:
 ## Usage
 
 ```javascript
-import RNReactNativeGutenbergBridge from '@wordpress/react-native-bridge';
+import RNReactNativeGutenbergBridge from '@aarondewes/wp-react-native-bridge';
 
 // TODO: What to do with the module?
 RNReactNativeGutenbergBridge;

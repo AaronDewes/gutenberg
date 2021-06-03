@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/env",
+	"name": "@aarondewes/wp-env",
 	"version": "4.0.5",
 	"description": "A zero-config, self contained local WordPress environment for development and testing.",
 	"author": "The WordPress Contributors",

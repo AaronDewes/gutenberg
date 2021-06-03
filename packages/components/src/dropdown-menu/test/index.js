@@ -6,8 +6,8 @@ import { fireEvent, render } from '@testing-library/react';
 /**
  * WordPress dependencies
  */
-import { DOWN } from '@wordpress/keycodes';
-import { arrowLeft, arrowRight, arrowUp, arrowDown } from '@wordpress/icons';
+import { DOWN } from '@aarondewes/wp-keycodes';
+import { arrowLeft, arrowRight, arrowUp, arrowDown } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

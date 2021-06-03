@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 const createPaginationItem = ( content, Tag = 'a', extraClass = '' ) => (
 	<Tag className={ `page-numbers ${ extraClass }` }>{ content }</Tag>

@@ -6,16 +6,16 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	useCallback,
 	useRef,
 	useMemo,
 	createContext,
 	useContext,
-} from '@wordpress/element';
-import { Popover } from '@wordpress/components';
-import { isRTL } from '@wordpress/i18n';
+} from '@aarondewes/wp-element';
+import { Popover } from '@aarondewes/wp-components';
+import { isRTL } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

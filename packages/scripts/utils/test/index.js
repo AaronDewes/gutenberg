@@ -196,7 +196,7 @@ describe( 'utils', () => {
 				'Exit code: 1.'
 			);
 			expect( console ).toHaveLoggedWith(
-				'Unknown script "unknown-script". Perhaps you need to update @wordpress/scripts?'
+				'Unknown script "unknown-script". Perhaps you need to update @aarondewes/wp-scripts?'
 			);
 		} );
 

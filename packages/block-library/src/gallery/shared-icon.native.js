@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/components';
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { gallery as icon } from '@wordpress/icons';
+import { Icon } from '@aarondewes/wp-components';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { gallery as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

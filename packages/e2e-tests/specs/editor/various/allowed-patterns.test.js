@@ -7,7 +7,7 @@ import {
 	deactivatePlugin,
 	searchForPattern,
 	toggleGlobalBlockInserter,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const checkPatternExistence = async ( name, available = true ) => {
 	await searchForPattern( name );

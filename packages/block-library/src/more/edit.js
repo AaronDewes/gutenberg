@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelBody, ToggleControl } from '@wordpress/components';
-import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
-import { ENTER } from '@wordpress/keycodes';
-import { getDefaultBlockName, createBlock } from '@wordpress/blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody, ToggleControl } from '@aarondewes/wp-components';
+import { InspectorControls, useBlockProps } from '@aarondewes/wp-block-editor';
+import { ENTER } from '@aarondewes/wp-keycodes';
+import { getDefaultBlockName, createBlock } from '@aarondewes/wp-blocks';
 
 const DEFAULT_TEXT = __( 'Read more' );
 

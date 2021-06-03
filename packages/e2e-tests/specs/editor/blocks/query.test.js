@@ -8,7 +8,7 @@ import {
 	insertBlock,
 	publishPost,
 	trashAllPosts,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const createDemoPosts = async () => {
 	await createNewPost( { postType: 'post', title: `Post 1` } );

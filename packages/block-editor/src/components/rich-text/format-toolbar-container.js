@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Popover, ToolbarGroup } from '@wordpress/components';
+import { Popover, ToolbarGroup } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

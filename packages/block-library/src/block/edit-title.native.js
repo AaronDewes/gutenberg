@@ -6,10 +6,10 @@ import { Text, View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { help, lock } from '@wordpress/icons';
+import { Icon } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { help, lock } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

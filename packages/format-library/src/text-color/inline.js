@@ -6,14 +6,14 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useCallback, useMemo } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
+import { useCallback, useMemo } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	applyFormat,
 	removeFormat,
 	getActiveFormat,
 	useAnchorRef,
-} from '@wordpress/rich-text';
+} from '@aarondewes/wp-rich-text';
 import {
 	ColorPalette,
 	URLPopover,
@@ -21,7 +21,7 @@ import {
 	getColorObjectByColorValue,
 	getColorObjectByAttributeValues,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

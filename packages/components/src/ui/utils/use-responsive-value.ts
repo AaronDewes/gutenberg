@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useEffect, useState } from '@wordpress/element';
+import { useEffect, useState } from '@aarondewes/wp-element';
 
 const breakpoints = [ '40em', '52em', '64em' ];
 
@@ -42,13 +42,13 @@ export const useBreakpointIndex = (
 
 		if ( typeof document !== 'undefined' ) {
 			// Disable reason: We don't really care about what document we listen to, we just want to know that we're resizing.
-			/* eslint-disable @wordpress/no-global-event-listener */
+			/* eslint-disable @aarondewes/wp-no-global-event-listener */
 			document.addEventListener( 'resize', onResize );
 		}
 		return () => {
 			if ( typeof document !== 'undefined' ) {
 				document.removeEventListener( 'resize', onResize );
-				/* eslint-enable @wordpress/no-global-event-listener */
+				/* eslint-enable @aarondewes/wp-no-global-event-listener */
 			}
 		};
 	}, [ value ] );

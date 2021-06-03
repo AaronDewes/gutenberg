@@ -11,8 +11,8 @@ import {
 	ButtonGroup,
 	SelectControl,
 	TextControl,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 const IMAGE_SIZE_PRESETS = [ 25, 50, 75, 100 ];
 

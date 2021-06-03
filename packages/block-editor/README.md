@@ -7,7 +7,7 @@ This module allows you to create and use standalone block editors.
 Install the module
 
 ```bash
-npm install @wordpress/block-editor --save
+npm install @aarondewes/wp-block-editor --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -21,9 +21,9 @@ import {
 	BlockTools,
 	WritingFlow,
 	ObserveTyping,
-} from '@wordpress/block-editor';
-import { SlotFillProvider, Popover } from '@wordpress/components';
-import { useState } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { SlotFillProvider, Popover } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 function MyEditorComponent() {
 	const [ blocks, updateBlocks ] = useState( [] );
@@ -49,13 +49,13 @@ function MyEditorComponent() {
 }
 
 // Make sure to load the block editor stylesheets too
-// import '@wordpress/components/build-style/style.css';
-// import '@wordpress/block-editor/build-style/style.css';
+// import '@aarondewes/wp-components/build-style/style.css';
+// import '@aarondewes/wp-block-editor/build-style/style.css';
 ```
 
 In this example, we're instantiating a block editor. A block editor is composed by a `BlockEditorProvider` wrapper component where you pass the current array of blocks and on each change the `onInput` or `onChange` callbacks are called depending on whether the change is considered persistent or not.
 
-Inside `BlockEditorProvider`, you can nest any of the available `@wordpress/block-editor` UI components to build the UI of your editor.
+Inside `BlockEditorProvider`, you can nest any of the available `@aarondewes/wp-block-editor` UI components to build the UI of your editor.
 
 In the example above we're rendering the `BlockList` to show and edit the block list. For instance we could add a custom sidebar and use the `BlockInspector` component to be able to edit the advanced settings for the currently selected block. (See the [API](#API) for the list of all the available components).
 
@@ -64,14 +64,14 @@ The `Popover.Slot` with the `name="block-toolbar"` prop is used to render the to
 In the example above, there's no registered block type, in order to use the block editor successfully make sure to register some block types. For instance, registering the core block types can be done like so:
 
 ```js
-import { registerCoreBlocks } from '@wordpress/block-library';
+import { registerCoreBlocks } from '@aarondewes/wp-block-library';
 
 registerCoreBlocks();
 
 // Make sure to load the block stylesheets too
-// import '@wordpress/block-library/build-style/style.css';
-// import '@wordpress/block-library/build-style/editor.css';
-// import '@wordpress/block-library/build-style/theme.css';
+// import '@aarondewes/wp-block-library/build-style/style.css';
+// import '@aarondewes/wp-block-library/build-style/editor.css';
+// import '@aarondewes/wp-block-library/build-style/theme.css';
 ```
 
 ## API

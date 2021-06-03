@@ -13,7 +13,7 @@ import {
 	insertBlock,
 	openGlobalBlockInserter,
 	closeGlobalBlockInserter,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 function readFile( filePath ) {
 	return existsSync( filePath )

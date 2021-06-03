@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { createSlotFill, PanelBody } from '@wordpress/components';
-import { compose } from '@wordpress/compose';
-import { withPluginContext } from '@wordpress/plugins';
+import { createSlotFill, PanelBody } from '@aarondewes/wp-components';
+import { compose } from '@aarondewes/wp-compose';
+import { withPluginContext } from '@aarondewes/wp-plugins';
 const { Fill, Slot } = createSlotFill( 'PluginPrePublishPanel' );
 
 const PluginPrePublishPanelFill = ( {
@@ -60,8 +60,8 @@ const PluginPrePublishPanelFill = ( {
  * @example
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@wordpress/i18n';
- * import { PluginPrePublishPanel } from '@wordpress/edit-post';
+ * import { __ } from '@aarondewes/wp-i18n';
+ * import { PluginPrePublishPanel } from '@aarondewes/wp-edit-post';
  *
  * const MyPluginPrePublishPanel = () => (
  * 	<PluginPrePublishPanel

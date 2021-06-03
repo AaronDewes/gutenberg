@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
-import { Button } from '@wordpress/components';
-import { link, keyboardReturn, arrowLeft } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
+import { Button } from '@aarondewes/wp-components';
+import { link, keyboardReturn, arrowLeft } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

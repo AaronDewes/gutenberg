@@ -6,9 +6,9 @@ import { View, TouchableWithoutFeedback, Text, Platform } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { check, Icon, arrowLeft, close } from '@wordpress/icons';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { check, Icon, arrowLeft, close } from '@aarondewes/wp-icons';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

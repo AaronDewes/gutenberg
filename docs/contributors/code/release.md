@@ -179,13 +179,13 @@ Whilst waiting for the GitHub actions build for `wp/trunk`[branch to pass](https
     >
     > ```shell
     > npm run publish:check
-    > @wordpress/e2e-tests
-    > @wordpress/jest-preset-default
-    > @wordpress/scripts
+    > @aarondewes/wp-e2e-tests
+    > @aarondewes/wp-jest-preset-default
+    > @aarondewes/wp-scripts
     > lerna success found 3 packages ready to publish
     > ```
 
-Check the versions listed in the current `CHANGELOG.md` file, looking through the commit history of a package e.g [@wordpress/scripts](https://github.com/WordPress/gutenberg/commits/HEAD/packages/scripts) and look out for _"chore(release): publish"_ and _"Update changelogs"_ commits to determine recent version bumps, then looking at the commits since the most recent release should aid with discovering what changes have occurred since the last release.
+Check the versions listed in the current `CHANGELOG.md` file, looking through the commit history of a package e.g [@aarondewes/wp-scripts](https://github.com/WordPress/gutenberg/commits/HEAD/packages/scripts) and look out for _"chore(release): publish"_ and _"Update changelogs"_ commits to determine recent version bumps, then looking at the commits since the most recent release should aid with discovering what changes have occurred since the last release.
 
 Note: You may discover the current version of each package is not up to date, if so updating the previous released versions would be appreciated.
 
@@ -210,9 +210,9 @@ Now that the changes have been committed to the `wp/trunk` branch and the Travis
     >
     > ```shell
     > npm run publish:check
-    > @wordpress/e2e-tests
-    > @wordpress/jest-preset-default
-    > @wordpress/scripts
+    > @aarondewes/wp-e2e-tests
+    > @aarondewes/wp-jest-preset-default
+    > @aarondewes/wp-scripts
     > lerna success found 3 packages ready to publish
     > ```
 2. Run the `npm run publish:latest` command (see more in [package release process]) but when asked for the version numbers to choose for each package use the versions you made note of above when updating each packages `CHANGELOG.md` file.
@@ -224,14 +224,14 @@ Now that the changes have been committed to the `wp/trunk` branch and the Travis
     > Build Progress: [==============================] 100%
     > lerna notice cli v3.18.2
     > lerna info versioning independent
-    > ? Select a new version for @wordpress/e2e-tests (currently 1.9.0) Patch (1.9.1)
-    > ? Select a new version for @wordpress/jest-preset-default (currently 5.3.0) Patch (5.3.1)
-    > ? Select a new version for @wordpress/scripts (currently 6.1.0) Patch (6.1.1)
+    > ? Select a new version for @aarondewes/wp-e2e-tests (currently 1.9.0) Patch (1.9.1)
+    > ? Select a new version for @aarondewes/wp-jest-preset-default (currently 5.3.0) Patch (5.3.1)
+    > ? Select a new version for @aarondewes/wp-scripts (currently 6.1.0) Patch (6.1.1)
     >
     > Changes:
-    >  - @wordpress/e2e-tests: 1.9.0 => 1.9.1
-    >  - @wordpress/jest-preset-default: 5.3.0 => 5.3.1
-    >  - @wordpress/scripts: 6.1.0 => 6.1.1
+    >  - @aarondewes/wp-e2e-tests: 1.9.0 => 1.9.1
+    >  - @aarondewes/wp-jest-preset-default: 5.3.0 => 5.3.1
+    >  - @aarondewes/wp-scripts: 6.1.0 => 6.1.1
     >
     > ? Are you sure you want to publish these packages? Yes
     > lerna info execute Skipping releases
@@ -240,13 +240,13 @@ Now that the changes have been committed to the `wp/trunk` branch and the Travis
     > lerna info Verifying npm credentials
     > lerna info Checking two-factor auth mode
     > ? Enter OTP: 753566
-    > lerna success published @wordpress/jest-preset-default 5.3.1
-    > lerna success published @wordpress/scripts 6.1.1
-    > lerna success published @wordpress/e2e-tests 1.9.1
+    > lerna success published @aarondewes/wp-jest-preset-default 5.3.1
+    > lerna success published @aarondewes/wp-scripts 6.1.1
+    > lerna success published @aarondewes/wp-e2e-tests 1.9.1
     > Successfully published:
-    >  - @wordpress/e2e-tests@1.9.1
-    >  - @wordpress/jest-preset-default@5.3.1
-    >  - @wordpress/scripts@6.1.1
+    >  - @aarondewes/wp-e2e-tests@1.9.1
+    >  - @aarondewes/wp-jest-preset-default@5.3.1
+    >  - @aarondewes/wp-scripts@6.1.1
     > lerna success published 3 packages
     > ```
 
@@ -263,15 +263,15 @@ Now that the packages have been published the _"chore(release): publish"_ and _"
 
 Confirm the packages dependencies do not contain `file://` links in the `dependencies` or `devdependencies` section of the packages released, e.g:
 
-> https://unpkg.com/browse/@wordpress/jest-preset-default@5.3.1/package.json > https://unpkg.com/browse/@wordpress/scripts@6.1.1/package.json > https://unpkg.com/browse/@wordpress/jest-preset-default@5.3.1/package.json
+> https://unpkg.com/browse/@aarondewes/wp-jest-preset-default@5.3.1/package.json > https://unpkg.com/browse/@aarondewes/wp-scripts@6.1.1/package.json > https://unpkg.com/browse/@aarondewes/wp-jest-preset-default@5.3.1/package.json
 
 Time to announce the published changes in the #core-js and #core-editor Slack channels
 
 > ```
 > 📣 Successfully published:
-> • @wordpress/e2e-tests@1.9.1
-> • @wordpress/jest-preset-default@5.3.1
-> • @wordpress/scripts@6.1.1
+> • @aarondewes/wp-e2e-tests@1.9.1
+> • @aarondewes/wp-jest-preset-default@5.3.1
+> • @aarondewes/wp-scripts@6.1.1
 > Lerna success published 3 packages
 > ```
 
@@ -288,12 +288,12 @@ As noted in the [Synchronizing WordPress Trunk](#synchronizing-wordpress-trunk) 
 In our case, we use the `next` distribution tag for code. Developers that want to install such a version of the package need to type:
 
 ```bash
-npm install @wordpress/components@next
+npm install @aarondewes/wp-components@next
 ```
 
 The release process is fully automated via `./bin/plugin/cli.js npm-next` command. You only have to run the script, and everything else happens through interactions in the terminal.
 
-Behind the scenes, the `wp/next` branch is synchronized with the latest release branch (`release/*`) created for the Gutenberg plugin. To avoid collisions in the versioning of packages, we always include the newest commit's `sha`, for example, `@wordpress/block-editor@5.2.10-next.645224df70.0`.
+Behind the scenes, the `wp/next` branch is synchronized with the latest release branch (`release/*`) created for the Gutenberg plugin. To avoid collisions in the versioning of packages, we always include the newest commit's `sha`, for example, `@aarondewes/wp-block-editor@5.2.10-next.645224df70.0`.
 
 [plugin repository]: https://plugins.trac.wordpress.org/browser/gutenberg/
 [package release process]: https://github.com/WordPress/gutenberg/blob/HEAD/packages/README.md#releasing-packages

@@ -1,18 +1,18 @@
 /**
  * WordPress dependencies
  */
-import { useState, useRef } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { withSpokenMessages, Popover } from '@wordpress/components';
-import { prependHTTP } from '@wordpress/url';
+import { useState, useRef } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { withSpokenMessages, Popover } from '@aarondewes/wp-components';
+import { prependHTTP } from '@aarondewes/wp-url';
 import {
 	create,
 	insert,
 	isCollapsed,
 	applyFormat,
 	useAnchorRef,
-} from '@wordpress/rich-text';
-import { __experimentalLinkControl as LinkControl } from '@wordpress/block-editor';
+} from '@aarondewes/wp-rich-text';
+import { __experimentalLinkControl as LinkControl } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

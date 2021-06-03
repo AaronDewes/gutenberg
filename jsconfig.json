@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@wordpress/*": [ "./*", "./packages/*/src" ]
+			"@aarondewes/wp-*": [ "./*", "./packages/*/src" ]
 		}
 	},
 	"exclude": [

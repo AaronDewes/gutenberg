@@ -6,9 +6,9 @@ import { isNumber, isString } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { textColor } from '@wordpress/icons';
-import { useMemo, forwardRef } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { textColor } from '@aarondewes/wp-icons';
+import { useMemo, forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createBlobURL } from '@wordpress/blob';
-import { createBlock, getBlockAttributes } from '@wordpress/blocks';
+import { createBlobURL } from '@aarondewes/wp-blob';
+import { createBlock, getBlockAttributes } from '@aarondewes/wp-blocks';
 
 export function stripFirstImage( attributes, { shortcode } ) {
 	const { body } = document.implementation.createHTMLDocument( '' );

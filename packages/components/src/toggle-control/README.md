@@ -7,8 +7,8 @@ ToggleControl is used to generate a toggle user interface.
 Render a user interface to change fixed background setting.
 
 ```jsx
-import { ToggleControl } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { ToggleControl } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyToggleControl = withState( {
 	hasFixedBackground: false,

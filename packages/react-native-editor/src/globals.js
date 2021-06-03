@@ -15,8 +15,8 @@ import 'core-js/features/array/flat-map';
 /**
  * WordPress dependencies
  */
-import { nativeLoggingHook } from '@wordpress/react-native-bridge';
-import { createElement } from '@wordpress/element';
+import { nativeLoggingHook } from '@aarondewes/wp-react-native-bridge';
+import { createElement } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

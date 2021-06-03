@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useRef, useEffect, useState } from '@wordpress/element';
+import { useRef, useEffect, useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

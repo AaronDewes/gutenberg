@@ -7,21 +7,21 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { withDispatch } from '@wordpress/data';
-import { coreBlocks } from '@wordpress/block-library';
-import { __ } from '@wordpress/i18n';
-import { postList as icon } from '@wordpress/icons';
-import { InspectorControls } from '@wordpress/block-editor';
-import apiFetch from '@wordpress/api-fetch';
+import { Component } from '@aarondewes/wp-element';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { withDispatch } from '@aarondewes/wp-data';
+import { coreBlocks } from '@aarondewes/wp-block-library';
+import { __ } from '@aarondewes/wp-i18n';
+import { postList as icon } from '@aarondewes/wp-icons';
+import { InspectorControls } from '@aarondewes/wp-block-editor';
+import apiFetch from '@aarondewes/wp-api-fetch';
 import {
 	Icon,
 	PanelBody,
 	ToggleControl,
 	RangeControl,
 	QueryControls,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

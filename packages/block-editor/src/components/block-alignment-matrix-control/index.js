@@ -5,13 +5,13 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { DOWN } from '@wordpress/keycodes';
+import { __ } from '@aarondewes/wp-i18n';
+import { DOWN } from '@aarondewes/wp-keycodes';
 import {
 	ToolbarButton,
 	Dropdown,
 	__experimentalAlignmentMatrixControl as AlignmentMatrixControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function BlockAlignmentMatrixControl( props ) {
 	const {

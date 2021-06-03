@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { InspectorControls } from '@wordpress/block-editor';
+import { InspectorControls } from '@aarondewes/wp-block-editor';
 import {
 	BottomSheet,
 	ColorSettings,
 	FocalPointSettingsPanel,
 	LinkPickerScreen,
-} from '@wordpress/components';
-import { compose } from '@wordpress/compose';
-import { withDispatch, withSelect } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { compose } from '@aarondewes/wp-compose';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
 /**
  * Internal dependencies
  */

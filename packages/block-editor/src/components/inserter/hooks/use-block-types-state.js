@@ -5,9 +5,9 @@ import {
 	createBlock,
 	createBlocksFromInnerBlocksTemplate,
 	store as blocksStore,
-} from '@wordpress/blocks';
-import { useSelect } from '@wordpress/data';
-import { useCallback } from '@wordpress/element';
+} from '@aarondewes/wp-blocks';
+import { useSelect } from '@aarondewes/wp-data';
+import { useCallback } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

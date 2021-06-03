@@ -10,7 +10,7 @@ Render a rich text area that displays the HTML content provided.
 ## Usage
 
 ```jsx
-import RCTAztecView from '@wordpress/react-native-aztec';
+import RCTAztecView from '@aarondewes/wp-react-native-aztec';
 
 const RichText = () => (
 	<>

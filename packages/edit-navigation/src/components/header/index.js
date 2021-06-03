@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { DropdownMenu } from '@wordpress/components';
-import { PinnedItems } from '@wordpress/interface';
-import { __, sprintf } from '@wordpress/i18n';
+import { DropdownMenu } from '@aarondewes/wp-components';
+import { PinnedItems } from '@aarondewes/wp-interface';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

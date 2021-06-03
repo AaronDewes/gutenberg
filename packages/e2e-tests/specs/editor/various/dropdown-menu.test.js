@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createNewPost, pressKeyTimes } from '@wordpress/e2e-test-utils';
+import { createNewPost, pressKeyTimes } from '@aarondewes/wp-e2e-test-utils';
 
 const moreMenuButtonSelector = '.components-button[aria-label="Options"]';
 const moreMenuDropdownSelector =

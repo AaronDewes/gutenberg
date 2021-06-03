@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { forwardRef, useContext } from '@wordpress/element';
-import { __unstableCompositeGroup as CompositeGroup } from '@wordpress/components';
+import { forwardRef, useContext } from '@aarondewes/wp-element';
+import { __unstableCompositeGroup as CompositeGroup } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

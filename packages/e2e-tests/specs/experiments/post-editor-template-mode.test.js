@@ -9,7 +9,7 @@ import {
 	trashAllPosts,
 	openPreviewPage,
 	openDocumentSettingsSidebar,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const openSidebarPanelWithTitle = async ( title ) => {
 	const panel = await page.waitForXPath(

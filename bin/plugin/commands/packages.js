@@ -141,7 +141,7 @@ async function updatePackages(
 				lines,
 				minimumVersionBump
 			);
-			const packageName = `@wordpress/${
+			const packageName = `@aarondewes/wp-${
 				changelogPath.split( '/' ).reverse()[ 1 ]
 			}`;
 			// Enforce version bump for production packages when

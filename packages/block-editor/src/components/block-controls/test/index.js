@@ -6,7 +6,7 @@ import { shallow } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { alignCenter, alignLeft, alignRight } from '@wordpress/icons';
+import { alignCenter, alignLeft, alignRight } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

@@ -8,7 +8,7 @@ export {
 	G,
 	HorizontalRule,
 	BlockQuotation,
-} from '@wordpress/primitives';
+} from '@aarondewes/wp-primitives';
 
 // Components
 export { default as __experimentalAlignmentMatrixControl } from './alignment-matrix-control';

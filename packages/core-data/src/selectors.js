@@ -7,8 +7,8 @@ import { set, map, find, get, filter, compact } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createRegistrySelector } from '@wordpress/data';
-import { addQueryArgs } from '@wordpress/url';
+import { createRegistrySelector } from '@aarondewes/wp-data';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

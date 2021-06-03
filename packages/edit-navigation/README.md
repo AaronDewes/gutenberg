@@ -10,7 +10,7 @@ Edit Navigation page module for WordPress - a Gutenberg-based UI for editing nav
 /**
  * WordPress dependencies
  */
-import { initialize } from '@wordpress/edit-navigation';
+import { initialize } from '@aarondewes/wp-edit-navigation';
 
 /**
  * Internal dependencies

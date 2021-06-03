@@ -6,7 +6,7 @@ import renderer from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { MediaUploadProgress } from '@wordpress/block-editor';
+import { MediaUploadProgress } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

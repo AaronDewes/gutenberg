@@ -1,20 +1,20 @@
 /**
  * WordPress dependencies
  */
-import { useCallback, useRef } from '@wordpress/element';
-import { useViewportMatch } from '@wordpress/compose';
+import { useCallback, useRef } from '@aarondewes/wp-element';
+import { useViewportMatch } from '@aarondewes/wp-compose';
 import {
 	ToolSelector,
 	__experimentalPreviewOptions as PreviewOptions,
-} from '@wordpress/block-editor';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { PinnedItems } from '@wordpress/interface';
-import { _x, __ } from '@wordpress/i18n';
-import { listView, plus } from '@wordpress/icons';
-import { Button } from '@wordpress/components';
-import { store as keyboardShortcutsStore } from '@wordpress/keyboard-shortcuts';
-import { store as editorStore } from '@wordpress/editor';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { PinnedItems } from '@aarondewes/wp-interface';
+import { _x, __ } from '@aarondewes/wp-i18n';
+import { listView, plus } from '@aarondewes/wp-icons';
+import { Button } from '@aarondewes/wp-components';
+import { store as keyboardShortcutsStore } from '@aarondewes/wp-keyboard-shortcuts';
+import { store as editorStore } from '@aarondewes/wp-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

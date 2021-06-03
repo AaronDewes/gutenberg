@@ -21,7 +21,7 @@ import {
 	Fill,
 	Panel,
 	PanelBody,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 const MySlotFillProvider = () => {
 	const MyPanelSlot = () => (

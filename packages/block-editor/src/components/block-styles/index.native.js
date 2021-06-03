@@ -7,10 +7,10 @@ import { find } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useMemo } from '@wordpress/element';
-import { _x } from '@wordpress/i18n';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useMemo } from '@aarondewes/wp-element';
+import { _x } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

@@ -7,7 +7,7 @@ Block library for the WordPress editor.
 Install the module
 
 ```bash
-npm install @wordpress/block-library --save
+npm install @aarondewes/wp-block-library --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -79,7 +79,7 @@ Function to register core blocks provided by the block editor.
 _Usage_
 
 ```js
-import { registerCoreBlocks } from '@wordpress/block-library';
+import { registerCoreBlocks } from '@aarondewes/wp-block-library';
 
 registerCoreBlocks();
 ```

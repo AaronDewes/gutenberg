@@ -6,7 +6,7 @@ import { isFunction } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createPortal, useLayoutEffect, useRef } from '@wordpress/element';
+import { createPortal, useLayoutEffect, useRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -9,6 +9,6 @@ process.stdout.write(
 	)
 );
 process.stdout.write(
-	chalk.blue( '\nSee: https://www.npmjs.com/package/@wordpress/env\n' )
+	chalk.blue( '\nSee: https://www.npmjs.com/package/@aarondewes/wp-env\n' )
 );
 process.exit( 1 );

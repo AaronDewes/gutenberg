@@ -6,7 +6,7 @@ const { cosmiconfigSync } = require( 'cosmiconfig' );
 /**
  * WordPress dependencies
  */
-const defaultPrettierConfig = require( '@wordpress/prettier-config' );
+const defaultPrettierConfig = require( '@aarondewes/wp-prettier-config' );
 
 /**
  * Internal dependencies

@@ -9,9 +9,9 @@ import scrollIntoView from 'dom-scroll-into-view';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
-import { getScrollContainer } from '@wordpress/dom';
+import { useEffect, useRef } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
+import { getScrollContainer } from '@aarondewes/wp-dom';
 
 /**
  * Internal dependencies

@@ -22,7 +22,7 @@ A higher-order component factory for creating a 'withCustomColors' HOC, which ha
 ### Usage
 
 ```jsx
-import { createCustomColorsHOC } from '@wordpress/block-editor';
+import { createCustomColorsHOC } from '@aarondewes/wp-block-editor';
 
 const CUSTOM_COLORS = [
 	{ name: 'Red', slug: 'red', color: '#ff0000' },

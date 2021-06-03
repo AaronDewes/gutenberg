@@ -6,7 +6,7 @@ import tinycolor from 'tinycolor2';
 /**
  * WordPress dependencies
  */
-import { useCallback, useMemo } from '@wordpress/element';
+import { useCallback, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

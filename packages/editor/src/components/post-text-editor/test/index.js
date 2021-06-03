@@ -7,7 +7,7 @@ import Textarea from 'react-autosize-textarea';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
@@ -20,7 +20,7 @@ jest.mock( 'react-autosize-textarea', () => ( props ) => (
 	<textarea { ...props } />
 ) );
 
-jest.mock( '@wordpress/data/src/components/use-select', () => {
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => {
 	// This allows us to tweak the returned value on each test
 	const mock = jest.fn();
 	return mock;
@@ -29,7 +29,7 @@ jest.mock( '@wordpress/data/src/components/use-select', () => {
 let mockEditPost = jest.fn();
 let mockResetEditorBlocks = jest.fn();
 
-jest.mock( '@wordpress/data/src/components/use-dispatch', () => {
+jest.mock( '@aarondewes/wp-data/src/components/use-dispatch', () => {
 	return {
 		useDispatch: () => ( {
 			editPost: mockEditPost,

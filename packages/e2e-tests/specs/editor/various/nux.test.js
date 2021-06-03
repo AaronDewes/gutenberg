@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createNewPost, clickOnMoreMenuItem } from '@wordpress/e2e-test-utils';
+import { createNewPost, clickOnMoreMenuItem } from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'New User Experience (NUX)', () => {
 	it( 'should show the guide to first-time users', async () => {

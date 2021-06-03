@@ -6,7 +6,7 @@ import { includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { wrap, replaceTag } from '@wordpress/dom';
+import { wrap, replaceTag } from '@aarondewes/wp-dom';
 
 export default function phrasingContentReducer( node, doc ) {
 	// In jsdom-jscore, 'node.style' can be null.

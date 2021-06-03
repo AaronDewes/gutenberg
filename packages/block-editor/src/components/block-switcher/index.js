@@ -6,21 +6,21 @@ import { castArray, uniq } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, _n, sprintf } from '@wordpress/i18n';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
 import {
 	DropdownMenu,
 	ToolbarButton,
 	ToolbarGroup,
 	ToolbarItem,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	switchToBlockType,
 	store as blocksStore,
 	isReusableBlock,
 	isTemplatePart,
-} from '@wordpress/blocks';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { stack } from '@wordpress/icons';
+} from '@aarondewes/wp-blocks';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { stack } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

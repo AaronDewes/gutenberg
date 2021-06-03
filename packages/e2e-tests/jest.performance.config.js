@@ -1,11 +1,11 @@
 module.exports = {
-	...require( '@wordpress/scripts/config/jest-e2e.config' ),
+	...require( '@aarondewes/wp-scripts/config/jest-e2e.config' ),
 	testMatch: [ '**/performance/*.test.js' ],
 	setupFiles: [ '<rootDir>/config/gutenberg-phase.js' ],
 	setupFilesAfterEnv: [
 		'<rootDir>/config/setup-performance-test.js',
-		'@wordpress/jest-console',
-		'@wordpress/jest-puppeteer-axe',
+		'@aarondewes/wp-jest-console',
+		'@aarondewes/wp-jest-puppeteer-axe',
 		'expect-puppeteer',
 	],
 	transformIgnorePatterns: [

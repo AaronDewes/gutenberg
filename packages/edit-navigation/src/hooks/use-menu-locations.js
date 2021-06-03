@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useState, useEffect, useMemo, useCallback } from '@wordpress/element';
-import apiFetch from '@wordpress/api-fetch';
+import { useState, useEffect, useMemo, useCallback } from '@aarondewes/wp-element';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
 /**
  * External dependencies

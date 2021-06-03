@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
-import { formatStrikethrough, formatUnderline } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
+import { Button } from '@aarondewes/wp-components';
+import { formatStrikethrough, formatUnderline } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
 
 const TEXT_DECORATIONS = [
 	{

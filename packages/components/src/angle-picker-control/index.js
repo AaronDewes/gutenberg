@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

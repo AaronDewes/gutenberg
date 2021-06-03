@@ -1,5 +1,5 @@
 {
-	"extends": "@wordpress/stylelint-config",
+	"extends": "@aarondewes/wp-stylelint-config",
 	"rules": {
 		"at-rule-empty-line-before": null,
 		"at-rule-no-unknown": null,

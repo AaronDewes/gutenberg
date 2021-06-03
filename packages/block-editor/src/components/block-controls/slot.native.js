@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { useContext } from '@wordpress/element';
+import { useContext } from '@aarondewes/wp-element';
 import {
 	__experimentalToolbarContext as ToolbarContext,
 	ToolbarGroup,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

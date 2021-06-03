@@ -6,7 +6,7 @@ import { pick } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createContext, useContext } from '@wordpress/element';
+import { createContext, useContext } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

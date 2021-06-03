@@ -6,12 +6,12 @@ import { once, uniqueId, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useCallback, useEffect, useRef } from '@wordpress/element';
-import { ifCondition, usePrevious } from '@wordpress/compose';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { parse } from '@wordpress/blocks';
-import { store as noticesStore } from '@wordpress/notices';
+import { useCallback, useEffect, useRef } from '@aarondewes/wp-element';
+import { ifCondition, usePrevious } from '@aarondewes/wp-compose';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { parse } from '@aarondewes/wp-blocks';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

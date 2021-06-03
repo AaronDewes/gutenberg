@@ -18,14 +18,14 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
+import { addFilter } from '@aarondewes/wp-hooks';
 import {
 	getBlockSupport,
 	hasBlockSupport,
 	__EXPERIMENTAL_STYLE_PROPERTY as STYLE_PROPERTY,
 	__EXPERIMENTAL_ELEMENTS as ELEMENTS,
-} from '@wordpress/blocks';
-import { createHigherOrderComponent, useInstanceId } from '@wordpress/compose';
+} from '@aarondewes/wp-blocks';
+import { createHigherOrderComponent, useInstanceId } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

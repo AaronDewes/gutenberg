@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { RichText, useBlockProps } from '@wordpress/block-editor';
-import { __, sprintf } from '@wordpress/i18n';
+import { RichText, useBlockProps } from '@aarondewes/wp-block-editor';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 export default function save( { attributes } ) {
 	const {

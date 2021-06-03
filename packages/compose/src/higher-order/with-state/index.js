@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import deprecated from '@wordpress/deprecated';
+import { Component } from '@aarondewes/wp-element';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Internal dependencies

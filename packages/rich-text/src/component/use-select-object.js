@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useRefEffect } from '@wordpress/compose';
+import { useRefEffect } from '@aarondewes/wp-compose';
 
 export function useSelectObject() {
 	return useRefEffect( ( element ) => {

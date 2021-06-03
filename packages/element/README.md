@@ -18,7 +18,7 @@ On the `wp.element` global object, you will find the following, ordered roughly 
 Install the module
 
 ```bash
-npm install @wordpress/element --save
+npm install @aarondewes/wp-element --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -77,7 +77,7 @@ If you've configured [Babel](http://babeljs.io/) for your project, you can opt i
 }
 ```
 
-This assumes that you will import the `createElement` function in any file where you use JSX. Alternatively, consider using the [`@wordpress/babel-plugin-import-jsx-pragma` Babel plugin](https://www.npmjs.com/package/@wordpress/babel-plugin-import-jsx-pragma) to automate the import of this function.
+This assumes that you will import the `createElement` function in any file where you use JSX. Alternatively, consider using the [`@aarondewes/wp-babel-plugin-import-jsx-pragma` Babel plugin](https://www.npmjs.com/package/@aarondewes/wp-babel-plugin-import-jsx-pragma) to automate the import of this function.
 
 ## API
 
@@ -275,7 +275,7 @@ _Related_
 _Usage_
 
 ```js
-import { Platform } from '@wordpress/element';
+import { Platform } from '@aarondewes/wp-element';
 
 const placeholderLabel = Platform.select( {
   native: __( 'Add media' ),

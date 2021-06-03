@@ -9,7 +9,7 @@ import {
 	getEditedPostContent,
 	insertBlock,
 	closeGlobalBlockInserter,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const INSERTER_RESULTS_SELECTOR =
 	'.block-editor-inserter__quick-inserter-results';

@@ -8,8 +8,8 @@ import { default as lodash, first, last, nth, uniqueId } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { UP, DOWN, ENTER } from '@wordpress/keycodes';
+import { useState } from '@aarondewes/wp-element';
+import { UP, DOWN, ENTER } from '@aarondewes/wp-keycodes';
 /**
  * Internal dependencies
  */
@@ -24,11 +24,11 @@ lodash.debounce = jest.fn( ( callback ) => {
 
 const mockFetchSearchSuggestions = jest.fn();
 
-jest.mock( '@wordpress/data/src/components/use-select', () => () => ( {
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => () => ( {
 	fetchSearchSuggestions: mockFetchSearchSuggestions,
 } ) );
 
-jest.mock( '@wordpress/data/src/components/use-dispatch', () => ( {
+jest.mock( '@aarondewes/wp-data/src/components/use-dispatch', () => ( {
 	useDispatch: () => ( { saveEntityRecords: jest.fn() } ),
 } ) );
 

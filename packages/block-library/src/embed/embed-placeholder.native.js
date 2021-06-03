@@ -6,8 +6,8 @@ import { View, Text, TouchableWithoutFeedback } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

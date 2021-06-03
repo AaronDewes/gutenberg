@@ -12,7 +12,7 @@ import useTruncate from './hook';
  *
  * @example
  * ```jsx
- * import { __experimentalTruncate as Truncate } from `@wordpress/components`;
+ * import { __experimentalTruncate as Truncate } from `@aarondewes/wp-components`;
  *
  * function Example() {
  * 	return (

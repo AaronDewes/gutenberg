@@ -1,4 +1,4 @@
-/* eslint-disable @wordpress/no-unused-vars-before-return */
+/* eslint-disable @aarondewes/wp-no-unused-vars-before-return */
 
 // Adapted from https://github.com/reworkcss/css
 // because we needed to remove source map support.
@@ -698,4 +698,4 @@ function addParent( obj, parent ) {
 	return obj;
 }
 
-/* eslint-enable @wordpress/no-unused-vars-before-return */
+/* eslint-enable @aarondewes/wp-no-unused-vars-before-return */

@@ -7,13 +7,13 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Component, createRef, renderToString } from '@wordpress/element';
-import { Button, Path, SVG, VisuallyHidden } from '@wordpress/components';
-import { __, _x } from '@wordpress/i18n';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { ifCondition, compose } from '@wordpress/compose';
-import { applyFilters } from '@wordpress/hooks';
-import { store as coreStore } from '@wordpress/core-data';
+import { Component, createRef, renderToString } from '@aarondewes/wp-element';
+import { Button, Path, SVG, VisuallyHidden } from '@aarondewes/wp-components';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { ifCondition, compose } from '@aarondewes/wp-compose';
+import { applyFilters } from '@aarondewes/wp-hooks';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

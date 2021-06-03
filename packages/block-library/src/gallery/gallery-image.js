@@ -7,26 +7,26 @@ import { get, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { Button, Spinner, ButtonGroup } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { BACKSPACE, DELETE } from '@wordpress/keycodes';
-import { withSelect, withDispatch } from '@wordpress/data';
+import { Component } from '@aarondewes/wp-element';
+import { Button, Spinner, ButtonGroup } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { BACKSPACE, DELETE } from '@aarondewes/wp-keycodes';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
 import {
 	RichText,
 	MediaPlaceholder,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { isBlobURL } from '@wordpress/blob';
-import { compose } from '@wordpress/compose';
+} from '@aarondewes/wp-block-editor';
+import { isBlobURL } from '@aarondewes/wp-blob';
+import { compose } from '@aarondewes/wp-compose';
 import {
 	closeSmall,
 	chevronLeft,
 	chevronRight,
 	edit,
 	image as imageIcon,
-} from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

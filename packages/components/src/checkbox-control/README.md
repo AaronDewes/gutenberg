@@ -56,8 +56,8 @@ If only a few child checkboxes are checked, the parent checkbox becomes a mixed 
 Render an is author checkbox:
 
 ```jsx
-import { CheckboxControl } from '@wordpress/components';
-import { useState } from '@wordpress/element';
+import { CheckboxControl } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 const MyCheckboxControl = () => {
 	const [ isChecked, setChecked ] = useState( true );

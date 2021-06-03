@@ -7,7 +7,7 @@ Many `@wordpress` packages, such as UI-focused ones that register blocks or data
 Here is an example:
 
 ```js
-import { registerStore } from '@wordpress/data';
+import { registerStore } from '@aarondewes/wp-data';
 
 const store = registerStore( STORE_NAME, {
 	// ...
@@ -19,7 +19,7 @@ const store = registerStore( STORE_NAME, {
 However, if this were to happen inside of an `init` function that doesn't get called on module load, then that would no longer be a side effect:
 
 ```js
-import { registerStore } from '@wordpress/data';
+import { registerStore } from '@aarondewes/wp-data';
 
 export function init() {
 	const store = registerStore( STORE_NAME, {

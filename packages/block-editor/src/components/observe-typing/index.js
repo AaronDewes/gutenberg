@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useRefEffect, useMergeRefs } from '@wordpress/compose';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { isTextField } from '@wordpress/dom';
+import { useRefEffect, useMergeRefs } from '@aarondewes/wp-compose';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { isTextField } from '@aarondewes/wp-dom';
 import {
 	UP,
 	RIGHT,
@@ -13,7 +13,7 @@ import {
 	BACKSPACE,
 	ESCAPE,
 	TAB,
-} from '@wordpress/keycodes';
+} from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

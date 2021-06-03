@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { useCallback, useEffect } from '@wordpress/element';
+import { useCallback, useEffect } from '@aarondewes/wp-element';
 import {
 	useShortcut,
 	store as keyboardShortcutsStore,
-} from '@wordpress/keyboard-shortcuts';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as interfaceStore } from '@wordpress/interface';
+} from '@aarondewes/wp-keyboard-shortcuts';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as interfaceStore } from '@aarondewes/wp-interface';
 
 /**
  * Internal dependencies

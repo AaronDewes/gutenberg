@@ -6,16 +6,16 @@ import { TextInput, View, TouchableHighlight } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { useState, useRef } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
-import { ToolbarButton } from '@wordpress/components';
+import { useState, useRef } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { ToolbarButton } from '@aarondewes/wp-components';
 import {
 	Icon,
 	cancelCircleFilled,
 	arrowLeft,
 	search as searchIcon,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

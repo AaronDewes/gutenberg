@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { siteLogo as icon } from '@wordpress/icons';
+import { siteLogo as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

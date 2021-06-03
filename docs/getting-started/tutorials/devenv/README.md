@@ -34,7 +34,7 @@ First download, install, and start [Docker Desktop](https://www.docker.com/produ
 -   Install WordPress environment tool
 
 ```
-npm -g install @wordpress/env
+npm -g install @aarondewes/wp-env
 ```
 
 Start the environment from an existing plugin or theme directory, or a new working directory:
@@ -112,14 +112,14 @@ Your versions may not match exactly, that is fine. The minimum version for node 
 
 There are several ways to run WordPress locally on your own computer, or you could even develop on a cloud hosted computer, though this may be slower.
 
-The WordPress [wp-env package](https://www.npmjs.com/package/@wordpress/env) lets you set up a local WordPress environment for building and testing plugins and themes, without any additional configuration.
+The WordPress [wp-env package](https://www.npmjs.com/package/@aarondewes/wp-env) lets you set up a local WordPress environment for building and testing plugins and themes, without any additional configuration.
 
 The `wp-env` tool uses Docker to create a virtual machine to that runs the WordPress site. There are instructions available for installing Docker on [Windows 10 Pro](https://docs.docker.com/docker-for-windows/install/), [other versions of Windows 10](https://docs.docker.com/docker-for-windows/wsl/), [macOS](https://docs.docker.com/docker-for-mac/install/), and [Linux](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script). If using Ubuntu, see our additional notes for [help installing Docker on Ubuntu](/docs/getting-started/tutorials/devenv/docker-ubuntu.md).
 
 After you have installed Docker, go ahead and install the `wp-env` tool. This command will install the tool globally, which means you can run it from any directory:
 
 ```sh
-npm -g install @wordpress/env
+npm -g install @aarondewes/wp-env
 ```
 
 To confirm it is installed and available, run:
@@ -132,12 +132,12 @@ wp-env --version
 The `wp-env` script is used to create a Docker WordPress environment. You can use this script to start an environment with your plugin activated by running it from the directory containing your plugin. For example if you are following the create block tutorial, this would be in the generated directory like so:
 
 ```sh
-npx @wordpress/create-block starter-block
+npx @aarondewes/wp-create-block starter-block
 cd starter-block
 wp-env start
 ```
 
-You can access your environment in your browser at: [http://localhost:8888/](http://localhost:8888/), the default username is `admin` and default password is `password`. For more information controlling the Docker environment see the [@wordpress/env package readme](/packages/env/README.md).
+You can access your environment in your browser at: [http://localhost:8888/](http://localhost:8888/), the default username is `admin` and default password is `password`. For more information controlling the Docker environment see the [@aarondewes/wp-env package readme](/packages/env/README.md).
 
 When using the script while developing a single plugin, `wp-env start` can mount and activate the plugin automatically when run from the directory containing the plugin. Note: This also works for themes when run from the directory in which you are developing the theme.
 
@@ -147,7 +147,7 @@ If you run `wp-env start` from a directory that is not a plugin or theme, a gene
 !! Warning: could not find a .wp-env.json configuration file and could not determine if 'DIR' is a WordPress installation, a plugin, or a theme.
 ```
 
-You can use the `.wp-env.json` configuration file to create an environment that works with multiple plugins and/or themes. See the [@wordpress/env package for additional details](/packages/env/README.md#wp-envjson).
+You can use the `.wp-env.json` configuration file to create an environment that works with multiple plugins and/or themes. See the [@aarondewes/wp-env package for additional details](/packages/env/README.md#wp-envjson).
 
 #### Troubleshooting
 
@@ -201,7 +201,7 @@ wp-env destroy
 -   To completely uninstall wp-env tool:
 
 ```
-npm -g uninstall @wordpress/env
+npm -g uninstall @aarondewes/wp-env
 ```
 
 -   To uninstall Docker, or Visual Studio Code use your OS method to remove packages. For example, on Windows run "Add or remove programs". You can additionally uninstall from the Docker Desktop app, click the bug icon at the top to switch to this Troubleshoot screen. Click Uninstall or remove.

@@ -7,19 +7,19 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 import {
 	mediaUploadSync,
 	requestImageFailedRetryDialog,
 	requestImageUploadCancelDialog,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 import {
 	Icon,
 	ToolbarButton,
 	ToolbarGroup,
 	PanelBody,
-} from '@wordpress/components';
-import { withPreferredColorScheme, compose } from '@wordpress/compose';
+} from '@aarondewes/wp-components';
+import { withPreferredColorScheme, compose } from '@aarondewes/wp-compose';
 import {
 	BlockCaption,
 	MediaPlaceholder,
@@ -31,12 +31,12 @@ import {
 	VideoPlayer,
 	InspectorControls,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { __, sprintf } from '@wordpress/i18n';
-import { isURL, getProtocol } from '@wordpress/url';
-import { doAction, hasAction } from '@wordpress/hooks';
-import { video as SvgIcon, replace } from '@wordpress/icons';
-import { withSelect } from '@wordpress/data';
+} from '@aarondewes/wp-block-editor';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { isURL, getProtocol } from '@aarondewes/wp-url';
+import { doAction, hasAction } from '@aarondewes/wp-hooks';
+import { video as SvgIcon, replace } from '@aarondewes/wp-icons';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

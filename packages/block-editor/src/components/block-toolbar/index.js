@@ -6,11 +6,11 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useRef } from '@wordpress/element';
-import { useViewportMatch } from '@wordpress/compose';
-import { getBlockType, hasBlockSupport } from '@wordpress/blocks';
-import { ToolbarGroup } from '@wordpress/components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useRef } from '@aarondewes/wp-element';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { getBlockType, hasBlockSupport } from '@aarondewes/wp-blocks';
+import { ToolbarGroup } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

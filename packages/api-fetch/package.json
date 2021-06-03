@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/api-fetch",
+	"name": "@aarondewes/wp-api-fetch",
 	"version": "5.1.1",
 	"description": "Utility to make WordPress REST API requests.",
 	"author": "The WordPress Contributors",
@@ -28,8 +28,8 @@
 	"types": "build-types",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/i18n": "file:../i18n",
-		"@wordpress/url": "file:../url"
+		"@aarondewes/wp-i18n": "file:../i18n",
+		"@aarondewes/wp-url": "file:../url"
 	},
 	"publishConfig": {
 		"access": "public"

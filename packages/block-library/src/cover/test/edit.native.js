@@ -7,13 +7,13 @@ import { act, render, fireEvent } from '@testing-library/react-native';
 /**
  * WordPress dependencies
  */
-import { BottomSheetSettings, BlockEdit } from '@wordpress/block-editor';
-import { SlotFillProvider } from '@wordpress/components';
-import { registerBlockType, unregisterBlockType } from '@wordpress/blocks';
+import { BottomSheetSettings, BlockEdit } from '@aarondewes/wp-block-editor';
+import { SlotFillProvider } from '@aarondewes/wp-components';
+import { registerBlockType, unregisterBlockType } from '@aarondewes/wp-blocks';
 import {
 	requestMediaPicker,
 	requestMediaEditor,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 
 /**
  * Internal dependencies
@@ -22,8 +22,8 @@ import { IMAGE_BACKGROUND_TYPE } from '../shared';
 import { metadata, settings, name } from '../index';
 
 // Avoid errors due to mocked stylesheet files missing required selectors
-jest.mock( '@wordpress/compose', () => ( {
-	...jest.requireActual( '@wordpress/compose' ),
+jest.mock( '@aarondewes/wp-compose', () => ( {
+	...jest.requireActual( '@aarondewes/wp-compose' ),
 	withPreferredColorScheme: jest.fn( ( Component ) => ( props ) => (
 		<Component
 			{ ...props }

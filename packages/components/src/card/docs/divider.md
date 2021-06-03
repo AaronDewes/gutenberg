@@ -5,7 +5,7 @@ CardDivider renders an optional divider within a [`<Card />`](../).
 ## Usage
 
 ```jsx
-import { Card, CardBody, CardDivider } from '@wordpress/components';
+import { Card, CardBody, CardDivider } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>

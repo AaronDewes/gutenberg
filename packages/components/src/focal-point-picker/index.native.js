@@ -11,11 +11,11 @@ import { clamp } from 'lodash';
 import {
 	requestFocalPointPickerTooltipShown,
 	setFocalPointPickerTooltipShown,
-} from '@wordpress/react-native-bridge';
-import { __ } from '@wordpress/i18n';
-import { Image, UnitControl } from '@wordpress/components';
-import { useRef, useState, useMemo, useEffect } from '@wordpress/element';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+} from '@aarondewes/wp-react-native-bridge';
+import { __ } from '@aarondewes/wp-i18n';
+import { Image, UnitControl } from '@aarondewes/wp-components';
+import { useRef, useState, useMemo, useEffect } from '@aarondewes/wp-element';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

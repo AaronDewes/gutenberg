@@ -2,8 +2,8 @@
 /**
  * WordPress dependencies
  */
-import deprecated from '@wordpress/deprecated';
-import { forwardRef } from '@wordpress/element';
+import deprecated from '@aarondewes/wp-deprecated';
+import { forwardRef } from '@aarondewes/wp-element';
 import {
 	Autocomplete as RootAutocomplete,
 	AlignmentToolbar as RootAlignmentToolbar,
@@ -58,9 +58,9 @@ import {
 	withColorContext as rootWithColorContext,
 	withColors as rootWithColors,
 	withFontSizes as rootWithFontSizes,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
-export { default as ServerSideRender } from '@wordpress/server-side-render';
+export { default as ServerSideRender } from '@aarondewes/wp-server-side-render';
 
 function deprecateComponent( name, Wrapped, staticsToHoist = [] ) {
 	const Component = forwardRef( ( props, ref ) => {

@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	BlockSettingsMenuControls,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { MenuItem } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { MenuItem } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function ConvertToRegularBlocks( { clientId } ) {
 	const { innerBlocks } = useSelect(

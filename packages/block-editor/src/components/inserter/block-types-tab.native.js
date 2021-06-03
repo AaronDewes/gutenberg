@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

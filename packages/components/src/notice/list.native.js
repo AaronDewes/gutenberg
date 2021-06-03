@@ -6,9 +6,9 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
+import { Component } from '@aarondewes/wp-element';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

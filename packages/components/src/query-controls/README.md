@@ -3,8 +3,8 @@
 ## Usage
 
 ```jsx
-import { QueryControls } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { QueryControls } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyQueryControls = withState( {
 	orderBy: 'title',

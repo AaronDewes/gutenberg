@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { __, sprintf } from '@wordpress/i18n';
-import { controls } from '@wordpress/data';
-import { apiFetch } from '@wordpress/data-controls';
-import { store as noticesStore } from '@wordpress/notices';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { controls } from '@aarondewes/wp-data';
+import { apiFetch } from '@aarondewes/wp-data-controls';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

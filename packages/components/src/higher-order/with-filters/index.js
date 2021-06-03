@@ -6,9 +6,9 @@ import { debounce, without } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { addAction, applyFilters, removeAction } from '@wordpress/hooks';
-import { createHigherOrderComponent } from '@wordpress/compose';
+import { Component } from '@aarondewes/wp-element';
+import { addAction, applyFilters, removeAction } from '@aarondewes/wp-hooks';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 const ANIMATION_FRAME_PERIOD = 16;
 

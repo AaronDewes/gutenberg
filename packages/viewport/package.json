@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/viewport",
+	"name": "@aarondewes/wp-viewport",
 	"version": "3.1.1",
 	"description": "Viewport module for WordPress.",
 	"author": "The WordPress Contributors",
@@ -26,8 +26,8 @@
 	"react-native": "src/index",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/compose": "file:../compose",
-		"@wordpress/data": "file:../data",
+		"@aarondewes/wp-compose": "file:../compose",
+		"@aarondewes/wp-data": "file:../data",
 		"lodash": "^4.17.21"
 	},
 	"publishConfig": {

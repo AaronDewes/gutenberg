@@ -6,12 +6,12 @@ import { map, filter } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { PanelBody, ToggleControl, SelectControl } from '@wordpress/components';
-import { withSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
-import ServerSideRender from '@wordpress/server-side-render';
-import { store as coreStore } from '@wordpress/core-data';
+import { PanelBody, ToggleControl, SelectControl } from '@aarondewes/wp-components';
+import { withSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { InspectorControls, useBlockProps } from '@aarondewes/wp-block-editor';
+import ServerSideRender from '@aarondewes/wp-server-side-render';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 function TagCloudEdit( { attributes, setAttributes, taxonomies } ) {
 	const { taxonomy, showTagCounts } = attributes;

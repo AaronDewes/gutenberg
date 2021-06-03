@@ -6,7 +6,7 @@ import {
 	pressKeyWithModifier,
 	clickBlockToolbarButton,
 	insertBlock,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 async function focusBlockToolbar() {
 	await pressKeyWithModifier( 'alt', 'F10' );

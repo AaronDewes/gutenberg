@@ -8,7 +8,7 @@ const Benchmark = require( 'benchmark' );
 /**
  * WordPress dependencies
  */
-const lazyImport = require( '@wordpress/lazy-import' );
+const lazyImport = require( '@aarondewes/wp-lazy-import' );
 
 const suite = new Benchmark.Suite();
 
@@ -39,11 +39,11 @@ Promise.all( [
 	] ) => {
 		[
 			[
-				'@wordpress/is-shallow-equal (type specific)',
+				'@aarondewes/wp-is-shallow-equal (type specific)',
 				require( '..' ).isShallowEqualObjects,
 				require( '..' ).isShallowEqualArrays,
 			],
-			[ '@wordpress/is-shallow-equal', require( '..' ).default ],
+			[ '@aarondewes/wp-is-shallow-equal', require( '..' ).default ],
 			[ 'shallowequal', shallowequal ],
 			[
 				'shallow-equal (type specific)',

@@ -12,8 +12,8 @@ import {
 	createElement,
 	Component,
 	isValidElement,
-} from '@wordpress/element';
-import { SVG } from '@wordpress/primitives';
+} from '@aarondewes/wp-element';
+import { SVG } from '@aarondewes/wp-primitives';
 
 /**
  * Internal dependencies

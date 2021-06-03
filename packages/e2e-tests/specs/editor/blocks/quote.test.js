@@ -8,7 +8,7 @@ import {
 	pressKeyTimes,
 	transformBlockTo,
 	insertBlock,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Quote', () => {
 	beforeEach( async () => {

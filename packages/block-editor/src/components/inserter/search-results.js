@@ -6,11 +6,11 @@ import { orderBy, isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useMemo, useEffect } from '@wordpress/element';
-import { __, _n, sprintf } from '@wordpress/i18n';
-import { VisuallyHidden } from '@wordpress/components';
-import { useDebounce, useAsyncList } from '@wordpress/compose';
-import { speak } from '@wordpress/a11y';
+import { useMemo, useEffect } from '@aarondewes/wp-element';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
+import { VisuallyHidden } from '@aarondewes/wp-components';
+import { useDebounce, useAsyncList } from '@aarondewes/wp-compose';
+import { speak } from '@aarondewes/wp-a11y';
 
 /**
  * Internal dependencies

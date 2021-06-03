@@ -7,7 +7,7 @@ Viewport is a module for responding to changes in the browser viewport size. It 
 Install the module
 
 ```bash
-npm install @wordpress/viewport --save
+npm install @aarondewes/wp-viewport --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -30,8 +30,8 @@ The standard set of breakpoint thresholds is as follows:
 The Viewport module registers itself under the `core/viewport` data namespace and is exposed from the package as `store`.
 
 ```js
-import { select } from '@wordpress/data';
-import { store } from '@wordpress/viewport';
+import { select } from '@aarondewes/wp-data';
+import { store } from '@aarondewes/wp-viewport';
 
 const isSmall = select( store ).isViewportMatch( '< medium' );
 ```
@@ -39,8 +39,8 @@ const isSmall = select( store ).isViewportMatch( '< medium' );
 The `isViewportMatch` selector accepts a single string argument `query`. It consists of an optional operator and breakpoint name, separated with a space. The operator can be `<` or `>=`, defaulting to `>=`.
 
 ```js
-import { select } from '@wordpress/data';
-import { store } from '@wordpress/viewport';
+import { select } from '@aarondewes/wp-data';
+import { store } from '@aarondewes/wp-viewport';
 
 const { isViewportMatch } = select( store );
 const isSmall = isViewportMatch( '< medium' );

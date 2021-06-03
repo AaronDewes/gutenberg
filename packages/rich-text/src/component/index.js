@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useLayoutEffect, useReducer } from '@wordpress/element';
-import { useMergeRefs, useRefEffect } from '@wordpress/compose';
+import { useRef, useLayoutEffect, useReducer } from '@aarondewes/wp-element';
+import { useMergeRefs, useRefEffect } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

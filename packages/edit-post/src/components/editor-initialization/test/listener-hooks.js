@@ -6,7 +6,7 @@ import TestRenderer, { act } from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { RegistryProvider, createRegistry } from '@wordpress/data';
+import { RegistryProvider, createRegistry } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

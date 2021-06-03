@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { addQueryArgs } from '@wordpress/url';
-import { visitAdminPage } from '@wordpress/e2e-test-utils';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { visitAdminPage } from '@aarondewes/wp-e2e-test-utils';
 
 async function setExperimentalFeaturesState( features, enable ) {
 	const query = addQueryArgs( '', {

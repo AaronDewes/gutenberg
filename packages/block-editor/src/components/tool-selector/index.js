@@ -8,11 +8,11 @@ import {
 	SVG,
 	Path,
 	NavigableMenu,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { forwardRef } from '@wordpress/element';
-import { Icon, edit as editIcon } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { forwardRef } from '@aarondewes/wp-element';
+import { Icon, edit as editIcon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

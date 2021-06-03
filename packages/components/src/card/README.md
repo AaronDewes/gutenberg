@@ -5,7 +5,7 @@ Card provides a flexible and extensible content container.
 ## Usage
 
 ```jsx
-import { Card, CardBody } from '@wordpress/components';
+import { Card, CardBody } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>
@@ -60,7 +60,7 @@ import {
 	CardFooter,
 	CardHeader,
 	CardMedia,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>
@@ -83,7 +83,7 @@ const Example = () => (
 In the following example, the `<CardBody />` will render with a size of `small`:
 
 ```jsx
-import { Card, CardBody } from '@wordpress/components';
+import { Card, CardBody } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card size="small">
@@ -95,7 +95,7 @@ const Example = () => (
 These sub-components are designed to be flexible. The Context props can be overridden by the sub-component(s) as required. In the following example, the last `<CardBody />` will render it's specified size:
 
 ```jsx
-import { Card, CardBody } from '@wordpress/components';
+import { Card, CardBody } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card size="small">

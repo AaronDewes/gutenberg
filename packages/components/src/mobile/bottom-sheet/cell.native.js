@@ -15,11 +15,11 @@ import { isEmpty, get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/components';
-import { check } from '@wordpress/icons';
-import { Component } from '@wordpress/element';
-import { __, _x, sprintf } from '@wordpress/i18n';
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { Icon } from '@aarondewes/wp-components';
+import { check } from '@aarondewes/wp-icons';
+import { Component } from '@aarondewes/wp-element';
+import { __, _x, sprintf } from '@aarondewes/wp-i18n';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies
@@ -186,7 +186,7 @@ class BottomSheetCell extends Component {
 		};
 
 		const separatorStyle = () => {
-			//eslint-disable-next-line @wordpress/no-unused-vars-before-return
+			//eslint-disable-next-line @aarondewes/wp-no-unused-vars-before-return
 			const defaultSeparatorStyle = this.props.getStylesFromColorScheme(
 				styles.separator,
 				styles.separatorDark

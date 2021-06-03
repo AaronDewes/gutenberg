@@ -6,7 +6,7 @@ import { difference } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { isTextContent } from '@wordpress/dom';
+import { isTextContent } from '@aarondewes/wp-dom';
 
 /**
  * Checks if the given node should be considered inline content, optionally

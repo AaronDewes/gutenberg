@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/postcss-plugins-preset",
+	"name": "@aarondewes/wp-postcss-plugins-preset",
 	"version": "3.1.1",
 	"description": "PostCSS sharable plugins preset for WordPress development.",
 	"author": "The WordPress Contributors",
@@ -29,7 +29,7 @@
 	],
 	"main": "lib/index.js",
 	"dependencies": {
-		"@wordpress/base-styles": "file:../base-styles",
+		"@aarondewes/wp-base-styles": "file:../base-styles",
 		"autoprefixer": "^10.2.5"
 	},
 	"publishConfig": {

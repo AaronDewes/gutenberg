@@ -6,7 +6,7 @@ import { clone } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

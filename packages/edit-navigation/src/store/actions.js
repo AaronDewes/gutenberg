@@ -7,8 +7,8 @@ import { v4 as uuid } from 'uuid';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { store as noticesStore } from '@wordpress/notices';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

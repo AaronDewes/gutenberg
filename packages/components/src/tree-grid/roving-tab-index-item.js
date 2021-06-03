@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useRef, forwardRef } from '@wordpress/element';
+import { useRef, forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

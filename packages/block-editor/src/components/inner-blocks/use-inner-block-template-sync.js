@@ -6,9 +6,9 @@ import { isEqual } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useRef, useLayoutEffect } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { synchronizeBlocksWithTemplate } from '@wordpress/blocks';
+import { useRef, useLayoutEffect } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { synchronizeBlocksWithTemplate } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

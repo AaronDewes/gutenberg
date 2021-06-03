@@ -9,7 +9,7 @@ Defines Jest async matcher to check whether a given Puppeteer's page instance pa
 Install the module
 
 ```bash
-npm install @wordpress/jest-puppeteer-axe --save-dev
+npm install @aarondewes/wp-jest-puppeteer-axe --save-dev
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It is not compatible with older versions.
@@ -21,7 +21,7 @@ The simplest setup is to use Jest's `setupFilesAfterEnv` config option:
 ```js
 "jest": {
   "setupFilesAfterEnv": [
-    "@wordpress/jest-puppeteer-axe"
+    "@aarondewes/wp-jest-puppeteer-axe"
   ]
 },
 ```

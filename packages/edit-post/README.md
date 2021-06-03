@@ -9,7 +9,7 @@ Edit Post Module for WordPress.
 Install the module
 
 ```bash
-npm install @wordpress/edit-post
+npm install @aarondewes/wp-edit-post
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -72,8 +72,8 @@ function MyPluginBlockSettingsMenuItem() {
 
 ```jsx
 // Using ESNext syntax
-import { __ } from '@wordpress/i18n';
-import { PluginBlockSettingsMenuItem } from '@wordpress/edit-post';
+import { __ } from '@aarondewes/wp-i18n';
+import { PluginBlockSettingsMenuItem } from '@aarondewes/wp-edit-post';
 
 const doOnClick = ( ) => {
     // To be called when the user clicks the menu item.
@@ -133,8 +133,8 @@ registerPlugin( 'my-document-setting-plugin', {
 
 ```jsx
 // Using ESNext syntax
-import { registerPlugin } from '@wordpress/plugins';
-import { PluginDocumentSettingPanel } from '@wordpress/edit-post';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { PluginDocumentSettingPanel } from '@aarondewes/wp-edit-post';
 
 const MyDocumentSettingTest = () => (
 		<PluginDocumentSettingPanel className="my-document-setting-plugin" title="My Panel">
@@ -188,9 +188,9 @@ function MyButtonMoreMenuItem() {
 
 ```jsx
 // Using ESNext syntax
-import { __ } from '@wordpress/i18n';
-import { PluginMoreMenuItem } from '@wordpress/edit-post';
-import { more } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { PluginMoreMenuItem } from '@aarondewes/wp-edit-post';
+import { more } from '@aarondewes/wp-icons';
 
 function onButtonClick() {
 	alert( 'Button clicked.' );
@@ -245,8 +245,8 @@ function MyPluginPostPublishPanel() {
 
 ```jsx
 // Using ESNext syntax
-import { __ } from '@wordpress/i18n';
-import { PluginPostPublishPanel } from '@wordpress/edit-post';
+import { __ } from '@aarondewes/wp-i18n';
+import { PluginPostPublishPanel } from '@aarondewes/wp-edit-post';
 
 const MyPluginPostPublishPanel = () => (
 	<PluginPostPublishPanel
@@ -297,8 +297,8 @@ function MyPluginPostStatusInfo() {
 
 ```jsx
 // Using ESNext syntax
-import { __ } from '@wordpress/i18n';
-import { PluginPostStatusInfo } from '@wordpress/edit-post';
+import { __ } from '@aarondewes/wp-i18n';
+import { PluginPostStatusInfo } from '@aarondewes/wp-edit-post';
 
 const MyPluginPostStatusInfo = () => (
 	<PluginPostStatusInfo
@@ -346,8 +346,8 @@ function MyPluginPrePublishPanel() {
 
 ```jsx
 // Using ESNext syntax
-import { __ } from '@wordpress/i18n';
-import { PluginPrePublishPanel } from '@wordpress/edit-post';
+import { __ } from '@aarondewes/wp-i18n';
+import { PluginPrePublishPanel } from '@aarondewes/wp-edit-post';
 
 const MyPluginPrePublishPanel = () => (
 	<PluginPrePublishPanel
@@ -415,10 +415,10 @@ function MyPluginSidebar() {
 
 ```jsx
 // Using ESNext syntax
-import { __ } from '@wordpress/i18n';
-import { PanelBody } from '@wordpress/components';
-import { PluginSidebar } from '@wordpress/edit-post';
-import { more } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody } from '@aarondewes/wp-components';
+import { PluginSidebar } from '@aarondewes/wp-edit-post';
+import { more } from '@aarondewes/wp-icons';
 
 const MyPluginSidebar = () => (
 	<PluginSidebar
@@ -470,9 +470,9 @@ function MySidebarMoreMenuItem() {
 
 ```jsx
 // Using ESNext syntax
-import { __ } from '@wordpress/i18n';
-import { PluginSidebarMoreMenuItem } from '@wordpress/edit-post';
-import { more } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { PluginSidebarMoreMenuItem } from '@aarondewes/wp-edit-post';
+import { more } from '@aarondewes/wp-icons';
 
 const MySidebarMoreMenuItem = () => (
 	<PluginSidebarMoreMenuItem

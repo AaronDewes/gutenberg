@@ -12,13 +12,13 @@ import {
 	Spinner,
 	ToggleControl,
 	VisuallyHidden,
-} from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { useSelect } from '@wordpress/data';
-import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
-import { pin } from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useSelect } from '@aarondewes/wp-data';
+import { InspectorControls, useBlockProps } from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { pin } from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 export default function CategoriesEdit( {
 	attributes: { displayAsDropdown, showHierarchy, showPostCounts },

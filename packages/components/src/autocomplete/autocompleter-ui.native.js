@@ -19,13 +19,13 @@ import {
 	useRef,
 	useState,
 	useCallback,
-} from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
+} from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 import {
 	Icon,
 	__unstableAutocompletionItemsFill as AutocompletionItemsFill,
-} from '@wordpress/components';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+} from '@aarondewes/wp-components';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

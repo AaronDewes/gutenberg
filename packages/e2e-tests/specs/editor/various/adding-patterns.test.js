@@ -5,7 +5,7 @@ import {
 	createNewPost,
 	insertPattern,
 	getEditedPostContent,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 /** @typedef {import('puppeteer').ElementHandle} ElementHandle */
 

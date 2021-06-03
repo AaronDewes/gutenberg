@@ -5,7 +5,7 @@ CardBody renders an optional content area for a [`<Card />`](../).
 ## Usage
 
 ```jsx
-import { Card, CardBody } from '@wordpress/components';
+import { Card, CardBody } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>

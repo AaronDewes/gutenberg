@@ -10,7 +10,7 @@ import {
 	requestImageFailedRetryDialog,
 	requestImageUploadCancelDialog,
 	mediaUploadSync,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 import {
 	BlockIcon,
 	MediaPlaceholder,
@@ -22,7 +22,7 @@ import {
 	InspectorControls,
 	MEDIA_TYPE_ANY,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	ToolbarButton,
 	ToolbarGroup,
@@ -31,7 +31,7 @@ import {
 	TextControl,
 	SelectControl,
 	Icon,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	file as icon,
 	replace,
@@ -39,13 +39,13 @@ import {
 	external,
 	link,
 	warning,
-} from '@wordpress/icons';
-import { Component } from '@wordpress/element';
-import { __, _x } from '@wordpress/i18n';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { getProtocol } from '@wordpress/url';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-icons';
+import { Component } from '@aarondewes/wp-element';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { getProtocol } from '@aarondewes/wp-url';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

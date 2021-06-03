@@ -1,17 +1,17 @@
 /**
  * WordPress dependencies
  */
-import { NavigableMenu, Toolbar } from '@wordpress/components';
+import { NavigableMenu, Toolbar } from '@aarondewes/wp-components';
 import {
 	useState,
 	useRef,
 	useLayoutEffect,
 	useEffect,
 	useCallback,
-} from '@wordpress/element';
-import deprecated from '@wordpress/deprecated';
-import { focus } from '@wordpress/dom';
-import { useShortcut } from '@wordpress/keyboard-shortcuts';
+} from '@aarondewes/wp-element';
+import deprecated from '@aarondewes/wp-deprecated';
+import { focus } from '@aarondewes/wp-dom';
+import { useShortcut } from '@aarondewes/wp-keyboard-shortcuts';
 
 function hasOnlyToolbarItem( elements ) {
 	const dataProp = 'toolbarItem';

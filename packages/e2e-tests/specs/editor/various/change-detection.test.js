@@ -16,7 +16,7 @@ import {
 	openDocumentSettingsSidebar,
 	isCurrentURL,
 	pressKeyTimes,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Change detection', () => {
 	let handleInterceptedRequest, hadInterceptedSave;

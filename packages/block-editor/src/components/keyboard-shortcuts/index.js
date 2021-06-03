@@ -5,13 +5,13 @@ import { first, last } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useEffect, useCallback } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
+import { useEffect, useCallback } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 import {
 	useShortcut,
 	store as keyboardShortcutsStore,
-} from '@wordpress/keyboard-shortcuts';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-keyboard-shortcuts';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

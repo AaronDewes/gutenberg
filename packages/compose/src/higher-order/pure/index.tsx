@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import isShallowEqual from '@wordpress/is-shallow-equal';
-import { Component } from '@wordpress/element';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

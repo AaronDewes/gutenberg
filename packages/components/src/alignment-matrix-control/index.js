@@ -7,9 +7,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __, isRTL } from '@wordpress/i18n';
-import { useInstanceId } from '@wordpress/compose';
-import { useState, useEffect } from '@wordpress/element';
+import { __, isRTL } from '@aarondewes/wp-i18n';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useState, useEffect } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

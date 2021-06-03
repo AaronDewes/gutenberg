@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { InspectorControls } from '@wordpress/block-editor';
-import { TextControl, PanelBody, ToggleControl } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { InspectorControls } from '@aarondewes/wp-block-editor';
+import { TextControl, PanelBody, ToggleControl } from '@aarondewes/wp-components';
 
 const OrderedListSettings = ( { setAttributes, reversed, start } ) => (
 	<InspectorControls>

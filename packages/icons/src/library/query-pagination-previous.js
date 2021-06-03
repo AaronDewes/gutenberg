@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { SVG, Path, Rect } from '@wordpress/primitives';
+import { SVG, Path, Rect } from '@aarondewes/wp-primitives';
 
 const queryPaginationPrevious = (
 	<SVG xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

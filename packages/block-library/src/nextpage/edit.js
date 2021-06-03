@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useBlockProps } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 export default function NextPageEdit() {
 	return (

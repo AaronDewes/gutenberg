@@ -6,7 +6,7 @@ import { shallow } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
+import { Button } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

@@ -6,8 +6,8 @@ import { first, last } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useEffect, useRef } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

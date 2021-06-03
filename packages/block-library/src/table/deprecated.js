@@ -10,7 +10,7 @@ import {
 	RichText,
 	getColorClassName,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 const supports = {
 	align: true,

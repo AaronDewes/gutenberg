@@ -15,7 +15,7 @@ upgrading dependent libraries or smaller errors when refactoring code.
 Install the module:
 
 ```bash
-npm install @wordpress/jest-console --save-dev
+npm install @aarondewes/wp-jest-console --save-dev
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It is not compatible with older versions.
@@ -27,7 +27,7 @@ The simplest setup is to use Jest's `setupFilesAfterEnv` config option:
 ```js
 "jest": {
   "setupFilesAfterEnv": [
-    "@wordpress/jest-console"
+    "@aarondewes/wp-jest-console"
   ]
 },
 ```

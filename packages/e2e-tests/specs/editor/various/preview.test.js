@@ -11,7 +11,7 @@ import {
 	publishPost,
 	saveDraft,
 	openPreviewPage,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 /** @typedef {import('puppeteer').Page} Page */
 

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createNewPost, pressKeyWithModifier } from '@wordpress/e2e-test-utils';
+import { createNewPost, pressKeyWithModifier } from '@aarondewes/wp-e2e-test-utils';
 
 async function isInBlockToolbar() {
 	return await page.evaluate( () => {

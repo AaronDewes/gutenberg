@@ -7,7 +7,7 @@ import { isString } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { cloneElement, forwardRef } from '@wordpress/element';
+import { cloneElement, forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

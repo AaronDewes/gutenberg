@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { CustomSelectControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { CustomSelectControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 const DEFAULT_STYLE = {
 	key: 'default',

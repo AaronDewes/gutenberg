@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { dragHandle } from '@wordpress/icons';
-import { Button, Flex, FlexItem } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useEffect, useRef } from '@wordpress/element';
+import { dragHandle } from '@aarondewes/wp-icons';
+import { Button, Flex, FlexItem } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useEffect, useRef } from '@aarondewes/wp-element';
 import {
 	BACKSPACE,
 	DELETE,
@@ -21,14 +21,14 @@ import {
 	ESCAPE,
 	ENTER,
 	SPACE,
-} from '@wordpress/keycodes';
+} from '@aarondewes/wp-keycodes';
 import {
 	getBlockType,
 	__experimentalGetAccessibleBlockLabel as getAccessibleBlockLabel,
-} from '@wordpress/blocks';
-import { speak } from '@wordpress/a11y';
-import { focus } from '@wordpress/dom';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-blocks';
+import { speak } from '@aarondewes/wp-a11y';
+import { focus } from '@aarondewes/wp-dom';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

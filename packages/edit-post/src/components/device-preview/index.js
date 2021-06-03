@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { Icon, MenuGroup } from '@wordpress/components';
-import { PostPreviewButton, store as editorStore } from '@wordpress/editor';
-import { external } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
-import { __experimentalPreviewOptions as PreviewOptions } from '@wordpress/block-editor';
-import { useDispatch, useSelect } from '@wordpress/data';
+import { Icon, MenuGroup } from '@aarondewes/wp-components';
+import { PostPreviewButton, store as editorStore } from '@aarondewes/wp-editor';
+import { external } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { __experimentalPreviewOptions as PreviewOptions } from '@aarondewes/wp-block-editor';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

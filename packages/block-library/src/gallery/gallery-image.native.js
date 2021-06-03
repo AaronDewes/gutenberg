@@ -16,14 +16,14 @@ import {
 	requestImageFailedRetryDialog,
 	requestImageUploadCancelDialog,
 	requestImageFullscreenPreview,
-} from '@wordpress/react-native-bridge';
-import { Component } from '@wordpress/element';
-import { Image } from '@wordpress/components';
-import { __, sprintf } from '@wordpress/i18n';
-import { Caption, MediaUploadProgress } from '@wordpress/block-editor';
-import { getProtocol } from '@wordpress/url';
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { arrowLeft, arrowRight, warning } from '@wordpress/icons';
+} from '@aarondewes/wp-react-native-bridge';
+import { Component } from '@aarondewes/wp-element';
+import { Image } from '@aarondewes/wp-components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Caption, MediaUploadProgress } from '@aarondewes/wp-block-editor';
+import { getProtocol } from '@aarondewes/wp-url';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { arrowLeft, arrowRight, warning } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

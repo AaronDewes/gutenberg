@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { withDispatch, withSelect } from '@wordpress/data';
-import { Component } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { withInstanceId, compose } from '@wordpress/compose';
-import { safeDecodeURIComponent } from '@wordpress/url';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { Component } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { withInstanceId, compose } from '@aarondewes/wp-compose';
+import { safeDecodeURIComponent } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

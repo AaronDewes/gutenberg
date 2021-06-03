@@ -11,11 +11,11 @@ import {
 	displayShortcut,
 	shortcutAriaLabel,
 	rawShortcut,
-} from '@wordpress/keycodes';
+} from '@aarondewes/wp-keycodes';
 
 /** @typedef {import('./actions').WPShortcutKeyCombination} WPShortcutKeyCombination */
 
-/** @typedef {import('@wordpress/keycodes').WPKeycodeHandlerByModifier} WPKeycodeHandlerByModifier */
+/** @typedef {import('@aarondewes/wp-keycodes').WPKeycodeHandlerByModifier} WPKeycodeHandlerByModifier */
 
 /**
  * Shared reference to an empty array for cases where it is important to avoid

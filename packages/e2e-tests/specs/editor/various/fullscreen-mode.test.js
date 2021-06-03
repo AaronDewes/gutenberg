@@ -5,7 +5,7 @@ import {
 	createNewPost,
 	clickOnMoreMenuItem,
 	toggleMoreMenu,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Fullscreen Mode', () => {
 	beforeAll( async () => {

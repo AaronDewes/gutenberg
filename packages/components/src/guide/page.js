@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useEffect } from '@wordpress/element';
-import deprecated from '@wordpress/deprecated';
+import { useEffect } from '@aarondewes/wp-element';
+import deprecated from '@aarondewes/wp-deprecated';
 
 export default function GuidePage( props ) {
 	useEffect( () => {

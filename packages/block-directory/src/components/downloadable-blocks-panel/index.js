@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Spinner } from '@wordpress/components';
-import { compose } from '@wordpress/compose';
-import { store as blockEditorStore } from '@wordpress/block-editor';
-import { store as coreStore } from '@wordpress/core-data';
-import { withSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { Spinner } from '@aarondewes/wp-components';
+import { compose } from '@aarondewes/wp-compose';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

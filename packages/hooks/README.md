@@ -7,7 +7,7 @@ A lightweight & efficient EventManager for JavaScript.
 Install the module
 
 ```bash
-npm install @wordpress/hooks --save
+npm install @aarondewes/wp-hooks --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -17,7 +17,7 @@ _This package assumes that your code will run in an **ES2015+** environment. If 
 In your JavaScript project, use hooks as follows:
 
 ```javascript
-import { createHooks } from '@wordpress/hooks';
+import { createHooks } from '@aarondewes/wp-hooks';
 
 myObject.hooks = createHooks();
 myObject.hooks.addAction(); //etc...

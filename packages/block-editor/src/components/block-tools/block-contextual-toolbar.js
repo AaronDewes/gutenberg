@@ -6,9 +6,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { hasBlockSupport, store as blocksStore } from '@wordpress/blocks';
-import { useSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { hasBlockSupport, store as blocksStore } from '@aarondewes/wp-blocks';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

@@ -7,12 +7,12 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
+import { addFilter } from '@aarondewes/wp-hooks';
 import {
 	hasBlockSupport,
 	getSaveContent,
 	parseWithAttributeSchema,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Filters registered block settings, extending attributes with anchor using ID

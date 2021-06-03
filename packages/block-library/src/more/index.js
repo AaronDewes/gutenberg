@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { more as icon } from '@wordpress/icons';
+import { more as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

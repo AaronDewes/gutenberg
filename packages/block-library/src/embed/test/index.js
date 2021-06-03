@@ -6,7 +6,7 @@ import {
 	unregisterBlockType,
 	registerBlockVariation,
 	unregisterBlockVariation,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies
@@ -24,7 +24,7 @@ import metadata from '../block.json';
 
 const { name: DEFAULT_EMBED_BLOCK, attributes } = metadata;
 
-jest.mock( '@wordpress/data/src/components/use-select', () => () => ( {} ) );
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => () => ( {} ) );
 
 describe( 'utils', () => {
 	beforeAll( () => {

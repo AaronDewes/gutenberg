@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createBlobURL } from '@wordpress/blob';
-import { createBlock } from '@wordpress/blocks';
+import { createBlobURL } from '@aarondewes/wp-blob';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 const transforms = {
 	from: [

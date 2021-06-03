@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { RichText } from '@wordpress/block-editor';
+import { RichText } from '@aarondewes/wp-block-editor';
 
 export default [
 	{

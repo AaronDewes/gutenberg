@@ -6,10 +6,10 @@ import { map, sortBy } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Button, PanelBody, TabPanel } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { getBlockType } from '@wordpress/blocks';
-import { useMemo } from '@wordpress/element';
+import { Button, PanelBody, TabPanel } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { getBlockType } from '@aarondewes/wp-blocks';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

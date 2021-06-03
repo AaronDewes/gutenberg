@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { __experimentalTruncate as Truncate } from '@wordpress/components';
+import { __experimentalTruncate as Truncate } from '@aarondewes/wp-components';
 
 function Example() {
 	return (
@@ -54,7 +54,7 @@ Determines the max characters when `truncate` is set.
 Clamps the text content to the specifiec `numberOfLines`, adding the `ellipsis` at the end.
 
 ```jsx
-import { __experimentalTruncate as Truncate } from '@wordpress/components';
+import { __experimentalTruncate as Truncate } from '@aarondewes/wp-components';
 
 function Example() {
 	return (

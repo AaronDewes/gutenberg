@@ -11,8 +11,8 @@ It uses the [Mousetrap](https://craig.is/killing/mice) library to implement keyb
 Render `<KeyboardShortcuts />` with a `shortcuts` prop object:
 
 ```jsx
-import { KeyboardShortcuts } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { KeyboardShortcuts } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyKeyboardShortcuts = withState( {
 	isAllSelected: false,

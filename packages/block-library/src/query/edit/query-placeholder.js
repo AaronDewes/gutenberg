@@ -1,17 +1,17 @@
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	useBlockProps,
 	__experimentalBlockVariationPicker,
 	__experimentalGetMatchingVariation as getMatchingVariation,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	createBlocksFromInnerBlocksTemplate,
 	store as blocksStore,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 const QueryPlaceholder = ( { clientId, name, attributes, setAttributes } ) => {
 	const {

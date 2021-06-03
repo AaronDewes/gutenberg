@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { TextControl } from '@wordpress/components';
-import { useEffect, useRef, useContext } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { TextControl } from '@aarondewes/wp-components';
+import { useEffect, useRef, useContext } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -6,12 +6,12 @@ import {
 	PostTitle,
 	TextEditorGlobalKeyboardShortcuts,
 	store as editorStore,
-} from '@wordpress/editor';
-import { Button } from '@wordpress/components';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { displayShortcut } from '@wordpress/keycodes';
-import { compose } from '@wordpress/compose';
+} from '@aarondewes/wp-editor';
+import { Button } from '@aarondewes/wp-components';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { displayShortcut } from '@aarondewes/wp-keycodes';
+import { compose } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

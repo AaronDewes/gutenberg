@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalGradientPicker as GradientPicker } from '@wordpress/components';
+import { __experimentalGradientPicker as GradientPicker } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

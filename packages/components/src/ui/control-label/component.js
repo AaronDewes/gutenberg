@@ -9,7 +9,7 @@ import { useControlLabel } from './hook';
  * label for form elements (e.g. `Switch` or `TextInput`).
  *
  * ```jsx
- * import { ControlLabel, FormGroup, TextInput } from '@wordpress/components/ui';
+ * import { ControlLabel, FormGroup, TextInput } from '@aarondewes/wp-components/ui';
  *
  * function Example() {
  * 	return (

@@ -6,7 +6,7 @@ import { get, filter, map, last, pick, includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { isBlobURL } from '@wordpress/blob';
+import { isBlobURL } from '@aarondewes/wp-blob';
 import {
 	ExternalLink,
 	PanelBody,
@@ -15,9 +15,9 @@ import {
 	TextareaControl,
 	TextControl,
 	ToolbarButton,
-} from '@wordpress/components';
-import { useViewportMatch, usePrevious } from '@wordpress/compose';
-import { useSelect, useDispatch } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { useViewportMatch, usePrevious } from '@aarondewes/wp-compose';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	BlockControls,
 	InspectorControls,
@@ -28,18 +28,18 @@ import {
 	MediaReplaceFlow,
 	store as blockEditorStore,
 	BlockAlignmentControl,
-} from '@wordpress/block-editor';
-import { useEffect, useState, useRef } from '@wordpress/element';
-import { __, sprintf, isRTL } from '@wordpress/i18n';
-import { getPath } from '@wordpress/url';
+} from '@aarondewes/wp-block-editor';
+import { useEffect, useState, useRef } from '@aarondewes/wp-element';
+import { __, sprintf, isRTL } from '@aarondewes/wp-i18n';
+import { getPath } from '@aarondewes/wp-url';
 import {
 	createBlock,
 	getBlockType,
 	switchToBlockType,
-} from '@wordpress/blocks';
-import { crop, overlayText, upload } from '@wordpress/icons';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-blocks';
+import { crop, overlayText, upload } from '@aarondewes/wp-icons';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

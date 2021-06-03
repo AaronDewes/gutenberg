@@ -12,9 +12,9 @@ import {
 	useMemo,
 	useRef,
 	useState,
-} from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { SegmentedControl } from '@wordpress/components';
+} from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { SegmentedControl } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

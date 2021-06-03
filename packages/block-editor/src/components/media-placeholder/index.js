@@ -13,12 +13,12 @@ import {
 	Placeholder,
 	DropZone,
 	withFilters,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useState, useEffect } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
-import deprecated from '@wordpress/deprecated';
-import { keyboardReturn } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
+import deprecated from '@aarondewes/wp-deprecated';
+import { keyboardReturn } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

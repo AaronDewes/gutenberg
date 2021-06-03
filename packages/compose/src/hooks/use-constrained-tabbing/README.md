@@ -13,7 +13,7 @@ A function reference that must be passed to the DOM element where constrained ta
 ## Usage
 
 ```jsx
-import { useConstrainedTabbing } from '@wordpress/compose';
+import { useConstrainedTabbing } from '@aarondewes/wp-compose';
 
 const ConstrainedTabbingExample = () => {
 	const ref = useConstrainedTabbing();

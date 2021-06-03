@@ -17,7 +17,7 @@ import {
 	__experimentalSpacer as Spacer,
 	__experimentalHeading as Heading,
 	__experimentalView as View,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function Example() {
 	return (

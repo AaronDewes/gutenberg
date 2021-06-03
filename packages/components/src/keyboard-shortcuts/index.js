@@ -6,8 +6,8 @@ import { map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useRef, Children } from '@wordpress/element';
-import { useKeyboardShortcut } from '@wordpress/compose';
+import { useRef, Children } from '@aarondewes/wp-element';
+import { useKeyboardShortcut } from '@aarondewes/wp-compose';
 
 function KeyboardShortcut( {
 	target,

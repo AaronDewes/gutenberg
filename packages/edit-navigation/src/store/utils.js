@@ -6,7 +6,7 @@ import { keyBy, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { serialize } from '@wordpress/blocks';
+import { serialize } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

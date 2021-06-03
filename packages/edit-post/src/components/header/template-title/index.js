@@ -1,17 +1,17 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { Dropdown, ToolbarItem, Button } from '@wordpress/components';
-import { chevronDown } from '@wordpress/icons';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { Dropdown, ToolbarItem, Button } from '@aarondewes/wp-components';
+import { chevronDown } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies
  */
 import { store as editPostStore } from '../../../store';
-import { store as blockEditorStore } from '@wordpress/block-editor';
-import { store as editorStore } from '@wordpress/editor';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { store as editorStore } from '@aarondewes/wp-editor';
 import DeleteTemplate from './delete-template';
 import EditTemplateTitle from './edit-template-title';
 

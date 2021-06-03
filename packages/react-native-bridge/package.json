@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/react-native-bridge",
+	"name": "@aarondewes/wp-react-native-bridge",
 	"version": "1.54.0",
 	"description": "Native bridge library used to integrate the block editor into a native App.",
 	"private": true,
@@ -20,7 +20,7 @@
 	"main": "index.js",
 	"react-native": "index",
 	"dependencies": {
-		"@wordpress/react-native-aztec": "file:../react-native-aztec"
+		"@aarondewes/wp-react-native-aztec": "file:../react-native-aztec"
 	},
 	"peerDependencies": {
 		"react-native": "*"

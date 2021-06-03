@@ -9,20 +9,20 @@ The preset includes configuration which enable language features and syntax exte
 Install the module
 
 ```bash
-npm install @wordpress/babel-preset-default --save-dev
+npm install @aarondewes/wp-babel-preset-default --save-dev
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It is not compatible with older versions.
 
 ### Usage
 
-There are a number of methods to configure Babel. See [Babel's Configuration documentation](https://babeljs.io/docs/en/configuration) for more information. To use this preset, simply reference `@wordpress/babel-preset-default` in the `presets` option in your Babel configuration.
+There are a number of methods to configure Babel. See [Babel's Configuration documentation](https://babeljs.io/docs/en/configuration) for more information. To use this preset, simply reference `@aarondewes/wp-babel-preset-default` in the `presets` option in your Babel configuration.
 
 For example, using `.babelrc`:
 
 ```json
 {
-	"presets": [ "@wordpress/babel-preset-default" ]
+	"presets": [ "@aarondewes/wp-babel-preset-default" ]
 }
 ```
 
@@ -34,7 +34,7 @@ For example, if you'd like to use a new language feature proposal which has not 
 
 ```json
 {
-	"presets": [ "@wordpress/babel-preset-default" ],
+	"presets": [ "@aarondewes/wp-babel-preset-default" ],
 	"plugins": [ "@babel/plugin-proposal-class-properties" ]
 }
 ```

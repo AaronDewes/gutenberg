@@ -11,9 +11,9 @@ import {
 	BlockControls,
 	Warning,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { useEntityProp } from '@wordpress/core-data';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function PostCommentsFormEdit( {
 	attributes,

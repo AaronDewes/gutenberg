@@ -6,15 +6,15 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { ToggleControl, PanelBody } from '@wordpress/components';
+import { ToggleControl, PanelBody } from '@aarondewes/wp-components';
 import {
 	InspectorControls,
 	RichText,
 	BlockControls,
 	AlignmentToolbar,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function PostNavigationLinkEdit( {
 	attributes: { type, label, showTitle, textAlign },

@@ -5,12 +5,12 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useRef, useEffect } from '@wordpress/element';
-import { useDispatch } from '@wordpress/data';
-import { store as noticesStore } from '@wordpress/notices';
-import { __ } from '@wordpress/i18n';
-import { Popover } from '@wordpress/components';
-import { useViewportMatch } from '@wordpress/compose';
+import { useRef, useEffect } from '@aarondewes/wp-element';
+import { useDispatch } from '@aarondewes/wp-data';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { __ } from '@aarondewes/wp-i18n';
+import { Popover } from '@aarondewes/wp-components';
+import { useViewportMatch } from '@aarondewes/wp-compose';
 /**
  * Internal dependencies
  */

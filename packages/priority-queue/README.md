@@ -7,7 +7,7 @@ This module allows you to run a queue of callback while on the browser's idle ti
 Install the module
 
 ```bash
-npm install @wordpress/priority-queue --save
+npm install @aarondewes/wp-priority-queue --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -24,7 +24,7 @@ the last task of a given context.
 _Usage_
 
 ```js
-import { createQueue } from '@wordpress/priority-queue';
+import { createQueue } from '@aarondewes/wp-priority-queue';
 
 const queue = createQueue();
 

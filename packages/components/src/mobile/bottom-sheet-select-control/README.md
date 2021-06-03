@@ -9,8 +9,8 @@ However, instead of opening up the selection in a modal, the selection opens up 
 /**
  * WordPress dependencies
  */
-import { BottomSheetSelectControl } from '@wordpress/components';
-import { useState } from '@wordpress/compose';
+import { BottomSheetSelectControl } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-compose';
 
 const options = [
 	{

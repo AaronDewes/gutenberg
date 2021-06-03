@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { DropdownMenu } from '@wordpress/components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { DropdownMenu } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies
@@ -11,7 +11,7 @@ import HeadingLevelIcon from './heading-level-icon';
 
 const HEADING_LEVELS = [ 1, 2, 3, 4, 5, 6 ];
 
-/** @typedef {import('@wordpress/element').WPComponent} WPComponent */
+/** @typedef {import('@aarondewes/wp-element').WPComponent} WPComponent */
 
 /**
  * HeadingLevelDropdown props.

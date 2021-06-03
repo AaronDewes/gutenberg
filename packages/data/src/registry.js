@@ -227,7 +227,7 @@ export function createRegistry( storeConfigs = {}, parent = null ) {
 	};
 
 	/**
-	 * Registers a standard `@wordpress/data` store.
+	 * Registers a standard `@aarondewes/wp-data` store.
 	 *
 	 * @param {string} storeName  Unique namespace identifier.
 	 * @param {Object} options    Store description (reducer, actions, selectors, resolvers).

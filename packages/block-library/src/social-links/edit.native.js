@@ -8,10 +8,10 @@ import { View } from 'react-native';
 import {
 	InnerBlocks,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { useRef, useEffect, useState } from '@wordpress/element';
-import { compose, usePreferredColorSchemeStyle } from '@wordpress/compose';
+} from '@aarondewes/wp-block-editor';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { useRef, useEffect, useState } from '@aarondewes/wp-element';
+import { compose, usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

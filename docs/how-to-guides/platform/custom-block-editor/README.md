@@ -4,7 +4,7 @@ The purpose of [this tutorial](/docs/reference-guides/platform/custom-block-edit
 
 ![alt text](https://wordpress.org/gutenberg/files/2020/03/editor.png 'The Standalone Editor instance populated with example Blocks within a custom WP Admin page.')
 
-The editor you will see in this tutorial (as above) is **_not_ the same Block Editor you are familiar with when creating Posts** in with WordPress. Rather it is an entirely **custom block editor instance** built using the lower-level [`@wordpress/block-editor`](https://developer.wordpress.org/block-editor/packages/packages-block-editor/) package (and friends).
+The editor you will see in this tutorial (as above) is **_not_ the same Block Editor you are familiar with when creating Posts** in with WordPress. Rather it is an entirely **custom block editor instance** built using the lower-level [`@aarondewes/wp-block-editor`](https://developer.wordpress.org/block-editor/packages/packages-block-editor/) package (and friends).
 
 ## Following this tutorial
 

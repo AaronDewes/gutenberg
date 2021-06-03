@@ -11,8 +11,8 @@ import {
 import { buildNavigationPostId } from '../utils';
 
 // Mock createBlock to avoid creating block in test environment
-jest.mock( '@wordpress/blocks', () => {
-	const blocks = jest.requireActual( '@wordpress/blocks' );
+jest.mock( '@aarondewes/wp-blocks', () => {
+	const blocks = jest.requireActual( '@aarondewes/wp-blocks' );
 	let id = 0;
 
 	return {

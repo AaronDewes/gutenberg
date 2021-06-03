@@ -11,7 +11,7 @@ import {
 	getColorClassName,
 	__experimentalGetGradientClass,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

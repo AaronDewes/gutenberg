@@ -18,7 +18,7 @@ _Note:_ It is worth noting that the line height setting option is an opt-in feat
 Renders the markup for the line height setting option in the block inspector.
 
 ```jsx
-import { KeyboardShortcuts } from '@wordpress/block-editor';
+import { KeyboardShortcuts } from '@aarondewes/wp-block-editor';
 const MyLineHeightControl = () => (
 	<LineHeightControl value={ lineHeight } onChange={ onChange } />
 );

@@ -59,8 +59,8 @@ The `Panel` creates a container with a header that can take collapsible `PanelBo
 ### Usage
 
 ```jsx
-import { Panel, PanelBody, PanelRow } from '@wordpress/components';
-import { more } from '@wordpress/icons';
+import { Panel, PanelBody, PanelRow } from '@aarondewes/wp-components';
+import { more } from '@aarondewes/wp-icons';
 
 const MyPanel = () => (
 	<Panel header="My Panel">

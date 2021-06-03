@@ -6,8 +6,8 @@ import { omit, noop, isFunction } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component, forwardRef } from '@wordpress/element';
-import { focus } from '@wordpress/dom';
+import { Component, forwardRef } from '@aarondewes/wp-element';
+import { focus } from '@aarondewes/wp-dom';
 
 const MENU_ITEM_ROLES = [ 'menuitem', 'menuitemradio', 'menuitemcheckbox' ];
 

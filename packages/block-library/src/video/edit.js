@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { getBlobByURL, isBlobURL } from '@wordpress/blob';
+import { getBlobByURL, isBlobURL } from '@aarondewes/wp-blob';
 import {
 	BaseControl,
 	Button,
@@ -14,7 +14,7 @@ import {
 	PanelBody,
 	Spinner,
 	withNotices,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	BlockControls,
 	BlockIcon,
@@ -26,13 +26,13 @@ import {
 	RichText,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useRef, useEffect } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
-import { useInstanceId } from '@wordpress/compose';
-import { useSelect } from '@wordpress/data';
-import { video as icon } from '@wordpress/icons';
-import { createBlock } from '@wordpress/blocks';
+} from '@aarondewes/wp-block-editor';
+import { useRef, useEffect } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useSelect } from '@aarondewes/wp-data';
+import { video as icon } from '@aarondewes/wp-icons';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

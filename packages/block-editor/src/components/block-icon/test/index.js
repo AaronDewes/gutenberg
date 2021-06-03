@@ -6,8 +6,8 @@ import { shallow } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/components';
-import { image } from '@wordpress/icons';
+import { Icon } from '@aarondewes/wp-components';
+import { image } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

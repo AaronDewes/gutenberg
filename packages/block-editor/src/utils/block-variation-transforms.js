@@ -3,7 +3,7 @@
  */
 import { isMatch } from 'lodash';
 
-/** @typedef {import('@wordpress/blocks').WPBlockVariation} WPBlockVariation */
+/** @typedef {import('@aarondewes/wp-blocks').WPBlockVariation} WPBlockVariation */
 
 /**
  * Matches the provided block variations with a block's attributes. If no match

@@ -4,7 +4,7 @@
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * @type {WeakMap<object, number>}

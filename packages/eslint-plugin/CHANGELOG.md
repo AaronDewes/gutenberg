@@ -17,7 +17,7 @@
 ### New Features
 
 -   Enabled `import/default` and `import/named` rules in the `recommended` ruleset. [#28513](https://github.com/WordPress/gutenberg/pull/28513)
--   Add new rule `@wordpress/data-no-store-string-literals` to discourage passing string literals to reference data stores ([#28726](https://github.com/WordPress/gutenberg/pull/28726)).
+-   Add new rule `@aarondewes/wp-data-no-store-string-literals` to discourage passing string literals to reference data stores ([#28726](https://github.com/WordPress/gutenberg/pull/28726)).
 
 ## 8.0.1 (2021-01-28)
 
@@ -96,7 +96,7 @@
 
 ### Bug Fixes
 
--   `@wordpress/dependency-group` will now correctly identify issues associated with CommonJS (`require`) module imports.
+-   `@aarondewes/wp-dependency-group` will now correctly identify issues associated with CommonJS (`require`) module imports.
 
 ## 6.0.0 (2020-05-14)
 
@@ -112,8 +112,8 @@
 
 ### Bug Fixes
 
--   The `@wordpress/no-unused-vars-before-return` rule will now correctly identify valid usage of a variable as a JSX identifier.
--   Make `@wordpress/i18n-text-domain` rule less strict by default. When `allowedTextDomain` option is not provided it allows now skipping text domain or providing any string ([#21928](https://github.com/WordPress/gutenberg/pull/21928)).
+-   The `@aarondewes/wp-no-unused-vars-before-return` rule will now correctly identify valid usage of a variable as a JSX identifier.
+-   Make `@aarondewes/wp-i18n-text-domain` rule less strict by default. When `allowedTextDomain` option is not provided it allows now skipping text domain or providing any string ([#21928](https://github.com/WordPress/gutenberg/pull/21928)).
 
 ## 5.0.1 (2020-04-15)
 
@@ -127,26 +127,26 @@
 ### Breaking Changes
 
 -   There is a new `i18n` ruleset that includes all i18n-related rules and is included in the `recommended` ruleset.
--   The `@wordpress/valid-sprintf` rule has been moved from the `custom` ruleset to the `i18n` ruleset.
--   The `@wordpress/valid-sprintf` rule now recognizes mix of ordered and non-ordered placeholders.
+-   The `@aarondewes/wp-valid-sprintf` rule has been moved from the `custom` ruleset to the `i18n` ruleset.
+-   The `@aarondewes/wp-valid-sprintf` rule now recognizes mix of ordered and non-ordered placeholders.
 -   The bundled `eslint-plugin-jest` dependency has been updated from requiring `^22.15.1` to requiring `^23.8.2` ([#21424](https://github.com/WordPress/gutenberg/pull/21424)).
 -   The bundled `eslint-plugin-jsdoc` dependency has been updated from requiring `^21.0.0` to requiring `^22.1.0` ([#21424](https://github.com/WordPress/gutenberg/pull/21424)).
 -   The bundled `eslint-plugin-react-hooks` dependency has been updated from requiring `^1.6.1` to requiring `^3.0.0` ([#21424](https://github.com/WordPress/gutenberg/pull/21424)).
 
 ### New Features
 
--   New Rule: [`@wordpress/i18n-text-domain`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-text-domain.md)
--   New Rule: [`@wordpress/i18n-translator-comments`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-translator-comments.md)
--   New Rule: [`@wordpress/i18n-no-variables`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-no-variables.md)
--   New Rule: [`@wordpress/i18n-no-placeholders-only`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-no-placeholders-only.md)
--   New Rule: [`@wordpress/i18n-no-collapsible-whitespace`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-no-collapsible-whitespace.md)
--   New Rule: [`@wordpress/i18n-ellipsis`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-ellipsis.md)
+-   New Rule: [`@aarondewes/wp-i18n-text-domain`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-text-domain.md)
+-   New Rule: [`@aarondewes/wp-i18n-translator-comments`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-translator-comments.md)
+-   New Rule: [`@aarondewes/wp-i18n-no-variables`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-no-variables.md)
+-   New Rule: [`@aarondewes/wp-i18n-no-placeholders-only`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-no-placeholders-only.md)
+-   New Rule: [`@aarondewes/wp-i18n-no-collapsible-whitespace`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-no-collapsible-whitespace.md)
+-   New Rule: [`@aarondewes/wp-i18n-ellipsis`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/i18n-ellipsis.md)
 -   The bundled `eslint-plugin-react` dependency has been updated from requiring `^7.14.3` to requiring `^7.19.0` ([#21424](https://github.com/WordPress/gutenberg/pull/21424)).
 
 ### Bug Fixes
 
--   The `@wordpress/valid-sprintf` rule now detects usage of `sprintf` via `i18n.sprintf` (e.g. when using `import * as i18n from '@wordpress/i18n'`).
--   `@wordpress/no-unused-vars-before-return` will correctly consider other unused variables after encountering an instance of an `excludePattern` option exception.
+-   The `@aarondewes/wp-valid-sprintf` rule now detects usage of `sprintf` via `i18n.sprintf` (e.g. when using `import * as i18n from '@aarondewes/wp-i18n'`).
+-   `@aarondewes/wp-no-unused-vars-before-return` will correctly consider other unused variables after encountering an instance of an `excludePattern` option exception.
 
 ## 4.1.0 (2020-04-01)
 
@@ -183,30 +183,30 @@
 
 ### Breaking Changes
 
--   The [`@wordpress/no-unused-vars-before-return` rule](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unused-vars-before-return.md) has been improved to exempt object destructuring only if destructuring to more than one property.
+-   The [`@aarondewes/wp-no-unused-vars-before-return` rule](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unused-vars-before-return.md) has been improved to exempt object destructuring only if destructuring to more than one property.
 -   Stricter JSDoc linting using [`eslint-plugin-jsdoc`](https://github.com/gajus/eslint-plugin-jsdoc).
 -   Stricter validation enabled for test files only using new `test-e2e` and `test-unit` rulesets.
 
 ### New Features
 
--   New Rule: [`@wordpress/no-unguarded-get-range-at`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unguarded-get-range-at.md)
+-   New Rule: [`@aarondewes/wp-no-unguarded-get-range-at`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unguarded-get-range-at.md)
 -   Enable `wp` global by default in the `recommended` config.
 -   New ruleset `test-e2e` added for end-to-end tests validation.
 -   New ruleset `test-unit` added for unit tests validation.
 
 ### Enhancements
 
--   Remove `@wordpress/dependency-group` and `@wordpress/gutenberg-phase` rules from the `custom` and `recommended` configs and leave them as opt-in features.
+-   Remove `@aarondewes/wp-dependency-group` and `@aarondewes/wp-gutenberg-phase` rules from the `custom` and `recommended` configs and leave them as opt-in features.
 
 ## 2.4.0 (2019-08-05)
 
 ### New Features
 
--   [`@wordpress/no-unused-vars-before-return`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unused-vars-before-return.md) now supports an `excludePattern` option to exempt function calls by name.
+-   [`@aarondewes/wp-no-unused-vars-before-return`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unused-vars-before-return.md) now supports an `excludePattern` option to exempt function calls by name.
 
 ### Improvements
 
--   The recommended `react` configuration specifies an option to [`@wordpress/no-unused-vars-before-return`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unused-vars-before-return.md) to exempt React hooks usage, by convention of hooks beginning with "use" prefix.
+-   The recommended `react` configuration specifies an option to [`@aarondewes/wp-no-unused-vars-before-return`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unused-vars-before-return.md) to exempt React hooks usage, by convention of hooks beginning with "use" prefix.
 -   The plugin now uses [`eslint-plugin-jsdoc`](https://github.com/gajus/eslint-plugin-jsdoc), rather than the `valid-jsdoc` rule, for more reliable linting of JSDoc blocks.
 
 ## 2.3.0 (2019-06-12)
@@ -221,7 +221,7 @@
 
 ### New Features
 
--   New Rule: [`@wordpress/react-no-unsafe-timeout`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/react-no-unsafe-timeout.md)
+-   New Rule: [`@aarondewes/wp-react-no-unsafe-timeout`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/react-no-unsafe-timeout.md)
 -   Add [React Hooks Rules](https://reactjs.org/docs/hooks-rules.html) config.
 
 ## 2.1.0 (2019-03-20)
@@ -240,11 +240,11 @@
 
 ### New Features
 
--   New Rule: [`@wordpress/no-unused-vars-before-return`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unused-vars-before-return.md)
--   New Rule: [`@wordpress/dependency-group`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/dependency-group.md)
--   New Rule: [`@wordpress/valid-sprintf`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/valid-sprintf.md)
--   New Rule: [`@wordpress/gutenberg-phase`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/gutenberg-phase.md)
--   New Rule: [`@wordpress/no-base-control-with-label-without-id`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-base-control-with-label-without-id.md)
+-   New Rule: [`@aarondewes/wp-no-unused-vars-before-return`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-unused-vars-before-return.md)
+-   New Rule: [`@aarondewes/wp-dependency-group`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/dependency-group.md)
+-   New Rule: [`@aarondewes/wp-valid-sprintf`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/valid-sprintf.md)
+-   New Rule: [`@aarondewes/wp-gutenberg-phase`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/gutenberg-phase.md)
+-   New Rule: [`@aarondewes/wp-no-base-control-with-label-without-id`](https://github.com/WordPress/gutenberg/blob/HEAD/packages/eslint-plugin/docs/rules/no-base-control-with-label-without-id.md)
 
 ## 1.0.0 (2018-12-12)
 

@@ -6,10 +6,10 @@ import { filter } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { NoticeList, SnackbarList } from '@wordpress/components';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { store as noticesStore } from '@wordpress/notices';
+import { NoticeList, SnackbarList } from '@aarondewes/wp-components';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

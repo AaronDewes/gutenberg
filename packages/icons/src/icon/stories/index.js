@@ -6,7 +6,7 @@ import { omit, omitBy, map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

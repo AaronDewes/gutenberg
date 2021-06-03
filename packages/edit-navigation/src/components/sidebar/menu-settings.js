@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelBody } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

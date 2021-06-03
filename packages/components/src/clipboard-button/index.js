@@ -6,9 +6,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useRef, useEffect } from '@wordpress/element';
-import { useCopyToClipboard } from '@wordpress/compose';
-import deprecated from '@wordpress/deprecated';
+import { useRef, useEffect } from '@aarondewes/wp-element';
+import { useCopyToClipboard } from '@aarondewes/wp-compose';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Internal dependencies

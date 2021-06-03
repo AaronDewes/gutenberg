@@ -4,11 +4,11 @@
 import {
 	Button,
 	__experimentalNavigationItem as NavigationItem,
-} from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useState } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { store as editorStore } from '@wordpress/editor';
+} from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useState } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

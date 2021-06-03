@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { getPathAndQueryString } from '@wordpress/url';
-import { useMemo } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
-import { Button } from '@wordpress/components';
-import { edit } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
-import { store as coreStore } from '@wordpress/core-data';
+import { getPathAndQueryString } from '@aarondewes/wp-url';
+import { useMemo } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
+import { Button } from '@aarondewes/wp-components';
+import { edit } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 export default function NavigateToLink( {
 	type,

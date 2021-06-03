@@ -9,7 +9,7 @@ import {
 	createEmbeddingMatcher,
 	createJSONResponse,
 	setUpResponseMocking,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const MOCK_RESPONSES = [
 	{

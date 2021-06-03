@@ -7,7 +7,7 @@ Plugins module for WordPress.
 Install the module
 
 ```bash
-npm install @wordpress/plugins --save
+npm install @aarondewes/wp-plugins --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -63,7 +63,7 @@ function Layout() {
 
 ```js
 // Using ESNext syntax
-import { PluginArea } from '@wordpress/plugins';
+import { PluginArea } from '@aarondewes/wp-plugins';
 
 const Layout = () => (
 	<div>
@@ -122,9 +122,9 @@ registerPlugin( 'plugin-name', {
 
 ```js
 // Using ESNext syntax
-import { PluginSidebar, PluginSidebarMoreMenuItem } from '@wordpress/edit-post';
-import { registerPlugin } from '@wordpress/plugins';
-import { more } from '@wordpress/icons';
+import { PluginSidebar, PluginSidebarMoreMenuItem } from '@aarondewes/wp-edit-post';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { more } from '@aarondewes/wp-icons';
 
 const Component = () => (
 	<>
@@ -173,7 +173,7 @@ unregisterPlugin( 'plugin-name' );
 
 ```js
 // Using ESNext syntax
-import { unregisterPlugin } from '@wordpress/plugins';
+import { unregisterPlugin } from '@aarondewes/wp-plugins';
 
 unregisterPlugin( 'plugin-name' );
 ```

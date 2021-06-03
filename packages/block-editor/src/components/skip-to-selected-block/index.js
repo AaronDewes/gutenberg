@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { withSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
+import { withSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

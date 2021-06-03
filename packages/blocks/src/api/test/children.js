@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { renderToString } from '@wordpress/element';
+import { renderToString } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

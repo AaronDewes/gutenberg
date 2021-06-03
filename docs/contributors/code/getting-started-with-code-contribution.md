@@ -51,7 +51,7 @@ If you do not have a local WordPress environment setup, follow the steps in the 
 
 ### Using Docker and wp-env
 
-The [wp-env package](/packages/env/README.md) was developed with the Gutenberg project as a quick way to create a standard WordPress environment using Docker. It is also published as the `@wordpress/env` npm package.
+The [wp-env package](/packages/env/README.md) was developed with the Gutenberg project as a quick way to create a standard WordPress environment using Docker. It is also published as the `@aarondewes/wp-env` npm package.
 
 By default, `wp-env` can run in a plugin directory to create and run a WordPress environment, mounting and activating the plugin automatically. You can also configure `wp-env` to use existing installs, multiple plugins, or themes. See the [wp-env package](/packages/env/README.md#wp-envjson) for complete documentation.
 
@@ -236,7 +236,7 @@ To use Prettier with Visual Studio Code, you should install the [Prettier - Code
 },
 ```
 
-This will use the `.prettierrc.js` file included in the root of the Gutenberg repository. The config is included from the [@wordpress/prettier-config](/packages/prettier-config/README.md) package.
+This will use the `.prettierrc.js` file included in the root of the Gutenberg repository. The config is included from the [@aarondewes/wp-prettier-config](/packages/prettier-config/README.md) package.
 
 If you only want to use this configuration with the Gutenberg project, create a directory called .vscode at the top-level of Gutenberg, and place your settings in a settings.json there. Visual Studio Code refers to this as Workplace Settings, and only apply to the project.
 

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Button, PanelBody } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button, PanelBody } from '@aarondewes/wp-components';
 
 export default function DeleteMenu( { onDeleteMenu, isMenuBeingDeleted } ) {
 	return (

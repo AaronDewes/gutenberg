@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createRegistry, controls } from '@wordpress/data';
+import { createRegistry, controls } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
@@ -12,25 +12,25 @@ import * as resolvers from '../resolvers';
 import { store } from '../';
 
 // Mock to prevent calling window.fetch in test environment
-jest.mock( '@wordpress/data-controls', () => {
-	const dataControls = jest.requireActual( '@wordpress/data-controls' );
+jest.mock( '@aarondewes/wp-data-controls', () => {
+	const dataControls = jest.requireActual( '@aarondewes/wp-data-controls' );
 	return {
 		...dataControls,
 		apiFetch: jest.fn(),
 	};
 } );
 const { apiFetch: actualApiFetch } = jest.requireActual(
-	'@wordpress/data-controls'
+	'@aarondewes/wp-data-controls'
 );
-import { apiFetch } from '@wordpress/data-controls';
+import { apiFetch } from '@aarondewes/wp-data-controls';
 
-jest.mock( '@wordpress/api-fetch', () => {
+jest.mock( '@aarondewes/wp-api-fetch', () => {
 	return {
 		__esModule: true,
 		default: jest.fn(),
 	};
 } );
-import triggerFetch from '@wordpress/api-fetch';
+import triggerFetch from '@aarondewes/wp-api-fetch';
 
 const runPromise = async ( promise ) => {
 	jest.runAllTimers();

@@ -7,8 +7,8 @@ import { every, isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { PanelBody, ColorIndicator } from '@wordpress/components';
-import { sprintf, __ } from '@wordpress/i18n';
+import { PanelBody, ColorIndicator } from '@aarondewes/wp-components';
+import { sprintf, __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/e2e-test-utils",
+	"name": "@aarondewes/wp-e2e-test-utils",
 	"version": "5.3.0",
 	"description": "End-To-End (E2E) test utils for WordPress.",
 	"author": "The WordPress Contributors",
@@ -30,8 +30,8 @@
 	"module": "build-module/index.js",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/keycodes": "file:../keycodes",
-		"@wordpress/url": "file:../url",
+		"@aarondewes/wp-keycodes": "file:../keycodes",
+		"@aarondewes/wp-url": "file:../url",
 		"lodash": "^4.17.21",
 		"node-fetch": "^2.6.0"
 	},

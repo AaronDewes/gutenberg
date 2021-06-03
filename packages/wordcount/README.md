@@ -7,7 +7,7 @@ WordPress word count utility.
 Install the module
 
 ```bash
-npm install @wordpress/wordcount --save
+npm install @aarondewes/wp-wordcount --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -23,7 +23,7 @@ Count some words.
 _Usage_
 
 ```js
-import { count } from '@wordpress/wordcount';
+import { count } from '@aarondewes/wp-wordcount';
 const numberOfWords = count( 'Words to count', 'words', {} )
 ```
 

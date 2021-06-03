@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { getBlockType, withBlockContentContext } from '@wordpress/blocks';
+import { useSelect } from '@aarondewes/wp-data';
+import { getBlockType, withBlockContentContext } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

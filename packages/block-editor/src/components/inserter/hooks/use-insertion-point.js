@@ -6,11 +6,11 @@ import { castArray } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useDispatch, useSelect } from '@wordpress/data';
-import { isUnmodifiedDefaultBlock } from '@wordpress/blocks';
-import { _n, sprintf } from '@wordpress/i18n';
-import { speak } from '@wordpress/a11y';
-import { useCallback } from '@wordpress/element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { isUnmodifiedDefaultBlock } from '@aarondewes/wp-blocks';
+import { _n, sprintf } from '@aarondewes/wp-i18n';
+import { speak } from '@aarondewes/wp-a11y';
+import { useCallback } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -9,7 +9,7 @@ import EquivalentKeyMap from 'equivalent-key-map';
 /**
  * WordPress dependencies
  */
-import createReduxRoutineMiddleware from '@wordpress/redux-routine';
+import createReduxRoutineMiddleware from '@aarondewes/wp-redux-routine';
 
 /**
  * Internal dependencies
@@ -60,7 +60,7 @@ function createResolversCache() {
  *
  * @example
  * ```js
- * import { createReduxStore } from '@wordpress/data';
+ * import { createReduxStore } from '@aarondewes/wp-data';
  *
  * const store = createReduxStore( 'demo', {
  *     reducer: ( state = 'OK' ) => state,

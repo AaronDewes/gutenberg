@@ -10,7 +10,7 @@ import {
 	pressKeyWithModifier,
 	pressKeyTimes,
 	insertBlock,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const addThreeParagraphsToNewPost = async () => {
 	await createNewPost();

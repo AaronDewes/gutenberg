@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { column as icon } from '@wordpress/icons';
+import { column as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

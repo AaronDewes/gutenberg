@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { ToolbarDropdownMenu, ToolbarGroup } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { ToolbarDropdownMenu, ToolbarGroup } from '@aarondewes/wp-components';
 import {
 	positionCenter,
 	positionLeft,
 	positionRight,
 	stretchFullWidth,
 	stretchWide,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

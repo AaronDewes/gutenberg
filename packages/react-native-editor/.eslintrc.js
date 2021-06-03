@@ -8,7 +8,7 @@ module.exports = {
 		__DEV__: true,
 	},
 	plugins: [ 'react', 'jest' ],
-	extends: [ 'plugin:@wordpress/eslint-plugin/recommended' ],
+	extends: [ 'plugin:@aarondewes/wp-eslint-plugin/recommended' ],
 	settings: {
 		react: {
 			pragma: 'React',

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import '@wordpress/block-editor';
-import '@wordpress/core-data';
+import '@aarondewes/wp-block-editor';
+import '@aarondewes/wp-core-data';
 
 export { store } from './store';
 export * from './components';

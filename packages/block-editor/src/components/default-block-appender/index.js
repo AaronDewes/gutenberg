@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { compose } from '@wordpress/compose';
-import { getDefaultBlockName } from '@wordpress/blocks';
-import { decodeEntities } from '@wordpress/html-entities';
-import { withSelect, withDispatch } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { compose } from '@aarondewes/wp-compose';
+import { getDefaultBlockName } from '@aarondewes/wp-blocks';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

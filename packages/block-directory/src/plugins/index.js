@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { registerPlugin } from '@wordpress/plugins';
-import { addFilter } from '@wordpress/hooks';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import apiFetch from '@wordpress/api-fetch';
-import { addQueryArgs, prependHTTP } from '@wordpress/url';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { addQueryArgs, prependHTTP } from '@aarondewes/wp-url';
 
 /**
  * @typedef WPRemoteUrlData
@@ -19,7 +19,7 @@ import { addQueryArgs, prependHTTP } from '@wordpress/url';
  *
  * @example
  * ```js
- * import { __experimentalFetchRemoteUrlData as fetchRemoteUrlData } from '@wordpress/core-data';
+ * import { __experimentalFetchRemoteUrlData as fetchRemoteUrlData } from '@aarondewes/wp-core-data';
  *
  * //...
  *

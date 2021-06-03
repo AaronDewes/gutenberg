@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useEffect } from '@wordpress/element';
+import { useRef, useEffect } from '@aarondewes/wp-element';
 
 /**
  * A `React.useEffect` that will not run on the first render.

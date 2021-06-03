@@ -16,7 +16,7 @@ The `BlockAlignmentToolbar` component is used to render block alignment options 
 Renders a block alignment toolbar with alignments options.
 
 ```jsx
-import { BlockAlignmentToolbar } from '@wordpress/block-editor';
+import { BlockAlignmentToolbar } from '@aarondewes/wp-block-editor';
 
 const MyBlockAlignmentToolbar = () => (
 	<BlockControls>

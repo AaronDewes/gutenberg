@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Fragment } from '@wordpress/element';
+import { Fragment } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

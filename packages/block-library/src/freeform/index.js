@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { classic as icon } from '@wordpress/icons';
+import { classic as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

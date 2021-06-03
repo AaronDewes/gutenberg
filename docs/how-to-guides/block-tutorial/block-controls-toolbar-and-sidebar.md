@@ -14,14 +14,14 @@ You can also customize the toolbar to include controls specific to your block ty
 {% ESNext %}
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
+import { registerBlockType } from '@aarondewes/wp-blocks';
 
 import {
 	useBlockProps,
 	RichText,
 	AlignmentToolbar,
 	BlockControls,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'gutenberg-examples/example-04-controls-esnext', {
 	apiVersion: 2,
@@ -197,15 +197,15 @@ Similar to rendering a toolbar, if you include an `InspectorControls` element in
 The following example adds 2 color palettes to the sidebar, one for the text color and one for the background color.
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
-import { TextControl } from '@wordpress/components';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { TextControl } from '@aarondewes/wp-components';
 
 import {
 	useBlockProps,
 	ColorPalette,
 	InspectorControls,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'create-block/gutenpride', {
 	apiVersion: 2,

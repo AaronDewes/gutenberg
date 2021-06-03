@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import apiFetch from '@wordpress/api-fetch';
-import { useDispatch } from '@wordpress/data';
-import { useCallback, useMemo, useState } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
-import { store as noticesStore } from '@wordpress/notices';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { useDispatch } from '@aarondewes/wp-data';
+import { useCallback, useMemo, useState } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 export default function useSaveImage( {
 	crop,

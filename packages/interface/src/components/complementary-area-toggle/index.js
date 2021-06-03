@@ -6,8 +6,8 @@ import { omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
+import { Button } from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

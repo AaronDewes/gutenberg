@@ -22,12 +22,12 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __, _x, sprintf } from '@wordpress/i18n';
-import { useState, useEffect, Platform } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useBlockProps } from '@wordpress/block-editor';
-import { store as coreStore } from '@wordpress/core-data';
-import { View } from '@wordpress/primitives';
+import { __, _x, sprintf } from '@aarondewes/wp-i18n';
+import { useState, useEffect, Platform } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { View } from '@aarondewes/wp-primitives';
 
 function getResponsiveHelp( checked ) {
 	return checked

@@ -6,7 +6,7 @@ import {
 	createNewPost,
 	deactivatePlugin,
 	openGlobalBlockInserter,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Register block type hooks', () => {
 	beforeEach( async () => {

@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { _n, sprintf } from '@wordpress/i18n';
-import { Flex, FlexItem } from '@wordpress/components';
-import { dragHandle } from '@wordpress/icons';
+import { _n, sprintf } from '@aarondewes/wp-i18n';
+import { Flex, FlexItem } from '@aarondewes/wp-components';
+import { dragHandle } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

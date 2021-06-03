@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __, _x } from '@wordpress/i18n';
-import { Button, Placeholder, ExternalLink } from '@wordpress/components';
-import { BlockIcon } from '@wordpress/block-editor';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { Button, Placeholder, ExternalLink } from '@aarondewes/wp-components';
+import { BlockIcon } from '@aarondewes/wp-block-editor';
 
 const EmbedPlaceholder = ( {
 	icon,

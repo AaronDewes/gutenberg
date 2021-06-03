@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { sprintf, _n } from '@wordpress/i18n';
-import { withSelect } from '@wordpress/data';
-import { serialize } from '@wordpress/blocks';
-import { count as wordCount } from '@wordpress/wordcount';
-import { stack } from '@wordpress/icons';
+import { sprintf, _n } from '@aarondewes/wp-i18n';
+import { withSelect } from '@aarondewes/wp-data';
+import { serialize } from '@aarondewes/wp-blocks';
+import { count as wordCount } from '@aarondewes/wp-wordcount';
+import { stack } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

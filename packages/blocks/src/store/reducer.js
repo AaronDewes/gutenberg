@@ -16,8 +16,8 @@ import {
 /**
  * WordPress dependencies
  */
-import { combineReducers } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
+import { combineReducers } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * @typedef {Object} WPBlockCategory

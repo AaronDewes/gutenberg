@@ -6,9 +6,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { Spinner } from '@wordpress/components';
-import { withSelect } from '@wordpress/data';
+import { Component } from '@aarondewes/wp-element';
+import { Spinner } from '@aarondewes/wp-components';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

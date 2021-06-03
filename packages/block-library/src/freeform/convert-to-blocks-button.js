@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { ToolbarButton } from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { rawHandler, serialize } from '@wordpress/blocks';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { ToolbarButton } from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { rawHandler, serialize } from '@aarondewes/wp-blocks';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 const ConvertToBlocksButton = ( { clientId } ) => {
 	const { replaceBlocks } = useDispatch( blockEditorStore );

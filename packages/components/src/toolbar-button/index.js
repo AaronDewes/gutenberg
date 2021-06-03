@@ -5,7 +5,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useContext, forwardRef } from '@wordpress/element';
+import { useContext, forwardRef } from '@aarondewes/wp-element';
 /**
  * Internal dependencies
  */

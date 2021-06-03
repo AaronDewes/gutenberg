@@ -6,8 +6,8 @@ import { Text, TouchableOpacity, View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { Icon, minus, plus } from '@wordpress/icons';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { Icon, minus, plus } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

@@ -9,7 +9,7 @@ Wrap your original component with `withFocusOutside`, defining a `handleFocusOut
 **Note:** `withFocusOutside` must only be used to wrap the `Component` class.
 
 ```jsx
-import { withFocusOutside, TextControl } from '@wordpress/components';
+import { withFocusOutside, TextControl } from '@aarondewes/wp-components';
 
 const MyComponentWithFocusOutside = withFocusOutside(
 	class extends React.Component {

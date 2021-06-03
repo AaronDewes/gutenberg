@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { createContext, RawHTML } from '@wordpress/element';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { createContext, RawHTML } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

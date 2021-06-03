@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { unregisterBlockType, registerBlockType } from '@wordpress/blocks';
+import { unregisterBlockType, registerBlockType } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

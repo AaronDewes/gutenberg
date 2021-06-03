@@ -6,8 +6,8 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { ToggleControl, VisuallyHidden } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { ToggleControl, VisuallyHidden } from '@aarondewes/wp-components';
 
 const defaultSettings = [
 	{

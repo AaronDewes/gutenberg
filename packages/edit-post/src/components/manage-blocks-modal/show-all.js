@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { FormToggle } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { FormToggle } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function BlockManagerShowAll( { checked, onChange } ) {
 	const instanceId = useInstanceId( BlockManagerShowAll );

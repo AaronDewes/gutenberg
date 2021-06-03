@@ -6,15 +6,15 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useEntityProp } from '@wordpress/core-data';
-import { useState } from '@wordpress/element';
-import { __experimentalGetSettings, dateI18n } from '@wordpress/date';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { useState } from '@aarondewes/wp-element';
+import { __experimentalGetSettings, dateI18n } from '@aarondewes/wp-date';
 import {
 	AlignmentControl,
 	BlockControls,
 	InspectorControls,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	ToolbarButton,
 	ToggleControl,
@@ -22,9 +22,9 @@ import {
 	DateTimePicker,
 	PanelBody,
 	CustomSelectControl,
-} from '@wordpress/components';
-import { __, sprintf } from '@wordpress/i18n';
-import { edit } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { edit } from '@aarondewes/wp-icons';
 
 export default function PostDateEdit( { attributes, context, setAttributes } ) {
 	const { textAlign, format, isLink } = attributes;

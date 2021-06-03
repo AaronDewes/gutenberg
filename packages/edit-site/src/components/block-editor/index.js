@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useCallback, useRef } from '@wordpress/element';
-import { useEntityBlockEditor } from '@wordpress/core-data';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useCallback, useRef } from '@aarondewes/wp-element';
+import { useEntityBlockEditor } from '@aarondewes/wp-core-data';
 import {
 	BlockEditorProvider,
 	BlockEditorKeyboardShortcuts,
@@ -18,8 +18,8 @@ import {
 	__unstableUseMouseMoveTypingReset as useMouseMoveTypingReset,
 	__unstableEditorStyles as EditorStyles,
 	__unstableIframe as Iframe,
-} from '@wordpress/block-editor';
-import { useMergeRefs } from '@wordpress/compose';
+} from '@aarondewes/wp-block-editor';
+import { useMergeRefs } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

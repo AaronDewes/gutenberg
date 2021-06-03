@@ -6,8 +6,8 @@ import { omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { check } from '@wordpress/icons';
-import { MenuItem } from '@wordpress/components';
+import { check } from '@aarondewes/wp-icons';
+import { MenuItem } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

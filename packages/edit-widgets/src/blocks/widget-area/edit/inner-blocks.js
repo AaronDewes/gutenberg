@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useEntityBlockEditor } from '@wordpress/core-data';
-import { InnerBlocks } from '@wordpress/block-editor';
+import { useEntityBlockEditor } from '@aarondewes/wp-core-data';
+import { InnerBlocks } from '@aarondewes/wp-block-editor';
 
 export default function WidgetAreaInnerBlocks() {
 	const [ blocks, onInput, onChange ] = useEntityBlockEditor(

@@ -41,8 +41,8 @@ Toolbars that cannot be selected can either be given a disabled state, or be hid
 ### Usage
 
 ```jsx
-import { Toolbar, ToolbarButton } from '@wordpress/components';
-import { formatBold, formatItalic, link } from '@wordpress/icons';
+import { Toolbar, ToolbarButton } from '@aarondewes/wp-components';
+import { formatBold, formatItalic, link } from '@aarondewes/wp-icons';
 
 function MyToolbar() {
 	return (

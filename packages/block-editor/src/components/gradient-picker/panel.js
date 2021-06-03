@@ -6,8 +6,8 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { PanelBody } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { PanelBody } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

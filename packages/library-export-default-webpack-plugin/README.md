@@ -7,7 +7,7 @@ Webpack plugin for exporting `default` property for selected libraries which use
 Install the module
 
 ```bash
-npm install @wordpress/library-export-default-webpack-plugin --save
+npm install @aarondewes/wp-library-export-default-webpack-plugin --save
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It also requires webpack 4.0 and newer. It is not compatible with older versions.
@@ -19,7 +19,7 @@ Construct an instance of `LibraryExportDefaultPlugin` in your Webpack configurat
 The following example selects `boo` entry point to be updated by the plugin. When compiled, the built file will ensure that `default` value exported for the chunk will be assigned to the global variable `wp.boo`. `foo` chunk will remain untouched.
 
 ```js
-const LibraryExportDefaultPlugin = require( '@wordpress/library-export-default-webpack-plugin' );
+const LibraryExportDefaultPlugin = require( '@aarondewes/wp-library-export-default-webpack-plugin' );
 
 module.exports = {
 	// ...

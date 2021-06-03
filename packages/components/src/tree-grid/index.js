@@ -6,9 +6,9 @@ import { includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { focus } from '@wordpress/dom';
-import { forwardRef, useCallback } from '@wordpress/element';
-import { UP, DOWN, LEFT, RIGHT } from '@wordpress/keycodes';
+import { focus } from '@aarondewes/wp-dom';
+import { forwardRef, useCallback } from '@aarondewes/wp-element';
+import { UP, DOWN, LEFT, RIGHT } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

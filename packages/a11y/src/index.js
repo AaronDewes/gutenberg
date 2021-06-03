@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import domReady from '@wordpress/dom-ready';
+import domReady from '@aarondewes/wp-dom-ready';
 
 /**
  * Internal dependencies
@@ -48,7 +48,7 @@ domReady( setup );
  *
  * @example
  * ```js
- * import { speak } from '@wordpress/a11y';
+ * import { speak } from '@aarondewes/wp-a11y';
  *
  * // For polite messages that shouldn't interrupt what screen readers are currently announcing.
  * speak( 'The message you want to send to the ARIA live region' );

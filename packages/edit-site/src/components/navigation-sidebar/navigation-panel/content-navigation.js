@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
+import { useState } from '@aarondewes/wp-element';
 import {
 	__experimentalNavigation as Navigation,
 	__experimentalNavigationMenu as NavigationMenu,
 	__experimentalNavigationItem as NavigationItem,
-} from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

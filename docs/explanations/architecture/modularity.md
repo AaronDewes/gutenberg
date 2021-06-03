@@ -27,11 +27,11 @@ Third-party developers can use these production packages in two different ways:
 -   If you're building a JavaScript application, website, page that runs outside of the context of WordPress, you can consume these packages like any other JavaScript package in the npm registry.
 
 ```
-npm install @wordpress/components
+npm install @aarondewes/wp-components
 ```
 
 ```js
-import { Button } from '@wordpress/components';
+import { Button } from '@aarondewes/wp-components';
 
 function MyApp() {
 	return <Button>Nice looking button</Button>;
@@ -55,7 +55,7 @@ function MyApp() {
 }
 ```
 
-Script dependencies definition can be a tedious task for developers. Mistakes and oversight can happen easily. If you want to learn how you can automate this task. Check the [@wordpress/scripts](https://developer.wordpress.org/block-editor/packages/packages-scripts/#build) and [@wordpress/dependency-extraction-webpack-plugin](https://developer.wordpress.org/block-editor/packages/packages-dependency-extraction-webpack-plugin/) documentation.
+Script dependencies definition can be a tedious task for developers. Mistakes and oversight can happen easily. If you want to learn how you can automate this task. Check the [@aarondewes/wp-scripts](https://developer.wordpress.org/block-editor/packages/packages-scripts/#build) and [@aarondewes/wp-dependency-extraction-webpack-plugin](https://developer.wordpress.org/block-editor/packages/packages-dependency-extraction-webpack-plugin/) documentation.
 
 #### Packages with stylesheets
 
@@ -68,7 +68,7 @@ In the context of existing WordPress pages, if you omit to define the scripts or
 
 #### Packages with data stores
 
-Some WordPress production packages define data stores to handle their state. These stores can also be used by third-party plugins and themes to retrieve data and to manipulate it. The name of these data stores is also normalized following this format `core/package-name` (E.g. the `@wordpress/block-editor` package defines and uses the `core/block-editor` data store).
+Some WordPress production packages define data stores to handle their state. These stores can also be used by third-party plugins and themes to retrieve data and to manipulate it. The name of these data stores is also normalized following this format `core/package-name` (E.g. the `@aarondewes/wp-block-editor` package defines and uses the `core/block-editor` data store).
 
 If you're using one of these stores to access and manipulate WordPress data in your plugins, don't forget to add the corresponding WordPress script to your own script dependencies for your plugin to work properly. (For instance, if you're retrieving data from the `core/block-editor` store, you should add the `wp-block-editor` package to your script dependencies like shown above).
 
@@ -80,19 +80,19 @@ These are packages used in development mode to help developers with daily tasks 
 
 ### What's the difference between the different editor packages? What's the purpose of each package?
 
-It's often surprising to new contributors to discover that the post editor is constructed as a layered abstraction of three separate packages `@wordpress/edit-post`, `@wordpress/editor`, and `@wordpress/block-editor`.
+It's often surprising to new contributors to discover that the post editor is constructed as a layered abstraction of three separate packages `@aarondewes/wp-edit-post`, `@aarondewes/wp-editor`, and `@aarondewes/wp-block-editor`.
 
 The above [Why?](#why) section should provide some context for how individual packages aim to satisfy specific requirements. That applies to these packages as well:
 
--   `@wordpress/block-editor` provides components for implementing a block editor, operating on a primitive value of an array of block objects. It makes no assumptions for how this value is saved, and has no awareness (or requirement) of a WordPress site.
--   `@wordpress/editor` is the enhanced version of the block editor for WordPress posts. It utilizes components from the `@wordpress/block-editor` package. Having an awareness of the concept of a WordPress post, it associates the loading and saving mechanism of the value representing blocks to a post and its content. It also provides various components relevant for working with a post object in the context of an editor (e.g., a post title input component). This package can support editing posts of any post type and does not assume that rendering happens in any particular WordPress screen or layout arrangement.
--   `@wordpress/edit-post` is the implementation of the "New Post" ("Edit Post") screen in the WordPress admin. It is responsible for the layout of the various components provided by `@wordpress/editor` and `@wordpress/block-editor`, with full awareness of how it is presented in the specific screen in the WordPress administrative dashboard.
+-   `@aarondewes/wp-block-editor` provides components for implementing a block editor, operating on a primitive value of an array of block objects. It makes no assumptions for how this value is saved, and has no awareness (or requirement) of a WordPress site.
+-   `@aarondewes/wp-editor` is the enhanced version of the block editor for WordPress posts. It utilizes components from the `@aarondewes/wp-block-editor` package. Having an awareness of the concept of a WordPress post, it associates the loading and saving mechanism of the value representing blocks to a post and its content. It also provides various components relevant for working with a post object in the context of an editor (e.g., a post title input component). This package can support editing posts of any post type and does not assume that rendering happens in any particular WordPress screen or layout arrangement.
+-   `@aarondewes/wp-edit-post` is the implementation of the "New Post" ("Edit Post") screen in the WordPress admin. It is responsible for the layout of the various components provided by `@aarondewes/wp-editor` and `@aarondewes/wp-block-editor`, with full awareness of how it is presented in the specific screen in the WordPress administrative dashboard.
 
 Structured this way, these packages can be used in a variety of combinations outside the use-case of the "New Post" screen:
 
--   A `@wordpress/edit-site` or `@wordpress/edit-widgets` package can serve as similar implementations of a "Site Editor" or "Widgets Editor", in much the same way as `@wordpress/edit-post`.
--   `@wordpress/editor` could be used in the implementation of the "Reusable Block" block, since it is essentially a nested block editor associated with the post type `wp_block`.
--   `@wordpress/block-editor` could be used independently from WordPress, or with a completely different save mechanism. For example, it could be used for a comments editor for posts of a site.
+-   A `@aarondewes/wp-edit-site` or `@aarondewes/wp-edit-widgets` package can serve as similar implementations of a "Site Editor" or "Widgets Editor", in much the same way as `@aarondewes/wp-edit-post`.
+-   `@aarondewes/wp-editor` could be used in the implementation of the "Reusable Block" block, since it is essentially a nested block editor associated with the post type `wp_block`.
+-   `@aarondewes/wp-block-editor` could be used independently from WordPress, or with a completely different save mechanism. For example, it could be used for a comments editor for posts of a site.
 
 ## Going further
 

@@ -7,7 +7,7 @@ import { isPlainObject } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useMemo, Children, cloneElement } from '@wordpress/element';
+import { useMemo, Children, cloneElement } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

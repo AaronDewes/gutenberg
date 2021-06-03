@@ -17,27 +17,27 @@ import {
 /**
  * WordPress dependencies
  */
-import { compose } from '@wordpress/compose';
+import { compose } from '@aarondewes/wp-compose';
 import {
 	PanelBody,
 	SelectControl,
 	ToggleControl,
 	withNotices,
 	RangeControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	MediaPlaceholder,
 	InspectorControls,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { Platform, useEffect, useState, useMemo } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { getBlobByURL, isBlobURL, revokeBlobURL } from '@wordpress/blob';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { withViewportMatch } from '@wordpress/viewport';
-import { View } from '@wordpress/primitives';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { Platform, useEffect, useState, useMemo } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { getBlobByURL, isBlobURL, revokeBlobURL } from '@aarondewes/wp-blob';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { withViewportMatch } from '@aarondewes/wp-viewport';
+import { View } from '@aarondewes/wp-primitives';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

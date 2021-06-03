@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { compose, ifCondition } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
+import { compose, ifCondition } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

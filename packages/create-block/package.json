@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/create-block",
+	"name": "@aarondewes/wp-create-block",
 	"version": "2.3.2",
 	"description": "Generates PHP, JS and CSS code for registering a block for a WordPress plugin.",
 	"author": "The WordPress Contributors",
@@ -31,7 +31,7 @@
 		"wp-create-block": "./index.js"
 	},
 	"dependencies": {
-		"@wordpress/lazy-import": "file:../lazy-import",
+		"@aarondewes/wp-lazy-import": "file:../lazy-import",
 		"chalk": "^4.0.0",
 		"check-node-version": "^4.1.0",
 		"commander": "^4.1.0",

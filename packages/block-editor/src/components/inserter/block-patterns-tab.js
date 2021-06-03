@@ -6,9 +6,9 @@ import { fromPairs } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useMemo, useCallback, useEffect } from '@wordpress/element';
-import { _x } from '@wordpress/i18n';
-import { useAsyncList } from '@wordpress/compose';
+import { useMemo, useCallback, useEffect } from '@aarondewes/wp-element';
+import { _x } from '@aarondewes/wp-i18n';
+import { useAsyncList } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

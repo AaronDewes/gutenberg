@@ -55,7 +55,7 @@
 
 ### Polish
 
--   Moved `@WordPress/packages` repository to `@WordPress/gutenberg` ([#7805](https://github.com/WordPress/gutenberg/pull/7805))
+-   Moved `@aarondewes/wp-packages` repository to `@aarondewes/wp-gutenberg` ([#7805](https://github.com/WordPress/gutenberg/pull/7805))
 
 ## 1.1.8 (2018-05-08)
 

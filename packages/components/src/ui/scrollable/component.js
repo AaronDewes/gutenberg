@@ -9,7 +9,7 @@ import { useScrollable } from './hook';
  *
  * @example
  * ```jsx
- * import { Scrollable } from `@wordpress/components/ui`;
+ * import { Scrollable } from `@aarondewes/wp-components/ui`;
  
  * function Example() {
  * 	return (

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-const { isBlobURL } = require( '@wordpress/blob' );
+const { isBlobURL } = require( '@aarondewes/wp-blob' );
 
 /**
  * External dependencies

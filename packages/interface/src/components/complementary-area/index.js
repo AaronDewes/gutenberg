@@ -6,12 +6,12 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Button, Panel, Slot, Fill } from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { check, starEmpty, starFilled } from '@wordpress/icons';
-import { useEffect, useRef } from '@wordpress/element';
-import { store as viewportStore } from '@wordpress/viewport';
+import { Button, Panel, Slot, Fill } from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { check, starEmpty, starFilled } from '@aarondewes/wp-icons';
+import { useEffect, useRef } from '@aarondewes/wp-element';
+import { store as viewportStore } from '@aarondewes/wp-viewport';
 
 /**
  * Internal dependencies

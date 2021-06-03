@@ -6,10 +6,10 @@ import { useMemoOne } from 'use-memo-one';
 /**
  * WordPress dependencies
  */
-import { createQueue } from '@wordpress/priority-queue';
-import { useRef, useCallback, useReducer, useMemo } from '@wordpress/element';
-import isShallowEqual from '@wordpress/is-shallow-equal';
-import { useIsomorphicLayoutEffect } from '@wordpress/compose';
+import { createQueue } from '@aarondewes/wp-priority-queue';
+import { useRef, useCallback, useReducer, useMemo } from '@aarondewes/wp-element';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
+import { useIsomorphicLayoutEffect } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies
@@ -44,7 +44,7 @@ const renderQueue = createQueue();
  *
  * @example
  * ```js
- * import { useSelect } from '@wordpress/data';
+ * import { useSelect } from '@aarondewes/wp-data';
  *
  * function HammerPriceDisplay( { currency } ) {
  *   const price = useSelect( ( select ) => {
@@ -74,7 +74,7 @@ const renderQueue = createQueue();
  * function because your component won't re-render on a data change.**
  *
  * ```js
- * import { useSelect } from '@wordpress/data';
+ * import { useSelect } from '@aarondewes/wp-data';
  *
  * function Paste( { children } ) {
  *   const { getSettings } = useSelect( 'my-shop' );

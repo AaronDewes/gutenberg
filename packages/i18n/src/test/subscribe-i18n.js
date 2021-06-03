@@ -6,7 +6,7 @@ import { createI18n } from '..';
 /**
  * WordPress dependencies
  */
-import { createHooks } from '@wordpress/hooks';
+import { createHooks } from '@aarondewes/wp-hooks';
 
 describe( 'i18n updates', () => {
 	it( 'updates on setLocaleData', () => {

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { PanelBody } from '@wordpress/components';
-import { PostLastRevision, PostLastRevisionCheck } from '@wordpress/editor';
+import { PanelBody } from '@aarondewes/wp-components';
+import { PostLastRevision, PostLastRevisionCheck } from '@aarondewes/wp-editor';
 
 function LastRevision() {
 	return (

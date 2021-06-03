@@ -9,14 +9,14 @@ It has similar features to the [DropdownMenu](/packages/components/src/dropdown-
 To create general interfaces, you'll want to render ToolbarButton in a [Toolbar](/packages/components/src/toolbar/README.md) component.
 
 ```jsx
-import { Toolbar, ToolbarDropdownMenu } from '@wordpress/components';
+import { Toolbar, ToolbarDropdownMenu } from '@aarondewes/wp-components';
 import {
 	more,
 	arrowLeft,
 	arrowRight,
 	arrowUp,
 	arrowDown,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 function MyToolbar() {
 	return (
@@ -57,15 +57,15 @@ function MyToolbar() {
 If you're working on a custom block and you want to add controls to the block toolbar, you should use [BlockControls](/docs/how-to-guides/block-tutorial/block-controls-toolbar-and-sidebar.md) instead.
 
 ```jsx
-import { BlockControls } from '@wordpress/block-editor';
-import { Toolbar, ToolbarDropdownMenu } from '@wordpress/components';
+import { BlockControls } from '@aarondewes/wp-block-editor';
+import { Toolbar, ToolbarDropdownMenu } from '@aarondewes/wp-components';
 import {
 	more,
 	arrowLeft,
 	arrowRight,
 	arrowUp,
 	arrowDown,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 function Edit() {
 	return (

@@ -8,8 +8,8 @@ import {
 	registerBlockType,
 	serialize,
 	unregisterBlockType,
-} from '@wordpress/blocks';
-import { renderToString } from '@wordpress/element';
+} from '@aarondewes/wp-blocks';
+import { renderToString } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

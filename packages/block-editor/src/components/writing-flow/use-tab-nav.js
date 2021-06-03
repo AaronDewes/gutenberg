@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { focus } from '@wordpress/dom';
-import { TAB, ESCAPE } from '@wordpress/keycodes';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useRefEffect, useMergeRefs } from '@wordpress/compose';
-import { useRef } from '@wordpress/element';
+import { focus } from '@aarondewes/wp-dom';
+import { TAB, ESCAPE } from '@aarondewes/wp-keycodes';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useRefEffect, useMergeRefs } from '@aarondewes/wp-compose';
+import { useRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

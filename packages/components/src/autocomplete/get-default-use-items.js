@@ -6,7 +6,7 @@ import { debounce, deburr, escapeRegExp } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useLayoutEffect, useState } from '@wordpress/element';
+import { useLayoutEffect, useState } from '@aarondewes/wp-element';
 
 function filterOptions( search, options = [], maxResults = 10 ) {
 	const filtered = [];

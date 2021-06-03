@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
-import { useBlockProps } from '@wordpress/block-editor';
-import { store as coreStore } from '@wordpress/core-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 export default function Edit( { attributes, context } ) {
 	const { className } = attributes;

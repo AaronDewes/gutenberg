@@ -6,7 +6,7 @@ import {
 	insertBlock,
 	pressKeyWithModifier,
 	saveDraft,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Post Title block', () => {
 	beforeEach( async () => {

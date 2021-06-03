@@ -7,9 +7,9 @@ import { debounce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { BottomSheet, BottomSheetConsumer } from '@wordpress/components';
-import { useState, useEffect, useRef } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
+import { BottomSheet, BottomSheetConsumer } from '@aarondewes/wp-components';
+import { useState, useEffect, useRef } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

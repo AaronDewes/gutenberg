@@ -22,8 +22,8 @@ import {
 	useMemo,
 	useRef,
 	useState,
-} from '@wordpress/element';
-import { usePrevious } from '@wordpress/compose';
+} from '@aarondewes/wp-element';
+import { usePrevious } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

@@ -21,9 +21,9 @@ The following code example shows how to create a dynamic block that shows only t
 {% ESNext %}
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
-import { withSelect } from '@wordpress/data';
-import { useBlockProps } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { withSelect } from '@aarondewes/wp-data';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'gutenberg-examples/example-dynamic', {
 	apiVersion: 2,
@@ -160,9 +160,9 @@ _Server-side render is meant as a fallback; client-side rendering in JavaScript 
 {% ESNext %}
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
-import ServerSideRender from '@wordpress/server-side-render';
-import { useBlockProps } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import ServerSideRender from '@aarondewes/wp-server-side-render';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'gutenberg-examples/example-dynamic', {
 	apiVersion: 2,

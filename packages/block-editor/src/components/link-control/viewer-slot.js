@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createSlotFill } from '@wordpress/components';
+import { createSlotFill } from '@aarondewes/wp-components';
 
 const { Slot: ViewerSlot, Fill: ViewerFill } = createSlotFill(
 	'BlockEditorLinkControlViewer'

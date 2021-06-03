@@ -5,17 +5,17 @@ import { Platform, Clipboard } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { compose } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
-import { isURL, prependHTTP } from '@wordpress/url';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
+import { isURL, prependHTTP } from '@aarondewes/wp-url';
 import {
 	useEffect,
 	useState,
 	useRef,
 	useContext,
 	useCallback,
-} from '@wordpress/element';
-import { link, external } from '@wordpress/icons';
+} from '@aarondewes/wp-element';
+import { link, external } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

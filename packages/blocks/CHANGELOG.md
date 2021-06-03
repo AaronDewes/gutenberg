@@ -39,7 +39,7 @@
 
 ### New Feature
 
--   Added a store definition `store` for the blocks namespace to use with `@wordpress/data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
+-   Added a store definition `store` for the blocks namespace to use with `@aarondewes/wp-data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
 
 ## 6.13.0 (2020-04-01)
 
@@ -106,7 +106,7 @@
 ## 5.2.0 (2018-11-09)
 
 -   Paste: Google Docs: fix nested formatting, sub, sup and del.
--   Expose @wordpress/editor to Gutenberg mobile.
+-   Expose @aarondewes/wp-editor to Gutenberg mobile.
 -   Separate Paste Handler.
 
 ## 5.1.2 (2018-11-03)

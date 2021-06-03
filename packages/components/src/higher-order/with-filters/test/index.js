@@ -8,8 +8,8 @@ import ReactDOM from 'react-dom';
 /**
  * WordPress dependencies
  */
-import { addFilter, removeAllFilters, removeFilter } from '@wordpress/hooks';
-import { Component } from '@wordpress/element';
+import { addFilter, removeAllFilters, removeFilter } from '@aarondewes/wp-hooks';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

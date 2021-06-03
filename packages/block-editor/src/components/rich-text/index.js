@@ -7,19 +7,19 @@ import { omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { RawHTML, useRef, useCallback, forwardRef } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { children as childrenSource } from '@wordpress/blocks';
-import { useInstanceId, useMergeRefs } from '@wordpress/compose';
+import { RawHTML, useRef, useCallback, forwardRef } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { children as childrenSource } from '@aarondewes/wp-blocks';
+import { useInstanceId, useMergeRefs } from '@aarondewes/wp-compose';
 import {
 	__unstableUseRichText as useRichText,
 	__unstableCreateElement,
 	isEmpty,
 	isCollapsed,
 	removeFormat,
-} from '@wordpress/rich-text';
-import deprecated from '@wordpress/deprecated';
-import { BACKSPACE, DELETE } from '@wordpress/keycodes';
+} from '@aarondewes/wp-rich-text';
+import deprecated from '@aarondewes/wp-deprecated';
+import { BACKSPACE, DELETE } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

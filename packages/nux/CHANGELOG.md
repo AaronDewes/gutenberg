@@ -17,11 +17,11 @@
 
 ### New Feature
 
--   Added a store definition `store` for the core data namespace to use with `@wordpress/data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
+-   Added a store definition `store` for the core data namespace to use with `@aarondewes/wp-data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
 
 # 3.1.0 (2019-06-03)
 
--   The `@wordpress/nux` package has been deprecated. Please use the `Guide` component in `@wordpress/components` to show a user guide.
+-   The `@aarondewes/wp-nux` package has been deprecated. Please use the `Guide` component in `@aarondewes/wp-components` to show a user guide.
 
 ## 3.0.6 (2019-01-03)
 

@@ -18,7 +18,7 @@ The block breadcrumb trail displays the hierarchy of the current block selection
 Renders a block breadcrumb with default style.
 
 ```jsx
-import { BlockBreadcrumb } from '@wordpress/block-editor';
+import { BlockBreadcrumb } from '@aarondewes/wp-block-editor';
 
 const MyBreadcrumb = () => <BlockBreadcrumb />;
 ```

@@ -7,8 +7,8 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { SHIFT } from '@wordpress/keycodes';
+import { useState } from '@aarondewes/wp-element';
+import { SHIFT } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

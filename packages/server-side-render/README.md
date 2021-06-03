@@ -15,7 +15,7 @@ New blocks should be built in conjunction with any necessary REST API endpoints,
 Install the module
 
 ```bash
-npm install @wordpress/server-side-render --save
+npm install @aarondewes/wp-server-side-render --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -91,7 +91,7 @@ This is a [render prop](https://reactjs.org/docs/render-props.html). While the r
 Render core/archives preview.
 
 ```jsx
-import ServerSideRender from '@wordpress/server-side-render';
+import ServerSideRender from '@aarondewes/wp-server-side-render';
 
 const MyServerSideRender = () => (
 	<ServerSideRender

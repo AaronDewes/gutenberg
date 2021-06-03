@@ -14,7 +14,7 @@ import { useHStack } from './hook';
  * import {
  * 	__experimentalHStack as HStack,
  * 	__experimentalText as Text,
- * } from `@wordpress/components`;
+ * } from `@aarondewes/wp-components`;
  *
  * function Example() {
  * 	return (

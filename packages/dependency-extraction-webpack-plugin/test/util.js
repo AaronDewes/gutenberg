@@ -36,7 +36,7 @@ describe( 'defaultRequestToExternal', () => {
 	} );
 
 	test( 'Handles known @wordpress request', () => {
-		expect( defaultRequestToExternal( '@wordpress/i18n' ) ).toEqual( [
+		expect( defaultRequestToExternal( '@aarondewes/wp-i18n' ) ).toEqual( [
 			'wp',
 			'i18n',
 		] );
@@ -44,7 +44,7 @@ describe( 'defaultRequestToExternal', () => {
 
 	test( 'Handles future @wordpress namespace packages', () => {
 		expect(
-			defaultRequestToExternal( '@wordpress/some-future-package' )
+			defaultRequestToExternal( '@aarondewes/wp-some-future-package' )
 		).toEqual( [ 'wp', 'someFuturePackage' ] );
 	} );
 } );
@@ -55,12 +55,12 @@ describe( 'defaultRequestToHandle', () => {
 	} );
 
 	test( 'Handles known @wordpress request', () => {
-		expect( defaultRequestToHandle( '@wordpress/i18n' ) ).toBe( 'wp-i18n' );
+		expect( defaultRequestToHandle( '@aarondewes/wp-i18n' ) ).toBe( 'wp-i18n' );
 	} );
 
 	test( 'Handles  @wordpress request', () => {
 		expect(
-			defaultRequestToHandle( '@wordpress/some-future-package' )
+			defaultRequestToHandle( '@aarondewes/wp-some-future-package' )
 		).toBe( 'wp-some-future-package' );
 	} );
 } );

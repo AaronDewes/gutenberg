@@ -4,7 +4,7 @@
 import {
 	__experimentalUseCustomUnits as useCustomUnits,
 	__experimentalUnitControl as BaseUnitControl,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

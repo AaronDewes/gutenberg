@@ -6,10 +6,10 @@ import { startCase } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { store as coreDataStore } from '@wordpress/core-data';
-import { select } from '@wordpress/data';
-import { layout } from '@wordpress/icons';
-import { addFilter } from '@wordpress/hooks';
+import { store as coreDataStore } from '@aarondewes/wp-core-data';
+import { select } from '@aarondewes/wp-data';
+import { layout } from '@aarondewes/wp-icons';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

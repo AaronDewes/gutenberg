@@ -6,9 +6,9 @@ import { find } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, isRTL } from '@wordpress/i18n';
-import { ToolbarDropdownMenu, ToolbarGroup } from '@wordpress/components';
-import { alignLeft, alignRight, alignCenter } from '@wordpress/icons';
+import { __, isRTL } from '@aarondewes/wp-i18n';
+import { ToolbarDropdownMenu, ToolbarGroup } from '@aarondewes/wp-components';
+import { alignLeft, alignRight, alignCenter } from '@aarondewes/wp-icons';
 
 const DEFAULT_ALIGNMENT_CONTROLS = [
 	{

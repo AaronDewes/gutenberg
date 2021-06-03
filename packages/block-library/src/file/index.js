@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { _x } from '@wordpress/i18n';
-import { file as icon } from '@wordpress/icons';
+import { _x } from '@aarondewes/wp-i18n';
+import { file as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { useState, useCallback } from '@wordpress/element';
+import { useSelect } from '@aarondewes/wp-data';
+import { useState, useCallback } from '@aarondewes/wp-element';
 import {
 	useThrottle,
 	__experimentalUseDropZone as useDropZone,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

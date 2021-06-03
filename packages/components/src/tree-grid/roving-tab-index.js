@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useState, useMemo } from '@wordpress/element';
+import { useState, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

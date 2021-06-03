@@ -6,7 +6,7 @@ import { reduce, forEach, debounce, mapValues } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { dispatch } from '@wordpress/data';
+import { dispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

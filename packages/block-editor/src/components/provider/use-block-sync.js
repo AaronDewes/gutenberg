@@ -6,9 +6,9 @@ import { last, noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef } from '@wordpress/element';
-import { useRegistry } from '@wordpress/data';
-import { cloneBlock } from '@wordpress/blocks';
+import { useEffect, useRef } from '@aarondewes/wp-element';
+import { useRegistry } from '@aarondewes/wp-data';
+import { cloneBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

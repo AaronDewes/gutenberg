@@ -7,14 +7,14 @@ import classnames from 'classnames';
  * WordPress dependencies
  */
 
-import { Component } from '@wordpress/element';
-import { ESCAPE } from '@wordpress/keycodes';
+import { Component } from '@aarondewes/wp-element';
+import { ESCAPE } from '@aarondewes/wp-keycodes';
 import {
 	useFocusReturn,
 	useFocusOnMount,
 	useConstrainedTabbing,
 	useMergeRefs,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

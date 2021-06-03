@@ -13,7 +13,7 @@ import {
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * This is a simplified version of Facebook's KeyboardAvoidingView.

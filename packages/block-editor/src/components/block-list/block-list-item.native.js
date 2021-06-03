@@ -6,10 +6,10 @@ import { View, Dimensions } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { withSelect } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
-import { ReadableContentView, alignmentHelpers } from '@wordpress/components';
+import { Component } from '@aarondewes/wp-element';
+import { withSelect } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
+import { ReadableContentView, alignmentHelpers } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

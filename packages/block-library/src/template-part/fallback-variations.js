@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { header as headerIcon, footer as footerIcon } from '@wordpress/icons';
-import { store as coreDataStore } from '@wordpress/core-data';
-import { select } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { header as headerIcon, footer as footerIcon } from '@aarondewes/wp-icons';
+import { store as coreDataStore } from '@aarondewes/wp-core-data';
+import { select } from '@aarondewes/wp-data';
 
 const fallbackVariations = [
 	{

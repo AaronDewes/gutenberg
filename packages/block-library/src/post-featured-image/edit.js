@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { useEntityProp, store as coreStore } from '@wordpress/core-data';
-import { useSelect } from '@wordpress/data';
+import { useEntityProp, store as coreStore } from '@aarondewes/wp-core-data';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	Icon,
 	ToggleControl,
 	PanelBody,
 	withNotices,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	InspectorControls,
 	BlockControls,
@@ -16,9 +16,9 @@ import {
 	MediaReplaceFlow,
 	BlockIcon,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { __, sprintf } from '@wordpress/i18n';
-import { postFeaturedImage } from '@wordpress/icons';
+} from '@aarondewes/wp-block-editor';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { postFeaturedImage } from '@aarondewes/wp-icons';
 
 const ALLOWED_MEDIA_TYPES = [ 'image' ];
 const placeholderChip = (

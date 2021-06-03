@@ -8,8 +8,8 @@ import { useTransition, animated } from 'react-spring/web.cjs';
 /**
  * WordPress dependencies
  */
-import { useReducedMotion } from '@wordpress/compose';
-import { useState } from '@wordpress/element';
+import { useReducedMotion } from '@aarondewes/wp-compose';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

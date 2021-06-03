@@ -11,10 +11,10 @@ import {
 	createBlock,
 	parse,
 	serialize,
-} from '@wordpress/blocks';
-import { createRegistryControl } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+} from '@aarondewes/wp-blocks';
+import { createRegistryControl } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

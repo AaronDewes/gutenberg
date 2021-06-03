@@ -5,7 +5,7 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Children, cloneElement } from '@wordpress/element';
+import { Children, cloneElement } from '@aarondewes/wp-element';
 /**
  * Internal dependencies
  */

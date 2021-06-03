@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useEffect } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { getQueryArg, addQueryArgs, removeQueryArgs } from '@wordpress/url';
+import { useEffect } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { getQueryArg, addQueryArgs, removeQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

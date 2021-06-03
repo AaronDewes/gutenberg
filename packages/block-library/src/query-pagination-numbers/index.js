@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { queryPaginationNumbers as icon } from '@wordpress/icons';
+import { queryPaginationNumbers as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

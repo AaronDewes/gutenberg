@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { hasBlockSupport } from '@wordpress/blocks';
-import TokenList from '@wordpress/token-list';
-import { createHigherOrderComponent } from '@wordpress/compose';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { hasBlockSupport } from '@aarondewes/wp-blocks';
+import TokenList from '@aarondewes/wp-token-list';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

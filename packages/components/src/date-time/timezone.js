@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { __experimentalGetSettings as getDateSettings } from '@wordpress/date';
+import { __ } from '@aarondewes/wp-i18n';
+import { __experimentalGetSettings as getDateSettings } from '@aarondewes/wp-date';
 
 /**
  * Internal dependencies

@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { Button, ControlGroup, Select, TextInput } from `@wordpress/components/ui`
+import { Button, ControlGroup, Select, TextInput } from `@aarondewes/wp-components/ui`
 
 function Example() {
     return (

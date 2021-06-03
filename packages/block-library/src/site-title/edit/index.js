@@ -6,15 +6,15 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useEntityProp } from '@wordpress/core-data';
-import { __ } from '@wordpress/i18n';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	RichText,
 	AlignmentControl,
 	BlockControls,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { createBlock, getDefaultBlockName } from '@wordpress/blocks';
+} from '@aarondewes/wp-block-editor';
+import { createBlock, getDefaultBlockName } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

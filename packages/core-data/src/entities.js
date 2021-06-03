@@ -6,9 +6,9 @@ import { upperFirst, camelCase, map, find, get, startCase } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { controls } from '@wordpress/data';
-import { apiFetch } from '@wordpress/data-controls';
-import { __ } from '@wordpress/i18n';
+import { controls } from '@aarondewes/wp-data';
+import { apiFetch } from '@aarondewes/wp-data-controls';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

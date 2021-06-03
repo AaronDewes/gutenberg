@@ -6,17 +6,17 @@ import { size, map, without, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	EditorProvider,
 	ErrorBoundary,
 	PostLockedModal,
 	store as editorStore,
-} from '@wordpress/editor';
-import { StrictMode, useMemo } from '@wordpress/element';
-import { KeyboardShortcuts, SlotFillProvider } from '@wordpress/components';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-editor';
+import { StrictMode, useMemo } from '@aarondewes/wp-element';
+import { KeyboardShortcuts, SlotFillProvider } from '@aarondewes/wp-components';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

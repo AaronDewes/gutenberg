@@ -12,13 +12,13 @@ import {
 	InspectorControls,
 	BlockIcon,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { ToolbarButton, Spinner, Placeholder } from '@wordpress/components';
-import { brush as brushIcon, update as updateIcon } from '@wordpress/icons';
-import { __ } from '@wordpress/i18n';
-import { useState, useCallback } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { ToolbarButton, Spinner, Placeholder } from '@aarondewes/wp-components';
+import { brush as brushIcon, update as updateIcon } from '@aarondewes/wp-icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { useState, useCallback } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

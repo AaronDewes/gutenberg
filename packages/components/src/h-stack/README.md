@@ -14,7 +14,7 @@ This feature is still experimental. “Experimental” means this is an early im
 import {
 	__experimentalHStack as HStack,
 	__experimentalText as Text,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function Example() {
 	return (
@@ -88,7 +88,7 @@ import {
 	__experimentalHStack as HStack,
 	__experimentalSpacer as Spacer,
 	__experimentalText as Text,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function Example() {
 	return (
@@ -110,7 +110,7 @@ import {
 	__experimentalHStack as HStack,
 	__experimentalSpacer as Spacer,
 	__experimentalText as Text,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function Example() {
 	return (

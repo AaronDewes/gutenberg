@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { VisuallyHidden } from '@wordpress/components';
-import { _x, sprintf } from '@wordpress/i18n';
-import { Fragment } from '@wordpress/element';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { VisuallyHidden } from '@aarondewes/wp-components';
+import { _x, sprintf } from '@aarondewes/wp-i18n';
+import { Fragment } from '@aarondewes/wp-element';
 
 export default function ResponsiveBlockControlLabel( {
 	property,

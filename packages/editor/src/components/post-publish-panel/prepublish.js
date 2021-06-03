@@ -6,12 +6,12 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Icon, PanelBody } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import { wordpress } from '@wordpress/icons';
-import { filterURLForDisplay } from '@wordpress/url';
-import { store as coreStore } from '@wordpress/core-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { Icon, PanelBody } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import { wordpress } from '@aarondewes/wp-icons';
+import { filterURLForDisplay } from '@aarondewes/wp-url';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

@@ -11,7 +11,7 @@ import { useSpacer } from './hook';
  *
  * @example
  * ```jsx
- * import { Spacer } from `@wordpress/components`
+ * import { Spacer } from `@aarondewes/wp-components`
  *
  * function Example() {
  *   return (

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { PanelRow } from '@wordpress/components';
-import { PostSlug as PostSlugForm, PostSlugCheck } from '@wordpress/editor';
+import { PanelRow } from '@aarondewes/wp-components';
+import { PostSlug as PostSlugForm, PostSlugCheck } from '@aarondewes/wp-editor';
 
 export function PostSlug() {
 	return (

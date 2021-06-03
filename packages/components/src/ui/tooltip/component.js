@@ -7,7 +7,7 @@ import { TooltipReference, useTooltipState } from 'reakit';
 /**
  * WordPress dependencies
  */
-import { useMemo, cloneElement } from '@wordpress/element';
+import { useMemo, cloneElement } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -86,7 +86,7 @@ function Tooltip( props, forwardedRef ) {
  *
  * @example
  * ```jsx
- * import { Tooltip, Text } from `@wordpress/components/ui`;
+ * import { Tooltip, Text } from `@aarondewes/wp-components/ui`;
  *
  * function Example() {
  * 	return (

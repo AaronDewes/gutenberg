@@ -8,7 +8,7 @@ import { PopoverDisclosure, usePopoverState, Portal } from 'reakit';
 /**
  * WordPress dependencies
  */
-import { useCallback, useMemo, cloneElement } from '@wordpress/element';
+import { useCallback, useMemo, cloneElement } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -111,7 +111,7 @@ function Popover( props, forwardedRef ) {
  *
  * @example
  * ```jsx
- * import { Button, Popover, Text } from `@wordpress/components/ui`;
+ * import { Button, Popover, Text } from `@aarondewes/wp-components/ui`;
  *
  * function Example() {
  * 	return (

@@ -17,9 +17,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __, _n, sprintf } from '@wordpress/i18n';
-import { Component } from '@wordpress/element';
-import { withInstanceId } from '@wordpress/compose';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
+import { Component } from '@aarondewes/wp-element';
+import { withInstanceId } from '@aarondewes/wp-compose';
 import {
 	BACKSPACE,
 	ENTER,
@@ -30,8 +30,8 @@ import {
 	SPACE,
 	DELETE,
 	ESCAPE,
-} from '@wordpress/keycodes';
-import isShallowEqual from '@wordpress/is-shallow-equal';
+} from '@aarondewes/wp-keycodes';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
 
 /**
  * Internal dependencies

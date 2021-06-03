@@ -6,14 +6,14 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { createBlock } from '@wordpress/blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { createBlock } from '@aarondewes/wp-blocks';
 import {
 	AlignmentControl,
 	BlockControls,
 	RichText,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

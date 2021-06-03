@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
-import { select } from '@wordpress/data';
-import { Warning } from '@wordpress/block-editor';
-import { useCopyToClipboard } from '@wordpress/compose';
+import { Component } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
+import { select } from '@aarondewes/wp-data';
+import { Warning } from '@aarondewes/wp-block-editor';
+import { useCopyToClipboard } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

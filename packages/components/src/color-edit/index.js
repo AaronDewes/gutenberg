@@ -7,9 +7,9 @@ import { isEmpty, kebabCase } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { useEffect, useState } from '@wordpress/element';
-import { edit, close, chevronDown, chevronUp, plus } from '@wordpress/icons';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { useEffect, useState } from '@aarondewes/wp-element';
+import { edit, close, chevronDown, chevronUp, plus } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

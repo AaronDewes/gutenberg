@@ -6,7 +6,7 @@ import { createI18n } from './create-i18n';
 /**
  * WordPress dependencies
  */
-import { defaultHooks } from '@wordpress/hooks';
+import { defaultHooks } from '@aarondewes/wp-hooks';
 
 const i18n = createI18n( undefined, undefined, defaultHooks );
 

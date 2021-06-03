@@ -11,8 +11,8 @@ import {
 	requestImageFailedRetryDialog,
 	requestImageUploadCancelDialog,
 	requestImageFullscreenPreview,
-} from '@wordpress/react-native-bridge';
-import { Icon, Image, IMAGE_DEFAULT_FOCAL_POINT } from '@wordpress/components';
+} from '@aarondewes/wp-react-native-bridge';
+import { Icon, Image, IMAGE_DEFAULT_FOCAL_POINT } from '@aarondewes/wp-components';
 import {
 	MEDIA_TYPE_IMAGE,
 	MEDIA_TYPE_VIDEO,
@@ -21,13 +21,13 @@ import {
 	MediaUploadProgress,
 	VIDEO_ASPECT_RATIO,
 	VideoPlayer,
-} from '@wordpress/block-editor';
-import { Component } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { isURL, getProtocol } from '@wordpress/url';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { withDispatch } from '@wordpress/data';
-import { store as noticesStore } from '@wordpress/notices';
+} from '@aarondewes/wp-block-editor';
+import { Component } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { isURL, getProtocol } from '@aarondewes/wp-url';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { withDispatch } from '@aarondewes/wp-data';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

@@ -20,7 +20,7 @@ import {
 /**
  * WordPress dependencies
  */
-import { createHooks, applyFilters } from '@wordpress/hooks';
+import { createHooks, applyFilters } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

@@ -10,14 +10,14 @@ import {
 	createBlock,
 	registerBlockType,
 	unregisterBlockType,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies
  */
 import { DocumentOutline } from '../';
 
-jest.mock( '@wordpress/block-editor', () => ( {
+jest.mock( '@aarondewes/wp-block-editor', () => ( {
 	BlockTitle: () => 'Block Title',
 } ) );
 

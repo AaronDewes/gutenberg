@@ -43,9 +43,9 @@ const predefinedBlockTemplates = {
 				html: false,
 			},
 			npmDependencies: [
-				'@wordpress/block-editor',
-				'@wordpress/blocks',
-				'@wordpress/i18n',
+				'@aarondewes/wp-block-editor',
+				'@aarondewes/wp-blocks',
+				'@aarondewes/wp-i18n',
 			],
 		},
 		templatesPath: join( __dirname, 'templates', 'esnext' ),

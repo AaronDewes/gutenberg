@@ -6,8 +6,8 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { compose } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

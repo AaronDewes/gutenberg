@@ -5,16 +5,16 @@ import {
 	findTransform,
 	getBlockTransforms,
 	pasteHandler,
-} from '@wordpress/blocks';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { getFilesFromDataTransfer } from '@wordpress/dom';
+} from '@aarondewes/wp-blocks';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { getFilesFromDataTransfer } from '@aarondewes/wp-dom';
 
 /**
  * Internal dependencies
  */
 import { store as blockEditorStore } from '../../store';
 
-/** @typedef {import('@wordpress/element').WPSyntheticEvent} WPSyntheticEvent */
+/** @typedef {import('@aarondewes/wp-element').WPSyntheticEvent} WPSyntheticEvent */
 
 /**
  * Retrieve the data for a block drop event.

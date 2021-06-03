@@ -65,9 +65,9 @@ Examples of styles that appear in both the theme and the editor include gallery 
 
 ## JavaScript
 
-JavaScript in Gutenberg uses modern language features of the [ECMAScript language specification](https://www.ecma-international.org/ecma-262/) as well as the [JSX language syntax extension](https://reactjs.org/docs/introducing-jsx.html). These are enabled through a combination of preset configurations, notably [`@wordpress/babel-preset-default`](https://github.com/WordPress/gutenberg/tree/HEAD/packages/babel-preset-default) which is used as a preset in the project's [Babel](https://babeljs.io/) configuration.
+JavaScript in Gutenberg uses modern language features of the [ECMAScript language specification](https://www.ecma-international.org/ecma-262/) as well as the [JSX language syntax extension](https://reactjs.org/docs/introducing-jsx.html). These are enabled through a combination of preset configurations, notably [`@aarondewes/wp-babel-preset-default`](https://github.com/WordPress/gutenberg/tree/HEAD/packages/babel-preset-default) which is used as a preset in the project's [Babel](https://babeljs.io/) configuration.
 
-While the [staged process](https://tc39.es/process-document/) for introducing a new JavaScript language feature offers an opportunity to use new features before they are considered complete, **the Gutenberg project and the `@wordpress/babel-preset-default` configuration will only target support for proposals which have reached Stage 4 ("Finished")**.
+While the [staged process](https://tc39.es/process-document/) for introducing a new JavaScript language feature offers an opportunity to use new features before they are considered complete, **the Gutenberg project and the `@aarondewes/wp-babel-preset-default` configuration will only target support for proposals which have reached Stage 4 ("Finished")**.
 
 ### Imports
 
@@ -98,7 +98,7 @@ Example:
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 ```
 
 #### Internal Dependencies
@@ -214,13 +214,13 @@ alert( `My name is ${ name }.` );
     -   Example: `document.body.classList.toggle( 'has-focus', nodeRef.current?.contains( document.activeElement ) );` may wrongly _add_ the class, since [the second argument is optional](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle). If `undefined` is passed, it would not unset the class as it would when `false` is passed.
     -   Example: `<input value={ state.selected?.value.trim() } />` may inadvertently cause warnings in React by toggling between [controlled and uncontrolled inputs](https://reactjs.org/docs/uncontrolled-components.html). This is an easy trap to fall into when eagerly assuming that a result of `trim()` will always return a string value, overlooking the fact the optional chaining may have caused evaluation to abort earlier with a value of `undefined`.
 
-### `@wordpress/element` (React) Components
+### `@aarondewes/wp-element` (React) Components
 
 It is preferred to implement all components as [function components](https://reactjs.org/docs/components-and-props.html), using [hooks](https://reactjs.org/docs/hooks-reference.html) to manage component state and lifecycle. With the exception of [error boundaries](https://reactjs.org/docs/error-boundaries.html), you should never encounter a situation where you must use a class component. Note that the [WordPress guidance on Code Refactoring](https://make.wordpress.org/core/handbook/contribute/code-refactoring/) applies here: There needn't be a concentrated effort to update class components in bulk. Instead, consider it as a good refactoring opportunity in combination with some other change.
 
 ## JavaScript Documentation using JSDoc
 
-Gutenberg follows the [WordPress JavaScript Documentation Standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/), with additional guidelines relevant for its distinct use of [import semantics](/docs/contributors/code/coding-guidelines.md#imports) in organizing files, the [use of TypeScript tooling](/docs/contributors/code/testing-overview.md#javascript-testing) for types validation, and automated documentation generation using [`@wordpress/docgen`](https://github.com/WordPress/gutenberg/tree/HEAD/packages/docgen).
+Gutenberg follows the [WordPress JavaScript Documentation Standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/), with additional guidelines relevant for its distinct use of [import semantics](/docs/contributors/code/coding-guidelines.md#imports) in organizing files, the [use of TypeScript tooling](/docs/contributors/code/testing-overview.md#javascript-testing) for types validation, and automated documentation generation using [`@aarondewes/wp-docgen`](https://github.com/WordPress/gutenberg/tree/HEAD/packages/docgen).
 
 For additional guidance, consult the following resources:
 
@@ -269,7 +269,7 @@ Use the [TypeScript `import` function](https://www.typescriptlang.org/docs/handb
 Since an imported type declaration can occupy an excess of the available line length and become verbose when referenced multiple times, you are encouraged to create an alias of the external type using a `@typedef` declaration at the top of the file, immediately following [the `import` groupings](/docs/contributors/code/coding-guidelines.md#imports).
 
 ```js
-/** @typedef {import('@wordpress/data').WPDataRegistry} WPDataRegistry */
+/** @typedef {import('@aarondewes/wp-data').WPDataRegistry} WPDataRegistry */
 ```
 
 Note that all custom types defined in another file can be imported.
@@ -282,7 +282,7 @@ When considering which types should be made available from a WordPress package, 
 /** @typedef {import('./registry').WPDataRegistry} WPDataRegistry */
 ```
 
-In this snippet, the `@typedef` will support the usage of the previous example's `import('@wordpress/data')`.
+In this snippet, the `@typedef` will support the usage of the previous example's `import('@aarondewes/wp-data')`.
 
 #### External Dependencies
 
@@ -418,7 +418,7 @@ When documenting a [function type](https://github.com/WordPress/gutenberg/blob/a
 
 ### Documenting Examples
 
-Because the documentation generated using the `@wordpress/docgen` tool will include `@example` tags if they are defined, it is considered a best practice to include usage examples for functions and components. This is especially important for documented members of a package's public API.
+Because the documentation generated using the `@aarondewes/wp-docgen` tool will include `@example` tags if they are defined, it is considered a best practice to include usage examples for functions and components. This is especially important for documented members of a package's public API.
 
 When documenting an example, use the markdown <code>\`\`\`</code> code block to demarcate the beginning and end of the code sample. An example can span multiple lines.
 
@@ -441,7 +441,7 @@ When documenting an example, use the markdown <code>\`\`\`</code> code block to 
  */
 ````
 
-### Documenting `@wordpress/element` (React) Components
+### Documenting `@aarondewes/wp-element` (React) Components
 
 When possible, all components should be implemented as [function components](https://reactjs.org/docs/components-and-props.html#function-and-class-components), using [hooks](https://reactjs.org/docs/hooks-intro.html) for managing component lifecycle and state.
 

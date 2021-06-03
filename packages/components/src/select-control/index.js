@@ -7,9 +7,9 @@ import classNames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { useState, forwardRef } from '@wordpress/element';
-import { Icon, chevronDown } from '@wordpress/icons';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useState, forwardRef } from '@aarondewes/wp-element';
+import { Icon, chevronDown } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

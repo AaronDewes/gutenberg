@@ -6,12 +6,12 @@ import { noop, orderBy } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	createBlock,
 	createBlocksFromInnerBlocksTemplate,
-} from '@wordpress/blocks';
-import { useMemo } from '@wordpress/element';
+} from '@aarondewes/wp-blocks';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -23,7 +23,7 @@ import { store as blockEditorStore } from '../store';
 
 const SHOWN_BLOCK_TYPES = 9;
 
-/** @typedef {import('@wordpress/components').WPCompleter} WPCompleter */
+/** @typedef {import('@aarondewes/wp-components').WPCompleter} WPCompleter */
 
 /**
  * Creates a blocks repeater for replacing the current block with a selected block type.

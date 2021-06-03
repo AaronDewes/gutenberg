@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	ToolbarButton,
 	PanelBody,
 	ToggleControl,
 	ToolbarGroup,
-} from '@wordpress/components';
-import { BlockControls, InspectorControls } from '@wordpress/block-editor';
-import { edit } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { BlockControls, InspectorControls } from '@aarondewes/wp-block-editor';
+import { edit } from '@aarondewes/wp-icons';
 
 const EmbedControls = ( {
 	blockSupportsResponsive,

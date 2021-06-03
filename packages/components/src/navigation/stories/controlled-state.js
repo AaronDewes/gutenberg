@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
-import { useState } from '@wordpress/element';
+import { Button } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

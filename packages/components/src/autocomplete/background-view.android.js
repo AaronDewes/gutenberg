@@ -6,7 +6,7 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

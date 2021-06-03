@@ -7,7 +7,7 @@ export {
 	G,
 	HorizontalRule,
 	BlockQuotation,
-} from '@wordpress/primitives';
+} from '@aarondewes/wp-primitives';
 export { default as ColorIndicator } from './color-indicator';
 export { default as ColorPalette } from './color-palette';
 export { default as ColorPicker } from './color-picker';

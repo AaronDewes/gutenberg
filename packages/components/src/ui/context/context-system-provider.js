@@ -12,7 +12,7 @@ import {
 	useRef,
 	useState,
 	memo,
-} from '@wordpress/element';
+} from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

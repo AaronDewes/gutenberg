@@ -6,7 +6,7 @@ import { sortBy } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createBlock, parse } from '@wordpress/blocks';
+import { createBlock, parse } from '@aarondewes/wp-blocks';
 
 /**
  * Convert a flat menu item structure to a nested blocks structure.

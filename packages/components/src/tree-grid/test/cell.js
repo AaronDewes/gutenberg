@@ -6,7 +6,7 @@ import TestRenderer from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { forwardRef } from '@wordpress/element';
+import { forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

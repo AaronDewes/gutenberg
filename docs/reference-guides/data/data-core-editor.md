@@ -70,7 +70,7 @@ _Related_
 
 <a name="getAutosave" href="#getAutosave">#</a> **getAutosave**
 
-> **Deprecated** since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector from the '@wordpress/core-data' package.
+> **Deprecated** since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector from the '@aarondewes/wp-core-data' package.
 
 Returns the current autosave, or null if one is not set (i.e. if the post
 has yet to be autosaved, or has been saved or published since the last
@@ -86,7 +86,7 @@ _Returns_
 
 <a name="getAutosaveAttribute" href="#getAutosaveAttribute">#</a> **getAutosaveAttribute**
 
-> **Deprecated** since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector from the '@wordpress/core-data' package and access properties on the returned autosave object using getPostRawValue.
+> **Deprecated** since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector from the '@aarondewes/wp-core-data' package and access properties on the returned autosave object using getPostRawValue.
 
 Returns an attribute value of the current autosave revision for a post, or
 null if there is no autosave for the post.
@@ -617,7 +617,7 @@ _Related_
 
 <a name="hasAutosave" href="#hasAutosave">#</a> **hasAutosave**
 
-> **Deprecated** since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector from the '@wordpress/core-data' package and check for a truthy value.
+> **Deprecated** since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector from the '@aarondewes/wp-core-data' package and check for a truthy value.
 
 Returns the true if there is an existing autosave, otherwise false.
 
@@ -1293,7 +1293,7 @@ _Related_
 
 <a name="resetAutosave" href="#resetAutosave">#</a> **resetAutosave**
 
-> **Deprecated** since 5.6. Callers should use the `receiveAutosaves( postId, autosave )` selector from the '@wordpress/core-data' package.
+> **Deprecated** since 5.6. Callers should use the `receiveAutosaves( postId, autosave )` selector from the '@aarondewes/wp-core-data' package.
 
 Returns an action object used in signalling that the latest autosave of the
 post has been received, by initialization or autosave.

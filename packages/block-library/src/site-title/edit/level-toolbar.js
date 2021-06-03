@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { ToolbarDropdownMenu } from '@wordpress/components';
-import { __, sprintf } from '@wordpress/i18n';
+import { ToolbarDropdownMenu } from '@aarondewes/wp-components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

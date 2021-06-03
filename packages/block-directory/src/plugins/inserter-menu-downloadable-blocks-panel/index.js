@@ -6,8 +6,8 @@ import { debounce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __unstableInserterMenuExtension } from '@wordpress/block-editor';
-import { useState } from '@wordpress/element';
+import { __unstableInserterMenuExtension } from '@aarondewes/wp-block-editor';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

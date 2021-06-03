@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalPanelColorGradientSettings as PanelColorGradientSettings } from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
+import { __experimentalPanelColorGradientSettings as PanelColorGradientSettings } from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

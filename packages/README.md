@@ -9,7 +9,7 @@ When creating a new package, you need to provide at least the following:
 1. `package.json` based on the template:
     ```json
     {
-    	"name": "@wordpress/package-name",
+    	"name": "@aarondewes/wp-package-name",
     	"version": "1.0.0-prerelease",
     	"description": "Package description.",
     	"author": "The WordPress Contributors",
@@ -77,7 +77,7 @@ _Example:_
 lerna add lodash packages/a11y
 ```
 
-This command adds the latest version of `lodash` as a dependency to the `@wordpress/a11y` package, which is located in `packages/a11y` folder.
+This command adds the latest version of `lodash` as a dependency to the `@aarondewes/wp-a11y` package, which is located in `packages/a11y` folder.
 
 #### Removing Existing Dependencies
 
@@ -276,7 +276,7 @@ A `tsconfig.json` file should look like the following (comments are not necessar
 	"include": [ "src/**/*" ],
 
 	// Other WordPress package dependencies that have opted-in to TypeScript should be listed
-	// here. In this case, our package depends on `@wordpress/dom-ready`.
+	// here. In this case, our package depends on `@aarondewes/wp-dom-ready`.
 	"references": [ { "path": "../dom-ready" } ]
 }
 ```

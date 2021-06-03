@@ -1,7 +1,7 @@
 # Tutorial: building a custom block editor
 
 This tutorial will step through the fundamentals of creating a custom instance
-of a "block editor" using the `@wordpress/block-editor` package.
+of a "block editor" using the `@aarondewes/wp-block-editor` package.
 
 ## Table of Contents
 
@@ -54,9 +54,9 @@ Here's a brief summary of what's going on:
 -   `plugin.php` - standard Plugin "entry" file with comment meta data. Requires `init.php`.
 -   `init.php` - handles the initialization of the main Plugin logic. We'll be spending a lot of time here.
 -   `src/` (directory) - this is where our JavaScript (and CSS) source files will live. These files are _not_ directly enqueued by the Plugin.
--   `webpack.config.js` - a custom Webpack config extending the defaults provided by the `@wordpress/scripts` npm package to allow for custom CSS styles (via Sass).
+-   `webpack.config.js` - a custom Webpack config extending the defaults provided by the `@aarondewes/wp-scripts` npm package to allow for custom CSS styles (via Sass).
 
-The only item not shown above is the `build/` directory, which is where our _compiled_ JS and CSS files will be outputted by `@wordpress/scripts` ready to be enqueued by our Plugin.
+The only item not shown above is the `build/` directory, which is where our _compiled_ JS and CSS files will be outputted by `@aarondewes/wp-scripts` ready to be enqueued by our Plugin.
 
 **Note:** throughout this tutorial, filename references will be placed in a comment at the top of each code snippet so you can follow along.
 
@@ -64,7 +64,7 @@ With our basic file structure in place, we can now start looking at what package
 
 ## The "Core" of the Editor
 
-Whilst the Gutenberg Editor is comprised of many moving parts, at it's core is the `@wordpress/block-editor` package.
+Whilst the Gutenberg Editor is comprised of many moving parts, at it's core is the `@aarondewes/wp-block-editor` package.
 
 It's role is perhaps best summarized by its own `README` file:
 
@@ -157,7 +157,7 @@ wp_enqueue_script( $script_handle, $script_url, $script_asset['dependencies'], $
 To save time and space, the assignment of the `$script_` variables has been omitted. You can [review these here](https://github.com/getdave/standalone-block-editor/blob/974a59dcbc539a0595e8fa34670e75ec541853ab/init.php#L19).
 
 Note that we register our script dependencies (`$script_asset['dependencies']`) as the 3rd argument - these deps are being
-dynamically generated using [@wordpress/dependency-extraction-webpack-plugin](https://developer.wordpress.org/block-editor/packages/packages-dependency-extraction-webpack-plugin/) which will
+dynamically generated using [@aarondewes/wp-dependency-extraction-webpack-plugin](https://developer.wordpress.org/block-editor/packages/packages-dependency-extraction-webpack-plugin/) which will
 [ensure that WordPress provided scripts are not included in the built
 bundle](https://developer.wordpress.org/block-editor/packages/packages-scripts/#default-webpack-config).
 
@@ -180,7 +180,7 @@ wp_enqueue_style(
 
 ### Inlining the editor settings
 
-Looking at the `@wordpress/block-editor` package, we can see that it [accepts a settings object to configure the default settings for the editor](https://github.com/WordPress/gutenberg/tree/4c472c3443513d070a50ba1e96f3a476861447b3/packages/block-editor#SETTINGS_DEFAULTS). These are available on the server side so we need to expose them for use within the JavaScript.
+Looking at the `@aarondewes/wp-block-editor` package, we can see that it [accepts a settings object to configure the default settings for the editor](https://github.com/WordPress/gutenberg/tree/4c472c3443513d070a50ba1e96f3a476861447b3/packages/block-editor#SETTINGS_DEFAULTS). These are available on the server side so we need to expose them for use within the JavaScript.
 
 To do this we [inline the settings object as JSON](https://github.com/getdave/standalone-block-editor/blob/974a59dcbc539a0595e8fa34670e75ec541853ab/init.php#L48) assigned to the global `window.getdaveSbeSettings` object:
 
@@ -198,14 +198,14 @@ With the PHP above in place to create our admin page, we’re now finally ready 
 
 Let's open up our main `src/index.js` file.
 
-Here we first pull in required JS packages and import our CSS styles (note using Sass requires [extending the default `@wordpress/scripts` Webpack config](https://github.com/getdave/standalone-block-editor/blob/974a59dcbc539a0595e8fa34670e75ec541853ab/webpack.config.js#L13)).
+Here we first pull in required JS packages and import our CSS styles (note using Sass requires [extending the default `@aarondewes/wp-scripts` Webpack config](https://github.com/getdave/standalone-block-editor/blob/974a59dcbc539a0595e8fa34670e75ec541853ab/webpack.config.js#L13)).
 
 ```js
 // src/index.js
 
-import domReady from '@wordpress/dom-ready';
-import { render } from '@wordpress/element';
-import { registerCoreBlocks } from '@wordpress/block-library';
+import domReady from '@aarondewes/wp-dom-ready';
+import { render } from '@aarondewes/wp-element';
+import { registerCoreBlocks } from '@aarondewes/wp-block-library';
 import Editor from './editor';
 
 import './styles.scss';
@@ -424,7 +424,7 @@ Here's roughly how this works together to render our list of blocks:
     via it's own subcomponent [`<BlockEdit>`](https://github.com/WordPress/gutenberg/blob/def076809d25e2ad680beda8b9205ab9dea45a0f/packages/block-editor/src/components/block-edit/index.js).
 -   Finally [the Block itself](https://github.com/WordPress/gutenberg/blob/def076809d25e2ad680beda8b9205ab9dea45a0f/packages/block-editor/src/components/block-edit/edit.js) is rendered using the `Component` placeholder component.
 
-These are some of the most complex and involved components within the `@wordpress/block-editor` package. That said, if you want to have a strong grasp of how the editor works at a fundamental level, I strongly advise making a study of these components. I leave this as an exercise for the reader!
+These are some of the most complex and involved components within the `@aarondewes/wp-block-editor` package. That said, if you want to have a strong grasp of how the editor works at a fundamental level, I strongly advise making a study of these components. I leave this as an exercise for the reader!
 
 ### Utility components in our custom block editor
 

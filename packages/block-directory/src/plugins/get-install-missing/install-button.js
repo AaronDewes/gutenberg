@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
-import { createBlock, getBlockType, parse } from '@wordpress/blocks';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
+import { createBlock, getBlockType, parse } from '@aarondewes/wp-blocks';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

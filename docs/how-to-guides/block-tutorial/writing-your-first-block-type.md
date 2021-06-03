@@ -51,8 +51,8 @@ With the script enqueued, let's look at the implementation of the block itself:
 {% ESNext %}
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
-import { useBlockProps } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 const blockStyle = {
 	backgroundColor: '#900',

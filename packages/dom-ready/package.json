@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/dom-ready",
+	"name": "@aarondewes/wp-dom-ready",
 	"version": "3.1.1",
 	"description": "Execute callback after the DOM is loaded.",
 	"author": "The WordPress Contributors",

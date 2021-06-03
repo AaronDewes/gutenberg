@@ -13,7 +13,7 @@ Some characteristics:
 Install the module
 
 ```bash
-npm install @wordpress/docgen --save-dev
+npm install @aarondewes/wp-docgen --save-dev
 ```
 
 ## Usage
@@ -41,9 +41,9 @@ This command will generate a file named `entry-point-api.md` containing all the 
 
 ### Babel Configuration
 
-`@wordpress/docgen` follows the default [project-wide configuration of Babel](https://babeljs.io/docs/en/next/config-files#project-wide-configuration). Like Babel, it will automatically search for a `babel.config.json` file, or an equivalent one using the [supported extensions](https://babeljs.io/docs/en/next/config-files#supported-file-extensions), in the project root directory.
+`@aarondewes/wp-docgen` follows the default [project-wide configuration of Babel](https://babeljs.io/docs/en/next/config-files#project-wide-configuration). Like Babel, it will automatically search for a `babel.config.json` file, or an equivalent one using the [supported extensions](https://babeljs.io/docs/en/next/config-files#supported-file-extensions), in the project root directory.
 
-Without it, `@wordpress/docgen` runs with the default option. In other words, it cannot parse JSX or other advanced syntaxes.
+Without it, `@aarondewes/wp-docgen` runs with the default option. In other words, it cannot parse JSX or other advanced syntaxes.
 
 ## Examples
 

@@ -7,7 +7,7 @@ import {
 	pressKeyWithModifier,
 	activatePlugin,
 	deactivatePlugin,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 // Avoid using three, as it looks too much like two with some fonts.
 const ARABIC_ZERO = '٠';

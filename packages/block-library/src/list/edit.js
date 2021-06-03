@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import { __, _x, isRTL } from '@wordpress/i18n';
-import { createBlock } from '@wordpress/blocks';
+import { __, _x, isRTL } from '@aarondewes/wp-i18n';
+import { createBlock } from '@aarondewes/wp-blocks';
 import {
 	RichText,
 	BlockControls,
 	RichTextShortcut,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { ToolbarButton } from '@wordpress/components';
+} from '@aarondewes/wp-block-editor';
+import { ToolbarButton } from '@aarondewes/wp-components';
 import {
 	__unstableCanIndentListItems as canIndentListItems,
 	__unstableCanOutdentListItems as canOutdentListItems,
@@ -18,7 +18,7 @@ import {
 	__unstableChangeListType as changeListType,
 	__unstableIsListRootSelected as isListRootSelected,
 	__unstableIsActiveListType as isActiveListType,
-} from '@wordpress/rich-text';
+} from '@aarondewes/wp-rich-text';
 import {
 	formatListBullets,
 	formatListBulletsRTL,
@@ -28,7 +28,7 @@ import {
 	formatIndentRTL,
 	formatOutdent,
 	formatOutdentRTL,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

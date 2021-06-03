@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
-import { Icon, more } from '@wordpress/icons';
+import { useState } from '@aarondewes/wp-element';
+import { Icon, more } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { __experimentalHeading as Heading } from '@wordpress/components';
+import { __experimentalHeading as Heading } from '@aarondewes/wp-components';
 
 function Example() {
 	return <Heading>Code is Poetry</Heading>;

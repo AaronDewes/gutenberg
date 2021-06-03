@@ -6,14 +6,14 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelBody, TextControl, ExternalLink } from '@wordpress/components';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose, ifCondition } from '@wordpress/compose';
-import { cleanForSlug, store as editorStore } from '@wordpress/editor';
-import { safeDecodeURIComponent } from '@wordpress/url';
-import { store as coreStore } from '@wordpress/core-data';
-import { useState } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody, TextControl, ExternalLink } from '@aarondewes/wp-components';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose, ifCondition } from '@aarondewes/wp-compose';
+import { cleanForSlug, store as editorStore } from '@aarondewes/wp-editor';
+import { safeDecodeURIComponent } from '@aarondewes/wp-url';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

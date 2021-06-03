@@ -6,7 +6,7 @@ import { render, fireEvent } from '@testing-library/react';
 /**
  * WordPress dependencies
  */
-import { registerBlockType, unregisterBlockType } from '@wordpress/blocks';
+import { registerBlockType, unregisterBlockType } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies
@@ -21,13 +21,13 @@ jest.mock( '../hooks/use-block-types-state', () => {
 	return mock;
 } );
 
-jest.mock( '@wordpress/data/src/components/use-select', () => {
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => {
 	// This allows us to tweak the returned value on each test
 	const mock = jest.fn();
 	return mock;
 } );
 
-jest.mock( '@wordpress/data/src/components/use-dispatch', () => {
+jest.mock( '@aarondewes/wp-data/src/components/use-dispatch', () => {
 	return {
 		useDispatch: () => ( {} ),
 	};

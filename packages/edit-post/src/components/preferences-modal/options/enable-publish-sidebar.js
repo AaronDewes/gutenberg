@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { compose } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { ifViewportMatches } from '@wordpress/viewport';
-import { store as editorStore } from '@wordpress/editor';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { ifViewportMatches } from '@aarondewes/wp-viewport';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

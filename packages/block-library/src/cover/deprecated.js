@@ -7,15 +7,15 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { createBlock } from '@wordpress/blocks';
+import { createBlock } from '@aarondewes/wp-blocks';
 import {
 	RichText,
 	getColorClassName,
 	InnerBlocks,
 	__experimentalGetGradientClass,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

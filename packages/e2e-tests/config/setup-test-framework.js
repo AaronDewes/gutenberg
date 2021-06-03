@@ -14,7 +14,7 @@ import {
 	isOfflineMode,
 	setBrowserViewport,
 	trashAllPosts,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 /**
  * Timeout, in seconds, that the test should be allowed to run.
@@ -166,7 +166,7 @@ function observeConsoleLogging() {
 
 		// Disable reason: We intentionally bubble up the console message
 		// which, unless the test explicitly anticipates the logging via
-		// @wordpress/jest-console matchers, will cause the intended test
+		// @aarondewes/wp-jest-console matchers, will cause the intended test
 		// failure.
 
 		// eslint-disable-next-line no-console

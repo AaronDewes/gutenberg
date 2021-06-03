@@ -7,8 +7,8 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef, useState } from '@wordpress/element';
-import { isRTL } from '@wordpress/i18n';
+import { useEffect, useRef, useState } from '@aarondewes/wp-element';
+import { isRTL } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

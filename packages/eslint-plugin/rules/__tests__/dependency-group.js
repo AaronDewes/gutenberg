@@ -28,7 +28,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -46,7 +46,7 @@ const classnames = require( 'classnames' );
 /**
  * WordPress dependencies
  */
-const { Component } = require( '@wordpress/element' );
+const { Component } = require( '@aarondewes/wp-element' );
 
 /**
  * Internal dependencies
@@ -62,7 +62,7 @@ import classnames from 'classnames';
 /*
  * wordpress dependencies.
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 import edit from './edit';`,
 			errors: [
 				{
@@ -87,7 +87,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 /**
  * Internal dependencies
  */
@@ -100,7 +100,7 @@ const classnames = require( 'classnames' );
 /*
  * wordpress dependencies.
  */
-const { Component } = require( '@wordpress/element' );
+const { Component } = require( '@aarondewes/wp-element' );
 const edit = require( './edit' );`,
 			errors: [
 				{
@@ -125,7 +125,7 @@ const classnames = require( 'classnames' );
 /**
  * WordPress dependencies
  */
-const { Component } = require( '@wordpress/element' );
+const { Component } = require( '@aarondewes/wp-element' );
 /**
  * Internal dependencies
  */

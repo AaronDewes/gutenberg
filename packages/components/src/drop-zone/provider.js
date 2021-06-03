@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import deprecated from '@wordpress/deprecated';
+import deprecated from '@aarondewes/wp-deprecated';
 
 export default function DropZoneProvider( { children } ) {
 	deprecated( 'wp.components.DropZoneProvider', {

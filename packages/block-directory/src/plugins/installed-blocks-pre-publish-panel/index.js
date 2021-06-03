@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { _n, sprintf } from '@wordpress/i18n';
-import { PluginPrePublishPanel } from '@wordpress/edit-post';
-import { useSelect } from '@wordpress/data';
-import { blockDefault } from '@wordpress/icons';
+import { _n, sprintf } from '@aarondewes/wp-i18n';
+import { PluginPrePublishPanel } from '@aarondewes/wp-edit-post';
+import { useSelect } from '@aarondewes/wp-data';
+import { blockDefault } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

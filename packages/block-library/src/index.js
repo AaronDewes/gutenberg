@@ -1,15 +1,15 @@
 /**
  * WordPress dependencies
  */
-import '@wordpress/core-data';
-import '@wordpress/block-editor';
+import '@aarondewes/wp-core-data';
+import '@aarondewes/wp-block-editor';
 import {
 	registerBlockType,
 	setDefaultBlockName,
 	setFreeformContentHandlerName,
 	setUnregisteredTypeHandlerName,
 	setGroupingBlockName,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies
@@ -113,7 +113,7 @@ const registerBlock = ( block ) => {
  *
  * @example
  * ```js
- * import { __experimentalGetCoreBlocks } from '@wordpress/block-library';
+ * import { __experimentalGetCoreBlocks } from '@aarondewes/wp-block-library';
  *
  * const coreBlocks = __experimentalGetCoreBlocks();
  * ```
@@ -199,7 +199,7 @@ export const __experimentalGetCoreBlocks = () => [
  *
  * @example
  * ```js
- * import { registerCoreBlocks } from '@wordpress/block-library';
+ * import { registerCoreBlocks } from '@aarondewes/wp-block-library';
  *
  * registerCoreBlocks();
  * ```
@@ -223,7 +223,7 @@ export const registerCoreBlocks = (
  * @param {boolean} enableFSEBlocks Whether to enable the full site editing blocks.
  * @example
  * ```js
- * import { __experimentalRegisterExperimentalCoreBlocks } from '@wordpress/block-library';
+ * import { __experimentalRegisterExperimentalCoreBlocks } from '@aarondewes/wp-block-library';
  *
  * __experimentalRegisterExperimentalCoreBlocks( settings );
  * ```

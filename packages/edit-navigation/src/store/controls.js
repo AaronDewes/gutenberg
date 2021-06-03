@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { default as triggerApiFetch } from '@wordpress/api-fetch';
-import { createRegistryControl } from '@wordpress/data';
+import { default as triggerApiFetch } from '@aarondewes/wp-api-fetch';
+import { createRegistryControl } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

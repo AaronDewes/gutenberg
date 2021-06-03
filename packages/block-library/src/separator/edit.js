@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { HorizontalRule } from '@wordpress/components';
-import { withColors, useBlockProps } from '@wordpress/block-editor';
+import { HorizontalRule } from '@aarondewes/wp-components';
+import { withColors, useBlockProps } from '@aarondewes/wp-block-editor';
 /**
  * Internal dependencies
  */

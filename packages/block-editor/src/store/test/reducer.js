@@ -11,7 +11,7 @@ import {
 	registerBlockType,
 	unregisterBlockType,
 	createBlock,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

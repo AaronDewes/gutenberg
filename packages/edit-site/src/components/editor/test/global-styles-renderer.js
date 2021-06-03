@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { __EXPERIMENTAL_ELEMENTS as ELEMENTS } from '@wordpress/blocks';
+import { __EXPERIMENTAL_ELEMENTS as ELEMENTS } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

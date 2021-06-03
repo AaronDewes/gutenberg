@@ -10,7 +10,7 @@ The `edit` function describes the structure of your block in the context of the 
 {% ESNext %}
 
 ```jsx
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 // ...
 const blockSettings = {
@@ -54,7 +54,7 @@ If the element wrapper needs any extra custom HTML attributes, these need to be 
 {% ESNext %}
 
 ```jsx
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 // ...
 const blockSettings = {

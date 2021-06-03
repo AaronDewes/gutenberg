@@ -7,8 +7,8 @@ Popover is a React component to render a floating content modal. It is similar i
 Render a Popover within the parent to which it should anchor:
 
 ```jsx
-import { Button, Popover } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { Button, Popover } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyPopover = withState( {
 	isVisible: false,
@@ -30,8 +30,8 @@ If a Popover is returned by your component, it will be shown. To hide the popove
 If you want Popover elements to render to a specific location on the page to allow style cascade to take effect, you must render a `Popover.Slot` further up the element tree:
 
 ```jsx
-import { render } from '@wordpress/element';
-import { Popover } from '@wordpress/components';
+import { render } from '@aarondewes/wp-element';
+import { Popover } from '@aarondewes/wp-components';
 import Content from './Content';
 
 const app = document.getElementById( 'app' );

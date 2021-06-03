@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { Disabled } from '@wordpress/components';
-import { useResizeObserver, pure } from '@wordpress/compose';
+import { Disabled } from '@aarondewes/wp-components';
+import { useResizeObserver, pure } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

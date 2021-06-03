@@ -10,7 +10,7 @@ Within Gutenberg, these components can be accessed by importing from the `compon
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
+import { Button } from '@aarondewes/wp-components';
 
 const MyButton = () => {
 	return <Button>Click Me!</Button>;

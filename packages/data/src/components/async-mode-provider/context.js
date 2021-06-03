@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createContext } from '@wordpress/element';
+import { createContext } from '@aarondewes/wp-element';
 
 export const Context = createContext( false );
 
@@ -16,7 +16,7 @@ export const AsyncModeConsumer = Consumer;
  * @example
  *
  * ```js
- * import { useSelect, AsyncModeProvider } from '@wordpress/data';
+ * import { useSelect, AsyncModeProvider } from '@aarondewes/wp-data';
  *
  * function BlockCount() {
  *   const count = useSelect( ( select ) => {

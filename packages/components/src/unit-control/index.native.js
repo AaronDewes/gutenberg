@@ -21,9 +21,9 @@ import { CSS_UNITS, hasUnits, parseA11yLabelForUnit } from './utils';
 /**
  * WordPress dependencies
  */
-import { useRef, useCallback, useMemo, memo } from '@wordpress/element';
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { __, sprintf } from '@wordpress/i18n';
+import { useRef, useCallback, useMemo, memo } from '@aarondewes/wp-element';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 function UnitControl( {
 	currentInput,

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { pageBreak as icon } from '@wordpress/icons';
+import { pageBreak as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

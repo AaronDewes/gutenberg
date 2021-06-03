@@ -6,7 +6,7 @@ import { map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { withSelect } from '@wordpress/data';
+import { withSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

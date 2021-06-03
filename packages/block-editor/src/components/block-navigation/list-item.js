@@ -6,12 +6,12 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Button, VisuallyHidden } from '@wordpress/components';
+import { Button, VisuallyHidden } from '@aarondewes/wp-components';
 import {
 	__experimentalGetBlockLabel as getBlockLabel,
 	getBlockType,
-} from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-blocks';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

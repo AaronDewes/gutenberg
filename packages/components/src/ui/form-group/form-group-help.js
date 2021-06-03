@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { memo } from '@wordpress/element';
+import { memo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

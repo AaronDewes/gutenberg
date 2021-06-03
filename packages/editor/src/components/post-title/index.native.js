@@ -7,18 +7,18 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 import {
 	__experimentalRichText as RichText,
 	create,
 	insert,
-} from '@wordpress/rich-text';
-import { decodeEntities } from '@wordpress/html-entities';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { withFocusOutside } from '@wordpress/components';
-import { withInstanceId, compose } from '@wordpress/compose';
-import { __, sprintf } from '@wordpress/i18n';
-import { pasteHandler } from '@wordpress/blocks';
+} from '@aarondewes/wp-rich-text';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { withFocusOutside } from '@aarondewes/wp-components';
+import { withInstanceId, compose } from '@aarondewes/wp-compose';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { pasteHandler } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

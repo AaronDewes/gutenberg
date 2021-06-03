@@ -8,7 +8,7 @@ import {
 	clickBlockAppender,
 	getEditedPostContent,
 	showBlockToolbar,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 async function getActiveLabel() {
 	return await page.evaluate( () => {

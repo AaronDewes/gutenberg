@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Path, SVG } from '@wordpress/primitives';
+import { Path, SVG } from '@aarondewes/wp-primitives';
 
 /**
  * Internal dependencies

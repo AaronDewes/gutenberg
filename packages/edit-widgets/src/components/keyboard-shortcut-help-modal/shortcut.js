@@ -6,8 +6,8 @@ import { castArray } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Fragment } from '@wordpress/element';
-import { displayShortcutList, shortcutAriaLabel } from '@wordpress/keycodes';
+import { Fragment } from '@aarondewes/wp-element';
+import { displayShortcutList, shortcutAriaLabel } from '@aarondewes/wp-keycodes';
 
 function KeyCombination( { keyCombination, forceAriaLabel } ) {
 	const shortcut = keyCombination.modifier

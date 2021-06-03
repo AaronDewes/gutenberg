@@ -13,11 +13,11 @@ import {
 	InspectorControls,
 	RichText,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { PanelBody, SelectControl, ToggleControl } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { PanelBody, SelectControl, ToggleControl } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 function PostAuthorEdit( { isSelected, context, attributes, setAttributes } ) {
 	const { postType, postId } = context;

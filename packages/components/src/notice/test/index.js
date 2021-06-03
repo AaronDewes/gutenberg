@@ -7,15 +7,15 @@ import { create } from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import TokenList from '@wordpress/token-list';
-import { speak } from '@wordpress/a11y';
+import TokenList from '@aarondewes/wp-token-list';
+import { speak } from '@aarondewes/wp-a11y';
 
 /**
  * Internal dependencies
  */
 import Notice from '../index';
 
-jest.mock( '@wordpress/a11y', () => ( { speak: jest.fn() } ) );
+jest.mock( '@aarondewes/wp-a11y', () => ( { speak: jest.fn() } ) );
 
 describe( 'Notice', () => {
 	beforeEach( () => {
@@ -103,7 +103,7 @@ describe( 'Notice', () => {
 		} );
 
 		it( 'should coerce a message to a string', () => {
-			// This test assumes that `@wordpress/a11y` is capable of handling
+			// This test assumes that `@aarondewes/wp-a11y` is capable of handling
 			// markup strings appropriately.
 			const tree = create(
 				<Notice>

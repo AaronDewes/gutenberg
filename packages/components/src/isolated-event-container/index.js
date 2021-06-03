@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { forwardRef } from '@wordpress/element';
-import deprecated from '@wordpress/deprecated';
+import { forwardRef } from '@aarondewes/wp-element';
+import deprecated from '@aarondewes/wp-deprecated';
 
 function stopPropagation( event ) {
 	event.stopPropagation();

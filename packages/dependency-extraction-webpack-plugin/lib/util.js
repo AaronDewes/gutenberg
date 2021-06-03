@@ -1,12 +1,12 @@
-const WORDPRESS_NAMESPACE = '@wordpress/';
-const BUNDLED_PACKAGES = [ '@wordpress/icons', '@wordpress/interface' ];
+const WORDPRESS_NAMESPACE = '@aarondewes/wp-';
+const BUNDLED_PACKAGES = [ '@aarondewes/wp-icons', '@aarondewes/wp-interface' ];
 
 /**
  * Default request to global transformation
  *
  * Transform @wordpress dependencies:
- * - request `@wordpress/api-fetch` becomes `[ 'wp', 'apiFetch' ]`
- * - request `@wordpress/i18n` becomes `[ 'wp', 'i18n' ]`
+ * - request `@aarondewes/wp-api-fetch` becomes `[ 'wp', 'apiFetch' ]`
+ * - request `@aarondewes/wp-i18n` becomes `[ 'wp', 'i18n' ]`
  *
  * @param {string} request Module request (the module name in `import from`) to be transformed
  * @return {string|string[]|undefined} The resulting external definition. Return `undefined`
@@ -50,8 +50,8 @@ function defaultRequestToExternal( request ) {
  * Default request to WordPress script handle transformation
  *
  * Transform @wordpress dependencies:
- * - request `@wordpress/i18n` becomes `wp-i18n`
- * - request `@wordpress/escape-html` becomes `wp-escape-html`
+ * - request `@aarondewes/wp-i18n` becomes `wp-i18n`
+ * - request `@aarondewes/wp-escape-html` becomes `wp-escape-html`
  *
  * @param {string} request Module request (the module name in `import from`) to be transformed
  * @return {string|undefined} WordPress script handle to map the request to. Return `undefined`

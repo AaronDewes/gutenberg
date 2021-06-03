@@ -16,7 +16,7 @@ The Block inspector is one of the panels that is displayed in the editor; it is 
 Render the block inspector component.
 
 ```jsx
-import { BlockInspector } from '@wordpress/block-editor';
+import { BlockInspector } from '@aarondewes/wp-block-editor';
 
 const MyBlockInspector = () => <BlockInspector />;
 ```

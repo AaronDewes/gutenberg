@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { createInterpolateElement } from '@wordpress/element';
-import { addQueryArgs } from '@wordpress/url';
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { InspectorControls } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { createInterpolateElement } from '@aarondewes/wp-element';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { InspectorControls } from '@aarondewes/wp-block-editor';
 
 const CreateNewPostLink = ( {
 	attributes: { query: { postType } = {} } = {},

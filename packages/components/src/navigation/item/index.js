@@ -7,8 +7,8 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Icon, chevronLeft, chevronRight } from '@wordpress/icons';
-import { isRTL } from '@wordpress/i18n';
+import { Icon, chevronLeft, chevronRight } from '@aarondewes/wp-icons';
+import { isRTL } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

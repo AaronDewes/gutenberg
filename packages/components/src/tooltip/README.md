@@ -9,7 +9,7 @@ Accessibility note: the tooltip text is hidden from screen readers and assistive
 Render a Tooltip, passing as a child the element to which it should anchor:
 
 ```jsx
-import { Tooltip } from '@wordpress/components';
+import { Tooltip } from '@aarondewes/wp-components';
 
 const MyTooltip = () => (
 	<Tooltip text="More information">

@@ -10,7 +10,7 @@ const { hasBabelConfig } = require( '../utils' );
 
 const jestUnitConfig = {
 	testRunner: 'jest-circus/runner',
-	preset: '@wordpress/jest-preset-default',
+	preset: '@aarondewes/wp-jest-preset-default',
 	reporters: [
 		'default',
 		path.join( __dirname, 'jest-github-actions-reporter.js' ),

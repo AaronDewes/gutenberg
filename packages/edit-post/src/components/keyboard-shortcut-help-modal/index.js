@@ -7,14 +7,14 @@ import { isString } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Modal } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { Modal } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	useShortcut,
 	store as keyboardShortcutsStore,
-} from '@wordpress/keyboard-shortcuts';
-import { withSelect, withDispatch, useSelect } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
+} from '@aarondewes/wp-keyboard-shortcuts';
+import { withSelect, withDispatch, useSelect } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { SVG, Path } from '@wordpress/components';
-import { isRTL } from '@wordpress/i18n';
+import { SVG, Path } from '@aarondewes/wp-components';
+import { isRTL } from '@aarondewes/wp-i18n';
 
 const Subdirectory = ( { ...extraProps } ) => (
 	<SVG

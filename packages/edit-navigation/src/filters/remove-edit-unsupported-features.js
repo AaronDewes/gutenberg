@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { createHigherOrderComponent } from '@wordpress/compose';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 const removeNavigationBlockEditUnsupportedFeatures = createHigherOrderComponent(
 	( BlockEdit ) => ( props ) => {

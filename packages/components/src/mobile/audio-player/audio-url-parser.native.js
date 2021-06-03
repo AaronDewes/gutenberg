@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { safeDecodeURI } from '@wordpress/url';
+import { safeDecodeURI } from '@aarondewes/wp-url';
 
 export const parseAudioUrl = ( src ) => {
 	const decodedURI = safeDecodeURI( src );

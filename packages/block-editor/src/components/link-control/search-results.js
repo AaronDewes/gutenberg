@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { VisuallyHidden } from '@wordpress/components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { VisuallyHidden } from '@aarondewes/wp-components';
 
 /**
  * External dependencies
  */
 import classnames from 'classnames';
-import { createElement, Fragment } from '@wordpress/element';
+import { createElement, Fragment } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

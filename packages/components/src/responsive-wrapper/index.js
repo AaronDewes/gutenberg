@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { cloneElement, Children } from '@wordpress/element';
-import { useResizeObserver } from '@wordpress/compose';
+import { cloneElement, Children } from '@aarondewes/wp-element';
+import { useResizeObserver } from '@aarondewes/wp-compose';
 
 function ResponsiveWrapper( {
 	naturalWidth,

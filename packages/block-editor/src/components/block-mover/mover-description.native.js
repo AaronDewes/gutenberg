@@ -5,8 +5,8 @@ import { I18nManager } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { arrowUp, arrowDown, arrowLeft, arrowRight } from '@wordpress/icons';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { arrowUp, arrowDown, arrowLeft, arrowRight } from '@aarondewes/wp-icons';
 
 const horizontalMover = {
 	backwardButtonIcon: arrowLeft,

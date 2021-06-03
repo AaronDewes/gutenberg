@@ -9,7 +9,7 @@ The data module is built upon and shares many of the same core principles of [Re
 Install the module
 
 ```bash
-npm install @wordpress/data --save
+npm install @aarondewes/wp-data --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -19,8 +19,8 @@ _This package assumes that your code will run in an **ES2015+** environment. If 
 Use the `register` function to add your own store to the centralized data registry. This function accepts one argument – a store definition object that can be created with `createReduxStore` factory function. `createReduxStore` accepts two arguments: a name to identify the module, and an object with values describing how your state is represented, modified, and accessed. At a minimum, you must provide a reducer function describing the shape of your state and how it changes in response to actions dispatched to the store.
 
 ```js
-import apiFetch from '@wordpress/api-fetch';
-import { createReduxStore, register } from '@wordpress/data';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { createReduxStore, register } from '@aarondewes/wp-data';
 
 const DEFAULT_STATE = {
 	prices: {},
@@ -139,7 +139,7 @@ A **control** defines the execution flow behavior associated with a specific act
 
 The `controls` option should be passed as an object where each key is the name of the action type to act upon, the value a function which receives the original action object. It should returns either a promise which is to resolve when evaluation of the action should continue, or a value. The value or resolved promise value is assigned on the return value of the yield assignment. If the control handler returns undefined, the execution is not continued.
 
-Refer to the [documentation of `@wordpress/redux-routine`](/packages/redux-routine/README.md) for more information.
+Refer to the [documentation of `@aarondewes/wp-redux-routine`](/packages/redux-routine/README.md) for more information.
 
 #### `initialState`
 
@@ -147,7 +147,7 @@ An optional preloaded initial state for the store. You may use this to restore s
 
 ## Generic Stores
 
-The `@wordpress/data` module offers a more advanced and generic interface for the purposes of integrating other data systems and situations where more direct control over a data system is needed. In this case, a data store will need to be implemented outside of `@wordpress/data` and then plugged in via three functions:
+The `@aarondewes/wp-data` module offers a more advanced and generic interface for the purposes of integrating other data systems and situations where more direct control over a data system is needed. In this case, a data store will need to be implemented outside of `@aarondewes/wp-data` and then plugged in via three functions:
 
 -   `getSelectors()`: Returns an object of selector functions, pre-mapped to the store.
 -   `getActions()`: Returns an object of action functions, pre-mapped to the store.
@@ -208,7 +208,7 @@ It is also possible to implement a completely custom store from scratch:
 _Example:_
 
 ```js
-import { registerGenericStore } from '@wordpress/data';
+import { registerGenericStore } from '@aarondewes/wp-data';
 
 function createCustomStore() {
 	let storeChanged = () => {};
@@ -254,11 +254,11 @@ The data module also has built-in solutions for handling asynchronous side-effec
 Specific implementation differences from Redux and React Redux:
 
 -   In Redux, a `subscribe` listener is called on every dispatch, regardless of whether the value of state has changed.
-    -   In `@wordpress/data`, a subscriber is only called when state has changed.
+    -   In `@aarondewes/wp-data`, a subscriber is only called when state has changed.
 -   In React Redux, a `mapStateToProps` function must return an object.
-    -   In `@wordpress/data`, a `withSelect` mapping function can return `undefined` if it has no props to inject.
+    -   In `@aarondewes/wp-data`, a `withSelect` mapping function can return `undefined` if it has no props to inject.
 -   In React Redux, the `mapDispatchToProps` argument can be defined as an object or a function.
-    -   In `@wordpress/data`, the `withDispatch` higher-order component creator must be passed a function.
+    -   In `@aarondewes/wp-data`, the `withDispatch` higher-order component creator must be passed a function.
 
 ## API
 
@@ -272,7 +272,7 @@ between Sync and Async modes.
 _Usage_
 
 ```js
-import { useSelect, AsyncModeProvider } from '@wordpress/data';
+import { useSelect, AsyncModeProvider } from '@aarondewes/wp-data';
 
 function BlockCount() {
   const count = useSelect( ( select ) => {
@@ -312,7 +312,7 @@ reducing functions into a single reducing function you can pass to registerReduc
 _Usage_
 
 ```js
-import { combineReducers, createReduxStore, register } from '@wordpress/data';
+import { combineReducers, createReduxStore, register } from '@aarondewes/wp-data';
 
 const prices = ( state = {}, action ) => {
 	return action.type === 'SET_PRICE' ?
@@ -358,7 +358,7 @@ properties describing reducer, actions, selectors, controls and resolvers.
 _Usage_
 
 ```js
-import { createReduxStore } from '@wordpress/data';
+import { createReduxStore } from '@aarondewes/wp-data';
 
 const store = createReduxStore( 'demo', {
     reducer: ( state = 'OK' ) => state,
@@ -477,7 +477,7 @@ they are called.
 _Usage_
 
 ```js
-import { dispatch } from '@wordpress/data';
+import { dispatch } from '@aarondewes/wp-data';
 
 dispatch( 'my-shop' ).setPrice( 'hammer', 9.75 );
 ```
@@ -504,12 +504,12 @@ _Type_
 
 <a name="register" href="#register">#</a> **register**
 
-Registers a standard `@wordpress/data` store definition.
+Registers a standard `@aarondewes/wp-data` store definition.
 
 _Usage_
 
 ```js
-import { createReduxStore, register } from '@wordpress/data';
+import { createReduxStore, register } from '@aarondewes/wp-data';
 
 const store = createReduxStore( 'demo', {
     reducer: ( state = 'OK' ) => state,
@@ -539,7 +539,7 @@ _Parameters_
 
 > **Deprecated** Use `register` instead.
 
-Registers a standard `@wordpress/data` store.
+Registers a standard `@aarondewes/wp-data` store.
 
 _Parameters_
 
@@ -565,7 +565,7 @@ import {
   RegistryProvider,
   RegistryConsumer,
   createRegistry
-} from '@wordpress/data';
+} from '@aarondewes/wp-data';
 
 const registry = createRegistry( {} );
 
@@ -601,7 +601,7 @@ after any resolvers have ran.
 _Usage_
 
 ```js
-import { resolveSelect } from '@wordpress/data';
+import { resolveSelect } from '@aarondewes/wp-data';
 
 resolveSelect( 'my-shop' ).getPrice( 'hammer' ).then(console.log)
 ```
@@ -623,7 +623,7 @@ As a consumer, you need only pass arguments of the selector, if applicable.
 _Usage_
 
 ```js
-import { select } from '@wordpress/data';
+import { select } from '@aarondewes/wp-data';
 
 select( 'my-shop' ).getPrice( 'hammer' );
 ```
@@ -645,7 +645,7 @@ function used to stop the subscription.
 _Usage_
 
 ```js
-import { subscribe } from '@wordpress/data';
+import { subscribe } from '@aarondewes/wp-data';
 
 const unsubscribe = subscribe( () => {
 	// You could use this opportunity to test whether the derived result of a
@@ -684,8 +684,8 @@ the server via the `useSelect` hook to use in combination with the dispatch
 action.
 
 ```jsx
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useCallback } from '@wordpress/element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useCallback } from '@aarondewes/wp-element';
 
 function Button( { onClick, children } ) {
   return <button type="button" onClick={ onClick }>{ children }</button>
@@ -728,7 +728,7 @@ this hook.
 It acts similarly to the `useContext` react hook.
 
 Note: Generally speaking, `useRegistry` is a low level hook that in most cases
-won't be needed for implementation. Most interactions with the `@wordpress/data`
+won't be needed for implementation. Most interactions with the `@aarondewes/wp-data`
 API can be performed via the `useSelect` hook,  or the `withSelect` and
 `withDispatch` higher order components.
 
@@ -739,7 +739,7 @@ import {
   RegistryProvider,
   createRegistry,
   useRegistry,
-} from '@wordpress/data';
+} from '@aarondewes/wp-data';
 
 const registry = createRegistry( {} );
 
@@ -770,7 +770,7 @@ In general, this custom React hook follows the
 _Usage_
 
 ```js
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 
 function HammerPriceDisplay( { currency } ) {
   const price = useSelect( ( select ) => {
@@ -800,7 +800,7 @@ on render, so it may be useful to get the selectors function instead.
 function because your component won't re-render on a data change.**
 
 ```js
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 
 function Paste( { children } ) {
   const { getSettings } = useSelect( 'my-shop' );
@@ -833,7 +833,7 @@ function Button( { onClick, children } ) {
     return <button type="button" onClick={ onClick }>{ children }</button>;
 }
 
-import { withDispatch } from '@wordpress/data';
+import { withDispatch } from '@aarondewes/wp-data';
 
 const SaleButton = withDispatch( ( dispatch, ownProps ) => {
     const { startSale } = dispatch( 'my-shop' );
@@ -869,7 +869,7 @@ function Button( { onClick, children } ) {
     return <button type="button" onClick={ onClick }>{ children }</button>;
 }
 
-import { withDispatch } from '@wordpress/data';
+import { withDispatch } from '@aarondewes/wp-data';
 
 const SaleButton = withDispatch( ( dispatch, ownProps, { select } ) => {
    // Stock number changes frequently.
@@ -921,7 +921,7 @@ selectors.
 _Usage_
 
 ```js
-import { withSelect } from '@wordpress/data';
+import { withSelect } from '@aarondewes/wp-data';
 
 function PriceDisplay( { price, currency } ) {
 	return new Intl.NumberFormat( 'en-US', {

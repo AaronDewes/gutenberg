@@ -6,9 +6,9 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+import { Button } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

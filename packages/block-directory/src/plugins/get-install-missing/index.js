@@ -1,17 +1,17 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { Button } from '@wordpress/components';
-import { createBlock, getBlockType } from '@wordpress/blocks';
-import { RawHTML } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Button } from '@aarondewes/wp-components';
+import { createBlock, getBlockType } from '@aarondewes/wp-blocks';
+import { RawHTML } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 import {
 	Warning,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

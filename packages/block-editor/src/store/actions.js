@@ -16,12 +16,12 @@ import {
 	hasBlockSupport,
 	switchToBlockType,
 	synchronizeBlocksWithTemplate,
-} from '@wordpress/blocks';
-import { speak } from '@wordpress/a11y';
-import { __, _n, sprintf } from '@wordpress/i18n';
-import { controls } from '@wordpress/data';
-import { create, insert, remove, toHTMLString } from '@wordpress/rich-text';
-import deprecated from '@wordpress/deprecated';
+} from '@aarondewes/wp-blocks';
+import { speak } from '@aarondewes/wp-a11y';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
+import { controls } from '@aarondewes/wp-data';
+import { create, insert, remove, toHTMLString } from '@aarondewes/wp-rich-text';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Internal dependencies

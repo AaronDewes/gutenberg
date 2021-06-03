@@ -6,10 +6,10 @@ import { some } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { Button } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { store as coreStore } from '@wordpress/core-data';
+import { useSelect } from '@aarondewes/wp-data';
+import { Button } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 export default function SaveButton( {
 	openEntitiesSavedStates,

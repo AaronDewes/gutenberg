@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createContext, useContext } from '@wordpress/element';
+import { createContext, useContext } from '@aarondewes/wp-element';
 
 export const NavigationGroupContext = createContext( { group: undefined } );
 

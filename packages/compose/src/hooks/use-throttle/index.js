@@ -7,7 +7,7 @@ import { useMemoOne } from 'use-memo-one';
 /**
  * WordPress dependencies
  */
-import { useEffect } from '@wordpress/element';
+import { useEffect } from '@aarondewes/wp-element';
 
 /**
  * Throttles a function with Lodash's `throttle`. A new throttled function will

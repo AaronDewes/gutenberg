@@ -6,18 +6,18 @@ import { shallow, mount } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { registerBlockType, unregisterBlockType } from '@wordpress/blocks';
-import { DOWN } from '@wordpress/keycodes';
-import { Button } from '@wordpress/components';
-import { stack } from '@wordpress/icons';
+import { useSelect } from '@aarondewes/wp-data';
+import { registerBlockType, unregisterBlockType } from '@aarondewes/wp-blocks';
+import { DOWN } from '@aarondewes/wp-keycodes';
+import { Button } from '@aarondewes/wp-components';
+import { stack } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies
  */
 import { BlockSwitcher, BlockSwitcherDropdownMenu } from '../';
 
-jest.mock( '@wordpress/data/src/components/use-select', () => jest.fn() );
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => jest.fn() );
 
 describe( 'BlockSwitcher', () => {
 	test( 'should not render block switcher without blocks', () => {

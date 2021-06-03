@@ -6,13 +6,13 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	__unstableComposite as Composite,
 	__unstableUseCompositeState as useCompositeState,
-} from '@wordpress/components';
-import { getBlockType } from '@wordpress/blocks';
-import { useDispatch } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { getBlockType } from '@aarondewes/wp-blocks';
+import { useDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

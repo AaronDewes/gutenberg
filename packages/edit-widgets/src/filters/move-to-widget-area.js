@@ -2,11 +2,11 @@
  * WordPress dependencies
  */
 
-import { BlockControls } from '@wordpress/block-editor';
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { addFilter } from '@wordpress/hooks';
-import { getWidgetIdFromBlock, MoveToWidgetArea } from '@wordpress/widgets';
+import { BlockControls } from '@aarondewes/wp-block-editor';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { getWidgetIdFromBlock, MoveToWidgetArea } from '@aarondewes/wp-widgets';
 
 /**
  * Internal dependencies

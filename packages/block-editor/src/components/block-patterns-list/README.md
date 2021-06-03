@@ -18,7 +18,7 @@ For more infos about blocks patterns, read [this](https://make.wordpress.org/cor
 Renders a block patterns list.
 
 ```jsx
-import { BlockPatternList } from '@wordpress/block-editor';
+import { BlockPatternList } from '@aarondewes/wp-block-editor';
 
 const MyBlockPatternList = () => (
 	<BlockPatternList

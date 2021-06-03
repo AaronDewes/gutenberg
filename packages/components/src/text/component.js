@@ -13,7 +13,7 @@ import useText from './hook';
  * @example
  *
  * ```jsx
- * import { __experimentalText as Text } from `@wordpress/components`;
+ * import { __experimentalText as Text } from `@aarondewes/wp-components`;
  *
  * function Example() {
  * 	return <Text>Code is Poetry</Text>;

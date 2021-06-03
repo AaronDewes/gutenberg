@@ -406,7 +406,7 @@ It's possible to provide an object which takes the following shape:
 -   `dependencies` (`string[]`) - an array of registered script handles this script depends on. Default value: `[]`.
 -   `version` (`string`|`false`|`null`) - string specifying the script version number, if it has one, which is added to the URL as a query string for cache busting purposes. If the version is set to `false`, a version number is automatically added equal to current installed WordPress version. If set to `null`, no version is added. Default value: `false`.
 
-The definition is stored inside separate PHP file which ends with `.asset.php` and is located next to the JS/CSS file listed in `block.json`. WordPress will automatically detect this file through pattern matching. This option is the preferred one as it is expected it will become an option to auto-generate those asset files with `@wordpress/scripts` package.
+The definition is stored inside separate PHP file which ends with `.asset.php` and is located next to the JS/CSS file listed in `block.json`. WordPress will automatically detect this file through pattern matching. This option is the preferred one as it is expected it will become an option to auto-generate those asset files with `@aarondewes/wp-scripts` package.
 
 **Example:**
 
@@ -470,12 +470,12 @@ Implementation follows the existing [get_plugin_data](https://codex.wordpress.or
 
 ### JavaScript
 
-In JavaScript, you can use `registerBlockType` method from `@wordpress/blocks` package and pass the metadata object loaded from `block.json` as the first param. All localized properties get automatically wrapped in `_x` (from `@wordpress/i18n` package) function calls similar to how it works in PHP.
+In JavaScript, you can use `registerBlockType` method from `@aarondewes/wp-blocks` package and pass the metadata object loaded from `block.json` as the first param. All localized properties get automatically wrapped in `_x` (from `@aarondewes/wp-i18n` package) function calls similar to how it works in PHP.
 
 **Example:**
 
 ```js
-import { registerBlockType } from '@wordpress/blocks';
+import { registerBlockType } from '@aarondewes/wp-blocks';
 import Edit from './edit';
 import metadata from './block.json';
 

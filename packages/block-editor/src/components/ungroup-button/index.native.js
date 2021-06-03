@@ -6,11 +6,11 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { Toolbar, ToolbarButton } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { Toolbar, ToolbarButton } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

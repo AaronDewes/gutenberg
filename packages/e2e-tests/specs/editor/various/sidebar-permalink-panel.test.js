@@ -7,7 +7,7 @@ import {
 	deactivatePlugin,
 	findSidebarPanelWithTitle,
 	publishPost,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const permalinkPanelXPath = `//div[contains(@class, "edit-post-sidebar")]//button[contains(@class, "components-panel__body-toggle") and contains(text(),"Permalink")]`;
 

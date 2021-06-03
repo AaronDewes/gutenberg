@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
-import { TabPanel } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { useMemo } from '@aarondewes/wp-element';
+import { TabPanel } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 const blocksTab = {
 	name: 'blocks',

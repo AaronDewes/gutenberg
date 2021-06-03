@@ -7,7 +7,7 @@ import { create } from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
+import { Button } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

@@ -5,9 +5,9 @@ import { View, Animated } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Icon, check } from '@wordpress/icons';
-import { Gradient } from '@wordpress/components';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { Icon, check } from '@aarondewes/wp-icons';
+import { Gradient } from '@aarondewes/wp-components';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 /**
  * Internal dependencies
  */

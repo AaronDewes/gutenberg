@@ -6,16 +6,16 @@ import { get, partial } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelBody } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody } from '@aarondewes/wp-components';
 import {
 	PostFeaturedImage,
 	PostFeaturedImageCheck,
 	store as editorStore,
-} from '@wordpress/editor';
-import { compose } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-editor';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

@@ -7,13 +7,13 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useState, useCallback, useRef, useEffect } from '@wordpress/element';
-import { isUnmodifiedDefaultBlock } from '@wordpress/blocks';
-import { Popover } from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useShortcut } from '@wordpress/keyboard-shortcuts';
-import { useViewportMatch } from '@wordpress/compose';
-import { getScrollContainer } from '@wordpress/dom';
+import { useState, useCallback, useRef, useEffect } from '@aarondewes/wp-element';
+import { isUnmodifiedDefaultBlock } from '@aarondewes/wp-blocks';
+import { Popover } from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useShortcut } from '@aarondewes/wp-keyboard-shortcuts';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { getScrollContainer } from '@aarondewes/wp-dom';
 
 /**
  * Internal dependencies

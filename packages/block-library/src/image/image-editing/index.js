@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { BlockControls } from '@wordpress/block-editor';
-import { ToolbarGroup, ToolbarItem } from '@wordpress/components';
+import { BlockControls } from '@aarondewes/wp-block-editor';
+import { ToolbarGroup, ToolbarItem } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

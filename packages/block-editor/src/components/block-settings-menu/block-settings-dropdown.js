@@ -6,15 +6,15 @@ import { castArray, flow, noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { DropdownMenu, MenuGroup, MenuItem } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
-import { moreVertical } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { DropdownMenu, MenuGroup, MenuItem } from '@aarondewes/wp-components';
+import { useSelect } from '@aarondewes/wp-data';
+import { moreVertical } from '@aarondewes/wp-icons';
 
-import { Children, cloneElement, useCallback } from '@wordpress/element';
-import { serialize } from '@wordpress/blocks';
-import { store as keyboardShortcutsStore } from '@wordpress/keyboard-shortcuts';
-import { useCopyToClipboard } from '@wordpress/compose';
+import { Children, cloneElement, useCallback } from '@aarondewes/wp-element';
+import { serialize } from '@aarondewes/wp-blocks';
+import { store as keyboardShortcutsStore } from '@aarondewes/wp-keyboard-shortcuts';
+import { useCopyToClipboard } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

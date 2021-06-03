@@ -36,7 +36,7 @@ module.exports = ( api ) => {
 			opts.targets = {
 				browsers:
 					localBrowserslistConfig.defaults ||
-					require( '@wordpress/browserslist-config' ),
+					require( '@aarondewes/wp-browserslist-config' ),
 			};
 		}
 
@@ -70,13 +70,13 @@ module.exports = ( api ) => {
 			require.resolve( '@babel/preset-typescript' ),
 		],
 		plugins: [
-			require.resolve( '@wordpress/warning/babel-plugin' ),
+			require.resolve( '@aarondewes/wp-warning/babel-plugin' ),
 			[
-				require.resolve( '@wordpress/babel-plugin-import-jsx-pragma' ),
+				require.resolve( '@aarondewes/wp-babel-plugin-import-jsx-pragma' ),
 				{
 					scopeVariable: 'createElement',
 					scopeVariableFrag: 'Fragment',
-					source: '@wordpress/element',
+					source: '@aarondewes/wp-element',
 					isDefault: false,
 				},
 			],

@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useRefEffect } from '@wordpress/compose';
+import { useRefEffect } from '@aarondewes/wp-compose';
 
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useContext } from '@wordpress/element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useContext } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -7,10 +7,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { speak } from '@wordpress/a11y';
-import { useEffect, forwardRef, renderToString } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import warning from '@wordpress/warning';
+import { speak } from '@aarondewes/wp-a11y';
+import { useEffect, forwardRef, renderToString } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import warning from '@aarondewes/wp-warning';
 
 /**
  * Internal dependencies
@@ -19,7 +19,7 @@ import { Button } from '../';
 
 const NOTICE_TIMEOUT = 10000;
 
-/** @typedef {import('@wordpress/element').WPElement} WPElement */
+/** @typedef {import('@aarondewes/wp-element').WPElement} WPElement */
 
 /**
  * Custom hook which announces the message with the given politeness, if a

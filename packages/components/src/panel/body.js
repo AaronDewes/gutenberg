@@ -7,9 +7,9 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useReducedMotion, useMergeRefs } from '@wordpress/compose';
-import { forwardRef, useRef } from '@wordpress/element';
-import { chevronUp, chevronDown } from '@wordpress/icons';
+import { useReducedMotion, useMergeRefs } from '@aarondewes/wp-compose';
+import { forwardRef, useRef } from '@aarondewes/wp-element';
+import { chevronUp, chevronDown } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

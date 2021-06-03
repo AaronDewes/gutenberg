@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { combineReducers } from '@wordpress/data';
+import { combineReducers } from '@aarondewes/wp-data';
 
 export function isEditingReusableBlock( state = {}, action ) {
 	if ( action?.type === 'SET_EDITING_REUSABLE_BLOCK' ) {

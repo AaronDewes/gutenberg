@@ -7,7 +7,7 @@ JavaScript port of WordPress's automatic paragraph function `autop` and the `rem
 Install the module
 
 ```bash
-npm install @wordpress/autop --save
+npm install @aarondewes/wp-autop --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -27,7 +27,7 @@ breaks after conversion become `<br />` tags, unless br is set to 'false'.
 _Usage_
 
 ```js
-import { autop } from '@wordpress/autop';
+import { autop } from '@aarondewes/wp-autop';
 autop( 'my text' ); // "<p>my text</p>"
 ```
 
@@ -50,7 +50,7 @@ Unifies whitespace. Indents `<li>`, `<dt>` and `<dd>` for better readability.
 _Usage_
 
 ```js
-import { removep } from '@wordpress/autop';
+import { removep } from '@aarondewes/wp-autop';
 removep( '<p>my text</p>' ); // "my text"
 ```
 

@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Icon } from '@wordpress/components';
-import { blockDefault } from '@wordpress/icons';
+import { Icon } from '@aarondewes/wp-components';
+import { blockDefault } from '@aarondewes/wp-icons';
 
 export default function BlockIcon( { icon, showColors = false, className } ) {
 	if ( icon?.src === 'block-default' ) {

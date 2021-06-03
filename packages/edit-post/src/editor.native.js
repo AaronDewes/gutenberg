@@ -8,17 +8,17 @@ import { I18nManager } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { EditorProvider } from '@wordpress/editor';
-import { parse, serialize, store as blocksStore } from '@wordpress/blocks';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { compose } from '@wordpress/compose';
+import { Component } from '@aarondewes/wp-element';
+import { EditorProvider } from '@aarondewes/wp-editor';
+import { parse, serialize, store as blocksStore } from '@aarondewes/wp-blocks';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { compose } from '@aarondewes/wp-compose';
 import {
 	subscribeSetFocusOnTitle,
 	subscribeFeaturedImageIdNativeUpdated,
-} from '@wordpress/react-native-bridge';
-import { SlotFillProvider } from '@wordpress/components';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-react-native-bridge';
+import { SlotFillProvider } from '@aarondewes/wp-components';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

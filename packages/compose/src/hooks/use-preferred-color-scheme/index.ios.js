@@ -1,7 +1,7 @@
 /**
  * External dependencies
  */
-import { useDarkModeContext, eventEmitter } from 'react-native-dark-mode';
+import { useDarkModeContext, eventEmitter } from 'react-native-dynamic';
 
 // Conditional needed to pass UI Tests on CI
 if ( eventEmitter.setMaxListeners ) {

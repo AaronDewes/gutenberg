@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { RichText } from '@wordpress/block-editor';
-import { VisuallyHidden } from '@wordpress/components';
-import { __, sprintf } from '@wordpress/i18n';
-import { createBlock } from '@wordpress/blocks';
+import { RichText } from '@aarondewes/wp-block-editor';
+import { VisuallyHidden } from '@aarondewes/wp-components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

@@ -22,11 +22,11 @@ import {
 /**
  * WordPress dependencies
  */
-import deprecated from '@wordpress/deprecated';
-import { applyFilters } from '@wordpress/hooks';
-import { select, dispatch } from '@wordpress/data';
-import { _x } from '@wordpress/i18n';
-import { blockDefault } from '@wordpress/icons';
+import deprecated from '@aarondewes/wp-deprecated';
+import { applyFilters } from '@aarondewes/wp-hooks';
+import { select, dispatch } from '@aarondewes/wp-data';
+import { _x } from '@aarondewes/wp-i18n';
+import { blockDefault } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies
@@ -387,7 +387,7 @@ function translateBlockSettingUsingI18nSchema(
 	textdomain
 ) {
 	if ( isString( i18nSchema ) && isString( settingValue ) ) {
-		// eslint-disable-next-line @wordpress/i18n-no-variables, @wordpress/i18n-text-domain
+		// eslint-disable-next-line @aarondewes/wp-i18n-no-variables, @aarondewes/wp-i18n-text-domain
 		return _x( settingValue, i18nSchema, textdomain );
 	}
 	if (

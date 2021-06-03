@@ -7,8 +7,8 @@ import { escape } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createBlock } from '@wordpress/blocks';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	KeyboardShortcuts,
 	PanelBody,
@@ -17,9 +17,9 @@ import {
 	TextareaControl,
 	ToolbarButton,
 	ToolbarGroup,
-} from '@wordpress/components';
-import { rawShortcut, displayShortcut } from '@wordpress/keycodes';
-import { __, sprintf } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { rawShortcut, displayShortcut } from '@aarondewes/wp-keycodes';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 import {
 	BlockControls,
 	InnerBlocks,
@@ -29,18 +29,18 @@ import {
 	__experimentalLinkControl as LinkControl,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { isURL, prependHTTP } from '@wordpress/url';
+} from '@aarondewes/wp-block-editor';
+import { isURL, prependHTTP } from '@aarondewes/wp-url';
 import {
 	Fragment,
 	useState,
 	useEffect,
 	useRef,
 	createInterpolateElement,
-} from '@wordpress/element';
-import { placeCaretAtHorizontalEdge } from '@wordpress/dom';
-import { link as linkIcon, addSubmenu } from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-element';
+import { placeCaretAtHorizontalEdge } from '@aarondewes/wp-dom';
+import { link as linkIcon, addSubmenu } from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies
@@ -55,7 +55,7 @@ const MAX_NESTING = 5;
 /**
  * A React hook to determine if it's dragging within the target element.
  *
- * @typedef {import('@wordpress/element').RefObject} RefObject
+ * @typedef {import('@aarondewes/wp-element').RefObject} RefObject
  *
  * @param {RefObject<HTMLElement>} elementRef The target elementRef object.
  *

@@ -11,7 +11,7 @@ import {
 	selectBlockByClientId,
 	setPostContent,
 	clickBlockToolbarButton,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const alignLabels = {
 	left: 'Align left',

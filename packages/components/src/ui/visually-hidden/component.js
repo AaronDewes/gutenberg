@@ -10,7 +10,7 @@ import { useVisuallyHidden } from './hook';
  *
  * @example
  * ```jsx
- * import { View, VisuallyHidden } from `@wordpress/components/ui`;
+ * import { View, VisuallyHidden } from `@aarondewes/wp-components/ui`;
  *
  * function Example() {
  * 	return (

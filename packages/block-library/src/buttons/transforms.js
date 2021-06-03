@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createBlock } from '@wordpress/blocks';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

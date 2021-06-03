@@ -5,9 +5,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { forwardRef } from '@wordpress/element';
-import { __, isRTL } from '@wordpress/i18n';
-import { Icon, chevronLeft, chevronRight } from '@wordpress/icons';
+import { forwardRef } from '@aarondewes/wp-element';
+import { __, isRTL } from '@aarondewes/wp-i18n';
+import { Icon, chevronLeft, chevronRight } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

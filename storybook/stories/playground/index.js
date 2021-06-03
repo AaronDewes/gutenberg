@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useEffect, useState } from '@wordpress/element';
+import { useEffect, useState } from '@aarondewes/wp-element';
 import {
 	BlockEditorKeyboardShortcuts,
 	BlockEditorProvider,
@@ -10,10 +10,10 @@ import {
 	BlockInspector,
 	WritingFlow,
 	ObserveTyping,
-} from '@wordpress/block-editor';
-import { Popover, SlotFillProvider } from '@wordpress/components';
-import { registerCoreBlocks } from '@wordpress/block-library';
-import '@wordpress/format-library';
+} from '@aarondewes/wp-block-editor';
+import { Popover, SlotFillProvider } from '@aarondewes/wp-components';
+import { registerCoreBlocks } from '@aarondewes/wp-block-library';
+import '@aarondewes/wp-format-library';
 
 /**
  * Internal dependencies

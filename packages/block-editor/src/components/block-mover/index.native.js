@@ -7,11 +7,11 @@ import { Platform } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Picker, ToolbarButton } from '@wordpress/components';
-import { withInstanceId, compose } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { useRef, useState } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Picker, ToolbarButton } from '@aarondewes/wp-components';
+import { withInstanceId, compose } from '@aarondewes/wp-compose';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { useRef, useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

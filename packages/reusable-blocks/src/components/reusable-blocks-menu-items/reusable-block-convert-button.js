@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { hasBlockSupport, isReusableBlock } from '@wordpress/blocks';
+import { hasBlockSupport, isReusableBlock } from '@aarondewes/wp-blocks';
 import {
 	BlockSettingsMenuControls,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useCallback, useState } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { useCallback, useState } from '@aarondewes/wp-element';
 import {
 	MenuItem,
 	Modal,
@@ -14,12 +14,12 @@ import {
 	TextControl,
 	Flex,
 	FlexItem,
-} from '@wordpress/components';
-import { reusableBlock } from '@wordpress/icons';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { reusableBlock } from '@aarondewes/wp-icons';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies
@@ -32,7 +32,7 @@ import { store } from '../../store';
  * @param {Object}   props              Component props.
  * @param {string[]} props.clientIds    Client ids of selected blocks.
  * @param {string}   props.rootClientId ID of the currently selected top-level block.
- * @return {import('@wordpress/element').WPComponent} The menu control or null.
+ * @return {import('@aarondewes/wp-element').WPComponent} The menu control or null.
  */
 export default function ReusableBlockConvertButton( {
 	clientIds,

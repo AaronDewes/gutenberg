@@ -7,16 +7,16 @@ import { omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createContext, useMemo, useCallback } from '@wordpress/element';
+import { createContext, useMemo, useCallback } from '@aarondewes/wp-element';
 import {
 	getBlockType,
 	getSaveElement,
 	isUnmodifiedDefaultBlock,
 	hasBlockSupport,
-} from '@wordpress/blocks';
-import { withFilters } from '@wordpress/components';
-import { withDispatch, withSelect, useDispatch } from '@wordpress/data';
-import { compose, pure, ifCondition } from '@wordpress/compose';
+} from '@aarondewes/wp-blocks';
+import { withFilters } from '@aarondewes/wp-components';
+import { withDispatch, withSelect, useDispatch } from '@aarondewes/wp-data';
+import { compose, pure, ifCondition } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

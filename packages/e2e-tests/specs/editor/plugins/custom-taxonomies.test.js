@@ -7,7 +7,7 @@ import {
 	deactivatePlugin,
 	findSidebarPanelWithTitle,
 	openDocumentSettingsSidebar,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Custom Taxonomies labels are used', () => {
 	beforeAll( async () => {

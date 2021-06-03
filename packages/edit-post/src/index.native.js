@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import '@wordpress/core-data';
-import '@wordpress/format-library';
-import { render } from '@wordpress/element';
+import '@aarondewes/wp-core-data';
+import '@aarondewes/wp-format-library';
+import { render } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

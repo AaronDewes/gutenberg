@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as interfaceStore } from '@wordpress/interface';
-import { getWidgetIdFromBlock } from '@wordpress/widgets';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as interfaceStore } from '@aarondewes/wp-interface';
+import { getWidgetIdFromBlock } from '@aarondewes/wp-widgets';
 
 /**
  * Internal dependencies

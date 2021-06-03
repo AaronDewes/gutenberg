@@ -3,7 +3,7 @@
  */
 import fetchLinkSuggestions from '../__experimental-fetch-link-suggestions';
 
-jest.mock( '@wordpress/api-fetch', () =>
+jest.mock( '@aarondewes/wp-api-fetch', () =>
 	jest.fn( ( { path } ) => {
 		switch ( path ) {
 			case '/wp/v2/search?search=&per_page=20&type=post':

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { store as noticesStore } from '@wordpress/notices';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

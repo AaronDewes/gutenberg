@@ -11,8 +11,8 @@ import {
 	withConstrainedTabbing,
 	TextControl,
 	Button,
-} from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+} from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const ConstrainedTabbing = withConstrainedTabbing(
 	( { children } ) => children

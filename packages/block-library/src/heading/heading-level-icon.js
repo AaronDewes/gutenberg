@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { Path, SVG } from '@wordpress/components';
+import { Path, SVG } from '@aarondewes/wp-components';
 
-/** @typedef {import('@wordpress/element').WPComponent} WPComponent */
+/** @typedef {import('@aarondewes/wp-element').WPComponent} WPComponent */
 
 /**
  * HeadingLevelIcon props.

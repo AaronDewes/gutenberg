@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createHigherOrderComponent } from '@wordpress/compose';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies
@@ -25,7 +25,7 @@ import { useDispatchWithMap } from '../use-dispatch';
  *     return <button type="button" onClick={ onClick }>{ children }</button>;
  * }
  *
- * import { withDispatch } from '@wordpress/data';
+ * import { withDispatch } from '@aarondewes/wp-data';
  *
  * const SaleButton = withDispatch( ( dispatch, ownProps ) => {
  *     const { startSale } = dispatch( 'my-shop' );
@@ -62,7 +62,7 @@ import { useDispatchWithMap } from '../use-dispatch';
  *     return <button type="button" onClick={ onClick }>{ children }</button>;
  * }
  *
- * import { withDispatch } from '@wordpress/data';
+ * import { withDispatch } from '@aarondewes/wp-data';
  *
  * const SaleButton = withDispatch( ( dispatch, ownProps, { select } ) => {
  *    // Stock number changes frequently.

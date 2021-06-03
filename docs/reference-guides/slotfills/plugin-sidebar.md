@@ -6,9 +6,9 @@ Using this slot will add an icon to the bar that, when clicked, will open a side
 ## Example
 
 ```js
-import { registerPlugin } from '@wordpress/plugins';
-import { PluginSidebar } from '@wordpress/edit-post';
-import { image } from '@wordpress/icons';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { PluginSidebar } from '@aarondewes/wp-edit-post';
+import { image } from '@aarondewes/wp-icons';
 
 const PluginSidebarTest = () => (
 	<PluginSidebar name="plugin-sidebar-test" title="My Plugin" icon={ image }>

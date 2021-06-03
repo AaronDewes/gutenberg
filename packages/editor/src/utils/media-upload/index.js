@@ -6,8 +6,8 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { select } from '@wordpress/data';
-import { uploadMedia } from '@wordpress/media-utils';
+import { select } from '@aarondewes/wp-data';
+import { uploadMedia } from '@aarondewes/wp-media-utils';
 
 /**
  * Internal dependencies

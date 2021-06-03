@@ -6,8 +6,8 @@ import { ToolbarItem as BaseToolbarItem } from 'reakit/Toolbar';
 /**
  * WordPress dependencies
  */
-import { forwardRef, useContext } from '@wordpress/element';
-import warning from '@wordpress/warning';
+import { forwardRef, useContext } from '@aarondewes/wp-element';
+import warning from '@aarondewes/wp-warning';
 
 /**
  * Internal dependencies

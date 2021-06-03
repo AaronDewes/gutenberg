@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useState, useEffect } from '@wordpress/element';
+import { useState, useEffect } from '@aarondewes/wp-element';
 
 /**
  * Runs a media query and returns its value when it changes.

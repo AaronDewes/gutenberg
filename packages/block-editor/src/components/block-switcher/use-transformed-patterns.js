@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
-import { cloneBlock } from '@wordpress/blocks';
+import { useMemo } from '@aarondewes/wp-element';
+import { cloneBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

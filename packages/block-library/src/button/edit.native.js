@@ -5,8 +5,8 @@ import { View, AccessibilityInfo, Platform, Text } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { withInstanceId, compose } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
+import { withInstanceId, compose } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	RichText,
 	InspectorControls,
@@ -16,7 +16,7 @@ import {
 	getColorObjectByAttributeValues,
 	getGradientValueBySlug,
 	__experimentalGetColorClassesAndStyles as getColorClassesAndStyles,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	PanelBody,
 	RangeControl,
@@ -24,10 +24,10 @@ import {
 	ToolbarButton,
 	LinkSettingsNavigation,
 	BottomSheetSelectControl,
-} from '@wordpress/components';
-import { Component } from '@wordpress/element';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { link } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { Component } from '@aarondewes/wp-element';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { link } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { Path, SVG } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { Path, SVG } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
-/** @typedef {import('@wordpress/blocks').WPBlockVariation} WPBlockVariation */
+/** @typedef {import('@aarondewes/wp-blocks').WPBlockVariation} WPBlockVariation */
 
 /**
  * Template option choices for predefined columns layouts.

@@ -6,8 +6,8 @@ import { css, cx } from 'emotion';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
-import deprecated from '@wordpress/deprecated';
+import { useMemo } from '@aarondewes/wp-element';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Internal dependencies

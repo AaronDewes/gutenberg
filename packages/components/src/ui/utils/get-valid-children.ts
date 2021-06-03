@@ -7,7 +7,7 @@ import type { ReactNode, ReactNodeArray } from 'react';
 /**
  * WordPress dependencies
  */
-import { Children, isValidElement } from '@wordpress/element';
+import { Children, isValidElement } from '@aarondewes/wp-element';
 
 /**
  * Gets a collection of available children elements from a React component's children prop.

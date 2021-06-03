@@ -13,16 +13,16 @@ import {
 	useRef,
 	useCallback,
 	forwardRef,
-} from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
 import {
 	pasteHandler,
 	children as childrenSource,
 	getBlockTransforms,
 	findTransform,
 	isUnmodifiedDefaultBlock,
-} from '@wordpress/blocks';
-import { useInstanceId, useMergeRefs } from '@wordpress/compose';
+} from '@aarondewes/wp-blocks';
+import { useInstanceId, useMergeRefs } from '@aarondewes/wp-compose';
 import {
 	__experimentalRichText as RichText,
 	__unstableCreateElement,
@@ -36,9 +36,9 @@ import {
 	__UNSTABLE_LINE_SEPARATOR as LINE_SEPARATOR,
 	toHTMLString,
 	slice,
-} from '@wordpress/rich-text';
-import deprecated from '@wordpress/deprecated';
-import { isURL } from '@wordpress/url';
+} from '@aarondewes/wp-rich-text';
+import deprecated from '@aarondewes/wp-deprecated';
+import { isURL } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

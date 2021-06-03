@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Button, VisuallyHidden } from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { forwardRef } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+import { Button, VisuallyHidden } from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { forwardRef } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

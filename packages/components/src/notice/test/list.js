@@ -6,7 +6,7 @@ import ShallowRenderer from 'react-test-renderer/shallow';
 /**
  * WordPress dependencies
  */
-import TokenList from '@wordpress/token-list';
+import TokenList from '@aarondewes/wp-token-list';
 
 /**
  * Internal dependencies

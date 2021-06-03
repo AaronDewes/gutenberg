@@ -11,8 +11,8 @@ The state when a block has been inserted, but no data has been entered yet, is c
 To use the Placeholder, wrap the `<TextControl>` component so it becomes a child element of the `<Placeholder>` component. Try it out in your code. After updating, you might have something like:
 
 ```jsx
-import { Placeholder, TextControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { Placeholder, TextControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function Edit( { attributes, className, setAttributes } ) {
 	return (
@@ -76,8 +76,8 @@ If the message is set and `!isSelected`, meaning we are not editing the block, t
 All so this combined together here's what the edit function looks like this:
 
 ```jsx
-import { Placeholder, TextControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { Placeholder, TextControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function Edit( { attributes, isSelected, setAttributes } ) {
 	return (
@@ -125,8 +125,8 @@ Update `src/editor.scss` to:
 The edit function can simply be:
 
 ```jsx
-import { useBlockProps } from '@wordpress/block-editor';
-import { TextControl } from '@wordpress/components';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
+import { TextControl } from '@aarondewes/wp-components';
 
 import './editor.scss';
 

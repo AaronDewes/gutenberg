@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useState, useMemo } from '@wordpress/element';
+import { useState, useMemo } from '@aarondewes/wp-element';
 import {
 	InnerBlocks,
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
@@ -15,11 +15,11 @@ import {
 	BlockControls,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useDispatch, withSelect, withDispatch } from '@wordpress/data';
-import { PanelBody, ToggleControl, ToolbarGroup } from '@wordpress/components';
-import { compose } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { useDispatch, withSelect, withDispatch } from '@aarondewes/wp-data';
+import { PanelBody, ToggleControl, ToolbarGroup } from '@aarondewes/wp-components';
+import { compose } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

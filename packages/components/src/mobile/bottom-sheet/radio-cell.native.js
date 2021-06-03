@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Icon, check } from '@wordpress/icons';
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { Icon, check } from '@aarondewes/wp-icons';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 /**
  * Internal dependencies
  */

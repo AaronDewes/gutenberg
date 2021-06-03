@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 export default function save( { attributes } ) {
 	return (

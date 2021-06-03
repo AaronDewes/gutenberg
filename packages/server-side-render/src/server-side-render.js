@@ -6,13 +6,13 @@ import { isEqual } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useDebounce, usePrevious } from '@wordpress/compose';
-import { RawHTML, useEffect, useRef, useState } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
-import apiFetch from '@wordpress/api-fetch';
-import { addQueryArgs } from '@wordpress/url';
-import { Placeholder, Spinner } from '@wordpress/components';
-import { __experimentalSanitizeBlockAttributes } from '@wordpress/blocks';
+import { useDebounce, usePrevious } from '@aarondewes/wp-compose';
+import { RawHTML, useEffect, useRef, useState } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { Placeholder, Spinner } from '@aarondewes/wp-components';
+import { __experimentalSanitizeBlockAttributes } from '@aarondewes/wp-blocks';
 
 export function rendererPath( block, attributes = null, urlQueryArgs = {} ) {
 	return addQueryArgs( `/wp/v2/block-renderer/${ block }`, {

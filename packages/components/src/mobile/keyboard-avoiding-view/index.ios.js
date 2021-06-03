@@ -13,8 +13,8 @@ import SafeArea from 'react-native-safe-area';
 /**
  * WordPress dependencies
  */
-import { useEffect, useRef, useState } from '@wordpress/element';
-import { useResizeObserver } from '@wordpress/compose';
+import { useEffect, useRef, useState } from '@aarondewes/wp-element';
+import { useResizeObserver } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

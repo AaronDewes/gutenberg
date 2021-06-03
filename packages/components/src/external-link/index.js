@@ -7,9 +7,9 @@ import { compact, uniq } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { forwardRef } from '@wordpress/element';
-import { external } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { forwardRef } from '@aarondewes/wp-element';
+import { external } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

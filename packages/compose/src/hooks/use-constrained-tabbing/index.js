@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { TAB } from '@wordpress/keycodes';
-import { focus } from '@wordpress/dom';
-import { useCallback } from '@wordpress/element';
+import { TAB } from '@aarondewes/wp-keycodes';
+import { focus } from '@aarondewes/wp-dom';
+import { useCallback } from '@aarondewes/wp-element';
 
 /**
  * In Dialogs/modals, the tabbing must be constrained to the content of
@@ -13,7 +13,7 @@ import { useCallback } from '@wordpress/element';
  *
  * @example
  * ```js
- * import { useConstrainedTabbing } from '@wordpress/compose';
+ * import { useConstrainedTabbing } from '@aarondewes/wp-compose';
  *
  * const ConstrainedTabbingExample = () => {
  *     const constrainedTabbingRef = useConstrainedTabbing()

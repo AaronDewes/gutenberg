@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { PanelRow } from '@wordpress/components';
+import { PanelRow } from '@aarondewes/wp-components';
 import {
 	PostAuthor as PostAuthorForm,
 	PostAuthorCheck,
-} from '@wordpress/editor';
+} from '@aarondewes/wp-editor';
 
 export function PostAuthor() {
 	return (

@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import '@wordpress/block-editor';
-import '@wordpress/core-data';
-import '@wordpress/rich-text';
+import '@aarondewes/wp-block-editor';
+import '@aarondewes/wp-core-data';
+import '@aarondewes/wp-rich-text';
 
 /**
  * Internal dependencies

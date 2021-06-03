@@ -6,10 +6,10 @@ import { includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createBlobURL } from '@wordpress/blob';
-import { createBlock } from '@wordpress/blocks';
-import { select } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
+import { createBlobURL } from '@aarondewes/wp-blob';
+import { createBlock } from '@aarondewes/wp-blocks';
+import { select } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 const transforms = {
 	from: [

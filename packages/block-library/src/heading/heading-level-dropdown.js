@@ -6,9 +6,9 @@ import {
 	Toolbar,
 	ToolbarButton,
 	ToolbarGroup,
-} from '@wordpress/components';
-import { __, sprintf } from '@wordpress/i18n';
-import { DOWN } from '@wordpress/keycodes';
+} from '@aarondewes/wp-components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { DOWN } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies
@@ -22,7 +22,7 @@ const POPOVER_PROPS = {
 	isAlternate: true,
 };
 
-/** @typedef {import('@wordpress/element').WPComponent} WPComponent */
+/** @typedef {import('@aarondewes/wp-element').WPComponent} WPComponent */
 
 /**
  * HeadingLevelDropdown props.

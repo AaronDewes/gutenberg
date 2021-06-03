@@ -9,7 +9,7 @@ import {
 	insertBlock,
 	saveDraft,
 	pressKeyTimes,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Block with a meta attribute', () => {
 	beforeAll( async () => {

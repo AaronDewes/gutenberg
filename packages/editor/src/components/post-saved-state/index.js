@@ -9,13 +9,13 @@ import classnames from 'classnames';
 import {
 	__unstableGetAnimateClassName as getAnimateClassName,
 	Button,
-} from '@wordpress/components';
-import { usePrevious, useViewportMatch } from '@wordpress/compose';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useEffect, useState } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { Icon, check, cloud, cloudUpload } from '@wordpress/icons';
-import { displayShortcut } from '@wordpress/keycodes';
+} from '@aarondewes/wp-components';
+import { usePrevious, useViewportMatch } from '@aarondewes/wp-compose';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useEffect, useState } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Icon, check, cloud, cloudUpload } from '@aarondewes/wp-icons';
+import { displayShortcut } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies
@@ -33,7 +33,7 @@ import { store as editorStore } from '../../store';
  * @param {?boolean} props.forceIsSaving Whether to force the post to be marked
  * as being saved.
  * @param {?boolean} props.showIconLabels Whether interface buttons show labels instead of icons
- * @return {import('@wordpress/element').WPComponent} The component.
+ * @return {import('@aarondewes/wp-element').WPComponent} The component.
  */
 export default function PostSavedState( {
 	forceIsDirty,

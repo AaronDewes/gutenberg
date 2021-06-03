@@ -7,7 +7,7 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { more } from '@wordpress/icons';
+import { more } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

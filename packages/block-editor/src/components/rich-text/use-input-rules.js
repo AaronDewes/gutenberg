@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { useRef } from '@wordpress/element';
-import { useRefEffect } from '@wordpress/compose';
-import { slice, toHTMLString } from '@wordpress/rich-text';
-import { getBlockTransforms, findTransform } from '@wordpress/blocks';
-import { useDispatch } from '@wordpress/data';
+import { useRef } from '@aarondewes/wp-element';
+import { useRefEffect } from '@aarondewes/wp-compose';
+import { slice, toHTMLString } from '@aarondewes/wp-rich-text';
+import { getBlockTransforms, findTransform } from '@aarondewes/wp-blocks';
+import { useDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

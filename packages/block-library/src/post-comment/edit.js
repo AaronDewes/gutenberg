@@ -1,11 +1,11 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Placeholder, TextControl, Button } from '@wordpress/components';
-import { useState } from '@wordpress/element';
-import { blockDefault } from '@wordpress/icons';
-import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { Placeholder, TextControl, Button } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
+import { blockDefault } from '@aarondewes/wp-icons';
+import { InnerBlocks, useBlockProps } from '@aarondewes/wp-block-editor';
 
 const ALLOWED_BLOCKS = [
 	'core/post-comment-content',

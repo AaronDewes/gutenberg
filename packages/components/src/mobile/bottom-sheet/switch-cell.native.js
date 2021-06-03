@@ -6,7 +6,7 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, _x, sprintf } from '@wordpress/i18n';
+import { __, _x, sprintf } from '@aarondewes/wp-i18n';
 /**
  * Internal dependencies
  */

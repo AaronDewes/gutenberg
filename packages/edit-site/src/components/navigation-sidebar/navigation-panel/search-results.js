@@ -6,16 +6,16 @@ import { map, sortBy, keyBy } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
-import { __experimentalNavigationGroup as NavigationGroup } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { useMemo } from '@aarondewes/wp-element';
+import { __experimentalNavigationGroup as NavigationGroup } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies
  */
 import { normalizedSearch } from './utils';
-import { useSelect } from '@wordpress/data';
-import { store as editorStore } from '@wordpress/editor';
+import { useSelect } from '@aarondewes/wp-data';
+import { store as editorStore } from '@aarondewes/wp-editor';
 import TemplateNavigationItem from './template-navigation-item';
 import ContentNavigationItem from './content-navigation-item';
 

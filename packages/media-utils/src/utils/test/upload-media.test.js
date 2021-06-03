@@ -1,19 +1,19 @@
 /**
  * WordPress dependencies
  */
-import { createBlobURL } from '@wordpress/blob';
-import apiFetch from '@wordpress/api-fetch';
+import { createBlobURL } from '@aarondewes/wp-blob';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
 /**
  * Internal dependencies
  */
 import { uploadMedia, getMimeTypesArray } from '../upload-media';
 
-jest.mock( '@wordpress/blob', () => ( {
+jest.mock( '@aarondewes/wp-blob', () => ( {
 	createBlobURL: jest.fn(),
 	revokeBlobURL: jest.fn(),
 } ) );
-jest.mock( '@wordpress/api-fetch', () => jest.fn() );
+jest.mock( '@aarondewes/wp-api-fetch', () => jest.fn() );
 
 const xmlFile = new window.File( [ 'fake_file' ], 'test.xml', {
 	type: 'text/xml',

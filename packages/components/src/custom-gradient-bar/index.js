@@ -8,7 +8,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useRef, useReducer } from '@wordpress/element';
+import { useRef, useReducer } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

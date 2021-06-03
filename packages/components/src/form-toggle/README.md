@@ -54,8 +54,8 @@ When a user switches a toggle, its corresponding action takes effect immediately
 ### Usage
 
 ```jsx
-import { FormToggle } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { FormToggle } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyFormToggle = withState( {
 	checked: true,

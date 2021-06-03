@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Path, SVG } from '@wordpress/primitives';
+import { Path, SVG } from '@aarondewes/wp-primitives';
 
 const separator = (
 	<SVG viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

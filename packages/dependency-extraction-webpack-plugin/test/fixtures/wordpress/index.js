@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { isBlobURL } from '@wordpress/blob';
+import { isBlobURL } from '@aarondewes/wp-blob';
 
 /**
  * External dependencies

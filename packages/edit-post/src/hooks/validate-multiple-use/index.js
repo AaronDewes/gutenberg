@@ -12,13 +12,13 @@ import {
 	getBlockTransforms,
 	getBlockType,
 	hasBlockSupport,
-} from '@wordpress/blocks';
-import { Button } from '@wordpress/components';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { Warning, store as blockEditorStore } from '@wordpress/block-editor';
-import { addFilter } from '@wordpress/hooks';
-import { __ } from '@wordpress/i18n';
-import { compose, createHigherOrderComponent } from '@wordpress/compose';
+} from '@aarondewes/wp-blocks';
+import { Button } from '@aarondewes/wp-components';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { Warning, store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { __ } from '@aarondewes/wp-i18n';
+import { compose, createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 const enhance = compose(
 	/**

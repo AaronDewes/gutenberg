@@ -7,9 +7,9 @@ import {
 	ToolbarGroup,
 	SVG,
 	Path,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { DOWN } from '@wordpress/keycodes';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { DOWN } from '@aarondewes/wp-keycodes';
 
 const ColorSelectorSVGIcon = () => (
 	<SVG xmlns="https://www.w3.org/2000/svg" viewBox="0 0 20 20">

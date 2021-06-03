@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useViewportMatch } from '@wordpress/compose';
+import { useViewportMatch } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

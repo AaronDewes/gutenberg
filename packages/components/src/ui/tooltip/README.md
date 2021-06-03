@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { Tooltip, Text } from '@wordpress/components/ui';
+import { Tooltip, Text } from '@aarondewes/wp-components/ui';
 
 function Example() {
 	return (

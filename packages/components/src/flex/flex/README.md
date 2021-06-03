@@ -16,7 +16,7 @@ import {
 	__experimentalFlexBlock as FlexBlock,
 	__experimentalFlexItem as FlexItem,
 	__experimentalText as Text,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function Example() {
 	return (

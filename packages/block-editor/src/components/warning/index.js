@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Children } from '@wordpress/element';
-import { DropdownMenu, MenuGroup, MenuItem } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { moreHorizontal } from '@wordpress/icons';
+import { Children } from '@aarondewes/wp-element';
+import { DropdownMenu, MenuGroup, MenuItem } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { moreHorizontal } from '@aarondewes/wp-icons';
 
 function Warning( { className, actions, children, secondaryActions } ) {
 	return (

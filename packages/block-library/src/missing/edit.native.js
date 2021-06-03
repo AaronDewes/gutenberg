@@ -15,17 +15,17 @@ import {
 	requestUnsupportedBlockFallback,
 	sendActionButtonPressedAction,
 	actionButtons,
-} from '@wordpress/react-native-bridge';
-import { BottomSheet, Icon, TextControl } from '@wordpress/components';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { coreBlocks } from '@wordpress/block-library';
-import { normalizeIconObject } from '@wordpress/blocks';
-import { Component } from '@wordpress/element';
-import { __, _x, sprintf } from '@wordpress/i18n';
-import { help, plugins } from '@wordpress/icons';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { applyFilters } from '@wordpress/hooks';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+} from '@aarondewes/wp-react-native-bridge';
+import { BottomSheet, Icon, TextControl } from '@aarondewes/wp-components';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { coreBlocks } from '@aarondewes/wp-block-library';
+import { normalizeIconObject } from '@aarondewes/wp-blocks';
+import { Component } from '@aarondewes/wp-element';
+import { __, _x, sprintf } from '@aarondewes/wp-i18n';
+import { help, plugins } from '@aarondewes/wp-icons';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { applyFilters } from '@aarondewes/wp-hooks';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies
@@ -71,7 +71,7 @@ export class UnsupportedBlockEdit extends Component {
 		const textdomain = blockType?.metadata.textdomain;
 
 		return title && textdomain
-			? // eslint-disable-next-line @wordpress/i18n-no-variables, @wordpress/i18n-text-domain
+			? // eslint-disable-next-line @aarondewes/wp-i18n-no-variables, @aarondewes/wp-i18n-text-domain
 			  _x( title, I18N_BLOCK_SCHEMA_TITLE, textdomain )
 			: originalName;
 	}

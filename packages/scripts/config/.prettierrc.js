@@ -1,1 +1,1 @@
-module.exports = require( '@wordpress/prettier-config' );
+module.exports = require( '@aarondewes/wp-prettier-config' );

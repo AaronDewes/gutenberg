@@ -5,7 +5,7 @@ CardMedia provides a container for media elements, and renders within a [`<Card 
 ## Usage
 
 ```jsx
-import { Card, CardBody, CardMedia } from '@wordpress/components';
+import { Card, CardBody, CardMedia } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>
@@ -24,7 +24,7 @@ const Example = () => (
 ### Top
 
 ```jsx
-import { Card, CardBody, CardMedia } from '@wordpress/components';
+import { Card, CardBody, CardMedia } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>
@@ -39,7 +39,7 @@ const Example = () => (
 ### Center
 
 ```jsx
-import { Card, CardBody, CardMedia } from '@wordpress/components';
+import { Card, CardBody, CardMedia } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>
@@ -55,7 +55,7 @@ const Example = () => (
 ### Bottom
 
 ```jsx
-import { Card, CardBody, CardMedia } from '@wordpress/components';
+import { Card, CardBody, CardMedia } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>
@@ -72,7 +72,7 @@ const Example = () => (
 `<CardMedia />` can also exist as the only child component of `<Card />`.
 
 ```jsx
-import { Card, CardMedia } from '@wordpress/components';
+import { Card, CardMedia } from '@aarondewes/wp-components';
 
 const Example = () => (
 	<Card>

@@ -6,14 +6,14 @@ Widgets Page Module for WordPress.
 
 ## Batch processing
 
-This package contains the first version of what may eventually become `@wordpress/batch-processing` package. Once imported, `core/__experimental-batch-processing` store gets registered. As the name says - it is highly experimental and considered a private API for now.
+This package contains the first version of what may eventually become `@aarondewes/wp-batch-processing` package. Once imported, `core/__experimental-batch-processing` store gets registered. As the name says - it is highly experimental and considered a private API for now.
 
 ## Installation
 
 Install the module
 
 ```bash
-npm install @wordpress/edit-widgets
+npm install @aarondewes/wp-edit-widgets
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._

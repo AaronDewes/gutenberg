@@ -1,17 +1,17 @@
 /**
  * WordPress dependencies
  */
-import { __, _n, sprintf } from '@wordpress/i18n';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
 import {
 	Button,
 	Spinner,
 	VisuallyHidden,
 	__unstableCompositeItem as CompositeItem,
-} from '@wordpress/components';
-import { createInterpolateElement } from '@wordpress/element';
-import { decodeEntities } from '@wordpress/html-entities';
-import { getBlockType } from '@wordpress/blocks';
-import { useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { createInterpolateElement } from '@aarondewes/wp-element';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { getBlockType } from '@aarondewes/wp-blocks';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

@@ -61,7 +61,7 @@ The first step is to convert the functions `mapSelectToProps` and `mapDispatchTo
 } )( window.wp );
 ```
 
-Next, merge `MetaBlockField`, `MetaBlockFieldWithData`, and `MetaBlockFieldWithDataAndActions` into one function called `MetaBlockField` that gets passed to the `div` element. The `@wordpress/compose` package offers an utility to concatenate functions called `compose`. Don't forget adding `wp-compose` to the dependencies array in the PHP script.
+Next, merge `MetaBlockField`, `MetaBlockFieldWithData`, and `MetaBlockFieldWithDataAndActions` into one function called `MetaBlockField` that gets passed to the `div` element. The `@aarondewes/wp-compose` package offers an utility to concatenate functions called `compose`. Don't forget adding `wp-compose` to the dependencies array in the PHP script.
 
 ```js
 ( function ( wp ) {

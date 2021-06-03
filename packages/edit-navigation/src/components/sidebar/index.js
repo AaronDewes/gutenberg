@@ -1,18 +1,18 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { cog } from '@wordpress/icons';
-import { useEffect } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { cog } from '@aarondewes/wp-icons';
+import { useEffect } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	BlockInspector,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	ComplementaryArea,
 	store as interfaceStore,
-} from '@wordpress/interface';
+} from '@aarondewes/wp-interface';
 
 /**
  * Internal dependencies

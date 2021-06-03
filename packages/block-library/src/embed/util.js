@@ -13,12 +13,12 @@ import memoize from 'memize';
 /**
  * WordPress dependencies
  */
-import { renderToString } from '@wordpress/element';
+import { renderToString } from '@aarondewes/wp-element';
 import {
 	createBlock,
 	getBlockType,
 	getBlockVariations,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies
@@ -27,7 +27,7 @@ import metadata from './block.json';
 
 const { name: DEFAULT_EMBED_BLOCK } = metadata;
 
-/** @typedef {import('@wordpress/blocks').WPBlockVariation} WPBlockVariation */
+/** @typedef {import('@aarondewes/wp-blocks').WPBlockVariation} WPBlockVariation */
 
 /**
  * Returns the embed block's information by matching the provided service provider

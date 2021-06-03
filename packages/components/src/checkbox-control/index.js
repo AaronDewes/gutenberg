@@ -6,9 +6,9 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import deprecated from '@wordpress/deprecated';
-import { Icon, check } from '@wordpress/icons';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import deprecated from '@aarondewes/wp-deprecated';
+import { Icon, check } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

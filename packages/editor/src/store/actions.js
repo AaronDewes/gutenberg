@@ -6,17 +6,17 @@ import { has } from 'lodash';
 /**
  * WordPress dependencies
  */
-import deprecated from '@wordpress/deprecated';
-import { controls } from '@wordpress/data';
-import { apiFetch } from '@wordpress/data-controls';
+import deprecated from '@aarondewes/wp-deprecated';
+import { controls } from '@aarondewes/wp-data';
+import { apiFetch } from '@aarondewes/wp-data-controls';
 import {
 	parse,
 	synchronizeBlocksWithTemplate,
 	__unstableSerializeAndClean,
-} from '@wordpress/blocks';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+} from '@aarondewes/wp-blocks';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies
@@ -108,7 +108,7 @@ export function resetPost( post ) {
  * post has been received, by initialization or autosave.
  *
  * @deprecated since 5.6. Callers should use the `receiveAutosaves( postId, autosave )`
- * 			   selector from the '@wordpress/core-data' package.
+ * 			   selector from the '@aarondewes/wp-core-data' package.
  *
  * @param {Object} newAutosave Autosave post object.
  *

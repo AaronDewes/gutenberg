@@ -8,9 +8,9 @@ import { uniqueId } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Fragment, useState } from '@wordpress/element';
+import { Fragment, useState } from '@aarondewes/wp-element';
 
-import { SelectControl } from '@wordpress/components';
+import { SelectControl } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

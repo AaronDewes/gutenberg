@@ -6,12 +6,12 @@ import { TouchableWithoutFeedback, View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { RichText } from '@wordpress/block-editor';
-import { compose } from '@wordpress/compose';
-import { decodeEntities } from '@wordpress/html-entities';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { getDefaultBlockName } from '@wordpress/blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { RichText } from '@aarondewes/wp-block-editor';
+import { compose } from '@aarondewes/wp-compose';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { getDefaultBlockName } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

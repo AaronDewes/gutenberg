@@ -12,11 +12,11 @@ import {
 	__experimentalNavigationItem as NavigationItem,
 	Modal,
 	TabPanel,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useViewportMatch } from '@wordpress/compose';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useMemo, useCallback, useState } from '@wordpress/element';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useMemo, useCallback, useState } from '@aarondewes/wp-element';
 import {
 	PostTaxonomies,
 	PostExcerptCheck,
@@ -24,8 +24,8 @@ import {
 	PostFeaturedImageCheck,
 	PostTypeSupportCheck,
 	store as editorStore,
-} from '@wordpress/editor';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

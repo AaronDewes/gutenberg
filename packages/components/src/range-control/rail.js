@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { isRTL } from '@wordpress/i18n';
+import { isRTL } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

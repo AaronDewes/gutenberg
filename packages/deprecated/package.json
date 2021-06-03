@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/deprecated",
+	"name": "@aarondewes/wp-deprecated",
 	"version": "3.1.1",
 	"description": "Deprecation utility for WordPress.",
 	"author": "The WordPress Contributors",
@@ -28,7 +28,7 @@
 	"sideEffects": false,
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/hooks": "file:../hooks"
+		"@aarondewes/wp-hooks": "file:../hooks"
 	},
 	"publishConfig": {
 		"access": "public"

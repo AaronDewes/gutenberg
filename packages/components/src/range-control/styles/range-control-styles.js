@@ -270,7 +270,7 @@ export const Tooltip = styled.span`
 `;
 
 // @todo: Refactor RangeControl with latest HStack configuration
-// @wordpress/components/ui/hstack
+// @aarondewes/wp-components/ui/hstack
 export const InputNumber = styled( NumberControl )`
 	box-sizing: border-box;
 	display: inline-block;

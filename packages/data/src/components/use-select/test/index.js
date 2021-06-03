@@ -6,7 +6,7 @@ import TestRenderer, { act } from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { useState, useReducer } from '@wordpress/element';
+import { useState, useReducer } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

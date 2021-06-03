@@ -5,7 +5,7 @@ import {
 	ifCondition,
 	compose,
 	createHigherOrderComponent,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

@@ -11,7 +11,7 @@ import {
 	findSidebarPanelWithTitle,
 	openDocumentSettingsSidebar,
 	publishPost,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 /**
  * Module constants

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useState, useEffect, createPortal } from '@wordpress/element';
+import { useRef, useState, useEffect, createPortal } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

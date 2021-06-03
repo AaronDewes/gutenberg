@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
+import { InnerBlocks, useBlockProps } from '@aarondewes/wp-block-editor';
 
 export default function save( {
 	attributes: { contentJustification, orientation },

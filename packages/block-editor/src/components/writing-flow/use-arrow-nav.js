@@ -14,10 +14,10 @@ import {
 	placeCaretAtHorizontalEdge,
 	placeCaretAtVerticalEdge,
 	isRTL,
-} from '@wordpress/dom';
-import { UP, DOWN, LEFT, RIGHT } from '@wordpress/keycodes';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useRefEffect } from '@wordpress/compose';
+} from '@aarondewes/wp-dom';
+import { UP, DOWN, LEFT, RIGHT } from '@aarondewes/wp-keycodes';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useRefEffect } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

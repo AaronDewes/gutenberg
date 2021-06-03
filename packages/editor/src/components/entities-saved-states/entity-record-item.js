@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { CheckboxControl, Button, PanelRow } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useCallback } from '@wordpress/element';
-import { store as blockEditorStore } from '@wordpress/block-editor';
-import { store as coreStore } from '@wordpress/core-data';
+import { CheckboxControl, Button, PanelRow } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useCallback } from '@aarondewes/wp-element';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

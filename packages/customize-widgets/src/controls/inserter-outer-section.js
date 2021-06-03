@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { ESCAPE } from '@wordpress/keycodes';
-import { focus } from '@wordpress/dom';
+import { ESCAPE } from '@aarondewes/wp-keycodes';
+import { focus } from '@aarondewes/wp-dom';
 
 export default function getInserterOuterSection() {
 	const {

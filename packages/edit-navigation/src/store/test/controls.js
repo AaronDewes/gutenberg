@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import triggerApiFetch from '@wordpress/api-fetch';
+import triggerApiFetch from '@aarondewes/wp-api-fetch';
 
 /**
  * Internal dependencies
@@ -20,7 +20,7 @@ import { menuItemsQuery } from '../utils';
 import { STORE_NAME } from '../constants';
 
 // Mock it to prevent calling window.fetch in test environment
-jest.mock( '@wordpress/api-fetch', () => jest.fn( ( request ) => request ) );
+jest.mock( '@aarondewes/wp-api-fetch', () => jest.fn( ( request ) => request ) );
 
 describe( 'apiFetch', () => {
 	it( 'has the correct type and payload', () => {

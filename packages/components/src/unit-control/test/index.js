@@ -6,7 +6,7 @@ import { render, fireEvent } from '@testing-library/react';
 /**
  * WordPress dependencies
  */
-import { UP, DOWN, ENTER } from '@wordpress/keycodes';
+import { UP, DOWN, ENTER } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

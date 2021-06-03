@@ -8,19 +8,19 @@ import scrollIntoView from 'dom-scroll-into-view';
 /**
  * WordPress dependencies
  */
-import { __, sprintf, _n } from '@wordpress/i18n';
-import { Component, createRef } from '@wordpress/element';
-import { UP, DOWN, ENTER, TAB } from '@wordpress/keycodes';
+import { __, sprintf, _n } from '@aarondewes/wp-i18n';
+import { Component, createRef } from '@aarondewes/wp-element';
+import { UP, DOWN, ENTER, TAB } from '@aarondewes/wp-keycodes';
 import {
 	BaseControl,
 	Button,
 	Spinner,
 	withSpokenMessages,
 	Popover,
-} from '@wordpress/components';
-import { withInstanceId, withSafeTimeout, compose } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
-import { isURL } from '@wordpress/url';
+} from '@aarondewes/wp-components';
+import { withInstanceId, withSafeTimeout, compose } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
+import { isURL } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

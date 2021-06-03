@@ -6,8 +6,8 @@ import { Text, TouchableOpacity, View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Icon, chevronDown, chevronUp } from '@wordpress/icons';
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { Icon, chevronDown, chevronUp } from '@aarondewes/wp-icons';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

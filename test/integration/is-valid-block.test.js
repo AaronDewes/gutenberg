@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { isValidBlockContent } from '@wordpress/blocks';
-import { createElement } from '@wordpress/element';
+import { isValidBlockContent } from '@aarondewes/wp-blocks';
+import { createElement } from '@aarondewes/wp-element';
 
 describe( 'isValidBlockContent', () => {
 	beforeAll( () => {

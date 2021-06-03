@@ -7,7 +7,7 @@ import {
 	arrowRight,
 	arrowUp,
 	arrowDown,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

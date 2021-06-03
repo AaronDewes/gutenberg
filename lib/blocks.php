@@ -13,7 +13,7 @@
  * changes are made in Core.
  *
  * This temporary fix can be removed after the changes to
- * @wordpress/block-library in #32300 have been published to npm and updated in
+ * @aarondewes/wp-block-library in #32300 have been published to npm and updated in
  * Core.
  *
  * See https://github.com/WordPress/gutenberg/pull/32300.

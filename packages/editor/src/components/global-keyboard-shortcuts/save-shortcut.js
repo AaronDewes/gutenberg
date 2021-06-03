@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useShortcut } from '@wordpress/keyboard-shortcuts';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { parse } from '@wordpress/blocks';
+import { useShortcut } from '@aarondewes/wp-keyboard-shortcuts';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { parse } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { forwardRef } from '@wordpress/element';
+import { forwardRef } from '@aarondewes/wp-element';
 
 function ButtonGroup( { className, ...props }, ref ) {
 	const classes = classnames( 'components-button-group', className );

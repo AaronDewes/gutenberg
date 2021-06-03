@@ -39,7 +39,7 @@ const typedFiles = glob( 'packages/*/package.json' )
 module.exports = {
 	root: true,
 	extends: [
-		'plugin:@wordpress/eslint-plugin/recommended',
+		'plugin:@aarondewes/wp-eslint-plugin/recommended',
 		'plugin:eslint-comments/recommended',
 	],
 	globals: {
@@ -52,17 +52,17 @@ module.exports = {
 	},
 	rules: {
 		'jest/expect-expect': 'off',
-		'@wordpress/dependency-group': 'error',
-		'@wordpress/gutenberg-phase': 'error',
-		'@wordpress/react-no-unsafe-timeout': 'error',
-		'@wordpress/i18n-text-domain': [
+		'@aarondewes/wp-dependency-group': 'error',
+		'@aarondewes/wp-gutenberg-phase': 'error',
+		'@aarondewes/wp-react-no-unsafe-timeout': 'error',
+		'@aarondewes/wp-i18n-text-domain': [
 			'error',
 			{
 				allowedTextDomain: 'default',
 			},
 		],
-		'@wordpress/no-unsafe-wp-apis': 'off',
-		'@wordpress/data-no-store-string-literals': 'warn',
+		'@aarondewes/wp-no-unsafe-wp-apis': 'off',
+		'@aarondewes/wp-data-no-store-string-literals': 'warn',
 		'import/default': 'error',
 		'import/named': 'error',
 		'no-restricted-imports': [
@@ -77,18 +77,18 @@ module.exports = {
 					{
 						name: 'react',
 						message:
-							'Please use React API through `@wordpress/element` instead.',
+							'Please use React API through `@aarondewes/wp-element` instead.',
 					},
 					{
 						name: 'reakit',
 						message:
-							'Please use Reakit API through `@wordpress/components` instead.',
+							'Please use Reakit API through `@aarondewes/wp-components` instead.',
 					},
 					{
 						name: 'redux',
 						importNames: [ 'combineReducers' ],
 						message:
-							'Please use `combineReducers` from `@wordpress/data` instead.',
+							'Please use `combineReducers` from `@aarondewes/wp-data` instead.',
 					},
 					{
 						name: 'puppeteer-testing-library',
@@ -173,7 +173,7 @@ module.exports = {
 				'import/no-extraneous-dependencies': 'off',
 				'import/no-unresolved': 'off',
 				'import/named': 'off',
-				'@wordpress/data-no-store-string-literals': 'off',
+				'@aarondewes/wp-data-no-store-string-literals': 'off',
 			},
 		},
 		{
@@ -205,11 +205,11 @@ module.exports = {
 		},
 		{
 			files: [ 'packages/jest*/**/*.js' ],
-			extends: [ 'plugin:@wordpress/eslint-plugin/test-unit' ],
+			extends: [ 'plugin:@aarondewes/wp-eslint-plugin/test-unit' ],
 		},
 		{
 			files: [ 'packages/e2e-test*/**/*.js' ],
-			extends: [ 'plugin:@wordpress/eslint-plugin/test-e2e' ],
+			extends: [ 'plugin:@aarondewes/wp-eslint-plugin/test-e2e' ],
 			rules: {
 				'jest/expect-expect': 'off',
 			},

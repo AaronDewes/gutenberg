@@ -7,17 +7,17 @@ import { View, Platform, TouchableWithoutFeedback } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component, createContext } from '@wordpress/element';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { createBlock } from '@wordpress/blocks';
+import { Component, createContext } from '@aarondewes/wp-element';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { createBlock } from '@aarondewes/wp-blocks';
 import {
 	KeyboardAwareFlatList,
 	ReadableContentView,
 	WIDE_ALIGNMENTS,
 	alignmentHelpers,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

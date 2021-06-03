@@ -6,7 +6,7 @@ import { UIManager, PanResponder } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

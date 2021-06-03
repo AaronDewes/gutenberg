@@ -6,8 +6,8 @@ import { times } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { Icon, starEmpty, starFilled, starHalf } from '@wordpress/icons';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Icon, starEmpty, starFilled, starHalf } from '@aarondewes/wp-icons';
 
 function Stars( { rating } ) {
 	const stars = Math.round( rating / 0.5 ) * 0.5;

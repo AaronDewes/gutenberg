@@ -10,8 +10,8 @@ import { diffChars } from 'diff/lib/diff/character';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { getSaveContent, getSaveElement } from '@wordpress/blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { getSaveContent, getSaveElement } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

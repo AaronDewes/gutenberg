@@ -1,11 +1,11 @@
 /**
- * Duplicated from @wordpress/compose to enable TypeScript support for ui/* files.
+ * Duplicated from @aarondewes/wp-compose to enable TypeScript support for ui/* files.
  */
 
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * @type {WeakMap<any, number>}

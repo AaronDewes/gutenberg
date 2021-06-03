@@ -114,7 +114,7 @@ async function buildCSS( file ) {
 	} );
 
 	const result = await postcss(
-		require( '@wordpress/postcss-plugins-preset' )
+		require( '@aarondewes/wp-postcss-plugins-preset' )
 	).process( builtSass.css, {
 		from: 'src/app.css',
 		to: 'dest/app.css',

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { MenuItem } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { MenuItem } from '@aarondewes/wp-components';
 
 export default function BlockConvertButton( { shouldRender, onClick, small } ) {
 	if ( ! shouldRender ) {

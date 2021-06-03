@@ -10,8 +10,8 @@ Here is the basic InnerBlocks usage.
 {% ESNext %}
 
 ```js
-import { registerBlockType } from '@wordpress/blocks';
-import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { InnerBlocks, useBlockProps } from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'gutenberg-examples/example-06', {
 	// ...

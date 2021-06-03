@@ -8,8 +8,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { withSafeTimeout } from '@wordpress/compose';
+import { Component } from '@aarondewes/wp-element';
+import { withSafeTimeout } from '@aarondewes/wp-compose';
 
 class SuggestionsList extends Component {
 	constructor() {

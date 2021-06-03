@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useViewportMatch } from '@wordpress/compose';
-import { DropdownMenu, MenuGroup, MenuItem } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { check } from '@wordpress/icons';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { DropdownMenu, MenuGroup, MenuItem } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { check } from '@aarondewes/wp-icons';
 
 export default function PreviewOptions( {
 	children,

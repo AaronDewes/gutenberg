@@ -8,7 +8,7 @@ import {
 	pressKeyTimes,
 	pressKeyWithModifier,
 	openDocumentSettingsSidebar,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 async function openBlockNavigator() {
 	await pressKeyWithModifier( 'access', 'o' );

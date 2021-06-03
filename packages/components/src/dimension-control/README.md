@@ -11,9 +11,9 @@ This feature is still experimental. “Experimental” means this is an early im
 In a block's `edit` implementation, render a `<DimensionControl />` component.
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
-import { DimensionControl } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { DimensionControl } from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'my-plugin/my-block', {
 	// ...

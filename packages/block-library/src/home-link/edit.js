@@ -6,11 +6,11 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { RichText, useBlockProps } from '@wordpress/block-editor';
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
-import { useEffect } from '@wordpress/element';
+import { RichText, useBlockProps } from '@aarondewes/wp-block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { useEffect } from '@aarondewes/wp-element';
 
 const preventDefault = ( event ) => event.preventDefault();
 

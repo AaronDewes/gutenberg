@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createContext, useMemo } from '@wordpress/element';
+import { createContext, useMemo } from '@aarondewes/wp-element';
 
 export const BlockRefs = createContext();
 

@@ -6,8 +6,8 @@ import { castArray } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { memo, useMemo } from '@wordpress/element';
+import { useSelect } from '@aarondewes/wp-data';
+import { memo, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { store as coreDataStore } from '@wordpress/core-data';
-import { select } from '@wordpress/data';
+import { store as coreDataStore } from '@aarondewes/wp-core-data';
+import { select } from '@aarondewes/wp-data';
 import {
 	header as headerIcon,
 	footer as footerIcon,
 	sidebar as sidebarIcon,
 	layout as layoutIcon,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

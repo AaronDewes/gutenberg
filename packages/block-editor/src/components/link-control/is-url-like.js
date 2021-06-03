@@ -6,7 +6,7 @@ import { startsWith } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { isURL } from '@wordpress/url';
+import { isURL } from '@aarondewes/wp-url';
 
 /**
  * Determines whether a given value could be a URL. Note this does not

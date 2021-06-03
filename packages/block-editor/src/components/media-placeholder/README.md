@@ -7,7 +7,7 @@
 An example usage which sets the URL of the selected image to `theImage` attributes.
 
 ```js
-import { MediaPlaceholder } from '@wordpress/block-editor';
+import { MediaPlaceholder } from '@aarondewes/wp-block-editor';
 
 ...
 

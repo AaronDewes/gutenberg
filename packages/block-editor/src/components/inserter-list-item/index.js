@@ -6,12 +6,12 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useMemo, useRef, memo } from '@wordpress/element';
+import { useMemo, useRef, memo } from '@aarondewes/wp-element';
 import {
 	createBlock,
 	createBlocksFromInnerBlocksTemplate,
-} from '@wordpress/blocks';
-import { ENTER } from '@wordpress/keycodes';
+} from '@aarondewes/wp-blocks';
+import { ENTER } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelRow, Dropdown, Button } from '@wordpress/components';
-import { useRef } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelRow, Dropdown, Button } from '@aarondewes/wp-components';
+import { useRef } from '@aarondewes/wp-element';
 import {
 	PostSchedule as PostScheduleForm,
 	PostScheduleLabel,
 	PostScheduleCheck,
-} from '@wordpress/editor';
+} from '@aarondewes/wp-editor';
 
 export function PostSchedule() {
 	const anchorRef = useRef();

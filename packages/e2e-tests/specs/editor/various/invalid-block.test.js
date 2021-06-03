@@ -6,7 +6,7 @@ import {
 	createNewPost,
 	clickBlockAppender,
 	clickBlockToolbarButton,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'invalid blocks', () => {
 	beforeEach( async () => {

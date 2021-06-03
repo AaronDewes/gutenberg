@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { UP, DOWN, LEFT, RIGHT } from '@wordpress/keycodes';
+import { UP, DOWN, LEFT, RIGHT } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

@@ -6,7 +6,7 @@ import { cx } from 'emotion';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -52,7 +52,7 @@ function CardBody( props, forwardedRef ) {
  *
  * @example
  * ```jsx
- * import { Card, CardBody } from `@wordpress/components/ui`;
+ * import { Card, CardBody } from `@aarondewes/wp-components/ui`;
  *
  * <Card>
  * 	<CardBody>

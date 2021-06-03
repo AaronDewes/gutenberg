@@ -3,7 +3,7 @@
 ## Usage
 
 ```jsx
-import { FormFileUpload } from '@wordpress/components';
+import { FormFileUpload } from '@aarondewes/wp-components';
 
 const MyFormFileUpload = () => (
 	<FormFileUpload

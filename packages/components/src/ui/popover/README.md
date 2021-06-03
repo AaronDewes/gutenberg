@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { Button, Popover, View, Text } from '@wordpress/components/ui';
+import { Button, Popover, View, Text } from '@aarondewes/wp-components/ui';
 
 function Example() {
 	return (

@@ -6,12 +6,12 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { createPortal, useState, useEffect } from '@wordpress/element';
-import { __, _x, isRTL } from '@wordpress/i18n';
-import { ToolbarButton } from '@wordpress/components';
-import { NavigableToolbar } from '@wordpress/block-editor';
-import { displayShortcut } from '@wordpress/keycodes';
-import { plus, undo as undoIcon, redo as redoIcon } from '@wordpress/icons';
+import { createPortal, useState, useEffect } from '@aarondewes/wp-element';
+import { __, _x, isRTL } from '@aarondewes/wp-i18n';
+import { ToolbarButton } from '@aarondewes/wp-components';
+import { NavigableToolbar } from '@aarondewes/wp-block-editor';
+import { displayShortcut } from '@aarondewes/wp-keycodes';
+import { plus, undo as undoIcon, redo as redoIcon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

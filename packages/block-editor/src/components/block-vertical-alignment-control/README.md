@@ -9,12 +9,12 @@ This builds upon similar patterns to the [`BlockAlignmentControl`](https://githu
 In a block's `edit` implementation, render a `<BlockControls />` component. Then inside of this add the `<BlockVerticalAlignmentControl />` where required.
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
+import { registerBlockType } from '@aarondewes/wp-blocks';
 import {
 	BlockControls,
 	BlockVerticalAlignmentControl,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'my-plugin/my-block', {
 	// ...

@@ -13,12 +13,12 @@ const fastGlob = require( 'fast-glob' );
 /**
  * WordPress dependencies
  */
-const CustomTemplatedPathPlugin = require( '@wordpress/custom-templated-path-webpack-plugin' );
-const LibraryExportDefaultPlugin = require( '@wordpress/library-export-default-webpack-plugin' );
-const DependencyExtractionWebpackPlugin = require( '@wordpress/dependency-extraction-webpack-plugin' );
+const CustomTemplatedPathPlugin = require( '@aarondewes/wp-custom-templated-path-webpack-plugin' );
+const LibraryExportDefaultPlugin = require( '@aarondewes/wp-library-export-default-webpack-plugin' );
+const DependencyExtractionWebpackPlugin = require( '@aarondewes/wp-dependency-extraction-webpack-plugin' );
 const {
 	camelCaseDash,
-} = require( '@wordpress/dependency-extraction-webpack-plugin/lib/util' );
+} = require( '@aarondewes/wp-dependency-extraction-webpack-plugin/lib/util' );
 
 /**
  * Internal dependencies
@@ -30,8 +30,8 @@ const {
 	WP_DEVTOOL: devtool = mode === 'production' ? false : 'source-map',
 } = process.env;
 
-const WORDPRESS_NAMESPACE = '@wordpress/';
-const BUNDLED_PACKAGES = [ '@wordpress/icons', '@wordpress/interface' ];
+const WORDPRESS_NAMESPACE = '@aarondewes/wp-';
+const BUNDLED_PACKAGES = [ '@aarondewes/wp-icons', '@aarondewes/wp-interface' ];
 
 const gutenbergPackages = Object.keys( dependencies )
 	.filter(

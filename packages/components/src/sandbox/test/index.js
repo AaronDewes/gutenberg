@@ -6,7 +6,7 @@ import { act, fireEvent, render } from '@testing-library/react';
 /**
  * WordPress dependencies
  */
-import { useState } from '@wordpress/element';
+import { useState } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

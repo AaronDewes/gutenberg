@@ -11,16 +11,16 @@ import {
 	URLPopover,
 	URLInput,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { Fragment, useState } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { Fragment, useState } from '@aarondewes/wp-element';
 import {
 	Button,
 	PanelBody,
 	PanelRow,
 	TextControl,
-} from '@wordpress/components';
-import { __, sprintf } from '@wordpress/i18n';
-import { keyboardReturn } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { keyboardReturn } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

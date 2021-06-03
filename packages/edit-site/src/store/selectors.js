@@ -7,9 +7,9 @@ import createSelector from 'rememo';
 /**
  * WordPress dependencies
  */
-import { store as coreDataStore } from '@wordpress/core-data';
-import { createRegistrySelector } from '@wordpress/data';
-import { uploadMedia } from '@wordpress/media-utils';
+import { store as coreDataStore } from '@aarondewes/wp-core-data';
+import { createRegistrySelector } from '@aarondewes/wp-data';
+import { uploadMedia } from '@aarondewes/wp-media-utils';
 
 /**
  * Internal dependencies

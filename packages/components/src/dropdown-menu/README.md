@@ -59,14 +59,14 @@ DropdownMenu is a React component to render an expandable menu of buttons. It is
 Render a Dropdown Menu with a set of controls:
 
 ```jsx
-import { DropdownMenu } from '@wordpress/components';
+import { DropdownMenu } from '@aarondewes/wp-components';
 import {
 	more,
 	arrowLeft,
 	arrowRight,
 	arrowUp,
 	arrowDown,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 
 const MyDropdownMenu = () => (
 	<DropdownMenu
@@ -101,9 +101,9 @@ const MyDropdownMenu = () => (
 Alternatively, specify a `children` function which returns elements valid for use in a DropdownMenu: `MenuItem`, `MenuItemsChoice`, or `MenuGroup`.
 
 ```jsx
-import { Fragment } from '@wordpress/element';
-import { DropdownMenu, MenuGroup, MenuItem } from '@wordpress/components';
-import { more, arrowUp, arrowDown, trash } from '@wordpress/icons';
+import { Fragment } from '@aarondewes/wp-element';
+import { DropdownMenu, MenuGroup, MenuItem } from '@aarondewes/wp-components';
+import { more, arrowUp, arrowDown, trash } from '@aarondewes/wp-icons';
 
 const MyDropdownMenu = () => (
 	<DropdownMenu icon={ more } label="Select a direction">

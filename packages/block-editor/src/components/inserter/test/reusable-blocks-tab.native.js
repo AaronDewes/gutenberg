@@ -6,7 +6,7 @@ import { shallow } from 'enzyme';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
@@ -16,7 +16,7 @@ import ReusableBlocksTab from '../reusable-blocks-tab';
 import BlockTypesList from '../../block-types-list';
 
 jest.mock( '../../block-types-list' );
-jest.mock( '@wordpress/data/src/components/use-select' );
+jest.mock( '@aarondewes/wp-data/src/components/use-select' );
 
 const fetchReusableBlocks = jest.fn();
 const selectMock = {

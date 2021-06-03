@@ -8,7 +8,7 @@ import {
 	getEditedPostContent,
 	clickBlockToolbarButton,
 	pressKeyWithModifier,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Duplicating blocks', () => {
 	beforeEach( async () => {

@@ -6,11 +6,11 @@ import { findNodeHandle, Platform } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
-import { switchToBlockType } from '@wordpress/blocks';
-import { Picker } from '@wordpress/components';
-import { useDispatch } from '@wordpress/data';
-import { store as noticesStore } from '@wordpress/notices';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { switchToBlockType } from '@aarondewes/wp-blocks';
+import { Picker } from '@aarondewes/wp-components';
+import { useDispatch } from '@aarondewes/wp-data';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useInstanceId } from '@wordpress/compose';
-import { useEffect, useMemo } from '@wordpress/element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useEffect, useMemo } from '@aarondewes/wp-element';
 import {
 	BlockControls,
 	InspectorAdvancedControls,
@@ -12,9 +12,9 @@ import {
 	store as blockEditorStore,
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
 	__experimentalBlockPatternSetup as BlockPatternSetup,
-} from '@wordpress/block-editor';
-import { SelectControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { SelectControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

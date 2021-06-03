@@ -12,7 +12,7 @@ Examples of **incorrect** code for this rule:
 
 ```js
 import { get } from 'lodash';
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 import edit from './edit';
 ```
 
@@ -27,7 +27,7 @@ import { get } from 'lodash';
 /*
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
+import { Component } from '@aarondewes/wp-element';
 
 /*
  * Internal dependencies

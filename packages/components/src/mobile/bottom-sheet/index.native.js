@@ -19,9 +19,9 @@ import SafeArea from 'react-native-safe-area';
 /**
  * WordPress dependencies
  */
-import { subscribeAndroidModalClosed } from '@wordpress/react-native-bridge';
-import { Component } from '@wordpress/element';
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { subscribeAndroidModalClosed } from '@aarondewes/wp-react-native-bridge';
+import { Component } from '@aarondewes/wp-element';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

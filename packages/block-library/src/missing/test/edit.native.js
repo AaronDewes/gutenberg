@@ -7,11 +7,11 @@ import { Text } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { BottomSheet, Icon } from '@wordpress/components';
-import { help, plugins } from '@wordpress/icons';
-import { storeConfig } from '@wordpress/block-editor';
-jest.mock( '@wordpress/blocks' );
-jest.mock( '@wordpress/block-editor/src/store/selectors' );
+import { BottomSheet, Icon } from '@aarondewes/wp-components';
+import { help, plugins } from '@aarondewes/wp-icons';
+import { storeConfig } from '@aarondewes/wp-block-editor';
+jest.mock( '@aarondewes/wp-blocks' );
+jest.mock( '@aarondewes/wp-block-editor/src/store/selectors' );
 
 /**
  * Internal dependencies

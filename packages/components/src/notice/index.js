@@ -7,17 +7,17 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { RawHTML, useEffect, renderToString } from '@wordpress/element';
-import { speak } from '@wordpress/a11y';
-import { close } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { RawHTML, useEffect, renderToString } from '@aarondewes/wp-element';
+import { speak } from '@aarondewes/wp-a11y';
+import { close } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies
  */
 import { Button } from '../';
 
-/** @typedef {import('@wordpress/element').WPElement} WPElement */
+/** @typedef {import('@aarondewes/wp-element').WPElement} WPElement */
 
 /**
  * Custom hook which announces the message with the given politeness, if a

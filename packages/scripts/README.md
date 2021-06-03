@@ -13,7 +13,7 @@ _This package is inspired by [react-scripts](https://www.npmjs.com/package/react
 You only need to install one npm module:
 
 ```bash
-npm install @wordpress/scripts --save-dev
+npm install @aarondewes/wp-scripts --save-dev
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later, and `npm` 6.9.0 or later. It is not compatible with older versions.
@@ -48,11 +48,11 @@ It might also be a good idea to get familiar with the [JavaScript Build Setup tu
 
 ## Updating to New Release
 
-To update an existing project to a new version of `@wordpress/scripts`, open the [changelog](https://github.com/WordPress/gutenberg/blob/HEAD/packages/scripts/CHANGELOG.md), find the version you’re currently on (check `package.json` in the top-level directory of your project), and apply the migration instructions for the newer versions.
+To update an existing project to a new version of `@aarondewes/wp-scripts`, open the [changelog](https://github.com/WordPress/gutenberg/blob/HEAD/packages/scripts/CHANGELOG.md), find the version you’re currently on (check `package.json` in the top-level directory of your project), and apply the migration instructions for the newer versions.
 
-In most cases bumping the `@wordpress/scripts` version in `package.json` and running `npm install` in the root folder of your project should be enough, but it’s good to check the [changelog](https://github.com/WordPress/gutenberg/blob/HEAD/packages/scripts/CHANGELOG.md) for potential breaking changes. There is also `packages-update` script included in this package that aims to automate the process of updating WordPress dependencies in your projects.
+In most cases bumping the `@aarondewes/wp-scripts` version in `package.json` and running `npm install` in the root folder of your project should be enough, but it’s good to check the [changelog](https://github.com/WordPress/gutenberg/blob/HEAD/packages/scripts/CHANGELOG.md) for potential breaking changes. There is also `packages-update` script included in this package that aims to automate the process of updating WordPress dependencies in your projects.
 
-We commit to keeping the breaking changes minimal so you can upgrade `@wordpress/scripts` as seamless as possible.
+We commit to keeping the breaking changes minimal so you can upgrade `@aarondewes/wp-scripts` as seamless as possible.
 
 ## Available Scripts
 
@@ -83,7 +83,7 @@ This script automatically use the optimized config but sometimes you may want to
 
 #### Advanced information
 
-This script uses [webpack](https://webpack.js.org/) behind the scenes. It’ll look for a webpack config in the top-level directory of your package and will use it if it finds one. If none is found, it’ll use the default config provided by `@wordpress/scripts` packages. Learn more in the [Advanced Usage](#advanced-usage) section.
+This script uses [webpack](https://webpack.js.org/) behind the scenes. It’ll look for a webpack config in the top-level directory of your package and will use it if it finds one. If none is found, it’ll use the default config provided by `@aarondewes/wp-scripts` packages. Learn more in the [Advanced Usage](#advanced-usage) section.
 
 ### `check-engines`
 
@@ -178,7 +178,7 @@ By default, files located in `build`, `node_modules`, and `vendor` folders are i
 
 #### Advanced information
 
-It uses [eslint](https://eslint.org/) with the set of recommended rules defined in [@wordpress/eslint-plugin](https://www.npmjs.com/package/@wordpress/eslint-plugin) npm package. You can override default rules with your own as described in [eslint docs](https://eslint.org/docs/rules/). Learn more in the [Advanced Usage](#advanced-usage) section.
+It uses [eslint](https://eslint.org/) with the set of recommended rules defined in [@aarondewes/wp-eslint-plugin](https://www.npmjs.com/package/@aarondewes/wp-eslint-plugin) npm package. You can override default rules with your own as described in [eslint docs](https://eslint.org/docs/rules/). Learn more in the [Advanced Usage](#advanced-usage) section.
 
 ### `lint-pkg-json`
 
@@ -206,7 +206,7 @@ By default, files located in `build`, `node_modules`, and `vendor` folders are i
 
 #### Advanced information
 
-It uses [npm-package-json-lint](https://www.npmjs.com/package/npm-package-json-lint) with the set of recommended rules defined in [@wordpress/npm-package-json-lint-config](https://www.npmjs.com/package/@wordpress/npm-package-json-lint-config) npm package. You can override default rules with your own as described in [npm-package-json-lint wiki](https://github.com/tclindner/npm-package-json-lint/wiki). Learn more in the [Advanced Usage](#advanced-usage) section.
+It uses [npm-package-json-lint](https://www.npmjs.com/package/npm-package-json-lint) with the set of recommended rules defined in [@aarondewes/wp-npm-package-json-lint-config](https://www.npmjs.com/package/@aarondewes/wp-npm-package-json-lint-config) npm package. You can override default rules with your own as described in [npm-package-json-lint wiki](https://github.com/tclindner/npm-package-json-lint/wiki). Learn more in the [Advanced Usage](#advanced-usage) section.
 
 ### `lint-md-docs`
 
@@ -282,7 +282,7 @@ By default, files located in `build`, `node_modules`, and `vendor` folders are i
 
 #### Advanced information
 
-It uses [stylelint](https://github.com/stylelint/stylelint) with the [@wordpress/stylelint-config](<(https://www.npmjs.com/package/@wordpress/stylelint-config)>) configuration per the [WordPress CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/). You can override them with your own rules as described in [stylelint user guide](https://stylelint.io/user-guide/configure). Learn more in the [Advanced Usage](#advanced-usage) section.
+It uses [stylelint](https://github.com/stylelint/stylelint) with the [@aarondewes/wp-stylelint-config](<(https://www.npmjs.com/package/@aarondewes/wp-stylelint-config)>) configuration per the [WordPress CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/). You can override them with your own rules as described in [stylelint user guide](https://stylelint.io/user-guide/configure). Learn more in the [Advanced Usage](#advanced-usage) section.
 
 ### `packages-update`
 
@@ -301,7 +301,7 @@ _Example:_
 
 #### Advanced information
 
-The command checks which packages whose name starts with `@wordpress/` are used in the project by reading the package.json file, and then executes `npm install @wordpress/package1@latest @wordpress/package2@latest ... --save` to change the package versions to the latest one.
+The command checks which packages whose name starts with `@aarondewes/wp-` are used in the project by reading the package.json file, and then executes `npm install @aarondewes/wp-package1@latest @aarondewes/wp-package2@latest ... --save` to change the package versions to the latest one.
 
 ### `start`
 
@@ -331,7 +331,7 @@ This script automatically use the optimized config but sometimes you may want to
 
 #### Advanced information
 
-This script uses [webpack](https://webpack.js.org/) behind the scenes. It’ll look for a webpack config in the top-level directory of your package and will use it if it finds one. If none is found, it’ll use the default config provided by `@wordpress/scripts` packages. Learn more in the [Advanced Usage](#advanced-usage) section.
+This script uses [webpack](https://webpack.js.org/) behind the scenes. It’ll look for a webpack config in the top-level directory of your package and will use it if it finds one. If none is found, it’ll use the default config provided by `@aarondewes/wp-scripts` packages. Learn more in the [Advanced Usage](#advanced-usage) section.
 
 ### `test-e2e`
 
@@ -417,7 +417,7 @@ Jest will look for test files with any of the following popular naming conventio
 
 #### Advanced information
 
-It uses [Jest](https://jestjs.io/) behind the scenes and you are able to use all of its [CLI options](https://jestjs.io/docs/en/cli.html). You can also run `./node_modules/.bin/wp-scripts test:unit --help` or `npm run test:unit:help` (as mentioned above) to view all of the available options. By default, it uses the set of recommended options defined in [@wordpress/jest-preset-default](https://www.npmjs.com/package/@wordpress/jest-preset-default) npm package. You can override them with your own options as described in [Jest documentation](https://jestjs.io/docs/en/configuration). Learn more in the [Advanced Usage](#advanced-usage) section.
+It uses [Jest](https://jestjs.io/) behind the scenes and you are able to use all of its [CLI options](https://jestjs.io/docs/en/cli.html). You can also run `./node_modules/.bin/wp-scripts test:unit --help` or `npm run test:unit:help` (as mentioned above) to view all of the available options. By default, it uses the set of recommended options defined in [@aarondewes/wp-jest-preset-default](https://www.npmjs.com/package/@aarondewes/wp-jest-preset-default) npm package. You can override them with your own options as described in [Jest documentation](https://jestjs.io/docs/en/configuration). Learn more in the [Advanced Usage](#advanced-usage) section.
 
 Should there be any situation where you want to provide your own Jest config, you can do so.
 
@@ -487,7 +487,7 @@ The `build` and `start` commands use [webpack](https://webpack.js.org/) behind t
 
 #### Default webpack config
 
-`@wordpress/scripts` bundles the default webpack config used as a base by the WordPress editor. These are the defaults:
+`@aarondewes/wp-scripts` bundles the default webpack config used as a base by the WordPress editor. These are the defaults:
 
 -   [Entry](https://webpack.js.org/configuration/entry-context/#entry): `src/index.js`
 -   [Output](https://webpack.js.org/configuration/output): `build/index.js`
@@ -497,7 +497,7 @@ The `build` and `start` commands use [webpack](https://webpack.js.org/) behind t
     -   [`css-loader`](https://webpack.js.org/loaders/css-loader/) chained with [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) and [sass-loader](https://webpack.js.org/loaders/sass-loader/) let webpack process CSS, SASS or SCSS files referenced in JavaScript files.
 -   [Plugins](https://webpack.js.org/configuration/plugins) (among others):
     -   [`MiniCssExtractPlugin`](https://webpack.js.org/plugins/mini-css-extract-plugin/) extracts CSS into separate files. It creates a CSS file per JavaScript entry point which contains CSS.
-    -   [`@wordpress/dependency-extraction-webpack-plugin`](/packages/dependency-extraction-webpack-plugin/README.md) is used with the default configuration to ensure that WordPress provided scripts are not included in the built bundle.
+    -   [`@aarondewes/wp-dependency-extraction-webpack-plugin`](/packages/dependency-extraction-webpack-plugin/README.md) is used with the default configuration to ensure that WordPress provided scripts are not included in the built bundle.
 
 #### Using CSS
 
@@ -590,7 +590,7 @@ In the example below, a `webpack.config.js` file is added to the root folder ext
 
 ```javascript
 const toml = require( 'toml' );
-const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
+const defaultConfig = require( '@aarondewes/wp-scripts/config/webpack.config' );
 
 module.exports = {
 	...defaultConfig,

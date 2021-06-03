@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createHigherOrderComponent, pure } from '@wordpress/compose';
+import { createHigherOrderComponent, pure } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies
@@ -18,7 +18,7 @@ import useSelect from '../use-select';
  *
  * @example
  * ```js
- * import { withSelect } from '@wordpress/data';
+ * import { withSelect } from '@aarondewes/wp-data';
  *
  * function PriceDisplay( { price, currency } ) {
  * 	return new Intl.NumberFormat( 'en-US', {

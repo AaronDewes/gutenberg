@@ -5,7 +5,7 @@ import {
 	createNewPost,
 	getEditedPostContent,
 	clickBlockAppender,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'autocomplete mentions', () => {
 	beforeAll( async () => {

@@ -6,8 +6,8 @@ import { v4 as uuid } from 'uuid';
 /**
  * WordPress dependencies
  */
-import { forwardRef, useState, useMemo } from '@wordpress/element';
-import { createHigherOrderComponent } from '@wordpress/compose';
+import { forwardRef, useState, useMemo } from '@aarondewes/wp-element';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

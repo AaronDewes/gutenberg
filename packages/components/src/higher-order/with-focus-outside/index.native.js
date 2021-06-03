@@ -5,11 +5,11 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { useCallback, useState } from '@wordpress/element';
+import { useCallback, useState } from '@aarondewes/wp-element';
 import {
 	createHigherOrderComponent,
 	__experimentalUseFocusOutside as useFocusOutside,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 
 export default createHigherOrderComponent(
 	( WrappedComponent ) => ( props ) => {

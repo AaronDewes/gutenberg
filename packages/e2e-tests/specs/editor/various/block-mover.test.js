@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createNewPost, showBlockToolbar } from '@wordpress/e2e-test-utils';
+import { createNewPost, showBlockToolbar } from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'block mover', () => {
 	beforeEach( async () => {

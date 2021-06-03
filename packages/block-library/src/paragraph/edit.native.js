@@ -1,16 +1,16 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { createBlock } from '@wordpress/blocks';
+import { __ } from '@aarondewes/wp-i18n';
+import { createBlock } from '@aarondewes/wp-blocks';
 import {
 	AlignmentControl,
 	BlockControls,
 	RichText,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useCallback } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-block-editor';
+import { useCallback } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
 
 const name = 'core/paragraph';
 

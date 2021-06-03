@@ -8,7 +8,7 @@ Usage example
 
 ```jsx
 import { ImageBackground, Text, View } from 'react-native';
-import { BlockMediaUpdateProgress } from '@wordpress/block-editor';
+import { BlockMediaUpdateProgress } from '@aarondewes/wp-block-editor';
 
 function BlockUpdatingProgress( { url, id } ) {
 	return (

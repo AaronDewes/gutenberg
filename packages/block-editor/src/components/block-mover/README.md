@@ -16,7 +16,7 @@ Block movers allow moving blocks inside the editor using up and down buttons.
 Shows the block mover buttons in the block toolbar.
 
 ```jsx
-import { BlockMover } from '@wordpress/block-editor';
+import { BlockMover } from '@aarondewes/wp-block-editor';
 const MyMover = () => <BlockMover clientIds={ [ clientId ] } />;
 ```
 

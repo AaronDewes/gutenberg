@@ -6,17 +6,17 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useSelect, useDispatch } from '@wordpress/data';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	AlignmentControl,
 	BlockControls,
 	InspectorControls,
 	useBlockProps,
 	PlainText,
-} from '@wordpress/block-editor';
-import { ToggleControl, TextControl, PanelBody } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { ToggleControl, TextControl, PanelBody } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

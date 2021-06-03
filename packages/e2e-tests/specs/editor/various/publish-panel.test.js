@@ -9,7 +9,7 @@ import {
 	openPublishPanel,
 	pressKeyWithModifier,
 	publishPost,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'PostPublishPanel', () => {
 	let werePrePublishChecksEnabled;

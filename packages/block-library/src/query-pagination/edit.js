@@ -4,7 +4,7 @@
 import {
 	useBlockProps,
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 const TEMPLATE = [
 	[ 'core/query-pagination-previous' ],

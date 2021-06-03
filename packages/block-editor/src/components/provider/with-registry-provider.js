@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { useState, useEffect } from '@wordpress/element';
+import { useState, useEffect } from '@aarondewes/wp-element';
 import {
 	withRegistry,
 	createRegistry,
 	RegistryProvider,
-} from '@wordpress/data';
-import { createHigherOrderComponent } from '@wordpress/compose';
+} from '@aarondewes/wp-data';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

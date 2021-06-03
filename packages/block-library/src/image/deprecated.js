@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { RichText } from '@wordpress/block-editor';
+import { RichText } from '@aarondewes/wp-block-editor';
 
 const blockAttributes = {
 	align: {

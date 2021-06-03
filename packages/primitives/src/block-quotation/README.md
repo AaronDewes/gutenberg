@@ -5,7 +5,7 @@ A drop-in replacement for the HTML [blockquote](https://developer.mozilla.org/en
 ## Usage
 
 ```jsx
-import { BlockQuotation } from '@wordpress/components';
+import { BlockQuotation } from '@aarondewes/wp-components';
 
 const MyBlockQuotation = () => (
 	<BlockQuotation>...Quote content</BlockQuotation>

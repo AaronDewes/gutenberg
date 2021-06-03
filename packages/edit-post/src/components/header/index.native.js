@@ -6,8 +6,8 @@ import { Keyboard } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import '@wordpress/interface';
+import { Component } from '@aarondewes/wp-element';
+import '@aarondewes/wp-interface';
 
 /**
  * Internal dependencies

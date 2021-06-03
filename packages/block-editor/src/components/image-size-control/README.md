@@ -7,8 +7,8 @@ Allow users to control the width & height of an image.
 Render a ImageSizeControl.
 
 ```jsx
-import { __experimentalImageSizeControl as ImageSizeControl } from '@wordpress/block-editor';
-import { useState } from '@wordpress/element';
+import { __experimentalImageSizeControl as ImageSizeControl } from '@aarondewes/wp-block-editor';
+import { useState } from '@aarondewes/wp-element';
 
 const MyImageSizeControl = () => {
 	const [ size, setSize ] = useState( { width: null, height: null } );

@@ -6,7 +6,7 @@ import { flatMap, compact } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { getPhrasingContentSchema, removeInvalidHTML } from '@wordpress/dom';
+import { getPhrasingContentSchema, removeInvalidHTML } from '@aarondewes/wp-dom';
 
 /**
  * Internal dependencies

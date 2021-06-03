@@ -9,7 +9,7 @@ This feature is still experimental. “Experimental” means this is an early im
 ## Usage
 
 ```jsx
-import { FormGroup, TextInput } from '@wordpress/components/ui';
+import { FormGroup, TextInput } from '@aarondewes/wp-components/ui';
 
 function Example() {
 	return (

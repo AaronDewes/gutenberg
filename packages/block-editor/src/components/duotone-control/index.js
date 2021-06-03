@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { ToolbarButton, DuotoneSwatch } from '@wordpress/components';
-import { useState } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { DOWN } from '@wordpress/keycodes';
+import { ToolbarButton, DuotoneSwatch } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { DOWN } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

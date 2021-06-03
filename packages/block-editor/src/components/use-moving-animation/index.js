@@ -12,9 +12,9 @@ import {
 	useReducer,
 	useMemo,
 	useRef,
-} from '@wordpress/element';
-import { useReducedMotion } from '@wordpress/compose';
-import { getScrollContainer } from '@wordpress/dom';
+} from '@aarondewes/wp-element';
+import { useReducedMotion } from '@aarondewes/wp-compose';
+import { getScrollContainer } from '@aarondewes/wp-dom';
 
 /**
  * Simple reducer used to increment a counter.

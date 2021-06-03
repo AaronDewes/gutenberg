@@ -6,17 +6,17 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { getBlockType } from '@wordpress/blocks';
-import { Fill, Slot, VisuallyHidden } from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { useSelect } from '@wordpress/data';
+import { getBlockType } from '@aarondewes/wp-blocks';
+import { Fill, Slot, VisuallyHidden } from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	Children,
 	cloneElement,
 	forwardRef,
 	useContext,
-} from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

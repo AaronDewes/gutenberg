@@ -6,9 +6,9 @@ The component renders a user interface that allows the user to select predefined
 ## Usage
 
 ```jsx
-import { FontSizePicker } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
+import { FontSizePicker } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
 
 ...
 const MyFontSizePicker = withState( {

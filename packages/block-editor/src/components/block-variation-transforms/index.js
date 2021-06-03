@@ -1,16 +1,16 @@
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	DropdownMenu,
 	MenuGroup,
 	MenuItemsChoice,
-} from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useState, useEffect } from '@wordpress/element';
-import { chevronDown } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import { chevronDown } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

@@ -18,9 +18,9 @@ import {
 /**
  * WordPress dependencies
  */
-import apiFetch from '@wordpress/api-fetch';
-import { createBlobURL, revokeBlobURL } from '@wordpress/blob';
-import { __, sprintf } from '@wordpress/i18n';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { createBlobURL, revokeBlobURL } from '@aarondewes/wp-blob';
+import { __, sprintf } from '@aarondewes/wp-i18n';
 
 /**
  * Browsers may use unexpected mime types, and they differ from browser to browser.

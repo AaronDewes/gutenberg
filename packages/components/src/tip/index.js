@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { SVG, Path } from '@wordpress/primitives';
+import { SVG, Path } from '@aarondewes/wp-primitives';
 
 /**
  * @typedef Props

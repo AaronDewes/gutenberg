@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { Button, Tooltip, VisuallyHidden } from '@wordpress/components';
-import { forwardRef } from '@wordpress/element';
-import { _x, sprintf } from '@wordpress/i18n';
-import { Icon, plus } from '@wordpress/icons';
+import { Button, Tooltip, VisuallyHidden } from '@aarondewes/wp-components';
+import { forwardRef } from '@aarondewes/wp-element';
+import { _x, sprintf } from '@aarondewes/wp-i18n';
+import { Icon, plus } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

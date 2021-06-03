@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { combineReducers } from '@wordpress/data';
+import { combineReducers } from '@aarondewes/wp-data';
 
 /**
  * Reducer that tracks which tips are in a guide. Each guide is represented by

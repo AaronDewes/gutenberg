@@ -7,7 +7,7 @@ import { uniqueId } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { plus } from '@wordpress/icons';
+import { plus } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

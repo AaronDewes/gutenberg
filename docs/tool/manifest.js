@@ -29,7 +29,7 @@ function getPackageManifest( packageFolderNames ) {
 	return packageFolderNames.map( ( folderName ) => {
 		const path = `${ baseRepoUrl }/packages/${ folderName }/README.md`;
 		return {
-			title: `@wordpress/${ folderName }`,
+			title: `@aarondewes/wp-${ folderName }`,
 			slug: `packages-${ folderName }`,
 			markdown_source: path,
 			parent: 'packages',

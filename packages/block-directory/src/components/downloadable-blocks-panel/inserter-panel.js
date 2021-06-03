@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __, _n, sprintf } from '@wordpress/i18n';
-import { useEffect } from '@wordpress/element';
-import { speak } from '@wordpress/a11y';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
+import { useEffect } from '@aarondewes/wp-element';
+import { speak } from '@aarondewes/wp-a11y';
 
 function DownloadableBlocksInserterPanel( {
 	children,

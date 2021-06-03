@@ -7,7 +7,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useState, RawHTML, useEffect, useRef } from '@wordpress/element';
+import { useState, RawHTML, useEffect, useRef } from '@aarondewes/wp-element';
 import {
 	BaseControl,
 	PanelBody,
@@ -18,11 +18,11 @@ import {
 	Spinner,
 	ToggleControl,
 	ToolbarGroup,
-} from '@wordpress/components';
-import apiFetch from '@wordpress/api-fetch';
-import { addQueryArgs } from '@wordpress/url';
-import { __, sprintf } from '@wordpress/i18n';
-import { dateI18n, format, __experimentalGetSettings } from '@wordpress/date';
+} from '@aarondewes/wp-components';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { dateI18n, format, __experimentalGetSettings } from '@aarondewes/wp-date';
 import {
 	InspectorControls,
 	BlockAlignmentToolbar,
@@ -30,10 +30,10 @@ import {
 	__experimentalImageSizeControl as ImageSizeControl,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useSelect } from '@wordpress/data';
-import { pin, list, grid } from '@wordpress/icons';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-block-editor';
+import { useSelect } from '@aarondewes/wp-data';
+import { pin, list, grid } from '@aarondewes/wp-icons';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

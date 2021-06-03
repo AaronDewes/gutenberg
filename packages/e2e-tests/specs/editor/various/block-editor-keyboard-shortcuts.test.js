@@ -6,7 +6,7 @@ import {
 	clickBlockAppender,
 	getEditedPostContent,
 	pressKeyWithModifier,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const createTestParagraphBlocks = async () => {
 	await clickBlockAppender();

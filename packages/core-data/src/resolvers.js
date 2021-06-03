@@ -6,9 +6,9 @@ import { find, includes, get, hasIn, compact, uniq } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { addQueryArgs } from '@wordpress/url';
-import { controls } from '@wordpress/data';
-import { apiFetch } from '@wordpress/data-controls';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { controls } from '@aarondewes/wp-data';
+import { apiFetch } from '@aarondewes/wp-data-controls';
 /**
  * Internal dependencies
  */
@@ -110,7 +110,7 @@ export function* getEntityRecord( kind, name, key = '', query ) {
 		// modifications are relevant to how the data is tracked in state, and not
 		// for how the request is made to the REST API.
 
-		// eslint-disable-next-line @wordpress/no-unused-vars-before-return
+		// eslint-disable-next-line @aarondewes/wp-no-unused-vars-before-return
 		const path = addQueryArgs( entity.baseURL + '/' + key, {
 			...entity.baseURLParams,
 			...query,

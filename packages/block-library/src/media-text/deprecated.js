@@ -7,7 +7,7 @@ import { noop, isEmpty, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { InnerBlocks, getColorClassName } from '@wordpress/block-editor';
+import { InnerBlocks, getColorClassName } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

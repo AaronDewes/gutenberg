@@ -8,7 +8,7 @@ import { isEqual } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { memo } from '@wordpress/element';
+import { memo } from '@aarondewes/wp-element';
 
 const List = memo( FlatList, isEqual );
 

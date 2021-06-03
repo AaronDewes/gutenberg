@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createBlobURL } from '@wordpress/blob';
-import { getFilesFromDataTransfer } from '@wordpress/dom';
+import { createBlobURL } from '@aarondewes/wp-blob';
+import { getFilesFromDataTransfer } from '@aarondewes/wp-dom';
 
 export function getPasteEventData( { clipboardData } ) {
 	let plainText = '';

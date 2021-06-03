@@ -7,8 +7,8 @@ TreeSelect component is used to generate select input fields.
 Render a user interface to select the parent page in a hierarchy of pages:
 
 ```jsx
-import { TreeSelect } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { TreeSelect } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyTreeSelect = withState( {
 	page: 'p21',

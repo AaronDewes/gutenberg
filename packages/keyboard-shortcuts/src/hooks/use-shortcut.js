@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { useKeyboardShortcut } from '@wordpress/compose';
+import { useSelect } from '@aarondewes/wp-data';
+import { useKeyboardShortcut } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

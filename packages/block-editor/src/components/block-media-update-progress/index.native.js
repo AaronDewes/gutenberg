@@ -6,13 +6,13 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { Spinner } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { Component } from '@aarondewes/wp-element';
+import { Spinner } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	subscribeMediaUpload,
 	subscribeMediaSave,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 
 /**
  * Internal dependencies
@@ -264,11 +264,11 @@ export class BlockMediaUpdateProgress extends Component {
 		const showSpinner =
 			this.state.isUploadInProgress || this.state.isSaveInProgress;
 		const progress = this.state.progress * 100;
-		// eslint-disable-next-line @wordpress/i18n-no-collapsible-whitespace
+		// eslint-disable-next-line @aarondewes/wp-i18n-no-collapsible-whitespace
 		const retryMessageSave = __(
 			'Failed to save files.\nPlease tap for options.'
 		);
-		// eslint-disable-next-line @wordpress/i18n-no-collapsible-whitespace
+		// eslint-disable-next-line @aarondewes/wp-i18n-no-collapsible-whitespace
 		const retryMessageUpload = __(
 			'Failed to upload files.\nPlease tap for options.'
 		);

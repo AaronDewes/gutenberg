@@ -6,8 +6,8 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Children } from '@wordpress/element';
-import { createSlotFill, BottomSheetConsumer } from '@wordpress/components';
+import { Children } from '@aarondewes/wp-element';
+import { createSlotFill, BottomSheetConsumer } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { RichText, useBlockProps } from '@wordpress/block-editor';
+import { RichText, useBlockProps } from '@aarondewes/wp-block-editor';
 
 export default function save( { attributes } ) {
 	const { autoplay, caption, loop, preload, src } = attributes;

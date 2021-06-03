@@ -6,8 +6,8 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { forwardRef } from '@wordpress/element';
+import { useSelect } from '@aarondewes/wp-data';
+import { forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

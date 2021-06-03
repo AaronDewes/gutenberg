@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useLayoutEffect, useRef } from '@wordpress/element';
-import { useDispatch } from '@wordpress/data';
+import { useLayoutEffect, useRef } from '@aarondewes/wp-element';
+import { useDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

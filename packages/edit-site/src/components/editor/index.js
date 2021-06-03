@@ -1,30 +1,30 @@
 /**
  * WordPress dependencies
  */
-import { useEffect, useState, useMemo, useCallback } from '@wordpress/element';
-import { AsyncModeProvider, useSelect, useDispatch } from '@wordpress/data';
+import { useEffect, useState, useMemo, useCallback } from '@aarondewes/wp-element';
+import { AsyncModeProvider, useSelect, useDispatch } from '@aarondewes/wp-data';
 import {
 	SlotFillProvider,
 	Popover,
 	Button,
 	Notice,
-} from '@wordpress/components';
-import { EntityProvider, store as coreStore } from '@wordpress/core-data';
-import { BlockContextProvider, BlockBreadcrumb } from '@wordpress/block-editor';
+} from '@aarondewes/wp-components';
+import { EntityProvider, store as coreStore } from '@aarondewes/wp-core-data';
+import { BlockContextProvider, BlockBreadcrumb } from '@aarondewes/wp-block-editor';
 import {
 	FullscreenMode,
 	InterfaceSkeleton,
 	ComplementaryArea,
 	store as interfaceStore,
-} from '@wordpress/interface';
+} from '@aarondewes/wp-interface';
 import {
 	EditorNotices,
 	EntitiesSavedStates,
 	UnsavedChangesWarning,
 	store as editorStore,
-} from '@wordpress/editor';
-import { __ } from '@wordpress/i18n';
-import { PluginArea } from '@wordpress/plugins';
+} from '@aarondewes/wp-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { PluginArea } from '@aarondewes/wp-plugins';
 
 /**
  * Internal dependencies

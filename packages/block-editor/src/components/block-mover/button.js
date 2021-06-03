@@ -7,12 +7,12 @@ import { castArray, first, last } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { getBlockType } from '@wordpress/blocks';
-import { Button } from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { forwardRef } from '@wordpress/element';
-import { __, isRTL } from '@wordpress/i18n';
+import { getBlockType } from '@aarondewes/wp-blocks';
+import { Button } from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { forwardRef } from '@aarondewes/wp-element';
+import { __, isRTL } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies
@@ -22,7 +22,7 @@ import {
 	chevronRight,
 	chevronUp,
 	chevronDown,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 import { getBlockMoverDescription } from './mover-description';
 import { store as blockEditorStore } from '../../store';
 

@@ -6,8 +6,8 @@ import { useNavigation } from '@react-navigation/native';
 /**
  * WordPress dependencies
  */
-import { ColorControl, PanelBody } from '@wordpress/components';
-import { useMemo } from '@wordpress/element';
+import { ColorControl, PanelBody } from '@aarondewes/wp-components';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -4,7 +4,7 @@ A block is added to the block editor using a WordPress plugin. You can create yo
 
 ## Plugin Details
 
-A WordPress plugin is a set of files within the site's `wp-content/plugins` directory. For our tutorial, we will use the `@wordpress/create-block` package to generate the necessary plugin files.
+A WordPress plugin is a set of files within the site's `wp-content/plugins` directory. For our tutorial, we will use the `@aarondewes/wp-create-block` package to generate the necessary plugin files.
 
 ### Switch to Working Directory
 
@@ -19,7 +19,7 @@ A WordPress plugin is a set of files within the site's `wp-content/plugins` dire
 (2) Once in the right directory for your environment, the next step is to run the following command to generate plugin files:
 
 ```sh
-npx @wordpress/create-block gutenpride
+npx @aarondewes/wp-create-block gutenpride
 cd gutenpride
 ```
 
@@ -67,7 +67,7 @@ For more on creating a WordPress plugin see [Plugin Basics](https://developer.wo
 
 The `package.json` file defines the JavaScript properties for your project. This is a standard file used by NPM for defining properties and scripts it can run, the file and process is not specific to WordPress.
 
-A `package.json` file was created with the create script, this defines the dependecies and scripts needed. You can install dependencies. The only initial dependency is the `@wordpress/scripts` package that bundles the tools and configurations needed to build blocks.
+A `package.json` file was created with the create script, this defines the dependecies and scripts needed. You can install dependencies. The only initial dependency is the `@aarondewes/wp-scripts` package that bundles the tools and configurations needed to build blocks.
 
 In `package.json`, there is a `scripts` property that defines what command to run when using `npm run (cmd)`. In our generated `package.json` file, the two main scripts point to the commands in the `wp-scripts` package:
 
@@ -137,6 +137,6 @@ For more info, see the build section of the [Getting Started with JavaScript tut
 
 ## Summary
 
-Hopefully, at this point, you have your plugin created and activated. We have the package.json with the `@wordpress/scripts` dependency, that defines the build and start scripts. The basic block is in place and can be added to the editor.
+Hopefully, at this point, you have your plugin created and activated. We have the package.json with the `@aarondewes/wp-scripts` dependency, that defines the build and start scripts. The basic block is in place and can be added to the editor.
 
 Next Section: [Anatomy of a Block](/docs/getting-started/tutorials/create-block/block-anatomy.md)

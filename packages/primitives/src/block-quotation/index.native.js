@@ -5,8 +5,8 @@ import { View } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Children, cloneElement } from '@wordpress/element';
-import { withPreferredColorScheme } from '@wordpress/compose';
+import { Children, cloneElement } from '@aarondewes/wp-element';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
 /**
  * Internal dependencies
  */

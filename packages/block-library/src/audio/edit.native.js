@@ -7,7 +7,7 @@ import { isEmpty } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { View } from '@wordpress/primitives';
+import { View } from '@aarondewes/wp-primitives';
 import {
 	PanelBody,
 	SelectControl,
@@ -15,7 +15,7 @@ import {
 	ToolbarButton,
 	ToolbarGroup,
 	AudioPlayer,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 import {
 	BlockCaption,
 	BlockControls,
@@ -25,13 +25,13 @@ import {
 	MediaUpload,
 	MediaUploadProgress,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { __, sprintf } from '@wordpress/i18n';
-import { audio as icon, replace } from '@wordpress/icons';
-import { useState } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { store as noticesStore } from '@wordpress/notices';
-import { isURL } from '@wordpress/url';
+} from '@aarondewes/wp-block-editor';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { audio as icon, replace } from '@aarondewes/wp-icons';
+import { useState } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { isURL } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

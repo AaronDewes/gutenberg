@@ -7,8 +7,8 @@ _Parts of the source code were derived and modified from [react-color](https://g
 ## Usage
 
 ```jsx
-import { ColorPicker } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { ColorPicker } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyColorPicker = withState( {
 	color: '#f00',

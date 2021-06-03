@@ -6,7 +6,7 @@ import {
 	createNewPost,
 	getEditedPostContent,
 	pressKeyWithModifier,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Heading', () => {
 	const CUSTOM_COLOR_TEXT = 'Custom color';

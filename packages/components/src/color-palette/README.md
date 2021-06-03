@@ -54,8 +54,8 @@ Whether the palette should have a clearing button or not.
 ## Usage
 
 ```jsx
-import { ColorPalette } from '@wordpress/components';
-import { useState } from '@wordpress/element';
+import { ColorPalette } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 const MyColorPalette = () => {
 	const [ color, setColor ] = useState ( '#f00' )

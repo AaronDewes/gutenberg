@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalNavigationItem as NavigationItem } from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useCallback, useState } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { getPathAndQueryString } from '@wordpress/url';
-import { store as coreStore } from '@wordpress/core-data';
+import { __experimentalNavigationItem as NavigationItem } from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useCallback, useState } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { getPathAndQueryString } from '@aarondewes/wp-url';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

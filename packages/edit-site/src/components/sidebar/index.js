@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { createSlotFill, PanelBody } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { cog, typography } from '@wordpress/icons';
-import { useEffect } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { store as interfaceStore } from '@wordpress/interface';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { createSlotFill, PanelBody } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { cog, typography } from '@aarondewes/wp-icons';
+import { useEffect } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { store as interfaceStore } from '@aarondewes/wp-interface';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

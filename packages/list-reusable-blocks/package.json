@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/list-reusable-blocks",
+	"name": "@aarondewes/wp-list-reusable-blocks",
 	"version": "2.1.1",
 	"description": "Adding Export/Import support to the reusable blocks listing.",
 	"author": "The WordPress Contributors",
@@ -26,11 +26,11 @@
 	"module": "build-module/index.js",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/api-fetch": "file:../api-fetch",
-		"@wordpress/components": "file:../components",
-		"@wordpress/compose": "file:../compose",
-		"@wordpress/element": "file:../element",
-		"@wordpress/i18n": "file:../i18n",
+		"@aarondewes/wp-api-fetch": "file:../api-fetch",
+		"@aarondewes/wp-components": "file:../components",
+		"@aarondewes/wp-compose": "file:../compose",
+		"@aarondewes/wp-element": "file:../element",
+		"@aarondewes/wp-i18n": "file:../i18n",
 		"lodash": "^4.17.21"
 	},
 	"publishConfig": {

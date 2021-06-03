@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useRefEffect } from '@wordpress/compose';
+import { useRefEffect } from '@aarondewes/wp-compose';
 
 /**
  * Allow scrolling "through" popovers over the canvas. This is only called for

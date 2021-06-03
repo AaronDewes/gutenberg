@@ -6,10 +6,10 @@ Note that the implementation of Block Context is distinct from [the `BlockEdit` 
 
 ## Usage
 
-Currently, only the [Provider component](https://reactjs.org/docs/context.html#contextprovider) is made available on the public interface of the `@wordpress/block-editor` module. This can be used to add or override context which can then be consumed by blocks rendered within that context in the block editor.
+Currently, only the [Provider component](https://reactjs.org/docs/context.html#contextprovider) is made available on the public interface of the `@aarondewes/wp-block-editor` module. This can be used to add or override context which can then be consumed by blocks rendered within that context in the block editor.
 
 ```js
-import { BlockContextProvider } from '@wordpress/block-editor';
+import { BlockContextProvider } from '@aarondewes/wp-block-editor';
 
 function MyCustomPostEditor() {
 	return (
@@ -20,12 +20,12 @@ function MyCustomPostEditor() {
 }
 ```
 
-Internal to the `@wordpress/block-editor` module, a component can access the [full Context object](https://reactjs.org/docs/context.html#api), typically for use in combination with [`useContext`](https://reactjs.org/docs/hooks-reference.html#usecontext).
+Internal to the `@aarondewes/wp-block-editor` module, a component can access the [full Context object](https://reactjs.org/docs/context.html#api), typically for use in combination with [`useContext`](https://reactjs.org/docs/hooks-reference.html#usecontext).
 
 ```js
-import { useContext } from '@wordpress/element';
+import { useContext } from '@aarondewes/wp-element';
 
-// Only available internally within `@wordpress/block-editor`!
+// Only available internally within `@aarondewes/wp-block-editor`!
 import BlockContext from '../block-context';
 
 function MyBlockComponent() {
@@ -35,7 +35,7 @@ function MyBlockComponent() {
 }
 ```
 
-The reason `BlockContext` is only internally available within the `@wordpress/block-editor` module is to reinforce the expectation that external consumption of values from block context should be declared on the block registration using the `context` property.
+The reason `BlockContext` is only internally available within the `@aarondewes/wp-block-editor` module is to reinforce the expectation that external consumption of values from block context should be declared on the block registration using the `context` property.
 
 ## Props
 

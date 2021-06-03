@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { _x } from '@wordpress/i18n';
-import { ToolbarGroup, ToolbarDropdownMenu } from '@wordpress/components';
+import { _x } from '@aarondewes/wp-i18n';
+import { ToolbarGroup, ToolbarDropdownMenu } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

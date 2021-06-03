@@ -7,12 +7,12 @@ import { isFinite, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { RawHTML } from '@wordpress/element';
+import { RawHTML } from '@aarondewes/wp-element';
 import {
 	getColorClassName,
 	getFontSizeClass,
 	RichText,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 const supports = {
 	className: false,

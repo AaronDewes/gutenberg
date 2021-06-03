@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useLayoutEffect, useMemo } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import isShallowEqual from '@wordpress/is-shallow-equal';
+import { useLayoutEffect, useMemo } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import isShallowEqual from '@aarondewes/wp-is-shallow-equal';
 
 /**
  * Internal dependencies

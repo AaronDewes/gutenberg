@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { useEffect, useState, useCallback, useRef } from '@wordpress/element';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { EntityProvider } from '@wordpress/core-data';
+import { useEffect, useState, useCallback, useRef } from '@aarondewes/wp-element';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { EntityProvider } from '@aarondewes/wp-core-data';
 import {
 	__unstableDisclosureContent as DisclosureContent,
 	Panel,
 	PanelBody,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies
@@ -16,7 +16,7 @@ import {
 import WidgetAreaInnerBlocks from './inner-blocks';
 import { store as editWidgetsStore } from '../../../store';
 
-/** @typedef {import('@wordpress/element').RefObject} RefObject */
+/** @typedef {import('@aarondewes/wp-element').RefObject} RefObject */
 
 export default function WidgetAreaEdit( {
 	clientId,

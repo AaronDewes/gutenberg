@@ -6,10 +6,10 @@ import { get, keyBy } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createRegistrySelector } from '@wordpress/data';
-import { getWidgetIdFromBlock } from '@wordpress/widgets';
-import { store as coreStore } from '@wordpress/core-data';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { createRegistrySelector } from '@aarondewes/wp-data';
+import { getWidgetIdFromBlock } from '@aarondewes/wp-widgets';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

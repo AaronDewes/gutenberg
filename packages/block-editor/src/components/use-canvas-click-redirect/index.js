@@ -6,8 +6,8 @@ import { overEvery, findLast } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useRefEffect } from '@wordpress/compose';
-import { focus, isTextField, placeCaretAtHorizontalEdge } from '@wordpress/dom';
+import { useRefEffect } from '@aarondewes/wp-compose';
+import { focus, isTextField, placeCaretAtHorizontalEdge } from '@aarondewes/wp-dom';
 
 /**
  * Given an element, returns true if the element is a tabbable text field, or

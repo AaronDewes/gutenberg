@@ -6,10 +6,10 @@ import {
 	__unstableComposite as Composite,
 	__unstableUseCompositeState as useCompositeState,
 	__unstableCompositeItem as CompositeItem,
-} from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

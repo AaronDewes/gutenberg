@@ -8,7 +8,7 @@ import type { Ref, ReactNode } from 'react';
 /**
  * WordPress dependencies
  */
-import { isValidElement } from '@wordpress/element';
+import { isValidElement } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -10,7 +10,7 @@ import {
 	getEditedPostContent,
 	pressKeyWithModifier,
 	clickButton,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Using Format API', () => {
 	beforeAll( async () => {

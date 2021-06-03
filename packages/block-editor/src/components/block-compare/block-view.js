@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
+import { Button } from '@aarondewes/wp-components';
 
 const BlockView = ( {
 	title,

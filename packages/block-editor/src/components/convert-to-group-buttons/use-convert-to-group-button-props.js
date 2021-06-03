@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { store as blocksStore } from '@wordpress/blocks';
-import { useSelect } from '@wordpress/data';
+import { store as blocksStore } from '@aarondewes/wp-blocks';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

@@ -12,7 +12,7 @@ import {
 	insertBlock,
 	publishPost,
 	setUpResponseMocking,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 const MOCK_EMBED_WORDPRESS_SUCCESS_RESPONSE = {
 	url: 'https://wordpress.org/gutenberg/handbook/block-api/attributes/',

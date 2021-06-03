@@ -13,7 +13,7 @@ function isDev() {
  *
  * @example
  * ```js
- * import warning from '@wordpress/warning';
+ * import warning from '@aarondewes/wp-warning';
  *
  * function MyComponent( props ) {
  *   if ( ! props.title ) {

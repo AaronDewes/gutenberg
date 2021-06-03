@@ -6,7 +6,7 @@ import { css } from 'emotion';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -64,7 +64,7 @@ function Card( props, forwardedRef ) {
  *   CardFooter,
  *   Text,
  *   Heading,
- * } from `@wordpress/components`;
+ * } from `@aarondewes/wp-components`;
  *
  * function Example() {
  *   return (

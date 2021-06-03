@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createBlock } from '@wordpress/blocks';
+import { createBlock } from '@aarondewes/wp-blocks';
 import {
 	Placeholder,
 	Button,
@@ -9,16 +9,16 @@ import {
 	MenuGroup,
 	MenuItem,
 	Spinner,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 import {
 	forwardRef,
 	useCallback,
 	useState,
 	useEffect,
-} from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { navigation, chevronDown, Icon } from '@wordpress/icons';
+} from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { navigation, chevronDown, Icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

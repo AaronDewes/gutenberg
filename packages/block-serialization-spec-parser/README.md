@@ -12,13 +12,13 @@ PEG parser generators are available in many languages, though different librarie
 Install the module
 
 ```bash
-npm install @wordpress/block-serialization-spec-parser --save
+npm install @aarondewes/wp-block-serialization-spec-parser --save
 ```
 
 ## Usage
 
 ```js
-import { parse } from '@wordpress/block-serialization-spec-parser';
+import { parse } from '@aarondewes/wp-block-serialization-spec-parser';
 
 parse( '<!-- wp:core/more --><!--more--><!-- /wp:core/more -->' );
 // [{"attrs": null, "blockName": "core/more", "innerBlocks": [], "innerHTML": "<!--more-->"}]

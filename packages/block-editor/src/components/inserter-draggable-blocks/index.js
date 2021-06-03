@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Draggable } from '@wordpress/components';
+import { Draggable } from '@aarondewes/wp-components';
 /**
  * Internal dependencies
  */

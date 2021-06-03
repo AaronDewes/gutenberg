@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { MediaUpload } from '@wordpress/media-utils';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { MediaUpload } from '@aarondewes/wp-media-utils';
 
 const replaceMediaUpload = () => MediaUpload;
 

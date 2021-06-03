@@ -7,20 +7,20 @@ import { pick } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component, createRef, useMemo } from '@wordpress/element';
+import { Component, createRef, useMemo } from '@aarondewes/wp-element';
 import {
 	GlobalStylesContext,
 	getMergedGlobalStyles,
 	alignmentHelpers,
 	useGlobalStyles,
-} from '@wordpress/components';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
+} from '@aarondewes/wp-components';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
 import {
 	getBlockType,
 	__experimentalGetAccessibleBlockLabel as getAccessibleBlockLabel,
-} from '@wordpress/blocks';
-import { useSetting } from '@wordpress/block-editor';
+} from '@aarondewes/wp-blocks';
+import { useSetting } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

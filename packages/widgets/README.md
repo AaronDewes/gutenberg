@@ -9,7 +9,7 @@ This package contains common functionality used by the widgets block editor in t
 Install the module
 
 ```bash
-npm install @wordpress/widgets
+npm install @aarondewes/wp-widgets
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._

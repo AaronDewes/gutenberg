@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useEffect, useLayoutEffect } from '@wordpress/element';
+import { useEffect, useLayoutEffect } from '@aarondewes/wp-element';
 
 /**
  * Preferred over direct usage of `useLayoutEffect` when supporting

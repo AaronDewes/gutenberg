@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import TokenList from '@wordpress/token-list';
+import TokenList from '@aarondewes/wp-token-list';
 
 const tokens = new TokenList( 'abc def' );
 tokens.add( 'ghi' );

@@ -1,6 +1,6 @@
 # URL Fixtures
 
-The `@wordpress/url` module uses data from the [Web Platform Tests project](https://github.com/web-platform-tests/wpt) to verify expected behavior of its functionality as conforming to the [URL Living Standard](https://url.spec.whatwg.org/).
+The `@aarondewes/wp-url` module uses data from the [Web Platform Tests project](https://github.com/web-platform-tests/wpt) to verify expected behavior of its functionality as conforming to the [URL Living Standard](https://url.spec.whatwg.org/).
 
 This data is updated manually. To bring in the latest data, run the download script:
 

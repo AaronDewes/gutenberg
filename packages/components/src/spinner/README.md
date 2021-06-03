@@ -13,7 +13,7 @@ The spinner component should:
 ## Usage
 
 ```jsx
-import { Spinner } from '@wordpress/components';
+import { Spinner } from '@aarondewes/wp-components';
 
 const MySpinner = () => <Spinner />;
 ```

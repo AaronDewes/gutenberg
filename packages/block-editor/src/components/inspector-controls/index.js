@@ -4,7 +4,7 @@
 import {
 	__experimentalStyleProvider as StyleProvider,
 	createSlotFill,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

@@ -6,18 +6,18 @@ import { noop, deburr } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, _n, sprintf } from '@wordpress/i18n';
+import { __, _n, sprintf } from '@aarondewes/wp-i18n';
 import {
 	Component,
 	useState,
 	useMemo,
 	useRef,
 	useEffect,
-} from '@wordpress/element';
-import { useInstanceId } from '@wordpress/compose';
-import { ENTER, UP, DOWN, ESCAPE } from '@wordpress/keycodes';
-import { speak } from '@wordpress/a11y';
-import { closeSmall } from '@wordpress/icons';
+} from '@aarondewes/wp-element';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { ENTER, UP, DOWN, ESCAPE } from '@aarondewes/wp-keycodes';
+import { speak } from '@aarondewes/wp-a11y';
+import { closeSmall } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

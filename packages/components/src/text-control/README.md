@@ -60,8 +60,8 @@ Don’t use unclear visual markers to indicate a text field.
 Render a user interface to input the name of an additional css class.
 
 ```js
-import { TextControl } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { TextControl } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyTextControl = withState( {
 	className: '',

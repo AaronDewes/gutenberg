@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { renderToString } from '@wordpress/element';
-import { createBlock } from '@wordpress/blocks';
+import { renderToString } from '@aarondewes/wp-element';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

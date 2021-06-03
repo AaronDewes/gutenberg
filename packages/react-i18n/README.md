@@ -1,13 +1,13 @@
 # React Bindings for I18n
 
-React bindings for [`@wordpress/i18n`](../i18n).
+React bindings for [`@aarondewes/wp-i18n`](../i18n).
 
 ## Installation
 
 Install the module:
 
 ```sh
-npm install @wordpress/react-i18n
+npm install @aarondewes/wp-react-i18n
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._
@@ -23,8 +23,8 @@ The `I18nProvider` should be mounted above any localized components:
 _Usage_
 
 ```js
-import { createI18n } from '@wordpress/react-i18n';
-import { I18nProvider } from '@wordpress/react-i18n';
+import { createI18n } from '@aarondewes/wp-react-i18n';
+import { I18nProvider } from '@aarondewes/wp-react-i18n';
 const i18n = createI18n();
 
 ReactDom.render(
@@ -36,7 +36,7 @@ ReactDom.render(
 ```
 
 You can also instantiate the provider without the `i18n` prop. In that case it will use the
-default `I18n` instance exported from `@wordpress/i18n`.
+default `I18n` instance exported from `@aarondewes/wp-i18n`.
 
 _Parameters_
 
@@ -49,13 +49,13 @@ _Returns_
 <a name="useI18n" href="#useI18n">#</a> **useI18n**
 
 React hook providing access to i18n functions. It exposes the `__`, `_x`, `_n`, `_nx`,
-`isRTL` and `hasTranslation` functions from [`@wordpress/i18n`](../i18n).
+`isRTL` and `hasTranslation` functions from [`@aarondewes/wp-i18n`](../i18n).
 Refer to their documentation there.
 
 _Usage_
 
 ```js
-import { useI18n } from '@wordpress/react-i18n';
+import { useI18n } from '@aarondewes/wp-react-i18n';
 
 function MyComponent() {
 	const { __ } = useI18n();
@@ -71,7 +71,7 @@ as exposed by the `useI18n` hook) to the wrapped component as props.
 _Usage_
 
 ```js
-import { withI18n } from '@wordpress/react-i18n';
+import { withI18n } from '@aarondewes/wp-react-i18n';
 
 function MyComponent( { __ } ) {
 	return __( 'Hello, world!' );

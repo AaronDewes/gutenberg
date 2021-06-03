@@ -56,8 +56,8 @@ Here is the complete block definition for Example 03.
 {% ESNext %}
 
 ```jsx
-import { registerBlockType } from '@wordpress/blocks';
-import { useBlockProps, RichText } from '@wordpress/block-editor';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { useBlockProps, RichText } from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'gutenberg-examples/example-03-editable-esnext', {
 	apiVersion: 2,

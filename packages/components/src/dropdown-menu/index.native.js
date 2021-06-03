@@ -7,11 +7,11 @@ import { Platform } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { DOWN } from '@wordpress/keycodes';
-import deprecated from '@wordpress/deprecated';
-import { BottomSheet, PanelBody } from '@wordpress/components';
-import { withPreferredColorScheme } from '@wordpress/compose';
-import { menu } from '@wordpress/icons';
+import { DOWN } from '@aarondewes/wp-keycodes';
+import deprecated from '@aarondewes/wp-deprecated';
+import { BottomSheet, PanelBody } from '@aarondewes/wp-components';
+import { withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { menu } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

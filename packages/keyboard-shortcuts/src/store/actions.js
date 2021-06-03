@@ -1,4 +1,4 @@
-/** @typedef {import('@wordpress/keycodes').WPKeycodeModifier} WPKeycodeModifier */
+/** @typedef {import('@aarondewes/wp-keycodes').WPKeycodeModifier} WPKeycodeModifier */
 
 /**
  * Keyboard key combination.

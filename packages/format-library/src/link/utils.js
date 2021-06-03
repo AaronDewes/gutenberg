@@ -17,7 +17,7 @@ import {
 	isValidQueryString,
 	getFragment,
 	isValidFragment,
-} from '@wordpress/url';
+} from '@aarondewes/wp-url';
 
 /**
  * Check for issues with the provided href.

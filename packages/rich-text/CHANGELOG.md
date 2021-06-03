@@ -17,7 +17,7 @@
 
 ### New Feature
 
--   Added a store definition `store` for the rich-text namespace to use with `@wordpress/data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
+-   Added a store definition `store` for the rich-text namespace to use with `@aarondewes/wp-data` API ([#26655](https://github.com/WordPress/gutenberg/pull/26655)).
 
 ## 3.3.0 (2019-05-21)
 
@@ -80,7 +80,7 @@
 
 ## 2.0.0 (2018-10-30)
 
--   Remove `@wordpress/blocks` as a dependency.
+-   Remove `@aarondewes/wp-blocks` as a dependency.
 
 ## 1.0.2 (2018-10-29)
 

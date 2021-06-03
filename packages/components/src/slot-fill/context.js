@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createContext } from '@wordpress/element';
+import { createContext } from '@aarondewes/wp-element';
 
 export const SlotFillContext = createContext( {
 	registerSlot: () => {},

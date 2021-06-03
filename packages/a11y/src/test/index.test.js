@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import domReady from '@wordpress/dom-ready';
+import domReady from '@aarondewes/wp-dom-ready';
 
 /**
  * Internal dependencies
@@ -13,7 +13,7 @@ import filterMessage from '../filter-message';
 jest.mock( '../clear', () => {
 	return jest.fn();
 } );
-jest.mock( '@wordpress/dom-ready', () => {
+jest.mock( '@aarondewes/wp-dom-ready', () => {
 	return jest.fn( ( callback ) => {
 		callback();
 	} );

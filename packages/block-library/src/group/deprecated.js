@@ -11,7 +11,7 @@ import {
 	InnerBlocks,
 	getColorClassName,
 	useBlockProps,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 const migrateAttributes = ( attributes ) => {
 	if ( ! attributes.tagName ) {

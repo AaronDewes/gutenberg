@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { applyFilters } from '@wordpress/hooks';
+import { applyFilters } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

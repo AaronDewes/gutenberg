@@ -6,9 +6,9 @@ import { uniqueId, noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useState, createRef, renderToString } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { speak } from '@wordpress/a11y';
+import { useState, createRef, renderToString } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { speak } from '@aarondewes/wp-a11y';
 import {
 	FormFileUpload,
 	NavigableMenu,
@@ -16,12 +16,12 @@ import {
 	ToolbarButton,
 	Dropdown,
 	withFilters,
-} from '@wordpress/components';
-import { withDispatch, useSelect } from '@wordpress/data';
-import { DOWN, TAB, ESCAPE } from '@wordpress/keycodes';
-import { compose } from '@wordpress/compose';
-import { upload, media as mediaIcon } from '@wordpress/icons';
-import { store as noticesStore } from '@wordpress/notices';
+} from '@aarondewes/wp-components';
+import { withDispatch, useSelect } from '@aarondewes/wp-data';
+import { DOWN, TAB, ESCAPE } from '@aarondewes/wp-keycodes';
+import { compose } from '@aarondewes/wp-compose';
+import { upload, media as mediaIcon } from '@aarondewes/wp-icons';
+import { store as noticesStore } from '@aarondewes/wp-notices';
 
 /**
  * Internal dependencies

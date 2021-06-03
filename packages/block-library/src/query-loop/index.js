@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { loop } from '@wordpress/icons';
+import { loop } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

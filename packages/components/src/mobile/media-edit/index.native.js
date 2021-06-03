@@ -6,13 +6,13 @@ import { compact } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { Picker } from '@wordpress/components';
+import { Component } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Picker } from '@aarondewes/wp-components';
 import {
 	requestMediaEditor,
 	mediaSources,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 
 export const MEDIA_TYPE_IMAGE = 'image';
 

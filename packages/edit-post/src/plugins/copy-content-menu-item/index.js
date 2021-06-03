@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { MenuItem } from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
-import { useCopyToClipboard } from '@wordpress/compose';
-import { store as noticesStore } from '@wordpress/notices';
-import { store as editorStore } from '@wordpress/editor';
+import { MenuItem } from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useCopyToClipboard } from '@aarondewes/wp-compose';
+import { store as noticesStore } from '@aarondewes/wp-notices';
+import { store as editorStore } from '@aarondewes/wp-editor';
 
 export default function CopyContentMenuItem() {
 	const { createNotice } = useDispatch( noticesStore );

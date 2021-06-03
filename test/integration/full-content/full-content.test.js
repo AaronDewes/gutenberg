@@ -13,13 +13,13 @@ import {
 	parse,
 	serialize,
 	unstable__bootstrapServerSideBlockDefinitions, // eslint-disable-line camelcase
-} from '@wordpress/blocks';
-import { parse as grammarParse } from '@wordpress/block-serialization-default-parser';
+} from '@aarondewes/wp-blocks';
+import { parse as grammarParse } from '@aarondewes/wp-block-serialization-default-parser';
 import {
 	registerCoreBlocks,
 	__experimentalRegisterExperimentalCoreBlocks,
-} from '@wordpress/block-library';
-import prettierConfig from '@wordpress/prettier-config';
+} from '@aarondewes/wp-block-library';
+import prettierConfig from '@aarondewes/wp-prettier-config';
 //eslint-disable-next-line no-restricted-syntax
 import {
 	blockNameToFixtureBasename,
@@ -31,7 +31,7 @@ import {
 	writeBlockFixtureParsedJSON,
 	writeBlockFixtureJSON,
 	writeBlockFixtureSerializedHTML,
-} from '@wordpress/e2e-tests/fixtures';
+} from '@aarondewes/wp-e2e-tests/fixtures';
 
 const blockBasenames = getAvailableBlockFixturesBasenames();
 

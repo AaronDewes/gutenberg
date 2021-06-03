@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { PanelBody } from '@wordpress/components';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose, ifCondition } from '@wordpress/compose';
+import { __ } from '@aarondewes/wp-i18n';
+import { PanelBody } from '@aarondewes/wp-components';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose, ifCondition } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

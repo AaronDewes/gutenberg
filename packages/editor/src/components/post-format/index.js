@@ -6,11 +6,11 @@ import { find, get, includes, union } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Button, SelectControl } from '@wordpress/components';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { useInstanceId } from '@wordpress/compose';
-import { store as coreStore } from '@wordpress/core-data';
+import { __ } from '@aarondewes/wp-i18n';
+import { Button, SelectControl } from '@aarondewes/wp-components';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies

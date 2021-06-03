@@ -6,24 +6,24 @@ import { kebabCase } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 import {
 	Button,
 	Modal,
 	TextControl,
 	Flex,
 	FlexItem,
-} from '@wordpress/components';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { useState } from '@wordpress/element';
-import { store as editorStore } from '@wordpress/editor';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-components';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { useState } from '@aarondewes/wp-element';
+import { store as editorStore } from '@aarondewes/wp-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies
  */
 import { store as editPostStore } from '../../../store';
-import { createBlock, serialize } from '@wordpress/blocks';
+import { createBlock, serialize } from '@aarondewes/wp-blocks';
 
 function PostTemplateActions() {
 	const [ isModalOpen, setIsModalOpen ] = useState( false );

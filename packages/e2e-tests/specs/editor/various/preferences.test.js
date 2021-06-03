@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createNewPost } from '@wordpress/e2e-test-utils';
+import { createNewPost } from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'preferences', () => {
 	beforeAll( async () => {

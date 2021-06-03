@@ -8,8 +8,8 @@ Corresponding CSS: `background-position: 50% 10%;`
 ## Usage
 
 ```jsx
-import { FocalPointPicker } from '@wordpress/components';
-import { useState } from '@wordpress/element';
+import { FocalPointPicker } from '@aarondewes/wp-components';
+import { useState } from '@aarondewes/wp-element';
 
 const Example = () => {
 	const [ focalPoint, setFocalPoint ] = useState( {

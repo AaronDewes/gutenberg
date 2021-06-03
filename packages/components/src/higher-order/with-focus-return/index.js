@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { Component } from '@wordpress/element';
-import { createHigherOrderComponent, useFocusReturn } from '@wordpress/compose';
-import deprecated from '@wordpress/deprecated';
+import { Component } from '@aarondewes/wp-element';
+import { createHigherOrderComponent, useFocusReturn } from '@aarondewes/wp-compose';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Returns true if the given object is component-like. An object is component-

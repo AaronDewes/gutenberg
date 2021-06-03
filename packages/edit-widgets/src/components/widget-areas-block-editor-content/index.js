@@ -9,7 +9,7 @@ import {
 	WritingFlow,
 	ObserveTyping,
 	__unstableEditorStyles as EditorStyles,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

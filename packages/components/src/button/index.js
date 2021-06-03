@@ -7,8 +7,8 @@ import { isArray, uniqueId } from 'lodash';
 /**
  * WordPress dependencies
  */
-import deprecated from '@wordpress/deprecated';
-import { forwardRef } from '@wordpress/element';
+import deprecated from '@aarondewes/wp-deprecated';
+import { forwardRef } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

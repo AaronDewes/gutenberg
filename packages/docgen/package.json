@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/docgen",
+	"name": "@aarondewes/wp-docgen",
 	"version": "1.17.2",
 	"description": "Autogenerate public API documentation from exports and JSDoc comments.",
 	"author": "The WordPress Contributors",

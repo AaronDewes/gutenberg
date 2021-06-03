@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import apiFetch from '@wordpress/api-fetch';
+import apiFetch from '@aarondewes/wp-api-fetch';
 
-/** @typedef {import('@wordpress/components').WPCompleter} WPCompleter */
+/** @typedef {import('@aarondewes/wp-components').WPCompleter} WPCompleter */
 
 /**
  * A user mentions completer.

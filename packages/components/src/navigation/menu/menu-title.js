@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useState } from '@wordpress/element';
-import { __, sprintf } from '@wordpress/i18n';
-import { Icon, search as searchIcon } from '@wordpress/icons';
+import { useRef, useState } from '@aarondewes/wp-element';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { Icon, search as searchIcon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies
@@ -38,7 +38,7 @@ export default function NavigationMenuTitle( {
 		setIsSearching( false );
 
 		// Wait for the slide-in animation to complete before focusing the search button.
-		// eslint-disable-next-line @wordpress/react-no-unsafe-timeout
+		// eslint-disable-next-line @aarondewes/wp-react-no-unsafe-timeout
 		setTimeout( () => {
 			searchButtonRef.current.focus();
 		}, SEARCH_FOCUS_DELAY );

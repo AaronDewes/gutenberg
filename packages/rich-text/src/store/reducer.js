@@ -6,7 +6,7 @@ import { keyBy, omit } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { combineReducers } from '@wordpress/data';
+import { combineReducers } from '@aarondewes/wp-data';
 
 /**
  * Reducer managing the format types

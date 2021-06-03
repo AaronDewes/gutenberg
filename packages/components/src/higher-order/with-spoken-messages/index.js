@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { createHigherOrderComponent, useDebounce } from '@wordpress/compose';
-import { speak } from '@wordpress/a11y';
+import { createHigherOrderComponent, useDebounce } from '@aarondewes/wp-compose';
+import { speak } from '@aarondewes/wp-a11y';
 
 /**
  * A Higher Order Component used to be provide speak and debounced speak

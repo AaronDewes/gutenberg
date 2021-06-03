@@ -18,7 +18,7 @@ We use [`react-navigation`](https://reactnavigation.org/) v5 to handle multiple 
 ## Usage
 
 ```jsx
-import { BottomSheet } from '@wordpress/components';
+import { BottomSheet } from '@aarondewes/wp-components';
 
 const BottomSheetWithNavigation = () => (
 	<BottomSheet hasNavigation>

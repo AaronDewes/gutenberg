@@ -1,14 +1,14 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { toggleFormat } from '@wordpress/rich-text';
+import { __ } from '@aarondewes/wp-i18n';
+import { toggleFormat } from '@aarondewes/wp-rich-text';
 import {
 	RichTextToolbarButton,
 	RichTextShortcut,
 	__unstableRichTextInputEvent,
-} from '@wordpress/block-editor';
-import { formatBold } from '@wordpress/icons';
+} from '@aarondewes/wp-block-editor';
+import { formatBold } from '@aarondewes/wp-icons';
 
 const name = 'core/bold';
 const title = __( 'Bold' );

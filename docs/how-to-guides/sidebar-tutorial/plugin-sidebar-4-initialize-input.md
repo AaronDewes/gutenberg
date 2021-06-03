@@ -103,7 +103,7 @@ withSelect()();
 } )( window.wp );
 ```
 
-Copy this code to the JavaScript file. Note that it now uses the `wp.data.withSelect` utility to be found in the `@wordpress/data` package. Go ahead and add `wp-data` as a dependency in the PHP script.
+Copy this code to the JavaScript file. Note that it now uses the `wp.data.withSelect` utility to be found in the `@aarondewes/wp-data` package. Go ahead and add `wp-data` as a dependency in the PHP script.
 
 This is how the code changes from the previous section:
 

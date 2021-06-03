@@ -6,7 +6,7 @@ import TreeSelect from '../tree-select';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 
 export default function CategorySelect( {
 	label,

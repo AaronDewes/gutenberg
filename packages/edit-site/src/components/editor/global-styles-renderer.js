@@ -20,7 +20,7 @@ import {
 import {
 	__EXPERIMENTAL_STYLE_PROPERTY as STYLE_PROPERTY,
 	__EXPERIMENTAL_ELEMENTS as ELEMENTS,
-} from '@wordpress/blocks';
+} from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

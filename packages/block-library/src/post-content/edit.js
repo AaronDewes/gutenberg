@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useSelect } from '@wordpress/data';
+import { __ } from '@aarondewes/wp-i18n';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	useBlockProps,
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
@@ -10,9 +10,9 @@ import {
 	__experimentalUseNoRecursiveRenders as useNoRecursiveRenders,
 	store as blockEditorStore,
 	Warning,
-} from '@wordpress/block-editor';
-import { useEntityBlockEditor } from '@wordpress/core-data';
-import { useMemo } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { useEntityBlockEditor } from '@aarondewes/wp-core-data';
+import { useMemo } from '@aarondewes/wp-element';
 
 function Content( { layout, postType, postId } ) {
 	const themeSupportsLayout = useSelect( ( select ) => {

@@ -14,9 +14,9 @@ import {
 	setDefaultBlockName,
 	setFreeformContentHandlerName,
 	getBlockTypes,
-} from '@wordpress/blocks';
-import { RawHTML } from '@wordpress/element';
-import { layout, footer, header } from '@wordpress/icons';
+} from '@aarondewes/wp-blocks';
+import { RawHTML } from '@aarondewes/wp-element';
+import { layout, footer, header } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

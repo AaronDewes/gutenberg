@@ -5,8 +5,8 @@ MenuItem is a component which renders a button intended to be used in combinatio
 ## Usage
 
 ```jsx
-import { MenuItem } from '@wordpress/components';
-import { withState } from '@wordpress/compose';
+import { MenuItem } from '@aarondewes/wp-components';
+import { withState } from '@aarondewes/wp-compose';
 
 const MyMenuItem = withState( {
 	isActive: true,

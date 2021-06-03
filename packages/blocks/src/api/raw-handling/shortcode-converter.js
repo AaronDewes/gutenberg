@@ -6,7 +6,7 @@ import { some, castArray, find, mapValues, pickBy, includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { regexp, next } from '@wordpress/shortcode';
+import { regexp, next } from '@aarondewes/wp-shortcode';
 
 /**
  * Internal dependencies

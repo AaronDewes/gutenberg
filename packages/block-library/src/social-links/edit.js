@@ -7,7 +7,7 @@ import classNames from 'classnames';
  * WordPress dependencies
  */
 
-import { Fragment, useEffect } from '@wordpress/element';
+import { Fragment, useEffect } from '@aarondewes/wp-element';
 
 import {
 	BlockControls,
@@ -18,16 +18,16 @@ import {
 	ContrastChecker,
 	PanelColorSettings,
 	withColors,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 import {
 	MenuGroup,
 	MenuItem,
 	PanelBody,
 	ToggleControl,
 	ToolbarDropdownMenu,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { check } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { check } from '@aarondewes/wp-icons';
 
 const ALLOWED_BLOCKS = [ 'core/social-link' ];
 

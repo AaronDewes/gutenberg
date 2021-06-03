@@ -9,7 +9,7 @@ import { mount } from 'enzyme';
 import { MediaPlaceholder } from '../';
 
 jest.mock( '../../media-upload/check', () => () => null );
-jest.mock( '@wordpress/data/src/components/use-select', () => () => ( {} ) );
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => () => ( {} ) );
 
 describe( 'MediaPlaceholder', () => {
 	it( 'renders successfully when allowedTypes property is not specified', () => {

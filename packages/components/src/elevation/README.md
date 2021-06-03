@@ -15,7 +15,7 @@ import {
 	__experimentalElevation as Elevation,
 	__experimentalSurface as Surface,
 	__experimentalText as Text,
-} from '@wordpress/components';
+} from '@aarondewes/wp-components';
 
 function Example() {
 	return (
@@ -73,7 +73,7 @@ Size of the shadow, based on the Style system's elevation system. The `value` de
 In the example below, `isInteractive` is activated to give a better sense of depth.
 
 ```jsx
-import { __experimentalElevation as Elevation } from '@wordpress/components';
+import { __experimentalElevation as Elevation } from '@aarondewes/wp-components';
 
 function Example() {
 	return (

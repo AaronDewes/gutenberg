@@ -14,8 +14,8 @@ import {
 	rawHandler,
 	registerBlockType,
 	serialize,
-} from '@wordpress/blocks';
-import { registerCoreBlocks } from '@wordpress/block-library';
+} from '@aarondewes/wp-blocks';
+import { registerCoreBlocks } from '@aarondewes/wp-block-library';
 
 function readFile( filePath ) {
 	return fs.existsSync( filePath )

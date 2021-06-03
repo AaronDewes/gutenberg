@@ -6,7 +6,7 @@ import {
 	useCallback,
 	useContext,
 	useMemo,
-} from '@wordpress/element';
+} from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

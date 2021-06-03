@@ -6,23 +6,23 @@ import { render } from '@testing-library/react';
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies
  */
 import NavigationToggle from '..';
 
-jest.mock( '@wordpress/data/src/components/use-select', () => {
+jest.mock( '@aarondewes/wp-data/src/components/use-select', () => {
 	// This allows us to tweak the returned value on each test
 	const mock = jest.fn();
 	return mock;
 } );
-jest.mock( '@wordpress/data/src/components/use-dispatch', () => ( {
+jest.mock( '@aarondewes/wp-data/src/components/use-dispatch', () => ( {
 	useDispatch: () => ( { setNavigationPanelActiveMenu: jest.fn() } ),
 } ) );
 
-jest.mock( '@wordpress/core-data' );
+jest.mock( '@aarondewes/wp-core-data' );
 
 describe( 'NavigationToggle', () => {
 	describe( 'when in full screen mode', () => {

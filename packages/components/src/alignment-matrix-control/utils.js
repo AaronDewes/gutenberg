@@ -6,7 +6,7 @@ import { flattenDeep } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from '@aarondewes/wp-i18n';
 
 export const GRID = [
 	[ 'top left', 'top center', 'top right' ],

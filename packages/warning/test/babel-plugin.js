@@ -24,11 +24,11 @@ describe( 'babel-plugin', () => {
 	it( 'should replace warning calls with import declaration', () => {
 		compare(
 			join(
-				'import warning from "@wordpress/warning";',
+				'import warning from "@aarondewes/wp-warning";',
 				'warning("a");'
 			),
 			join(
-				'import warning from "@wordpress/warning";',
+				'import warning from "@aarondewes/wp-warning";',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warning("a") : void 0;'
 			)
 		);
@@ -49,13 +49,13 @@ describe( 'babel-plugin', () => {
 	it( 'should replace multiple warning calls', () => {
 		compare(
 			join(
-				'import warning from "@wordpress/warning";',
+				'import warning from "@aarondewes/wp-warning";',
 				'warning("a");',
 				'warning("b");',
 				'warning("c");'
 			),
 			join(
-				'import warning from "@wordpress/warning";',
+				'import warning from "@aarondewes/wp-warning";',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warning("a") : void 0;',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warning("b") : void 0;',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warning("c") : void 0;'
@@ -66,13 +66,13 @@ describe( 'babel-plugin', () => {
 	it( 'should identify warning callee name', () => {
 		compare(
 			join(
-				'import warn from "@wordpress/warning";',
+				'import warn from "@aarondewes/wp-warning";',
 				'warn("a");',
 				'warn("b");',
 				'warn("c");'
 			),
 			join(
-				'import warn from "@wordpress/warning";',
+				'import warn from "@aarondewes/wp-warning";',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warn("a") : void 0;',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warn("b") : void 0;',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warn("c") : void 0;'
@@ -83,13 +83,13 @@ describe( 'babel-plugin', () => {
 	it( 'should identify warning callee name by', () => {
 		compare(
 			join(
-				'import warn from "@wordpress/warning";',
+				'import warn from "@aarondewes/wp-warning";',
 				'warn("a");',
 				'warn("b");',
 				'warn("c");'
 			),
 			join(
-				'import warn from "@wordpress/warning";',
+				'import warn from "@aarondewes/wp-warning";',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warn("a") : void 0;',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warn("b") : void 0;',
 				'typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production" ? warn("c") : void 0;'

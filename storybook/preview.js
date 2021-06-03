@@ -9,7 +9,7 @@ import { withKnobs } from '@storybook/addon-knobs';
  * WordPress dependencies
  */
 /* eslint-disable no-restricted-syntax */
-import '@wordpress/components/build-style/style.css';
+import '@aarondewes/wp-components/build-style/style.css';
 /* eslint-enable no-restricted-syntax */
 
 /**

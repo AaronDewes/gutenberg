@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { button as icon } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { button as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

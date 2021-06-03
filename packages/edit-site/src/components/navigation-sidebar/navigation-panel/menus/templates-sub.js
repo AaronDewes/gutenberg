@@ -6,8 +6,8 @@ import { map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __experimentalNavigationMenu as NavigationMenu } from '@wordpress/components';
-import { useMemo } from '@wordpress/element';
+import { __experimentalNavigationMenu as NavigationMenu } from '@aarondewes/wp-components';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

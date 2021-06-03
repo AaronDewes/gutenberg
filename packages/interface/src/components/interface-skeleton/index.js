@@ -6,10 +6,10 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { forwardRef, useEffect, useRef } from '@wordpress/element';
-import { __unstableUseNavigateRegions as useNavigateRegions } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useMergeRefs } from '@wordpress/compose';
+import { forwardRef, useEffect, useRef } from '@aarondewes/wp-element';
+import { __unstableUseNavigateRegions as useNavigateRegions } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useMergeRefs } from '@aarondewes/wp-compose';
 
 function useHTMLClass( className ) {
 	useEffect( () => {

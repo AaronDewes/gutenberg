@@ -7,9 +7,9 @@ import {
 	MenuItemsChoice,
 	ToolbarGroup,
 	ToolbarItem,
-} from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { moveTo } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { moveTo } from '@aarondewes/wp-icons';
 
 export default function MoveToWidgetArea( {
 	currentWidgetAreaId,

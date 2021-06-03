@@ -7,7 +7,7 @@ import { identity, xor, fromPairs, isEqual, includes, stubTrue } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { decodeEntities } from '@wordpress/html-entities';
+import { decodeEntities } from '@aarondewes/wp-html-entities';
 
 /**
  * Internal dependencies

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { SETTINGS_DEFAULTS } from '@wordpress/block-editor';
+import { SETTINGS_DEFAULTS } from '@aarondewes/wp-block-editor';
 
 export const PREFERENCES_DEFAULTS = {
 	insertUsage: {}, // Should be kept for backward compatibility, see: https://github.com/WordPress/gutenberg/issues/14580.

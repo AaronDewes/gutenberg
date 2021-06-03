@@ -6,8 +6,8 @@ import '../globals';
 /**
  * WordPress dependencies
  */
-import { registerCoreBlocks } from '@wordpress/block-library';
-import { parse } from '@wordpress/blocks';
+import { registerCoreBlocks } from '@aarondewes/wp-block-library';
+import { parse } from '@aarondewes/wp-blocks';
 
 registerCoreBlocks();
 

@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useRef, useEffect, useMemo } from '@wordpress/element';
+import { useRef, useEffect, useMemo } from '@aarondewes/wp-element';
 
-/** @typedef {import('@wordpress/element').WPSyntheticEvent} WPSyntheticEvent */
+/** @typedef {import('@aarondewes/wp-element').WPSyntheticEvent} WPSyntheticEvent */
 
 export default function WpEmbedPreview( { html } ) {
 	const ref = useRef();

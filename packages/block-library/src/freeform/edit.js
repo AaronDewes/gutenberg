@@ -6,11 +6,11 @@ import { debounce } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { BlockControls, useBlockProps } from '@wordpress/block-editor';
-import { ToolbarGroup } from '@wordpress/components';
-import { useEffect, useRef } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { BACKSPACE, DELETE, F10, isKeyboardEvent } from '@wordpress/keycodes';
+import { BlockControls, useBlockProps } from '@aarondewes/wp-block-editor';
+import { ToolbarGroup } from '@aarondewes/wp-components';
+import { useEffect, useRef } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { BACKSPACE, DELETE, F10, isKeyboardEvent } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

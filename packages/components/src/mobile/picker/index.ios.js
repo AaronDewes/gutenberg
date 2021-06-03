@@ -6,10 +6,10 @@ import { ActionSheetIOS } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Component, forwardRef, useContext } from '@wordpress/element';
-import { useDispatch, useSelect } from '@wordpress/data';
-import { BottomSheetContext } from '@wordpress/components';
+import { __ } from '@aarondewes/wp-i18n';
+import { Component, forwardRef, useContext } from '@aarondewes/wp-element';
+import { useDispatch, useSelect } from '@aarondewes/wp-data';
+import { BottomSheetContext } from '@aarondewes/wp-components';
 
 class Picker extends Component {
 	presentPicker() {

@@ -7,7 +7,7 @@ WordPress [npm-package-json-lint](https://github.com/tclindner/npm-package-json-
 Install the module
 
 ```shell
-$ npm install @wordpress/npm-package-json-lint-config
+$ npm install @aarondewes/wp-npm-package-json-lint-config
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It is not compatible with older versions.
@@ -18,7 +18,7 @@ Add this to your `package.json` file:
 
 ```json
 "npmpackagejsonlint": {
-	"extends": "@wordpress/npm-package-json-lint-config",
+	"extends": "@aarondewes/wp-npm-package-json-lint-config",
 },
 ```
 
@@ -26,7 +26,7 @@ Or to a `.npmpackagejsonlintrc.json` file in the root of your repo:
 
 ```json
 {
-	"extends": "@wordpress/npm-package-json-lint-config"
+	"extends": "@aarondewes/wp-npm-package-json-lint-config"
 }
 ```
 
@@ -34,7 +34,7 @@ To add, modify, or override any [npm-package-json-lint](https://github.com/tclin
 
 ```json
 "npmpackagejsonlint": {
-	"extends": "@wordpress/npm-package-json-lint-config",
+	"extends": "@aarondewes/wp-npm-package-json-lint-config",
 	"rules": {
 		"valid-values-author": [
 			"error",
@@ -50,7 +50,7 @@ Or to a `.npmpackagejsonlintrc.json` file in the root of your repo:
 
 ```json
 {
-	"extends": "@wordpress/npm-package-json-lint-config",
+	"extends": "@aarondewes/wp-npm-package-json-lint-config",
 	"rules": {
 		"require-publishConfig": "error",
 		"valid-values-author": [ "error", [ "WordPress" ] ]

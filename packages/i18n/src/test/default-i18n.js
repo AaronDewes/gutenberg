@@ -1,10 +1,10 @@
-/* eslint-disable @wordpress/i18n-text-domain, @wordpress/i18n-translator-comments */
+/* eslint-disable @aarondewes/wp-i18n-text-domain, @aarondewes/wp-i18n-translator-comments */
 
 /**
  * WordPress dependencies
  */
-import { __, _x, _n, _nx } from '@wordpress/i18n';
-import { addFilter } from '@wordpress/hooks';
+import { __, _x, _n, _nx } from '@aarondewes/wp-i18n';
+import { addFilter } from '@aarondewes/wp-hooks';
 
 describe( 'i18n filters', () => {
 	test( 'Default i18n functions call filters', () => {
@@ -43,4 +43,4 @@ describe( 'i18n filters', () => {
 	} );
 } );
 
-/* eslint-enable @wordpress/i18n-text-domain, @wordpress/i18n-translator-comments */
+/* eslint-enable @aarondewes/wp-i18n-text-domain, @aarondewes/wp-i18n-translator-comments */

@@ -12,7 +12,7 @@ import {
 	switchUserToAdmin,
 	switchUserToTest,
 	visitAdminPage,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'templates', () => {
 	describe( 'Using a CPT with a predefined template', () => {

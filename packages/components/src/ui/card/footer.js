@@ -6,7 +6,7 @@ import { cx } from 'emotion';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -53,7 +53,7 @@ function CardFooter( props, forwardedRef ) {
  *
  * @example
  * ```jsx
- * import { Card, CardBody, CardFooter } from `@wordpress/components/ui`;
+ * import { Card, CardBody, CardFooter } from `@aarondewes/wp-components/ui`;
  *
  * <Card>
  * 	<CardBody>...</CardBody>

@@ -6,7 +6,7 @@ import {
 	footer as footerIcon,
 	sidebar as sidebarIcon,
 	layout as layoutIcon,
-} from '@wordpress/icons';
+} from '@aarondewes/wp-icons';
 /**
  * Helper function to retrieve the corresponding icon by name.
  *

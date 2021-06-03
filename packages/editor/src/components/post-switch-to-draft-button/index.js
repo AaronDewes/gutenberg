@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { Button } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { withSelect, withDispatch } from '@wordpress/data';
-import { compose, useViewportMatch } from '@wordpress/compose';
+import { Button } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { withSelect, withDispatch } from '@aarondewes/wp-data';
+import { compose, useViewportMatch } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

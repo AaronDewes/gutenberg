@@ -5,7 +5,7 @@ A drop-in replacement for the svg element that adds the required accessibility a
 ## Usage
 
 ```jsx
-import { G, Path, SVG } from '@wordpress/components';
+import { G, Path, SVG } from '@aarondewes/wp-components';
 
 const MyIcon = () => (
 	<SVG viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

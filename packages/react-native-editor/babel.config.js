@@ -35,14 +35,14 @@ module.exports = function ( api ) {
 				exclude: /node_modules\/(react-native|@react-native-community|@react-navigation)/,
 			},
 			{
-				// Auto-add `import { createElement } from '@wordpress/element';` when JSX is found
+				// Auto-add `import { createElement } from '@aarondewes/wp-element';` when JSX is found
 				plugins: [
 					[
-						'@wordpress/babel-plugin-import-jsx-pragma',
+						'@aarondewes/wp-babel-plugin-import-jsx-pragma',
 						{
 							scopeVariable: 'createElement',
 							scopeVariableFrag: 'Fragment',
-							source: '@wordpress/element',
+							source: '@aarondewes/wp-element',
 							isDefault: false,
 						},
 					],

@@ -7,7 +7,7 @@ import {
 	createNewPost,
 	deactivatePlugin,
 	searchForBlock,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Allowed Blocks Filter', () => {
 	beforeAll( async () => {

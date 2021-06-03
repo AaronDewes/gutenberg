@@ -6,8 +6,8 @@ import { find, pickBy, reduce, some, upperFirst } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { createHigherOrderComponent, compose } from '@wordpress/compose';
-import { Component } from '@wordpress/element';
+import { createHigherOrderComponent, compose } from '@aarondewes/wp-compose';
+import { Component } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

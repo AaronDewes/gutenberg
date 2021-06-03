@@ -6,9 +6,9 @@ import { get } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useViewportMatch, compose } from '@wordpress/compose';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { PostPublishButton, store as editorStore } from '@wordpress/editor';
+import { useViewportMatch, compose } from '@aarondewes/wp-compose';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { PostPublishButton, store as editorStore } from '@aarondewes/wp-editor';
 
 /**
  * Internal dependencies

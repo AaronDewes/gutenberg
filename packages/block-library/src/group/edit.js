@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
+import { useSelect } from '@aarondewes/wp-data';
 import {
 	InnerBlocks,
 	useBlockProps,
@@ -9,10 +9,10 @@ import {
 	__experimentalUseInnerBlocksProps as useInnerBlocksProps,
 	useSetting,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { SelectControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useMemo } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { SelectControl } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useMemo } from '@aarondewes/wp-element';
 
 function GroupEdit( { attributes, setAttributes, clientId } ) {
 	const { hasInnerBlocks, themeSupportsLayout } = useSelect(

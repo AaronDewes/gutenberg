@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { createNewPost, insertBlock } from '@wordpress/e2e-test-utils';
+import { createNewPost, insertBlock } from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Paragraph', () => {
 	beforeEach( async () => {

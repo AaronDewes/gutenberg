@@ -5,7 +5,7 @@ import { number, select } from '@storybook/addon-knobs';
 /**
  * WordPress dependencies
  */
-import { Icon as BaseIcon } from '@wordpress/icons';
+import { Icon as BaseIcon } from '@aarondewes/wp-icons';
 /**
  * Internal dependencies
  */

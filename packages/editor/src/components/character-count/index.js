@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { count as characterCount } from '@wordpress/wordcount';
+import { useSelect } from '@aarondewes/wp-data';
+import { count as characterCount } from '@aarondewes/wp-wordcount';
 
 /**
  * Internal dependencies

@@ -11,8 +11,8 @@ import DayPickerSingleDateController from 'react-dates/lib/components/DayPickerS
 /**
  * WordPress dependencies
  */
-import { Component, createRef, useEffect, useRef } from '@wordpress/element';
-import { isRTL, _n, sprintf } from '@wordpress/i18n';
+import { Component, createRef, useEffect, useRef } from '@aarondewes/wp-element';
+import { isRTL, _n, sprintf } from '@aarondewes/wp-i18n';
 
 /**
  * Module Constants

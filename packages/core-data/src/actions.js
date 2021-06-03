@@ -7,9 +7,9 @@ import { v4 as uuid } from 'uuid';
 /**
  * WordPress dependencies
  */
-import { controls } from '@wordpress/data';
-import { apiFetch, __unstableAwaitPromise } from '@wordpress/data-controls';
-import { addQueryArgs } from '@wordpress/url';
+import { controls } from '@aarondewes/wp-data';
+import { apiFetch, __unstableAwaitPromise } from '@aarondewes/wp-data-controls';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

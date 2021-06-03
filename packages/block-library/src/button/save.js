@@ -10,7 +10,7 @@ import {
 	RichText,
 	useBlockProps,
 	__experimentalGetColorClassesAndStyles as getColorClassesAndStyles,
-} from '@wordpress/block-editor';
+} from '@aarondewes/wp-block-editor';
 
 export default function save( { attributes, className } ) {
 	const {

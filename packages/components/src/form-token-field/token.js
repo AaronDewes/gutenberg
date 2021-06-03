@@ -7,9 +7,9 @@ import { noop } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { useInstanceId } from '@wordpress/compose';
-import { __, sprintf } from '@wordpress/i18n';
-import { closeSmall } from '@wordpress/icons';
+import { useInstanceId } from '@aarondewes/wp-compose';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { closeSmall } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

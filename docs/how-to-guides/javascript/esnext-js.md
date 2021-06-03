@@ -64,10 +64,10 @@ There are even more ways to shorten code, but you don't want to take it too far 
 The [import statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) is used to import variables or functions from an exported file. You can use destructuring on imports, for example:
 
 ```js
-import { TextControl } from '@wordpress/components';
+import { TextControl } from '@aarondewes/wp-components';
 ```
 
-This will look in the `@wordpress/components` package for the exported `TextControl` variable.
+This will look in the `@aarondewes/wp-components` package for the exported `TextControl` variable.
 
 A package or file can also set a `default` export, this is imported without using the curly brackets. For example
 

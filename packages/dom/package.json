@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/dom",
+	"name": "@aarondewes/wp-dom",
 	"version": "3.1.1",
 	"description": "DOM utilities module for WordPress.",
 	"author": "The WordPress Contributors",

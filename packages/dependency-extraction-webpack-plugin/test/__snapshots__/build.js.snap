@@ -15,7 +15,7 @@ Array [
       "wp",
       "blob",
     ],
-    "userRequest": "@wordpress/blob",
+    "userRequest": "@aarondewes/wp-blob",
   },
   Object {
     "externalType": "window",
@@ -23,7 +23,7 @@ Array [
       "wp",
       "tokenList",
     ],
-    "userRequest": "@wordpress/token-list",
+    "userRequest": "@aarondewes/wp-token-list",
   },
 ]
 `;
@@ -43,7 +43,7 @@ Array [
       "wp",
       "blob",
     ],
-    "userRequest": "@wordpress/blob",
+    "userRequest": "@aarondewes/wp-blob",
   },
 ]
 `;
@@ -63,7 +63,7 @@ Array [
       "wp",
       "blob",
     ],
-    "userRequest": "@wordpress/blob",
+    "userRequest": "@aarondewes/wp-blob",
   },
 ]
 `;
@@ -111,7 +111,7 @@ Array [
       "wp",
       "blob",
     ],
-    "userRequest": "@wordpress/blob",
+    "userRequest": "@aarondewes/wp-blob",
   },
   Object {
     "externalType": "window",
@@ -119,7 +119,7 @@ Array [
       "wp",
       "url",
     ],
-    "userRequest": "@wordpress/url",
+    "userRequest": "@aarondewes/wp-url",
   },
 ]
 `;
@@ -139,7 +139,7 @@ Array [
       "wp",
       "blob",
     ],
-    "userRequest": "@wordpress/blob",
+    "userRequest": "@aarondewes/wp-blob",
   },
 ]
 `;
@@ -159,7 +159,7 @@ Array [
       "wp",
       "blob",
     ],
-    "userRequest": "@wordpress/blob",
+    "userRequest": "@aarondewes/wp-blob",
   },
 ]
 `;

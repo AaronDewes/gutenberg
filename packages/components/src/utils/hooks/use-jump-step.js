@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useEffect, useState } from '@wordpress/element';
+import { useEffect, useState } from '@aarondewes/wp-element';
 
 /**
  * A custom hook that calculates a step value (used by elements like input

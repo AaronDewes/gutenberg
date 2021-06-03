@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import '@wordpress/rich-text';
+import '@aarondewes/wp-rich-text';
 
 /**
  * Internal dependencies

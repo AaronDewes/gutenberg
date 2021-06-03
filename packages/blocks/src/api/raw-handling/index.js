@@ -6,8 +6,8 @@ import { flatMap, compact } from 'lodash';
 /**
  * WordPress dependencies
  */
-import deprecated from '@wordpress/deprecated';
-import { getPhrasingContentSchema } from '@wordpress/dom';
+import deprecated from '@aarondewes/wp-deprecated';
+import { getPhrasingContentSchema } from '@aarondewes/wp-dom';
 
 /**
  * Internal dependencies

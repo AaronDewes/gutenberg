@@ -9,8 +9,8 @@ It has similar features to the [Button](/packages/components/src/button/README.m
 To create general interfaces, you'll want to render ToolbarButton in a [Toolbar](/packages/components/src/toolbar/README.md) component.
 
 ```jsx
-import { Toolbar, ToolbarButton } from '@wordpress/components';
-import { edit } from '@wordpress/icons';
+import { Toolbar, ToolbarButton } from '@aarondewes/wp-components';
+import { edit } from '@aarondewes/wp-icons';
 
 function MyToolbar() {
 	return (
@@ -30,9 +30,9 @@ function MyToolbar() {
 If you're working on a custom block and you want to add controls to the block toolbar, you should use [BlockControls](/docs/how-to-guides/block-tutorial/block-controls-toolbar-and-sidebar.md) instead. Optionally wrapping it with [ToolbarGroup](/packages/components/src/toolbar-group/README.md).
 
 ```jsx
-import { BlockControls } from '@wordpress/block-editor';
-import { ToolbarGroup, ToolbarButton } from '@wordpress/components';
-import { edit } from '@wordpress/icons';
+import { BlockControls } from '@aarondewes/wp-block-editor';
+import { ToolbarGroup, ToolbarButton } from '@aarondewes/wp-components';
+import { edit } from '@aarondewes/wp-icons';
 
 function Edit() {
 	return (

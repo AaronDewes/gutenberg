@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useMemo, forwardRef } from '@wordpress/element';
-import { withSelect } from '@wordpress/data';
-import deprecated from '@wordpress/deprecated';
+import { useMemo, forwardRef } from '@aarondewes/wp-element';
+import { withSelect } from '@aarondewes/wp-data';
+import deprecated from '@aarondewes/wp-deprecated';
 
 /**
  * Internal dependencies

@@ -10,14 +10,14 @@ import {
 	BlockControls,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import ServerSideRender from '@wordpress/server-side-render';
-import { ToolbarButton } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { useEffect, useState } from '@wordpress/element';
-import { useSelect } from '@wordpress/data';
-import apiFetch from '@wordpress/api-fetch';
-import { addQueryArgs } from '@wordpress/url';
+} from '@aarondewes/wp-block-editor';
+import ServerSideRender from '@aarondewes/wp-server-side-render';
+import { ToolbarButton } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { useEffect, useState } from '@aarondewes/wp-element';
+import { useSelect } from '@aarondewes/wp-data';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { addQueryArgs } from '@aarondewes/wp-url';
 
 /**
  * Internal dependencies

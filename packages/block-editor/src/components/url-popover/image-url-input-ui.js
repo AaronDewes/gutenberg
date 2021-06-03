@@ -6,8 +6,8 @@ import { find, isEmpty, each, map } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { useRef, useState, useCallback } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { useRef, useState, useCallback } from '@aarondewes/wp-element';
 import {
 	ToolbarButton,
 	Button,
@@ -17,8 +17,8 @@ import {
 	TextControl,
 	SVG,
 	Path,
-} from '@wordpress/components';
-import { link as linkIcon, close } from '@wordpress/icons';
+} from '@aarondewes/wp-components';
+import { link as linkIcon, close } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

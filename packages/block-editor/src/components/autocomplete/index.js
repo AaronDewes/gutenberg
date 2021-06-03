@@ -6,13 +6,13 @@ import { clone } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { applyFilters, hasFilter } from '@wordpress/hooks';
+import { applyFilters, hasFilter } from '@aarondewes/wp-hooks';
 import {
 	Autocomplete,
 	__unstableUseAutocompleteProps as useAutocompleteProps,
-} from '@wordpress/components';
-import { useMemo } from '@wordpress/element';
-import { getDefaultBlockName } from '@wordpress/blocks';
+} from '@aarondewes/wp-components';
+import { useMemo } from '@aarondewes/wp-element';
+import { getDefaultBlockName } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies

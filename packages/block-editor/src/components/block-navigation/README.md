@@ -21,7 +21,7 @@ In addition to presenting the structure of the blocks in the editor, the BlockNa
 Renders a block navigation with default syles.
 
 ```jsx
-import { BlockNavigation } from '@wordpress/block-editor';
+import { BlockNavigation } from '@aarondewes/wp-block-editor';
 
 const MyNavigation = () => <BlockNavigation onSelect={ onClose } />;
 ```

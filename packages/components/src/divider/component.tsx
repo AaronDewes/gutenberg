@@ -12,7 +12,7 @@ import type { Ref } from 'react';
 /**
  * WordPress dependencies
  */
-import { useMemo } from '@wordpress/element';
+import { useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies
@@ -99,7 +99,7 @@ function Divider(
  * import {
  *     __experimentalDivider as Divider,
  *     __experimentalText as Text }
- * from `@wordpress/components`;
+ * from `@aarondewes/wp-components`;
  *
  * function Example() {
  * 	return (

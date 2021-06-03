@@ -11,11 +11,11 @@ import {
 	BlockControls,
 	Warning,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { useState, useEffect } from '@wordpress/element';
-import apiFetch from '@wordpress/api-fetch';
-import { addQueryArgs } from '@wordpress/url';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { useState, useEffect } from '@aarondewes/wp-element';
+import apiFetch from '@aarondewes/wp-api-fetch';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { __ } from '@aarondewes/wp-i18n';
 
 export default function PostCommentsCountEdit( {
 	attributes,

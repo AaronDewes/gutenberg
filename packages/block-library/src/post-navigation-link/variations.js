@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { next, previous } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { next, previous } from '@aarondewes/wp-icons';
 
 const variations = [
 	{

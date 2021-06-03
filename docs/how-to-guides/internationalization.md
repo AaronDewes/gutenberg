@@ -41,9 +41,9 @@ In your code, you can include the i18n functions. The most common function is **
 {% ESNext %}
 
 ```js
-import { __ } from '@wordpress/i18n';
-import { registerBlockType } from '@wordpress/blocks';
-import { useBlockProps } from '@wordpress/block-editor';
+import { __ } from '@aarondewes/wp-i18n';
+import { registerBlockType } from '@aarondewes/wp-blocks';
+import { useBlockProps } from '@aarondewes/wp-block-editor';
 
 registerBlockType( 'myguten/simple', {
 	apiVersion: 2,

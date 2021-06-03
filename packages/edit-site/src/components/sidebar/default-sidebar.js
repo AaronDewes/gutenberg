@@ -4,7 +4,7 @@
 import {
 	ComplementaryArea,
 	ComplementaryAreaMoreMenuItem,
-} from '@wordpress/interface';
+} from '@aarondewes/wp-interface';
 
 export default function DefaultSidebar( {
 	className,

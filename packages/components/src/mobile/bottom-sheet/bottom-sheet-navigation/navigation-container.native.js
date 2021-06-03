@@ -16,9 +16,9 @@ import {
 	Children,
 	useRef,
 	cloneElement,
-} from '@wordpress/element';
+} from '@aarondewes/wp-element';
 
-import { usePreferredColorSchemeStyle } from '@wordpress/compose';
+import { usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
 
 /**
  * Internal dependencies

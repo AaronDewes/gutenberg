@@ -7,14 +7,14 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { speak } from '@wordpress/a11y';
-import { __, _x, sprintf } from '@wordpress/i18n';
-import { Dropdown, Button } from '@wordpress/components';
-import { Component } from '@wordpress/element';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { compose, ifCondition } from '@wordpress/compose';
-import { createBlock, store as blocksStore } from '@wordpress/blocks';
-import { plus } from '@wordpress/icons';
+import { speak } from '@aarondewes/wp-a11y';
+import { __, _x, sprintf } from '@aarondewes/wp-i18n';
+import { Dropdown, Button } from '@aarondewes/wp-components';
+import { Component } from '@aarondewes/wp-element';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { compose, ifCondition } from '@aarondewes/wp-compose';
+import { createBlock, store as blocksStore } from '@aarondewes/wp-blocks';
+import { plus } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

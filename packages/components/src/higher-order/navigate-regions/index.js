@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { useCallback, useState, useRef, useEffect } from '@wordpress/element';
+import { useCallback, useState, useRef, useEffect } from '@aarondewes/wp-element';
 import {
 	createHigherOrderComponent,
 	useKeyboardShortcut,
-} from '@wordpress/compose';
-import { rawShortcut } from '@wordpress/keycodes';
+} from '@aarondewes/wp-compose';
+import { rawShortcut } from '@aarondewes/wp-keycodes';
 
 const defaultShortcuts = {
 	previous: [ 'ctrl+shift+`', rawShortcut.access( 'p' ) ],

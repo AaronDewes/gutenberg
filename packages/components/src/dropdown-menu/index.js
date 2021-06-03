@@ -7,9 +7,9 @@ import { flatMap, isEmpty, isFunction } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { DOWN } from '@wordpress/keycodes';
-import deprecated from '@wordpress/deprecated';
-import { menu } from '@wordpress/icons';
+import { DOWN } from '@aarondewes/wp-keycodes';
+import deprecated from '@aarondewes/wp-deprecated';
+import { menu } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

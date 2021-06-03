@@ -7,9 +7,9 @@ import { includes, pick } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { isBlobURL } from '@wordpress/blob';
-import { useState, useRef } from '@wordpress/element';
-import { __, isRTL } from '@wordpress/i18n';
+import { isBlobURL } from '@aarondewes/wp-blob';
+import { useState, useRef } from '@aarondewes/wp-element';
+import { __, isRTL } from '@aarondewes/wp-i18n';
 import {
 	Notice,
 	PanelBody,
@@ -17,8 +17,8 @@ import {
 	ResizableBox,
 	Spinner,
 	ToggleControl,
-} from '@wordpress/components';
-import { useViewportMatch } from '@wordpress/compose';
+} from '@aarondewes/wp-components';
+import { useViewportMatch } from '@aarondewes/wp-compose';
 import {
 	BlockControls,
 	BlockIcon,
@@ -27,10 +27,10 @@ import {
 	MediaReplaceFlow,
 	useBlockProps,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useSelect, useDispatch } from '@wordpress/data';
-import { store as coreStore } from '@wordpress/core-data';
-import { siteLogo as icon } from '@wordpress/icons';
+} from '@aarondewes/wp-block-editor';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
+import { store as coreStore } from '@aarondewes/wp-core-data';
+import { siteLogo as icon } from '@aarondewes/wp-icons';
 
 /**
  * Internal dependencies

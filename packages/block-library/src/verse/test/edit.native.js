@@ -11,8 +11,8 @@ import { metadata, settings, name } from '../index';
 /**
  * WordPress dependencies
  */
-import { RichText, BlockEdit } from '@wordpress/block-editor';
-import { registerBlockType, unregisterBlockType } from '@wordpress/blocks';
+import { RichText, BlockEdit } from '@aarondewes/wp-block-editor';
+import { registerBlockType, unregisterBlockType } from '@aarondewes/wp-blocks';
 
 const Verse = ( { clientId, ...props } ) => (
 	<BlockEdit name={ name } clientId={ clientId || 0 } { ...props } />

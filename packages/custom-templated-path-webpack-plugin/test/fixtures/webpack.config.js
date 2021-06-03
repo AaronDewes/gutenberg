@@ -6,7 +6,7 @@ const { basename } = require( 'path' );
 /**
  * WordPress dependencies
  */
-const CustomTemplatedPathPlugin = require( '@wordpress/custom-templated-path-webpack-plugin' );
+const CustomTemplatedPathPlugin = require( '@aarondewes/wp-custom-templated-path-webpack-plugin' );
 
 module.exports = {
 	mode: 'development',

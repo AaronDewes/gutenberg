@@ -12,14 +12,14 @@ import {
 	useContext,
 	useEffect,
 	useMemo,
-} from '@wordpress/element';
+} from '@aarondewes/wp-element';
 import {
 	__EXPERIMENTAL_STYLE_PROPERTY as STYLE_PROPERTY,
 	__EXPERIMENTAL_ELEMENTS as ELEMENTS,
 	store as blocksStore,
-} from '@wordpress/blocks';
-import { useEntityProp } from '@wordpress/core-data';
-import { useSelect, useDispatch } from '@wordpress/data';
+} from '@aarondewes/wp-blocks';
+import { useEntityProp } from '@aarondewes/wp-core-data';
+import { useSelect, useDispatch } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

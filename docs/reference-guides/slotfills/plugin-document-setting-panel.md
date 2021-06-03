@@ -12,8 +12,8 @@ This SlotFill allows registering a UI to edit Document settings.
 ## Example
 
 ```js
-import { registerPlugin } from '@wordpress/plugins';
-import { PluginDocumentSettingPanel } from '@wordpress/edit-post';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { PluginDocumentSettingPanel } from '@aarondewes/wp-edit-post';
 
 const PluginDocumentSettingPanelDemo = () => (
 	<PluginDocumentSettingPanel

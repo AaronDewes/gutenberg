@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { hasBlockSupport } from '@wordpress/blocks';
+import { hasBlockSupport } from '@aarondewes/wp-blocks';
 /**
  * External dependencies
  */
-import { PanelBody } from '@wordpress/components';
-import { Platform } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+import { PanelBody } from '@aarondewes/wp-components';
+import { Platform } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

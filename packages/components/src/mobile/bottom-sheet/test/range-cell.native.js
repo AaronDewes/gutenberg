@@ -10,8 +10,8 @@ import { create, act } from 'react-test-renderer';
 import RangeCell from '../range-cell';
 
 // Avoid errors due to mocked stylesheet files missing required selectors
-jest.mock( '@wordpress/compose', () => ( {
-	...jest.requireActual( '@wordpress/compose' ),
+jest.mock( '@aarondewes/wp-compose', () => ( {
+	...jest.requireActual( '@aarondewes/wp-compose' ),
 	withPreferredColorScheme: jest.fn( ( Component ) => ( props ) => (
 		<Component
 			{ ...props }

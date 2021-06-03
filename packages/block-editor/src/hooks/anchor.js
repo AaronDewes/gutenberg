@@ -6,12 +6,12 @@ import { has } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { addFilter } from '@wordpress/hooks';
-import { PanelBody, TextControl, ExternalLink } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { hasBlockSupport } from '@wordpress/blocks';
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { Platform } from '@wordpress/element';
+import { addFilter } from '@aarondewes/wp-hooks';
+import { PanelBody, TextControl, ExternalLink } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { hasBlockSupport } from '@aarondewes/wp-blocks';
+import { createHigherOrderComponent } from '@aarondewes/wp-compose';
+import { Platform } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

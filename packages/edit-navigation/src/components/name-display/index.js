@@ -1,12 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { useContext } from '@wordpress/element';
-import { ToolbarGroup, ToolbarButton } from '@wordpress/components';
-import { BlockControls } from '@wordpress/block-editor';
-import { useDispatch } from '@wordpress/data';
-import { store as interfaceStore } from '@wordpress/interface';
-import { sprintf, __ } from '@wordpress/i18n';
+import { useContext } from '@aarondewes/wp-element';
+import { ToolbarGroup, ToolbarButton } from '@aarondewes/wp-components';
+import { BlockControls } from '@aarondewes/wp-block-editor';
+import { useDispatch } from '@aarondewes/wp-data';
+import { store as interfaceStore } from '@aarondewes/wp-interface';
+import { sprintf, __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalUnitControl as UnitControl } from '@wordpress/components';
-import { Platform } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+import { __experimentalUnitControl as UnitControl } from '@aarondewes/wp-components';
+import { Platform } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
 
 const isWeb = Platform.OS === 'web';
 

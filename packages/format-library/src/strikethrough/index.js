@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { toggleFormat } from '@wordpress/rich-text';
-import { RichTextToolbarButton } from '@wordpress/block-editor';
-import { formatStrikethrough } from '@wordpress/icons';
+import { __ } from '@aarondewes/wp-i18n';
+import { toggleFormat } from '@aarondewes/wp-rich-text';
+import { RichTextToolbarButton } from '@aarondewes/wp-block-editor';
+import { formatStrikethrough } from '@aarondewes/wp-icons';
 
 const name = 'core/strikethrough';
 const title = __( 'Strikethrough' );

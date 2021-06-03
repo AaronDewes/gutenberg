@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { useDispatch } from '@wordpress/data';
-import { ExternalLink, Guide } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
-import { createInterpolateElement } from '@wordpress/element';
+import { useDispatch } from '@aarondewes/wp-data';
+import { ExternalLink, Guide } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
+import { createInterpolateElement } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { render } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+import { render } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

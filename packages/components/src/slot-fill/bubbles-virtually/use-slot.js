@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { useCallback, useContext, useMemo } from '@wordpress/element';
+import { useCallback, useContext, useMemo } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

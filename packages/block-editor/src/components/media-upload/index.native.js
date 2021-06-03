@@ -10,14 +10,14 @@ import prompt from 'react-native-prompt-android';
 /**
  * WordPress dependencies
  */
-import { Component, React } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { Picker } from '@wordpress/components';
+import { Component, React } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Picker } from '@aarondewes/wp-components';
 import {
 	getOtherMediaOptions,
 	requestMediaPicker,
 	mediaSources,
-} from '@wordpress/react-native-bridge';
+} from '@aarondewes/wp-react-native-bridge';
 import {
 	capturePhoto,
 	captureVideo,
@@ -25,10 +25,10 @@ import {
 	wordpress,
 	mobile,
 	globe,
-} from '@wordpress/icons';
-import { store as blockEditorStore } from '@wordpress/block-editor';
-import { compose } from '@wordpress/compose';
-import { withSelect } from '@wordpress/data';
+} from '@aarondewes/wp-icons';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { compose } from '@aarondewes/wp-compose';
+import { withSelect } from '@aarondewes/wp-data';
 
 export const MEDIA_TYPE_IMAGE = 'image';
 export const MEDIA_TYPE_VIDEO = 'video';

@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { Spinner } from '@wordpress/components';
+import { Spinner } from '@aarondewes/wp-components';
 
 const EmbedLoading = () => <Spinner />;
 

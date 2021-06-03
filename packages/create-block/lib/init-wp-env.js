@@ -15,14 +15,14 @@ module.exports = async ( { slug } ) => {
 
 	info( '' );
 	info(
-		'Installing `@wordpress/env` package. It might take a couple of minutes...'
+		'Installing `@aarondewes/wp-env` package. It might take a couple of minutes...'
 	);
-	await command( 'npm install @wordpress/env --save-dev', {
+	await command( 'npm install @aarondewes/wp-env --save-dev', {
 		cwd,
 	} );
 
 	info( '' );
-	info( 'Configuring `@wordpress/env`...' );
+	info( 'Configuring `@aarondewes/wp-env`...' );
 	await writeFile(
 		join( cwd, '.wp-env.json' ),
 		JSON.stringify(

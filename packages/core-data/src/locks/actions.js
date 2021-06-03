@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { __unstableAwaitPromise } from '@wordpress/data-controls';
-import { controls } from '@wordpress/data';
+import { __unstableAwaitPromise } from '@aarondewes/wp-data-controls';
+import { controls } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

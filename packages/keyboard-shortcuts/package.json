@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/keyboard-shortcuts",
+	"name": "@aarondewes/wp-keyboard-shortcuts",
 	"version": "2.1.1",
 	"description": "Handling keyboard shortcuts.",
 	"author": "The WordPress Contributors",
@@ -26,10 +26,10 @@
 	"react-native": "src/index",
 	"dependencies": {
 		"@babel/runtime": "^7.13.10",
-		"@wordpress/compose": "file:../compose",
-		"@wordpress/data": "file:../data",
-		"@wordpress/element": "file:../element",
-		"@wordpress/keycodes": "file:../keycodes",
+		"@aarondewes/wp-compose": "file:../compose",
+		"@aarondewes/wp-data": "file:../data",
+		"@aarondewes/wp-element": "file:../element",
+		"@aarondewes/wp-keycodes": "file:../keycodes",
 		"lodash": "^4.17.21",
 		"rememo": "^3.0.0"
 	},

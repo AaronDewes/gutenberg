@@ -8,12 +8,12 @@ import classnames from 'classnames';
  * WordPress dependencies
  */
 
-import { dragHandle } from '@wordpress/icons';
-import { ToolbarGroup, ToolbarItem, Button } from '@wordpress/components';
-import { getBlockType } from '@wordpress/blocks';
-import { useState } from '@wordpress/element';
-import { withSelect } from '@wordpress/data';
-import { __ } from '@wordpress/i18n';
+import { dragHandle } from '@aarondewes/wp-icons';
+import { ToolbarGroup, ToolbarItem, Button } from '@aarondewes/wp-components';
+import { getBlockType } from '@aarondewes/wp-blocks';
+import { useState } from '@aarondewes/wp-element';
+import { withSelect } from '@aarondewes/wp-data';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

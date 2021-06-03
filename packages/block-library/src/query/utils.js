@@ -1,9 +1,9 @@
 /**
  * WordPress dependencies
  */
-import { useSelect } from '@wordpress/data';
-import { useMemo } from '@wordpress/element';
-import { store as coreStore } from '@wordpress/core-data';
+import { useSelect } from '@aarondewes/wp-data';
+import { useMemo } from '@aarondewes/wp-element';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * WordPress term object from REST API.

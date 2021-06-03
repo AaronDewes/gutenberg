@@ -12,8 +12,8 @@ import {
 	getColorObjectByAttributeValues,
 	RichText,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { select } from '@wordpress/data';
+} from '@aarondewes/wp-block-editor';
+import { select } from '@aarondewes/wp-data';
 
 /**
  * Internal dependencies

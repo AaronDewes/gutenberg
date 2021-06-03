@@ -9,17 +9,17 @@ import { View, Animated, Easing, TouchableWithoutFeedback } from 'react-native';
 import {
 	BlockControls,
 	store as blockEditorStore,
-} from '@wordpress/block-editor';
-import { useEffect, useState, useRef, useCallback } from '@wordpress/element';
+} from '@aarondewes/wp-block-editor';
+import { useEffect, useState, useRef, useCallback } from '@aarondewes/wp-element';
 import {
 	ToolbarGroup,
 	ToolbarButton,
 	LinkSettingsNavigation,
-} from '@wordpress/components';
-import { compose, usePreferredColorSchemeStyle } from '@wordpress/compose';
-import { __, sprintf } from '@wordpress/i18n';
-import { link, Icon } from '@wordpress/icons';
-import { withSelect } from '@wordpress/data';
+} from '@aarondewes/wp-components';
+import { compose, usePreferredColorSchemeStyle } from '@aarondewes/wp-compose';
+import { __, sprintf } from '@aarondewes/wp-i18n';
+import { link, Icon } from '@aarondewes/wp-icons';
+import { withSelect } from '@aarondewes/wp-data';
 /**
  * Internal dependencies
  */

@@ -6,9 +6,9 @@ import {
 	__experimentalFontFamilyControl as FontFamilyControl,
 	__experimentalFontAppearanceControl as FontAppearanceControl,
 	__experimentalLetterSpacingControl as LetterSpacingControl,
-} from '@wordpress/block-editor';
-import { PanelBody, FontSizePicker } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+} from '@aarondewes/wp-block-editor';
+import { PanelBody, FontSizePicker } from '@aarondewes/wp-components';
+import { __ } from '@aarondewes/wp-i18n';
 
 /**
  * Internal dependencies

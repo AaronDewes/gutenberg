@@ -6,7 +6,7 @@ import { View, StyleSheet } from 'react-native';
 /**
  * WordPress dependencies
  */
-import { Children } from '@wordpress/element';
+import { Children } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

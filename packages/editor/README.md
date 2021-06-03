@@ -1,13 +1,13 @@
 # Editor
 
-This module utilizes components from the `@wordpress/block-editor` package. Having an awareness of the concept of a WordPress post, it associates the loading and saving mechanism of the value representing blocks to a post and its content. It also provides various components relevant for working with a post object in the context of an editor (e.g., a post title input component). This package can support editing posts of any post type and does not assume that rendering happens in any particular WordPress screen or layout arrangement.
+This module utilizes components from the `@aarondewes/wp-block-editor` package. Having an awareness of the concept of a WordPress post, it associates the loading and saving mechanism of the value representing blocks to a post and its content. It also provides various components relevant for working with a post object in the context of an editor (e.g., a post title input component). This package can support editing posts of any post type and does not assume that rendering happens in any particular WordPress screen or layout arrangement.
 
 ## Installation
 
 Install the module
 
 ```bash
-npm install @wordpress/editor --save
+npm install @aarondewes/wp-editor --save
 ```
 
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as IE browsers then using [core-js](https://github.com/zloirock/core-js) will add polyfills for these methods._

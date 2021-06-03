@@ -6,8 +6,8 @@ import { useRoute } from '@react-navigation/native';
 /**
  * WordPress dependencies
  */
-import { memo, useEffect, useContext } from '@wordpress/element';
-import { BottomSheetContext, BottomSheet } from '@wordpress/components';
+import { memo, useEffect, useContext } from '@aarondewes/wp-element';
+import { BottomSheetContext, BottomSheet } from '@aarondewes/wp-components';
 
 /**
  * Internal dependencies

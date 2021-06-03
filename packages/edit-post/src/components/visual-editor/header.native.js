@@ -1,13 +1,13 @@
 /**
  * WordPress dependencies
  */
-import { memo } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
-import { withDispatch, withSelect } from '@wordpress/data';
-import { compose, withPreferredColorScheme } from '@wordpress/compose';
-import { PostTitle } from '@wordpress/editor';
-import { ReadableContentView } from '@wordpress/components';
-import { store as blockEditorStore } from '@wordpress/block-editor';
+import { memo } from '@aarondewes/wp-element';
+import { __ } from '@aarondewes/wp-i18n';
+import { withDispatch, withSelect } from '@aarondewes/wp-data';
+import { compose, withPreferredColorScheme } from '@aarondewes/wp-compose';
+import { PostTitle } from '@aarondewes/wp-editor';
+import { ReadableContentView } from '@aarondewes/wp-components';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
 
 /**
  * Internal dependencies

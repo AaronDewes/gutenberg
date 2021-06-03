@@ -8,7 +8,7 @@ const spawn = require( 'cross-spawn' );
 /**
  * Constants
  */
-const WORDPRESS_PACKAGES_PREFIX = '@wordpress/';
+const WORDPRESS_PACKAGES_PREFIX = '@aarondewes/wp-';
 
 function readJSONFile( fileName ) {
 	const data = fs.readFileSync( fileName, 'utf8' );

@@ -6,8 +6,8 @@ import { map, flow, groupBy, orderBy } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __, _x } from '@wordpress/i18n';
-import { useMemo, useEffect } from '@wordpress/element';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { useMemo, useEffect } from '@aarondewes/wp-element';
 
 /**
  * Internal dependencies

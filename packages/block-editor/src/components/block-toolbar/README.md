@@ -18,7 +18,7 @@ The `BlockToolbar` component is used to render a toolbar that serves as a wrappe
 Displays a block toolbar for a selected block.
 
 ```jsx
-import { BlockToolbar } from '@wordpress/block-editor';
+import { BlockToolbar } from '@aarondewes/wp-block-editor';
 
 const MyBlockToolbar = () => <BlockToolbar />;
 ```

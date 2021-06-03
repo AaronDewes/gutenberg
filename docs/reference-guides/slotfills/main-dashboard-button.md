@@ -10,8 +10,8 @@ It's used for returning back to main wp-admin dashboard when editor is in fullsc
 This will override the W icon button in the header.
 
 ```js
-import { registerPlugin } from '@wordpress/plugins';
-import { __experimentalMainDashboardButton as MainDashboardButton } from '@wordpress/edit-post';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { __experimentalMainDashboardButton as MainDashboardButton } from '@aarondewes/wp-edit-post';
 
 const MainDashboardButtonTest = () => (
 	<MainDashboardButton>
@@ -28,12 +28,12 @@ If your goal is just to replace the icon of the existing button in
 the post editor, that can be achieved in the following way:
 
 ```js
-import { registerPlugin } from '@wordpress/plugins';
+import { registerPlugin } from '@aarondewes/wp-plugins';
 import {
 	__experimentalFullscreenModeClose as FullscreenModeClose,
 	__experimentalMainDashboardButton as MainDashboardButton,
-} from '@wordpress/edit-post';
-import { close } from '@wordpress/icons';
+} from '@aarondewes/wp-edit-post';
+import { close } from '@aarondewes/wp-icons';
 
 const MainDashboardButtonIconTest = () => (
 	<MainDashboardButton>
@@ -51,9 +51,9 @@ registerPlugin( 'main-dashboard-button-icon-test', {
 In the site editor this slot refers to the "back to dashboard" button in the navigation sidebar.
 
 ```js
-import { registerPlugin } from '@wordpress/plugins';
-import { __experimentalMainDashboardButton as MainDashboardButton } from '@wordpress/edit-site';
-import { __experimentalNavigationBackButton as NavigationBackButton } from '@wordpress/components';
+import { registerPlugin } from '@aarondewes/wp-plugins';
+import { __experimentalMainDashboardButton as MainDashboardButton } from '@aarondewes/wp-edit-site';
+import { __experimentalNavigationBackButton as NavigationBackButton } from '@aarondewes/wp-components';
 
 const MainDashboardButtonIconTest = () => (
 	<MainDashboardButton>

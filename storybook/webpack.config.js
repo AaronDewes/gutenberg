@@ -6,7 +6,7 @@ const path = require( 'path' );
 /**
  * WordPress dependencies
  */
-const postcssPlugins = require( '@wordpress/postcss-plugins-preset' );
+const postcssPlugins = require( '@aarondewes/wp-postcss-plugins-preset' );
 
 module.exports = ( { config } ) => {
 	config.module.rules.push(

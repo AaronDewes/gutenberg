@@ -48,4 +48,4 @@
 
 ### New Feature
 
--   Introduce the `@wordpress/dependency-extraction-webpack-plugin` package.
+-   Introduce the `@aarondewes/wp-dependency-extraction-webpack-plugin` package.

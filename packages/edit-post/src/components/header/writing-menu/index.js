@@ -1,10 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { MenuGroup } from '@wordpress/components';
-import { __, _x } from '@wordpress/i18n';
-import { useViewportMatch } from '@wordpress/compose';
-import { displayShortcut } from '@wordpress/keycodes';
+import { MenuGroup } from '@aarondewes/wp-components';
+import { __, _x } from '@aarondewes/wp-i18n';
+import { useViewportMatch } from '@aarondewes/wp-compose';
+import { displayShortcut } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

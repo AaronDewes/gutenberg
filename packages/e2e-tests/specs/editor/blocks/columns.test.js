@@ -7,7 +7,7 @@ import {
 	insertBlock,
 	openGlobalBlockInserter,
 	closeGlobalBlockInserter,
-} from '@wordpress/e2e-test-utils';
+} from '@aarondewes/wp-e2e-test-utils';
 
 describe( 'Columns', () => {
 	beforeEach( async () => {

@@ -6,7 +6,7 @@ import TestRenderer from 'react-test-renderer';
 /**
  * WordPress dependencies
  */
-import { DOWN, ENTER, UP } from '@wordpress/keycodes';
+import { DOWN, ENTER, UP } from '@aarondewes/wp-keycodes';
 
 /**
  * Internal dependencies

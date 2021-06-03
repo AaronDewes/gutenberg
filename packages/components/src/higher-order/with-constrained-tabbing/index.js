@@ -4,7 +4,7 @@
 import {
 	createHigherOrderComponent,
 	useConstrainedTabbing,
-} from '@wordpress/compose';
+} from '@aarondewes/wp-compose';
 
 const withConstrainedTabbing = createHigherOrderComponent(
 	( WrappedComponent ) =>

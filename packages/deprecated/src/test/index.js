@@ -1,7 +1,7 @@
 /**
  * WordPress dependencies
  */
-import { didAction } from '@wordpress/hooks';
+import { didAction } from '@aarondewes/wp-hooks';
 
 /**
  * Internal dependencies

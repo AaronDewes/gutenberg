@@ -21,15 +21,15 @@ import {
 	getDefaultBlockName,
 	isUnmodifiedDefaultBlock,
 	__unstableSerializeAndClean,
-} from '@wordpress/blocks';
-import { isInTheFuture, getDate } from '@wordpress/date';
-import { addQueryArgs } from '@wordpress/url';
-import { createRegistrySelector } from '@wordpress/data';
-import deprecated from '@wordpress/deprecated';
-import { Platform } from '@wordpress/element';
-import { layout } from '@wordpress/icons';
-import { store as blockEditorStore } from '@wordpress/block-editor';
-import { store as coreStore } from '@wordpress/core-data';
+} from '@aarondewes/wp-blocks';
+import { isInTheFuture, getDate } from '@aarondewes/wp-date';
+import { addQueryArgs } from '@aarondewes/wp-url';
+import { createRegistrySelector } from '@aarondewes/wp-data';
+import deprecated from '@aarondewes/wp-deprecated';
+import { Platform } from '@aarondewes/wp-element';
+import { layout } from '@aarondewes/wp-icons';
+import { store as blockEditorStore } from '@aarondewes/wp-block-editor';
+import { store as coreStore } from '@aarondewes/wp-core-data';
 
 /**
  * Internal dependencies
@@ -407,7 +407,7 @@ export function getEditedPostAttribute( state, attributeName ) {
  * null if there is no autosave for the post.
  *
  * @deprecated since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector
- * 			   from the '@wordpress/core-data' package and access properties on the returned
+ * 			   from the '@aarondewes/wp-core-data' package and access properties on the returned
  * 			   autosave object using getPostRawValue.
  *
  * @param {Object} state         Global application state.
@@ -643,7 +643,7 @@ export const isEditedPostAutosaveable = createRegistrySelector(
 		// Disable reason - this line causes the side-effect of fetching the autosave
 		// via a resolver, moving below the return would result in the autosave never
 		// being fetched.
-		// eslint-disable-next-line @wordpress/no-unused-vars-before-return
+		// eslint-disable-next-line @aarondewes/wp-no-unused-vars-before-return
 		const autosave = select( coreStore ).getAutosave(
 			postType,
 			postId,
@@ -684,7 +684,7 @@ export const isEditedPostAutosaveable = createRegistrySelector(
  * autosave).
  *
  * @deprecated since 5.6. Callers should use the `getAutosave( postType, postId, userId )`
- * 			   selector from the '@wordpress/core-data' package.
+ * 			   selector from the '@aarondewes/wp-core-data' package.
  *
  * @param {Object} state Editor state.
  *
@@ -712,7 +712,7 @@ export const getAutosave = createRegistrySelector( ( select ) => ( state ) => {
  * Returns the true if there is an existing autosave, otherwise false.
  *
  * @deprecated since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector
- *             from the '@wordpress/core-data' package and check for a truthy value.
+ *             from the '@aarondewes/wp-core-data' package and check for a truthy value.
  *
  * @param {Object} state Global application state.
  *

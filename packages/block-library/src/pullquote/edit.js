@@ -7,8 +7,8 @@ import { includes } from 'lodash';
 /**
  * WordPress dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { Platform, useEffect, useRef } from '@wordpress/element';
+import { __ } from '@aarondewes/wp-i18n';
+import { Platform, useEffect, useRef } from '@aarondewes/wp-element';
 import {
 	RichText,
 	ContrastChecker,
@@ -16,8 +16,8 @@ import {
 	withColors,
 	PanelColorSettings,
 	useBlockProps,
-} from '@wordpress/block-editor';
-import { createBlock } from '@wordpress/blocks';
+} from '@aarondewes/wp-block-editor';
+import { createBlock } from '@aarondewes/wp-blocks';
 
 /**
  * Internal dependencies
