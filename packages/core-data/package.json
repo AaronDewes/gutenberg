@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-core-data",
-	"version": "3.1.2",
+	"version": "4.0.0-alpha.0",
 	"description": "Access to and manipulation of core WordPress entities.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -29,7 +29,6 @@
 		"{src,build,build-module}/index.js"
 	],
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-blocks": "file:../blocks",
 		"@aarondewes/wp-data": "file:../data",
@@ -39,6 +38,7 @@
 		"@aarondewes/wp-i18n": "file:../i18n",
 		"@aarondewes/wp-is-shallow-equal": "file:../is-shallow-equal",
 		"@aarondewes/wp-url": "file:../url",
+		"@babel/runtime": "^7.13.10",
 		"equivalent-key-map": "^0.2.2",
 		"lodash": "^4.17.21",
 		"rememo": "^3.0.0",

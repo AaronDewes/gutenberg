@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-edit-site",
-	"version": "2.1.3",
+	"version": "3.0.0-alpha.0",
 	"description": "Edit Site Page module for WordPress.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -26,7 +26,6 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-a11y": "file:../a11y",
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-block-editor": "file:../block-editor",
@@ -50,6 +49,7 @@
 		"@aarondewes/wp-plugins": "file:../plugins",
 		"@aarondewes/wp-primitives": "file:../primitives",
 		"@aarondewes/wp-url": "file:../url",
+		"@babel/runtime": "^7.13.10",
 		"classnames": "^2.2.5",
 		"downloadjs": "^1.4.7",
 		"file-saver": "^2.0.2",

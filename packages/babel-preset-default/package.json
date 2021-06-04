@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-babel-preset-default",
-	"version": "6.2.0",
+	"version": "7.0.0-alpha.0",
 	"description": "Default Babel preset for WordPress development.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -29,16 +29,16 @@
 	],
 	"main": "index.js",
 	"dependencies": {
+		"@aarondewes/wp-babel-plugin-import-jsx-pragma": "file:../babel-plugin-import-jsx-pragma",
+		"@aarondewes/wp-browserslist-config": "file:../browserslist-config",
+		"@aarondewes/wp-element": "file:../element",
+		"@aarondewes/wp-warning": "file:../warning",
 		"@babel/core": "^7.13.10",
 		"@babel/plugin-transform-react-jsx": "^7.12.7",
 		"@babel/plugin-transform-runtime": "^7.13.10",
 		"@babel/preset-env": "^7.13.10",
 		"@babel/preset-typescript": "^7.13.0",
 		"@babel/runtime": "^7.13.10",
-		"@aarondewes/wp-babel-plugin-import-jsx-pragma": "file:../babel-plugin-import-jsx-pragma",
-		"@aarondewes/wp-browserslist-config": "file:../browserslist-config",
-		"@aarondewes/wp-element": "file:../element",
-		"@aarondewes/wp-warning": "file:../warning",
 		"browserslist": "^4.16.6",
 		"core-js": "^3.12.1"
 	},

@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-components",
-	"version": "14.1.1",
+	"version": "15.0.0-alpha.0",
 	"description": "UI components for WordPress.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -29,11 +29,6 @@
 		"src/**/*.scss"
 	],
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
-		"@emotion/cache": "^10.0.27",
-		"@emotion/core": "^10.1.1",
-		"@emotion/css": "^10.0.22",
-		"@emotion/styled": "^10.0.23",
 		"@aarondewes/wp-a11y": "file:../a11y",
 		"@aarondewes/wp-compose": "file:../compose",
 		"@aarondewes/wp-date": "file:../date",
@@ -48,6 +43,11 @@
 		"@aarondewes/wp-primitives": "file:../primitives",
 		"@aarondewes/wp-rich-text": "file:../rich-text",
 		"@aarondewes/wp-warning": "file:../warning",
+		"@babel/runtime": "^7.13.10",
+		"@emotion/cache": "^10.0.27",
+		"@emotion/core": "^10.1.1",
+		"@emotion/css": "^10.0.22",
+		"@emotion/styled": "^10.0.23",
 		"classnames": "^2.2.5",
 		"dom-scroll-into-view": "^1.2.1",
 		"downshift": "^6.0.15",

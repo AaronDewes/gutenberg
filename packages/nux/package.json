@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-nux",
-	"version": "4.1.1",
+	"version": "5.0.0-alpha.0",
 	"description": "NUX (New User eXperience) module for WordPress.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -30,7 +30,6 @@
 		"{src,build,build-module}/{index.js,store/index.js}"
 	],
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-components": "file:../components",
 		"@aarondewes/wp-compose": "file:../compose",
 		"@aarondewes/wp-data": "file:../data",
@@ -38,6 +37,7 @@
 		"@aarondewes/wp-element": "file:../element",
 		"@aarondewes/wp-i18n": "file:../i18n",
 		"@aarondewes/wp-icons": "file:../icons",
+		"@babel/runtime": "^7.13.10",
 		"lodash": "^4.17.21",
 		"rememo": "^3.0.0"
 	},

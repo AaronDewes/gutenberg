@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-block-editor",
-	"version": "6.1.1",
+	"version": "7.0.0-alpha.0",
 	"description": "Generic block editor.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -31,7 +31,6 @@
 		"{src,build,build-module}/{index.js,store/index.js,hooks/**}"
 	],
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-a11y": "file:../a11y",
 		"@aarondewes/wp-blob": "file:../blob",
 		"@aarondewes/wp-block-serialization-default-parser": "file:../block-serialization-default-parser",
@@ -56,6 +55,7 @@
 		"@aarondewes/wp-token-list": "file:../token-list",
 		"@aarondewes/wp-url": "file:../url",
 		"@aarondewes/wp-wordcount": "file:../wordcount",
+		"@babel/runtime": "^7.13.10",
 		"classnames": "^2.2.5",
 		"css-mediaquery": "^0.1.2",
 		"diff": "^4.0.2",

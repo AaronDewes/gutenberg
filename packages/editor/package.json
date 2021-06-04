@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-editor",
-	"version": "10.1.2",
+	"version": "11.0.0-alpha.0",
 	"description": "Enhanced block editor for WordPress posts.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -30,7 +30,6 @@
 		"{src,build,build-module}/{index.js,store/index.js,hooks/**}"
 	],
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-autop": "file:../autop",
 		"@aarondewes/wp-blob": "file:../blob",
@@ -58,6 +57,7 @@
 		"@aarondewes/wp-server-side-render": "file:../server-side-render",
 		"@aarondewes/wp-url": "file:../url",
 		"@aarondewes/wp-wordcount": "file:../wordcount",
+		"@babel/runtime": "^7.13.10",
 		"classnames": "^2.2.5",
 		"lodash": "^4.17.21",
 		"memize": "^1.1.0",

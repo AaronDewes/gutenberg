@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-block-library",
-	"version": "3.2.2",
+	"version": "4.0.0-alpha.0",
 	"description": "Block library for the WordPress editor.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -32,7 +32,6 @@
 		"src/query/index.js"
 	],
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-a11y": "file:../a11y",
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-autop": "file:../autop",
@@ -61,6 +60,7 @@
 		"@aarondewes/wp-server-side-render": "file:../server-side-render",
 		"@aarondewes/wp-url": "file:../url",
 		"@aarondewes/wp-viewport": "file:../viewport",
+		"@babel/runtime": "^7.13.10",
 		"classnames": "^2.2.5",
 		"fast-average-color": "4.3.0",
 		"lodash": "^4.17.21",

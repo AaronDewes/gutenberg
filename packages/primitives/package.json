@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-primitives",
-	"version": "2.1.1",
+	"version": "3.0.0-alpha.0",
 	"description": "WordPress cross-platform primitives.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -30,8 +30,8 @@
 	],
 	"types": "build-types",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-element": "file:../element",
+		"@babel/runtime": "^7.13.10",
 		"classnames": "^2.2.5"
 	},
 	"publishConfig": {

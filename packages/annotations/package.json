@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-annotations",
-	"version": "2.1.1",
+	"version": "3.0.0-alpha.0",
 	"description": "Annotate content in the Gutenberg editor.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -25,11 +25,11 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-data": "file:../data",
 		"@aarondewes/wp-hooks": "file:../hooks",
 		"@aarondewes/wp-i18n": "file:../i18n",
 		"@aarondewes/wp-rich-text": "file:../rich-text",
+		"@babel/runtime": "^7.13.10",
 		"lodash": "^4.17.21",
 		"rememo": "^3.0.0",
 		"uuid": "^8.3.0"

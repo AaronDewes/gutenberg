@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-edit-navigation",
-	"version": "1.9.1",
+	"version": "2.0.0-alpha.0",
 	"private": true,
 	"description": "Module for the Navigation page in WordPress.",
 	"author": "The WordPress Contributors",
@@ -27,7 +27,6 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-block-editor": "file:../block-editor",
 		"@aarondewes/wp-block-library": "file:../block-library",
@@ -48,6 +47,7 @@
 		"@aarondewes/wp-media-utils": "file:../media-utils",
 		"@aarondewes/wp-notices": "file:../notices",
 		"@aarondewes/wp-url": "file:../url",
+		"@babel/runtime": "^7.13.10",
 		"classnames": "^2.2.5",
 		"lodash": "^4.17.21",
 		"rememo": "^3.0.0",

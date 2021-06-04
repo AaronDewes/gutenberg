@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-data-controls",
-	"version": "2.1.1",
+	"version": "3.0.0-alpha.0",
 	"description": "A set of common controls for the @aarondewes/wp-data api.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -26,10 +26,10 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-data": "file:../data",
-		"@aarondewes/wp-deprecated": "file:../deprecated"
+		"@aarondewes/wp-deprecated": "file:../deprecated",
+		"@babel/runtime": "^7.13.10"
 	},
 	"publishConfig": {
 		"access": "public"

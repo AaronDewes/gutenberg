@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-react-i18n",
-	"version": "2.1.1",
+	"version": "3.0.0-alpha.0",
 	"description": "React bindings for @aarondewes/wp-i18n.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -27,9 +27,9 @@
 	"types": "build-types",
 	"sideEffects": false,
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-element": "file:../element",
 		"@aarondewes/wp-i18n": "file:../i18n",
+		"@babel/runtime": "^7.13.10",
 		"utility-types": "^3.10.0"
 	},
 	"publishConfig": {

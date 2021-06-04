@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-deprecated",
-	"version": "3.1.1",
+	"version": "4.0.0-alpha.0",
 	"description": "Deprecation utility for WordPress.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -27,8 +27,8 @@
 	"types": "build-types",
 	"sideEffects": false,
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
-		"@aarondewes/wp-hooks": "file:../hooks"
+		"@aarondewes/wp-hooks": "file:../hooks",
+		"@babel/runtime": "^7.13.10"
 	},
 	"publishConfig": {
 		"access": "public"

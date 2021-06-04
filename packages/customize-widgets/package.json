@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-customize-widgets",
-	"version": "1.0.2",
+	"version": "2.0.0-alpha.0",
 	"description": "Widgets blocks in Customizer Module for WordPress.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -23,7 +23,6 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.11.2",
 		"@aarondewes/wp-a11y": "file:../a11y",
 		"@aarondewes/wp-block-editor": "file:../block-editor",
 		"@aarondewes/wp-block-library": "file:../block-library",
@@ -42,6 +41,7 @@
 		"@aarondewes/wp-keycodes": "file:../keycodes",
 		"@aarondewes/wp-media-utils": "file:../media-utils",
 		"@aarondewes/wp-widgets": "file:../widgets",
+		"@babel/runtime": "^7.11.2",
 		"classnames": "^2.2.6",
 		"lodash": "^4.17.21"
 	},

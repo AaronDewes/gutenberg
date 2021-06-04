@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-format-library",
-	"version": "2.1.1",
+	"version": "3.0.0-alpha.0",
 	"description": "Format library for the WordPress editor.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -25,7 +25,6 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-a11y": "file:../a11y",
 		"@aarondewes/wp-block-editor": "file:../block-editor",
 		"@aarondewes/wp-components": "file:../components",
@@ -39,6 +38,7 @@
 		"@aarondewes/wp-keycodes": "file:../keycodes",
 		"@aarondewes/wp-rich-text": "file:../rich-text",
 		"@aarondewes/wp-url": "file:../url",
+		"@babel/runtime": "^7.13.10",
 		"lodash": "^4.17.21"
 	},
 	"publishConfig": {

@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-edit-post",
-	"version": "4.1.3",
+	"version": "5.0.0-alpha.0",
 	"description": "Edit Post module for WordPress.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -26,7 +26,6 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-a11y": "file:../a11y",
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-block-editor": "file:../block-editor",
@@ -52,6 +51,7 @@
 		"@aarondewes/wp-url": "file:../url",
 		"@aarondewes/wp-viewport": "file:../viewport",
 		"@aarondewes/wp-warning": "file:../warning",
+		"@babel/runtime": "^7.13.10",
 		"classnames": "^2.2.5",
 		"framer-motion": "^4.1.3",
 		"lodash": "^4.17.21",

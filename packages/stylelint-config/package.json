@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-stylelint-config",
-	"version": "19.0.5",
+	"version": "20.0.0-alpha.0",
 	"description": "stylelint config for WordPress development.",
 	"author": "The WordPress Contributors",
 	"license": "MIT",

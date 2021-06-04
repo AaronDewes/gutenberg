@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-widgets",
-	"version": "1.1.2",
+	"version": "2.0.0-alpha.0",
 	"description": "Functionality used by the widgets block editor in the Widgets screen and the Customizer.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -20,13 +20,13 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-blocks": "file:../blocks",
 		"@aarondewes/wp-components": "file:../components",
 		"@aarondewes/wp-core-data": "file:../core-data",
 		"@aarondewes/wp-data": "file:../data",
 		"@aarondewes/wp-i18n": "file:../i18n",
-		"@aarondewes/wp-icons": "file:../icons"
+		"@aarondewes/wp-icons": "file:../icons",
+		"@babel/runtime": "^7.13.10"
 	},
 	"publishConfig": {
 		"access": "public"

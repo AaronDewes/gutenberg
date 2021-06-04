@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-edit-widgets",
-	"version": "2.1.3",
+	"version": "3.0.0-alpha.0",
 	"description": "Widgets Page module for WordPress..",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -26,7 +26,6 @@
 	"module": "build-module/index.js",
 	"react-native": "src/index",
 	"dependencies": {
-		"@babel/runtime": "^7.13.10",
 		"@aarondewes/wp-a11y": "file:../a11y",
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-block-editor": "file:../block-editor",
@@ -51,6 +50,7 @@
 		"@aarondewes/wp-server-side-render": "file:../server-side-render",
 		"@aarondewes/wp-url": "file:../url",
 		"@aarondewes/wp-widgets": "file:../widgets",
+		"@babel/runtime": "^7.13.10",
 		"classnames": "^2.2.5",
 		"lodash": "^4.17.21",
 		"rememo": "^3.0.0",

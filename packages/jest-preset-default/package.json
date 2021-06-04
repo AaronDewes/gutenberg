@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-jest-preset-default",
-	"version": "8.0.0",
+	"version": "9.0.0-alpha.0",
 	"description": "Default Jest preset for WordPress development.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -32,9 +32,9 @@
 	"main": "index.js",
 	"dependencies": {
 		"@aarondewes/wp-jest-console": "file:../jest-console",
+		"@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
 		"babel-jest": "^27.0.2",
 		"enzyme": "^3.11.0",
-		"@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
 		"enzyme-to-json": "^3.6.2"
 	},
 	"peerDependencies": {

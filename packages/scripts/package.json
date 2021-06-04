@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-scripts",
-	"version": "17.0.0",
+	"version": "18.0.0-alpha.0",
 	"description": "Collection of reusable scripts for WordPress development.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -32,7 +32,6 @@
 		"wp-scripts": "./bin/wp-scripts.js"
 	},
 	"dependencies": {
-		"@svgr/webpack": "^5.5.0",
 		"@aarondewes/wp-babel-preset-default": "file:../babel-preset-default",
 		"@aarondewes/wp-dependency-extraction-webpack-plugin": "file:../dependency-extraction-webpack-plugin",
 		"@aarondewes/wp-eslint-plugin": "file:../eslint-plugin",
@@ -41,6 +40,7 @@
 		"@aarondewes/wp-postcss-plugins-preset": "file:../postcss-plugins-preset",
 		"@aarondewes/wp-prettier-config": "file:../prettier-config",
 		"@aarondewes/wp-stylelint-config": "file:../stylelint-config",
+		"@svgr/webpack": "^5.5.0",
 		"babel-jest": "^27.0.2",
 		"babel-loader": "^8.2.2",
 		"chalk": "^4.1.1",
