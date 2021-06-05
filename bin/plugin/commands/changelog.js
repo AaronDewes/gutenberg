@@ -2,7 +2,7 @@
  * External dependencies
  */
 const { groupBy, escapeRegExp, uniq } = require( 'lodash' );
-const Octokit = require( '@octokit/rest' );
+const { Octokit } = require( '@octokit/rest' );
 const { sprintf } = require( 'sprintf-js' );
 const semver = require( 'semver' );
 
@@ -19,10 +19,9 @@ const config = require( '../config' );
 // @ts-ignore
 const manifest = require( '../../../package.json' );
 
-/** @typedef {import('@octokit/rest')} GitHub */
-/** @typedef {import('@octokit/rest').IssuesListForRepoResponseItem} IssuesListForRepoResponseItem */
-/** @typedef {import('@octokit/rest').IssuesListMilestonesForRepoResponseItem} OktokitIssuesListMilestonesForRepoResponseItem */
-/** @typedef {import('@octokit/rest').ReposListReleasesResponseItem} ReposListReleasesResponseItem */
+/** @typedef {import('@octokit/rest').Octokit} GitHub */
+/** @typedef {import('@octokit/openapi-types').components["schemas"]["issue"]} Issue */
+/** @typedef {import('@octokit/openapi-types').components["schemas"]["release"]} Release */
 
 /**
  * @typedef WPChangelogCommandOptions
@@ -46,7 +45,7 @@ const manifest = require( '../../../package.json' );
  * Changelog normalization function, returning a string to use as title, or
  * undefined if entry should be omitted.
  *
- * @typedef {(text:string,issue:IssuesListForRepoResponseItem)=>string|undefined} WPChangelogNormalization
+ * @typedef {(text:string,issue:Issue)=>string|undefined} WPChangelogNormalization
  */
 
 /**
@@ -179,11 +178,12 @@ function getTypesByTitle( title ) {
  * Returns a type label for a given issue object, or a default if type cannot
  * be determined.
  *
- * @param {IssuesListForRepoResponseItem} issue Issue object.
+ * @param {Issue} issue Issue object.
  *
  * @return {string} Type label.
  */
 function getIssueType( issue ) {
+	// @ts-ignore
 	const labels = issue.labels.map( ( { name } ) => name );
 	const candidates = [
 		...getTypesByLabels( labels ),
@@ -300,6 +300,7 @@ const createOmitByTitlePrefix = ( prefixes ) => ( title ) =>
  * @return {WPChangelogNormalization} Normalization function.
  */
 const createOmitByLabel = ( labels ) => ( text, issue ) =>
+	// @ts-ignore
 	issue.labels.some( ( label ) => labels.includes( label.name ) )
 		? undefined
 		: text;
@@ -350,7 +351,7 @@ const TITLE_NORMALIZATIONS = [
  * applied, or undefined to indicate that the entry should be omitted.
  *
  * @param {string}                        title Original title.
- * @param {IssuesListForRepoResponseItem} issue Issue object.
+ * @param {Issue} issue Issue object.
  *
  * @return {string|undefined} Normalized title.
  */
@@ -371,7 +372,7 @@ function getNormalizedTitle( title, issue ) {
  * Returns a formatted changelog entry for a given issue object, or undefined
  * if entry should be omitted.
  *
- * @param {IssuesListForRepoResponseItem} issue Issue object.
+ * @param {Issue} issue Issue object.
  *
  * @return {string=} Formatted changelog entry, or undefined to omit.
  */
@@ -391,12 +392,12 @@ function getEntry( issue ) {
  * @param {string} repo     Repository name.
  * @param {string} series   Gutenberg release series (e.g. '6.7' or '9.8').
  *
- * @return {Promise<ReposListReleasesResponseItem|undefined>} Promise resolving to pull
+ * @return {Promise<Release|undefined>} Promise resolving to pull
  *                                                            requests for the given
  *                                                            milestone.
  */
 async function getLatestReleaseInSeries( octokit, owner, repo, series ) {
-	const releaseOptions = await octokit.repos.listReleases.endpoint.merge( {
+	const releaseOptions = await octokit.rest.repos.listReleases.endpoint.merge( {
 		owner,
 		repo,
 	} );
@@ -404,13 +405,14 @@ async function getLatestReleaseInSeries( octokit, owner, repo, series ) {
 	let latestReleaseForMilestone;
 
 	/**
-	 * @type {AsyncIterableIterator<import('@octokit/rest').Response<import('@octokit/rest').ReposListReleasesResponse>>}
+	 * @type {AsyncIterableIterator<import('@octokit/rest').RestEndpointMethodTypes["repos"]["listReleases"]["response"]>}
 	 */
+	// @ts-ignore
 	const releases = octokit.paginate.iterator( releaseOptions );
 
 	for await ( const releasesPage of releases ) {
 		latestReleaseForMilestone = releasesPage.data.find( ( release ) =>
-			release.name.startsWith( series )
+			release.name?.startsWith( series )
 		);
 
 		if ( latestReleaseForMilestone ) {
@@ -427,7 +429,7 @@ async function getLatestReleaseInSeries( octokit, owner, repo, series ) {
  * @param {GitHub}              octokit  GitHub REST client.
  * @param {WPChangelogSettings} settings Changelog settings.
  *
- * @return {Promise<IssuesListForRepoResponseItem[]>} Promise resolving to array of
+ * @return {Promise<Issue[]>} Promise resolving to array of
  *                                            pull requests.
  */
 async function fetchAllPullRequests( octokit, settings ) {
@@ -457,6 +459,7 @@ async function fetchAllPullRequests( octokit, settings ) {
 		repo,
 		number,
 		'closed',
+		// @ts-ignore
 		latestReleaseInSeries ? latestReleaseInSeries.published_at : undefined
 	);
 	return issues.filter( ( issue ) => issue.pull_request );

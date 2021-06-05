@@ -4,10 +4,9 @@
 const debug = require( '../../debug' );
 const getAssociatedPullRequest = require( '../../get-associated-pull-request' );
 
-/** @typedef {import('@octokit/rest').HookError} HookError */
-/** @typedef {import('@actions/github').GitHub} GitHub */
-/** @typedef {import('@octokit/webhooks').WebhookPayloadPush} WebhookPayloadPush */
-/** @typedef {import('@octokit/rest').IssuesListMilestonesForRepoResponseItem} OktokitIssuesListMilestonesForRepoResponseItem */
+/** @typedef {import('@actions/github/lib/utils').GitHub} GitHub */
+/** @typedef {import('@octokit/webhooks-types').PushEvent} WebhookPayloadPush */
+/** @typedef {import('@octokit/openapi-types').components["schemas"]["milestone"]} Milestone */
 
 /**
  * Number of expected days elapsed between releases.
@@ -17,55 +16,40 @@ const getAssociatedPullRequest = require( '../../get-associated-pull-request' );
 const DAYS_PER_RELEASE = 14;
 
 /**
- * Returns true if the given error object represents a duplicate entry error, or
- * false otherwise. The error is expected to be (though not verified explicitly
- * as) an instance of Octokit's RequestError (`@octokit/request-error`).
- *
- * @see https://github.com/octokit/rest.js/issues/684
- * @see https://developer.github.com/v3/#client-errors
- * @see https://github.com/octokit/request.js/blob/2a1d768/src/fetch-wrapper.ts#L79-L80
- *
- * @param {HookError} error Error to test.
- *
- * @return {boolean} Whether error is a duplicate validation request error.
- */
-const isDuplicateValidationError = ( error ) =>
-	Array.isArray( error.errors ) &&
-	error.errors.some( ( { code } ) => code === 'already_exists' );
-
-/**
  * Returns a promise resolving to a milestone by a given title, if exists.
  *
- * @param {GitHub} octokit Initialized Octokit REST client.
+ * @param {InstanceType<GitHub>} octokit Initialized Octokit REST client.
  * @param {string} owner   Repository owner.
  * @param {string} repo    Repository name.
  * @param {string} title   Milestone title.
  *
- * @return {Promise<OktokitIssuesListMilestonesForRepoResponseItem|void>} Promise resolving to milestone, if exists.
+ * @return {Promise<Milestone|undefined>} Promise resolving to milestone, if exists.
  */
 async function getMilestoneByTitle( octokit, owner, repo, title ) {
-	/** @type {Partial<import('@octokit/rest').IssuesListMilestonesForRepoParams>} */
+	/** @type {Partial<import('@octokit/rest').RestEndpointMethodTypes["repos"]["listReleases"]["parameters"]>} */
 	const params = {
 		state: 'all',
 		sort: 'due_on',
 		direction: 'desc',
 	};
 
-	const options = octokit.issues.listMilestonesForRepo.endpoint.merge( {
+	const options = octokit.rest.issues.listMilestones.endpoint.merge( {
 		owner,
 		repo,
 		...params,
 	} );
 
 	/**
-	 * @type {AsyncIterableIterator<import('@octokit/rest').Response<import('@octokit/rest').IssuesListMilestonesForRepoResponse>>}
+	 * @type {AsyncIterableIterator<import('@octokit/rest').RestEndpointMethodTypes["repos"]["listReleases"]["response"]>}
 	 */
+	// @ts-ignore
 	const responses = octokit.paginate.iterator( options );
 
 	for await ( const response of responses ) {
 		const milestones = response.data;
 		for ( const milestone of milestones ) {
-			if ( milestone.title === title ) {
+			if ( milestone.name === title ) {
+				// @ts-ignore
 				return milestone;
 			}
 		}
@@ -76,7 +60,7 @@ async function getMilestoneByTitle( octokit, owner, repo, title ) {
  * Assigns the correct milestone to PRs once merged.
  *
  * @param {WebhookPayloadPush} payload Push event payload.
- * @param {GitHub}             octokit Initialized Octokit REST client.
+ * @param {InstanceType<GitHub>}             octokit Initialized Octokit REST client.
  */
 async function addMilestone( payload, octokit ) {
 	if ( payload.ref !== 'refs/heads/trunk' ) {
@@ -96,7 +80,7 @@ async function addMilestone( payload, octokit ) {
 
 	const {
 		data: { milestone: pullMilestone },
-	} = await octokit.issues.get( { owner, repo, issue_number: prNumber } );
+	} = await octokit.rest.issues.get( { owner, repo, issue_number: prNumber } );
 
 	if ( pullMilestone ) {
 		debug(
@@ -108,8 +92,9 @@ async function addMilestone( payload, octokit ) {
 	debug( 'add-milestone: Fetching `package.json` contents' );
 
 	const {
+		// @ts-ignore
 		data: { content, encoding },
-	} = await octokit.repos.getContents( {
+	} = await octokit.rest.repos.getContent( {
 		owner,
 		repo,
 		path: 'package.json',
@@ -145,6 +130,7 @@ async function addMilestone( payload, octokit ) {
 	}
 
 	// Using UTC for the calculation ensures it's not affected by daylight savings.
+	// @ts-ignore
 	const dueDate = new Date( lastMilestone.due_on );
 	dueDate.setUTCDate( dueDate.getUTCDate() + DAYS_PER_RELEASE );
 
@@ -153,7 +139,7 @@ async function addMilestone( payload, octokit ) {
 	);
 
 	try {
-		await octokit.issues.createMilestone( {
+		await octokit.rest.issues.createMilestone( {
 			owner,
 			repo,
 			title: `Gutenberg ${ major }.${ minor }`,
@@ -162,13 +148,7 @@ async function addMilestone( payload, octokit ) {
 
 		debug( 'add-milestone: Milestone created' );
 	} catch ( error ) {
-		if ( ! isDuplicateValidationError( error ) ) {
-			throw error;
-		}
-
-		debug(
-			'add-milestone: Milestone already exists, proceeding with assignment'
-		);
+		throw error;
 	}
 
 	debug( 'add-milestone: Fetching all milestones' );
@@ -190,7 +170,7 @@ async function addMilestone( payload, octokit ) {
 		`add-milestone: Adding issue #${ prNumber } to milestone #${ milestone.number }`
 	);
 
-	await octokit.issues.update( {
+	await octokit.rest.issues.update( {
 		owner,
 		repo,
 		issue_number: prNumber,
