@@ -31,12 +31,12 @@
 	"main": "build/index.js",
 	"module": "build-module/index.js",
 	"dependencies": {
-		"@axe-core/puppeteer": "^4.0.0",
-		"@babel/runtime": "^7.13.10"
+		"@axe-core/puppeteer": "^4.2.1",
+		"@babel/runtime": "^7.14.0"
 	},
 	"peerDependencies": {
-		"jest": ">=26",
-		"puppeteer": ">=1.19.0"
+		"jest": ">=27",
+		"puppeteer": ">=10.0.0"
 	},
 	"publishConfig": {
 		"access": "public"

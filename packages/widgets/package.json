@@ -26,7 +26,7 @@
 		"@aarondewes/wp-data": "file:../data",
 		"@aarondewes/wp-i18n": "file:../i18n",
 		"@aarondewes/wp-icons": "file:../icons",
-		"@babel/runtime": "^7.13.10"
+		"@babel/runtime": "^7.14.0"
 	},
 	"publishConfig": {
 		"access": "public"

@@ -28,7 +28,7 @@
 	"sideEffects": false,
 	"dependencies": {
 		"@aarondewes/wp-i18n": "file:../i18n",
-		"@babel/runtime": "^7.13.10",
+		"@babel/runtime": "^7.14.0",
 		"lodash": "^4.17.21"
 	},
 	"publishConfig": {

@@ -31,7 +31,7 @@
 	],
 	"main": "index.js",
 	"peerDependencies": {
-		"@babel/core": "^7.0.0"
+		"@babel/core": "^7.14.3"
 	},
 	"publishConfig": {
 		"access": "public"

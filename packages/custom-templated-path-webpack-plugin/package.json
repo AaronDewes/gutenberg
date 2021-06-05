@@ -28,10 +28,10 @@
 	],
 	"main": "index.js",
 	"dependencies": {
-		"escape-string-regexp": "^1.0.5"
+		"escape-string-regexp": "^5.0.0"
 	},
 	"peerDependencies": {
-		"webpack": "^4.0.0"
+		"webpack": "^5.38.1"
 	},
 	"publishConfig": {
 		"access": "public"

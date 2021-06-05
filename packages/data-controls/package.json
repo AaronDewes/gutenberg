@@ -29,7 +29,7 @@
 		"@aarondewes/wp-api-fetch": "file:../api-fetch",
 		"@aarondewes/wp-data": "file:../data",
 		"@aarondewes/wp-deprecated": "file:../deprecated",
-		"@babel/runtime": "^7.13.10"
+		"@babel/runtime": "^7.14.0"
 	},
 	"publishConfig": {
 		"access": "public"

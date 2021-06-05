@@ -34,14 +34,14 @@
 		"@aarondewes/wp-is-shallow-equal": "file:../is-shallow-equal",
 		"@aarondewes/wp-keycodes": "file:../keycodes",
 		"@aarondewes/wp-priority-queue": "file:../priority-queue",
-		"@babel/runtime": "^7.13.10",
+		"@babel/runtime": "^7.14.0",
 		"@types/mousetrap": "^1.6.8",
-		"clipboard": "^2.0.1",
+		"clipboard": "^2.0.8",
 		"lodash": "^4.17.21",
 		"memize": "^1.1.0",
 		"mousetrap": "^1.6.5",
 		"react-resize-aware": "^3.1.0",
-		"use-memo-one": "^1.1.1"
+		"use-memo-one": "^1.1.2"
 	},
 	"publishConfig": {
 		"access": "public"

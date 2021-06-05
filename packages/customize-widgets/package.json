@@ -41,8 +41,8 @@
 		"@aarondewes/wp-keycodes": "file:../keycodes",
 		"@aarondewes/wp-media-utils": "file:../media-utils",
 		"@aarondewes/wp-widgets": "file:../widgets",
-		"@babel/runtime": "^7.11.2",
-		"classnames": "^2.2.6",
+		"@babel/runtime": "^7.14.0",
+		"classnames": "^2.3.1",
 		"lodash": "^4.17.21"
 	},
 	"publishConfig": {

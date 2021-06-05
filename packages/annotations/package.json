@@ -29,10 +29,10 @@
 		"@aarondewes/wp-hooks": "file:../hooks",
 		"@aarondewes/wp-i18n": "file:../i18n",
 		"@aarondewes/wp-rich-text": "file:../rich-text",
-		"@babel/runtime": "^7.13.10",
+		"@babel/runtime": "^7.14.0",
 		"lodash": "^4.17.21",
 		"rememo": "^3.0.0",
-		"uuid": "^8.3.0"
+		"uuid": "^8.3.2"
 	},
 	"publishConfig": {
 		"access": "public"

@@ -49,7 +49,7 @@
 		"@react-navigation/native": "5.9.4",
 		"@react-navigation/routers": "5.7.2",
 		"@react-navigation/stack": "5.14.5",
-		"core-js": "^3.13.1",
+		"core-js": "^3.14.0",
 		"fast-average-color": "^6.4.0",
 		"jed": "^1.1.1",
 		"jsc-android": "^250230.2.1",

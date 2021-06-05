@@ -24,9 +24,9 @@
 	"main": "lib/index.js",
 	"types": "build-types",
 	"dependencies": {
-		"execa": "^4.0.2",
-		"npm-package-arg": "^8.0.1",
-		"semver": "^7.3.2"
+		"execa": "^5.1.1",
+		"npm-package-arg": "^8.1.4",
+		"semver": "^7.3.5"
 	},
 	"publishConfig": {
 		"access": "public"

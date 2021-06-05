@@ -54,6 +54,8 @@ async function getMilestoneByTitle( octokit, owner, repo, title ) {
 			}
 		}
 	}
+
+	return undefined;
 }
 
 /**

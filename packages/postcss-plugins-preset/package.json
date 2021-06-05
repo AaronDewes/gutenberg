@@ -30,7 +30,7 @@
 	"main": "lib/index.js",
 	"dependencies": {
 		"@aarondewes/wp-base-styles": "file:../base-styles",
-		"autoprefixer": "^10.2.5"
+		"autoprefixer": "^10.2.6"
 	},
 	"publishConfig": {
 		"access": "public"

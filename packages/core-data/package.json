@@ -38,11 +38,11 @@
 		"@aarondewes/wp-i18n": "file:../i18n",
 		"@aarondewes/wp-is-shallow-equal": "file:../is-shallow-equal",
 		"@aarondewes/wp-url": "file:../url",
-		"@babel/runtime": "^7.13.10",
+		"@babel/runtime": "^7.14.0",
 		"equivalent-key-map": "^0.2.2",
 		"lodash": "^4.17.21",
 		"rememo": "^3.0.0",
-		"uuid": "^8.3.0"
+		"uuid": "^8.3.2"
 	},
 	"publishConfig": {
 		"access": "public"
