@@ -1,6 +1,6 @@
 {
 	"name": "@aarondewes/wp-widgets",
-	"version": "2.0.0-alpha.0",
+	"version": "2.0.0",
 	"description": "Functionality used by the widgets block editor in the Widgets screen and the Customizer.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
