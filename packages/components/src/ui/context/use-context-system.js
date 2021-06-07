@@ -17,7 +17,7 @@ import { getStyledClassNameFromKey } from './get-styled-class-name-from-key';
 
 /**
  * @template TProps
- * @typedef {TProps & { className: string; }} ConnectedProps
+ * @typedef {TProps & { className: string; [otherOptions: string]: unknown; }} ConnectedProps
  */
 
 /**
