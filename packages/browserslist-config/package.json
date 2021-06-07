@@ -1,5 +1,5 @@
 {
-	"name": "@aarondewes/wp-browserslist-config",
+	"name": "@aarondewes/browserslist-config-wp",
 	"version": "5.0.0-alpha.0",
 	"description": "WordPress Browserslist shared configuration.",
 	"author": "The WordPress Contributors",

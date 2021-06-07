@@ -91,7 +91,7 @@
 		"@aarondewes/wp-babel-plugin-makepot": "file:packages/babel-plugin-makepot",
 		"@aarondewes/wp-babel-preset-default": "file:packages/babel-preset-default",
 		"@aarondewes/wp-base-styles": "file:packages/base-styles",
-		"@aarondewes/wp-browserslist-config": "file:packages/browserslist-config",
+		"@aarondewes/browserslist-config-wp": "file:packages/browserslist-config",
 		"@aarondewes/wp-create-block": "file:packages/create-block",
 		"@aarondewes/wp-create-block-tutorial-template": "file:packages/create-block-tutorial-template",
 		"@aarondewes/wp-custom-templated-path-webpack-plugin": "file:packages/custom-templated-path-webpack-plugin",

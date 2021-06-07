@@ -30,7 +30,7 @@
 	"main": "index.js",
 	"dependencies": {
 		"@aarondewes/wp-babel-plugin-import-jsx-pragma": "file:../babel-plugin-import-jsx-pragma",
-		"@aarondewes/wp-browserslist-config": "file:../browserslist-config",
+		"@aarondewes/browserslist-config-wp": "file:../browserslist-config",
 		"@aarondewes/wp-element": "file:../element",
 		"@aarondewes/wp-warning": "file:../warning",
 		"@babel/core": "^7.14.3",

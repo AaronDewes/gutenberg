@@ -36,7 +36,7 @@ module.exports = ( api ) => {
 			opts.targets = {
 				browsers:
 					localBrowserslistConfig.defaults ||
-					require( '@aarondewes/wp-browserslist-config' ),
+					require( '@aarondewes/browserslist-config-wp' ),
 			};
 		}
 

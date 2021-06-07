@@ -56,7 +56,7 @@
 ### Breaking Change
 
 -   Transfer to @wordpress npm organization.
--   Published as @aarondewes/wp-browserslist-config.
+-   Published as @aarondewes/browserslist-config-wp.
 
 ## 1.1.0
 

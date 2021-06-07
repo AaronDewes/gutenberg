@@ -1344,7 +1344,7 @@
 		"parent": "packages"
 	},
 	{
-		"title": "@aarondewes/wp-browserslist-config",
+		"title": "@aarondewes/browserslist-config-wp",
 		"slug": "packages-browserslist-config",
 		"markdown_source": "../packages/browserslist-config/README.md",
 		"parent": "packages"

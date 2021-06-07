@@ -14,7 +14,7 @@ builder( {
 	// we prevent some features from having the full polyfill included.
 	// @see https://github.com/WordPress/gutenberg/pull/31279
 	exclude: [ 'es.promise' ],
-	targets: require( '@aarondewes/wp-browserslist-config' ),
+	targets: require( '@aarondewes/browserslist-config-wp' ),
 	filename: './build/polyfill.js',
 } )
 	.then( async ( code ) => {

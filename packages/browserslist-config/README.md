@@ -7,7 +7,7 @@
 Install the module
 
 ```shell
-$ npm install browserslist @aarondewes/wp-browserslist-config --save-dev
+$ npm install browserslist @aarondewes/browserslist-config-wp --save-dev
 ```
 
 **Note**: This package requires Node.js 12.0.0 or later. It is not compatible with older versions.
@@ -18,14 +18,14 @@ Add this to your `package.json` file:
 
 ```json
 "browserslist": [
-	"extends @aarondewes/wp-browserslist-config"
+	"extends @aarondewes/browserslist-config-wp"
 ]
 ```
 
 Alternatively, add this to `.browserslistrc` file:
 
 ```
-extends @aarondewes/wp-browserslist-config
+extends @aarondewes/browserslist-config-wp
 ```
 
 This package when imported returns an array of supported browsers, for more configuration examples including Autoprefixer, Babel, ESLint, PostCSS, and stylelint see the [Browserslist examples](https://github.com/ai/browserslist-example#browserslist-example) repo.
