@@ -3,6 +3,6 @@ module.exports = ( api ) => {
 
 	return {
 		presets: [ '@aarondewes/wp-babel-preset-default' ],
-		plugins: [ 'babel-plugin-emotion', 'babel-plugin-inline-json-import' ],
+		plugins: [ '@emotion/babel-plugin', 'babel-plugin-inline-json-import' ],
 	};
 };

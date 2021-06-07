@@ -1,7 +1,9 @@
 /**
  * External dependencies
  */
-import { css, cx } from 'emotion';
+// this comment tells babel to convert jsx to calls to a function called jsx instead of React.createElement
+/** @jsx jsx */
+import { css, jsx } from '@emotion/react';
 // eslint-disable-next-line no-restricted-imports
 import { Separator } from 'reakit';
 // eslint-disable-next-line no-restricted-imports, no-duplicate-imports
