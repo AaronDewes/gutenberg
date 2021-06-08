@@ -1,7 +1,7 @@
 /**
  * Internal dependencies
  */
-import { createComponent } from '../utils';
+import { createComponent } from '../ui/utils';
 import { useScrollable } from './hook';
 
 /**
@@ -9,7 +9,7 @@ import { useScrollable } from './hook';
  *
  * @example
  * ```jsx
- * import { Scrollable } from `@aarondewes/wp-components/ui`;
+ * import { __experimentalScrollable as Scrollable } from `@aarondewes/wp-components/uicomponents/ui`;
  
  * function Example() {
  * 	return (
