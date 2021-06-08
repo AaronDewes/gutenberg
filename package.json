@@ -84,14 +84,15 @@
 		"@emotion/cache": "11.4.0",
 		"@emotion/core": "11.0.0",
 		"@emotion/css": "11.1.3",
-		"@emotion/react": "11.4.0"
+		"@emotion/react": "11.4.0",
+		"@emotion/serialize": "1.0.2"
 	},
 	"devDependencies": {
+		"@aarondewes/browserslist-config-wp": "file:packages/browserslist-config",
 		"@aarondewes/wp-babel-plugin-import-jsx-pragma": "file:packages/babel-plugin-import-jsx-pragma",
 		"@aarondewes/wp-babel-plugin-makepot": "file:packages/babel-plugin-makepot",
 		"@aarondewes/wp-babel-preset-default": "file:packages/babel-preset-default",
 		"@aarondewes/wp-base-styles": "file:packages/base-styles",
-		"@aarondewes/browserslist-config-wp": "file:packages/browserslist-config",
 		"@aarondewes/wp-create-block": "file:packages/create-block",
 		"@aarondewes/wp-create-block-tutorial-template": "file:packages/create-block-tutorial-template",
 		"@aarondewes/wp-custom-templated-path-webpack-plugin": "file:packages/custom-templated-path-webpack-plugin",
